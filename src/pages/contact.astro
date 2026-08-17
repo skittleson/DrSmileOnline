@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const googleFormUrl = 'https://forms.gle/PLACEHOLDER';
+---
+
+<BaseLayout
+  title="Contact Us | Dr. Smile Dental Group"
+  description="Schedule a consultation or get in touch with Dr. Smile Dental Group. Call (310) 388-3669."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Let's Connect!</p>
+      <h1>Contact Us</h1>
+      <p>With four locations across Southern California, we're confident there's a convenient time for you to consult with one of our exceptional clinicians!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p><strong>Phone:</strong> <a href="tel:(310)388-3669">(310) 388-3669</a></p>
+
+          <h2>Our Locations</h2>
+          <ul class="contact-locations">
+            <li>Newport Beach, CA</li>
+            <li>San Pedro, CA</li>
+            <li>Torrance, CA</li>
+            <li>Lomita, CA</li>
+          </ul>
+
+          <h2>Office Hours</h2>
+          <p>Monday – Friday: 8:00 AM – 5:00 PM<br />
+          Saturday: By appointment<br />
+          Sunday: Closed</p>
+        </div>
+
+        <div class="contact-form">
+          <h2>Schedule a Consult</h2>
+          <p>Fill out the form below and our team will get back to you.</p>
+          <iframe
+            src={googleFormUrl}
+            width="100%"
+            height="600"
+            style="border: none;"
+            loading="lazy"
+            title="Dr. Smile Dental Group Contact Form"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-top: 32px;
+  }
+  .contact-info h2 {
+    font-size: 1.25rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .contact-info h2:first-child {
+    margin-top: 0;
+  }
+  .contact-info p {
+    color: var(--color-text-light);
+    margin-bottom: 8px;
+  }
+  .contact-locations {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-locations li {
+    padding: 4px 0;
+    color: var(--color-text-light);
+  }
+  .contact-form h2 {
+    margin-bottom: 8px;
+  }
+  .contact-form p {
+    color: var(--color-text-light);
+    margin-bottom: 16px;
+  }
+  @media (max-width: 768px) {
+    .contact-grid { grid-template-columns: 1fr; }
+  }
+</style>
