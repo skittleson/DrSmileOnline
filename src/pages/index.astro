@@ -1,16 +1,204 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import Testimonial from '../components/Testimonial.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <BaseLayout
   title="Dr. Smile Dental Group | Expert Oral Surgery, Implants & More"
-  description="Comprehensive dental care in Southern California. Oral surgery, implants, cosmetics, Invisalign & more under one roof."
+  description="Comprehensive dental care in Southern California. Oral surgery, implants, cosmetics, Invisalign & more under one roof. Call (310) 388-3669."
 >
-  <section class="section">
-    <div class="container">
-      <h1>Dr. Smile Dental Group</h1>
-      <p>Nothing You Wear is as Beautiful as a Healthy Smile!</p>
-      <p>This is a placeholder page to verify the layout works.</p>
+  {/* Hero */}
+  <section class="hero" style={`background-image: linear-gradient(rgba(26,82,118,0.85), rgba(26,82,118,0.85)), url('${base}/images/dr-smile-bg-new.jpg');`}>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">dr. smile dental group</p>
+      <h1>Nothing You Wear is as Beautiful as a Healthy Smile!</h1>
+      <p class="hero-sub">Unleash your smile's full potential!</p>
+      <a href="tel:(310)388-3669" class="btn btn-lg">CALL (310) 388-3669</a>
     </div>
   </section>
+
+  {/* What Sets Us Apart */}
+  <section class="section">
+    <div class="container">
+      <h2>What Sets Us Apart</h2>
+      <p>Throughout Southern California, our state-of-the-art facilities and advanced technology allow us to provide the latest in dental treatments and techniques, ensuring our patients receive the highest quality of care.</p>
+      <p>No matter your age or dental concerns, we are dedicated to creating a personalized treatment plan tailored to your specific needs and goals.</p>
+      <p><strong>We believe that everyone deserves a beautiful, healthy smile that they can be proud of.</strong></p>
+    </div>
+  </section>
+
+  {/* Multi-Specialty */}
+  <section class="section section-alt">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Multi-specialty services</p>
+          <h2>Comprehensive Dental Services at Dr. Smile</h2>
+          <p>Typically, general dentists refer patients to specialists for procedures like oral surgeries, implants, prosthodontic care, and orthodontics. However, our facilities boast a diverse team of dental practitioners across various specialties, eliminating the need for external referrals.</p>
+          <p>Consequently, you and your family can access comprehensive dental care under one roof, provided by experts in each specialty. This streamlines your treatment process and enhances the personalized attention you receive.</p>
+          <a href={base + 'services/'} class="btn">Specialties at Dr. Smile</a>
+        </div>
+        <img src={`${base}/images/nabiaa.jpg`} alt="Dr. Smile dental team providing comprehensive care" width="480" height="360" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  {/* Testimonials */}
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Testimonials</p>
+      <h2>What Our Patients Say</h2>
+      <div class="testimonial-grid">
+        <Testimonial
+          quote="Dr. Javid and Dr. Nadi are amazing — helping to create the smile of my dreams. They always make me feel comfortable and the team is caring and kind!"
+          author="Ellie"
+        />
+        <Testimonial
+          quote="Dr. Javid and Dr. Nadi are absolutely incredible! They've transformed my smile in ways I never imagined. Their attention to detail and genuine care for their patients is remarkable!"
+          author="Maria"
+        />
+      </div>
+    </div>
+  </section>
+
+  {/* About Patients */}
+  <section class="section section-alt">
+    <div class="container">
+      <div class="two-col">
+        <img src={`${base}/images/about-patients.jpg`} alt="Dr. Smile patient receiving care" width="480" height="360" loading="lazy" />
+        <div>
+          <p class="eyebrow">It's All about Our Patients!</p>
+          <h2>Your Needs Are Our Priority</h2>
+          <p><strong>If you're new here, welcome!</strong></p>
+          <p>We are incredibly passionate about what we do and have spent years in continuing education to provide the utmost in oral health care.</p>
+          <a href={base + 'about/'} class="btn btn-outline">More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Services Grid */}
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Services</p>
+      <h2>Our Specialties</h2>
+      <div class="services-grid">
+        <ServiceCard
+          image="images/service-1.png"
+          title="Oral Surgery, TMJ & Implants"
+          description="Our approach is grounded in the principles of longevity, function, and overall health."
+          href="oral-surgery/"
+        />
+        <ServiceCard
+          image="images/service-2.png"
+          title="Cosmetics, Veneers & Whitening"
+          description="Achieving natural esthetic outcomes requires expertise and quality materials."
+          href="cosmetic-care/"
+        />
+        <ServiceCard
+          image="images/service-3.png"
+          title="Invisalign & Orthodontics"
+          description="Our orthodontic philosophy emphasizes proper occlusion and preventive care."
+          href="invisalign-orthodontcs/"
+        />
+        <ServiceCard
+          image="images/service-4.png"
+          title="All-on-Four & Prosthetics"
+          description="Our implantologists offer both fixed and removable options to meet your individual needs."
+          href="all-on-four-prosthetics/"
+        />
+      </div>
+    </div>
+  </section>
+
+  {/* CTA */}
+  <CtaBanner
+    heading="A Healthy Confident Smile is Waiting"
+    subheading="With four locations across Southern California, we're confident there's a convenient time for you to consult with one of our exceptional clinicians!"
+    buttonLabel="Schedule a Consult"
+    buttonHref="contact/"
+  />
 </BaseLayout>
+
+<style>
+  .hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 12px;
+  }
+  .hero h1 {
+    color: #fff;
+    font-size: 3rem;
+    max-width: 800px;
+    margin: 0 auto 16px;
+  }
+  .hero-sub {
+    font-size: 1.25rem;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 32px;
+  }
+  .hero .btn-lg {
+    padding: 16px 48px;
+    font-size: 1.1rem;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section h2 {
+    margin-bottom: 16px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .two-col img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+  }
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2rem; }
+    .two-col { grid-template-columns: 1fr; }
+    .testimonial-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 480px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,0 +1,47 @@
+---
+interface Props {
+  heading: string;
+  subheading?: string;
+  buttonLabel: string;
+  buttonHref: string;
+}
+const { heading, subheading, buttonLabel, buttonHref } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<section class="cta-banner">
+  <div class="container">
+    <h2>{heading}</h2>
+    {subheading && <p>{subheading}</p>}
+    <a href={base + buttonHref} class="btn btn-lg">{buttonLabel}</a>
+  </div>
+</section>
+
+<style>
+  .cta-banner {
+    background: var(--color-primary);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .cta-banner h2 {
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .cta-banner p {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 24px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-lg {
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    background: #fff;
+    color: var(--color-primary);
+  }
+  .btn-lg:hover {
+    background: rgba(255,255,255,0.9);
+  }
+</style>
