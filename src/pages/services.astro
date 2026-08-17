@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="Services | Dr. Smile Dental Group"
+  description="Comprehensive dental services: oral surgery, TMJ & implants, cosmetics, veneers & whitening, Invisalign & orthodontics, All-on-Four & prosthetics."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Our Services</p>
+      <h1>Expert Dental Services for a Healthier, Brighter Smile</h1>
+      <p>At Dr. Smile, preserving your smile is not just our priority — it's our passion. Envision walking into any of our four state-of-the-art facilities, where every aspect of your oral health is expertly managed under one roof.</p>
+      <p>Whether you're here for routine cleanings, cosmetic enhancements, or complex surgical procedures, our multi-specialty team is ready to provide the care you deserve.</p>
+
+      <div class="services-grid">
+        <ServiceCard
+          image="images/service-1.png"
+          title="Oral Surgery, TMJ & Implants"
+          description="Our approach is grounded in the principles of longevity, function, and overall health."
+          href="oral-surgery/"
+        />
+        <ServiceCard
+          image="images/service-2.png"
+          title="Cosmetics, Veneers & Whitening"
+          description="Achieving natural esthetic outcomes requires expertise and quality materials."
+          href="cosmetic-care/"
+        />
+        <ServiceCard
+          image="images/service-3.png"
+          title="Invisalign & Orthodontics"
+          description="Our orthodontic philosophy emphasizes proper occlusion and preventive care."
+          href="invisalign-orthodontcs/"
+        />
+        <ServiceCard
+          image="images/service-4.png"
+          title="All-on-Four & Prosthetics"
+          description="Our implantologists offer both fixed and removable options to meet your individual needs."
+          href="all-on-four-prosthetics/"
+        />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+  }
+  @media (max-width: 768px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
+</style>

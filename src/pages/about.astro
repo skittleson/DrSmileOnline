@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="About Dr. Smile Dental Group | Meet Our Doctors"
+  description="Meet Dr. Mariam Nadi and Dr. Kayvon Javid. 16+ years of patient-centered dental care across Southern California."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">About</p>
+      <h1>Meet Our Doctors</h1>
+
+      <div class="doctor-card">
+        <h2>Dr. Mariam Nadi</h2>
+        <p>Dr. Mariam Nadi has proudly practiced in Southern California for 16 years. Together with her husband, Dr. Kayvon Javid, they have built a thriving patient-centered Dr. Smile brand, serving multiple communities.</p>
+        <p>The offices have been designed to be warm and welcoming, creating spaces where patients feel comfortable and cared for. Dr. Nadi's approach combines advanced technology with a gentle, personal touch.</p>
+      </div>
+
+      <div class="doctor-card">
+        <h2>Dr. Kayvon Javid</h2>
+        <p>Dr. Kayvon Javid brings extensive experience in oral surgery, implants, and prosthodontics to the Dr. Smile team. His focus on longevity, function, and overall health ensures that every treatment plan is built to last.</p>
+        <p>Together, Dr. Nadi and Dr. Javid provide comprehensive dental care under one roof, eliminating the need for external referrals and streamlining the treatment process for patients and their families.</p>
+      </div>
+
+      <div class="about-values">
+        <h2>Our Philosophy</h2>
+        <p>We believe that everyone deserves a beautiful, healthy smile that they can be proud of. Our state-of-the-art facilities and advanced technology allow us to provide the latest in dental treatments and techniques.</p>
+        <p>No matter your age or dental concerns, we are dedicated to creating a personalized treatment plan tailored to your specific needs and goals.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .doctor-card {
+    margin: 32px 0;
+    padding: 24px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+  }
+  .doctor-card h2 {
+    margin-bottom: 12px;
+  }
+  .doctor-card p {
+    margin-bottom: 12px;
+    color: var(--color-text-light);
+  }
+  .about-values {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border);
+  }
+  .about-values p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .about-values .btn {
+    margin-top: 16px;
+  }
+</style>

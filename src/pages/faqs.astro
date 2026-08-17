@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const faqs = [
+  {
+    q: 'What are the benefits of visiting the best dental clinic in San Pedro?',
+    a: 'Visiting a reputable dental clinic in San Pedro ensures you receive high-quality, personalized care from experienced professionals. Our clinic offers state-of-the-art technology, a comfortable environment, and a team dedicated to your oral health.',
+  },
+  {
+    q: 'Do you offer same-day appointments?',
+    a: 'Yes, we offer same-day appointments for dental emergencies and urgent care. Call us at (310) 388-3669 and we will do our best to accommodate you the same day.',
+  },
+  {
+    q: 'What insurance plans do you accept?',
+    a: 'We accept most major insurance plans. Contact our office for specific details about your plan and how we can help maximize your benefits.',
+  },
+  {
+    q: 'Do you offer financing options?',
+    a: 'Yes, we offer flexible financing options to make quality dental care accessible and affordable. Visit our Financing page for more details.',
+  },
+  {
+    q: 'What should I expect during my first visit?',
+    a: 'During your first visit, we will conduct a comprehensive examination, take X-rays if needed, and discuss your dental history and concerns. We will then create a personalized treatment plan tailored to your needs.',
+  },
+  {
+    q: 'Do you treat children?',
+    a: 'Yes, we welcome patients of all ages. Our team is experienced in providing gentle, comprehensive care for children and adults alike.',
+  },
+];
+---
+
+<BaseLayout
+  title="FAQs | Dr. Smile Dental Group"
+  description="Frequently asked questions about our dental services, insurance, financing, and what to expect at your first visit."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">FAQs</p>
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </div>
+      <div class="faq-cta">
+        <p>Still have questions?</p>
+        <a href={base + '/contact/'} class="btn">Contact Us</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .faq-list {
+    margin-top: 32px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--color-border);
+    padding: 16px 0;
+  }
+  .faq-item summary {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding: 8px 0;
+  }
+  .faq-item summary:hover {
+    color: var(--color-accent);
+  }
+  .faq-item p {
+    margin-top: 12px;
+    color: var(--color-text-light);
+    padding-bottom: 8px;
+  }
+  .faq-cta {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border);
+  }
+  .faq-cta p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+</style>

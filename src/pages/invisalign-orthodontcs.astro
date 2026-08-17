@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="Invisalign & Orthodontics | Dr. Smile Dental Group"
+  description="Discreet Invisalign treatment and orthodontic care emphasizing proper occlusion and preventive care."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Invisalign in Torrance</p>
+      <h1>Invisalign & Orthodontics</h1>
+
+      <p>Do you know suffering from a set of crooked teeth is more of a health concern than that of aesthetics? Yes, more of a fact, as per the sources of Scientific American, about 90% of every 9 out of 10 people suffer from the issue of crooked teeth. Well, cut to 2025, while the options for treatment have evolved, Invisalign remains one of the most popular and effective solutions.</p>
+
+      <h2>What is Invisalign?</h2>
+      <p>Invisalign represents a breakthrough in orthodontic treatment, offering a discreet and comfortable alternative to traditional metal braces. This treatment uses a series of custom-made, clear aligners that gradually straighten your teeth over time.</p>
+
+      <h2>Benefits of Invisalign</h2>
+      <p><strong>Nearly Invisible:</strong> The clear aligners are barely noticeable, so you can straighten your teeth without the self-consciousness that comes with metal braces.</p>
+      <p><strong>Removable:</strong> You can take the aligners out to eat, drink, and brush your teeth, making oral hygiene easier to maintain.</p>
+      <p><strong>Comfortable:</strong> There are no brackets or wires to irritate your gums and cheeks.</p>
+      <p><strong>Predictable Results:</strong> Our team uses advanced 3D imaging to map out your treatment plan and show you the expected results before you begin.</p>
+
+      <h2>Orthodontic Philosophy</h2>
+      <p>Our orthodontic philosophy emphasizes proper occlusion and preventive care. We believe that healthy, well-aligned teeth are the foundation of a lifetime of oral health.</p>
+
+      <div class="service-cta">
+        <h2>Ready to Straighten Your Smile?</h2>
+        <p>Schedule a consultation to see if Invisalign is right for you.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .service-cta {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .service-cta p {
+    margin-bottom: 16px;
+  }
+</style>

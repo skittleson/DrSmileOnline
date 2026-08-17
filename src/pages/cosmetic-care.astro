@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="Cosmetic Dentistry, Veneers & Whitening | Dr. Smile Dental Group"
+  description="Achieve natural esthetic outcomes with expert veneers, teeth whitening, and cosmetic dentistry in Southern California."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Your Smile Will Thank You</p>
+      <h1>Cosmetic Dentistry and Veneers</h1>
+
+      <p>You deserve the smile you've always dreamed of. At Dr. Smile, our mission is to deliver exactly that. Feeling and speaking confidently with your smile can be difficult when dealing with issues of color, shape, or alignment. If years of self-consciousness have held you back, it's time to change that.</p>
+
+      <h2>Dental Veneers</h2>
+      <p>Dental veneers are a cornerstone of modern cosmetic dentistry, offering a minimally invasive yet highly effective solution for transforming the appearance of teeth. Whether addressing discoloration, chips, gaps, or minor misalignments, veneers provide a natural-looking, long-lasting result.</p>
+
+      <h2>Teeth Whitening</h2>
+      <p>Professional teeth whitening is one of the quickest ways to brighten your smile. Our in-office whitening treatments are safe, effective, and designed to give you a noticeably whiter smile in a single visit.</p>
+
+      <h2>Smile Makeovers</h2>
+      <p>For patients seeking a comprehensive smile transformation, our cosmetic dentists work with you to design a personalized smile makeover that addresses multiple concerns at once — from color and shape to alignment and proportion.</p>
+
+      <div class="service-cta">
+        <h2>Ready to Transform Your Smile?</h2>
+        <p>Consult with our cosmetic dentistry team today.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .service-cta {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .service-cta p {
+    margin-bottom: 16px;
+  }
+</style>

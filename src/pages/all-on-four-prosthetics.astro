@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="All-on-Four & Prosthetics | Dr. Smile Dental Group"
+  description="Fixed and removable implant solutions for full-arch tooth restoration. All-on-Four and prosthetic care in Newport Beach."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Smile Restoration</p>
+      <h1>All-on-Four Implants & Prosthetics</h1>
+
+      <p>Who likes a fake smile? None. But the constant loss of teeth, degraded dentition on the upper and lower jaw, and edentulism leave you with no option. Well, now gone are those days when you had to conceal your smile. DR Smile, with their new-fangled and cutting-edge implant solutions, offers a path back to a confident, natural-looking smile.</p>
+
+      <h2>What is All-on-Four?</h2>
+      <p>All-on-Four is a revolutionary implant solution that uses just four implants to support a full arch of teeth. This procedure is ideal for patients who have lost most or all of their teeth and are looking for a permanent, fixed solution.</p>
+
+      <h2>Benefits of All-on-Four</h2>
+      <p><strong>Same-Day Teeth:</strong> In many cases, you can leave the office with a full set of temporary teeth on the same day as your implant surgery.</p>
+      <p><strong>Fixed Solution:</strong> Unlike traditional dentures, All-on-Four implants are fixed in place, so they don't slip or shift.</p>
+      <p><strong>Natural Look and Feel:</strong> The prosthetic teeth are designed to look and function like natural teeth.</p>
+      <p><strong>Preserves Bone:</strong> Implants stimulate the jawbone, preventing the bone loss that occurs with traditional dentures.</p>
+
+      <h2>Removable Options</h2>
+      <p>For patients who prefer a removable solution, our implantologists also offer implant-supported dentures that snap securely into place, providing the stability and comfort of a fixed solution with the flexibility of a removable one.</p>
+
+      <div class="service-cta">
+        <h2>Ready to Restore Your Smile?</h2>
+        <p>Consult with our implant team to explore your options.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .service-cta {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .service-cta p {
+    margin-bottom: 16px;
+  }
+</style>

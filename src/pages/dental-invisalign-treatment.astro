@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="Invisalign Treatment Guide | Dr. Smile Dental Group"
+  description="A complete guide to Invisalign: how it works, treatment duration, costs, and how it compares to traditional braces."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Invisalign Treatment</p>
+      <h1>Modern Dental Efficacy for a Straighter Smile</h1>
+
+      <p>Invisalign represents a breakthrough in orthodontic treatment, offering a discreet and comfortable alternative to traditional metal braces. This treatment uses a series of custom-made, clear aligners that gradually straighten your teeth over time.</p>
+
+      <h2>How Does Invisalign Work?</h2>
+      <p>Invisalign treatment begins with a 3D scan of your teeth. Our team uses this scan to create a personalized treatment plan that shows you the expected results at each stage of your treatment. You'll receive a series of clear aligners, each worn for about 1–2 weeks before moving to the next in the series.</p>
+
+      <h2>Treatment Duration</h2>
+      <p>Most Invisalign treatments last between 6 and 18 months, depending on the complexity of your case. Your orthodontist will give you a more precise estimate during your consultation.</p>
+
+      <h2>Invisalign vs. Traditional Braces</h2>
+      <p><strong>Visibility:</strong> Invisalign aligners are nearly invisible, while metal braces are clearly visible.</p>
+      <p><strong>Comfort:</strong> Invisalign has no brackets or wires, so there's less irritation to the gums and cheeks.</p>
+      <p><strong>Diet:</strong> You can remove Invisalign aligners to eat, so there are no dietary restrictions. With braces, you must avoid hard, sticky, or crunchy foods.</p>
+      <p><strong>Oral Hygiene:</strong> You can brush and floss normally with Invisalign. With braces, cleaning around brackets and wires is more challenging.</p>
+
+      <h2>Who is Invisalign Right For?</h2>
+      <p>Invisalign is suitable for most orthodontic issues, including crowding, gaps, overbites, underbites, and crossbites. However, some complex cases may be better suited to traditional braces. Your orthodontist will evaluate your case and recommend the best option.</p>
+
+      <div class="guide-cta">
+        <h2>Ready to Start Your Invisalign Journey?</h2>
+        <p>Schedule a consultation to see if Invisalign is right for you.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .guide-cta {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .guide-cta p {
+    margin-bottom: 16px;
+  }
+</style>

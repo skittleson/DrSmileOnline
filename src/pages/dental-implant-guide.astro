@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout
+  title="Dental Implant Guide | Dr. Smile Dental Group"
+  description="A complete guide to dental implants: what they are, the procedure, recovery, and how they compare to other tooth replacement options."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Dental Implant Guide</p>
+      <h1>Probing the Intricacies of Permanent Tooth Replacement</h1>
+
+      <p>Dental implants represent a transformative solution in modern dentistry, providing patients with a reliable and long-lasting alternative to missing or damaged teeth. The perfect blend of both restorative and cosmetic dentistry, this dental efficacy solution has changed the way we think about tooth replacement.</p>
+
+      <h2>What Are Dental Implants?</h2>
+      <p>Dental implants are small posts, typically made of titanium, that are surgically placed into the jawbone. They serve as artificial tooth roots, providing a stable foundation for replacement teeth (crowns, bridges, or dentures).</p>
+
+      <h2>The Implant Procedure</h2>
+      <p><strong>Step 1: Consultation and Planning.</strong> Your dentist will examine your oral health, take X-rays or 3D scans, and create a personalized treatment plan.</p>
+      <p><strong>Step 2: Implant Placement.</strong> The titanium post is surgically inserted into the jawbone. This procedure is typically performed under local anesthesia.</p>
+      <p><strong>Step 3: Osseointegration.</strong> Over the next 3–6 months, the implant fuses with the jawbone, creating a strong, stable foundation.</p>
+      <p><strong>Step 4: Abutment and Crown.</strong> Once the implant has integrated, an abutment is attached, and a custom crown is placed on top.</p>
+
+      <h2>Benefits of Dental Implants</h2>
+      <p><strong>Natural Appearance:</strong> Implants look and feel like natural teeth.</p>
+      <p><strong>Permanent Solution:</strong> With proper care, implants can last a lifetime.</p>
+      <p><strong>Preserves Jawbone:</strong> Unlike dentures, implants stimulate the bone and prevent resorption.</p>
+      <p><strong>Improves Speech:</strong> Implants don't slip like dentures, so you can speak confidently.</p>
+      <p><strong>Protects Adjacent Teeth:</strong> Unlike bridges, implants don't require grinding down neighboring teeth.</p>
+
+      <h2>Recovery and Aftercare</h2>
+      <p>Most patients experience mild swelling and discomfort for a few days after the procedure. Over-the-counter pain relievers are usually sufficient. Follow your dentist's aftercare instructions to ensure proper healing.</p>
+
+      <div class="guide-cta">
+        <h2>Considering Implants?</h2>
+        <p>Our implant team would love to answer your questions.</p>
+        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .guide-cta {
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .guide-cta p {
+    margin-bottom: 16px;
+  }
+</style>
