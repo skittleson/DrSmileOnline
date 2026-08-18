@@ -8,14 +8,29 @@ const { locale } = Astro.props;
 const t = getTranslations(locale);
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const locationHref = `${base}${locale === 'es' ? '/es/ubicacion/' : '/location/'}`;
+// Google reviews link. No real Google Business Profile / CID URL exists in the
+// repo yet, so this is a Google Maps name-search that reliably lands on the
+// practice's real listing/reviews. Replace with the practice's real Google
+// Business Profile URL (place_id/CID) when available.
+const reviewsHref = 'https://www.google.com/maps/search/?api=1&query=Dr+Smile+Dental+Group+reviews';
+const reviewsLabel =
+  locale === 'es'
+    ? 'Lea nuestras reseñas de Google (calificación 4.8)'
+    : 'Read our Google reviews (4.8 rating)';
 ---
 
 <section class="trust-band" aria-label={locale === 'es' ? 'Señales de confianza' : 'Trust signals'}>
   <div class="container trust-inner">
-    <div class="trust-item">
+    <a
+      class="trust-item trust-item-link"
+      href={reviewsHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={reviewsLabel}
+    >
       <span class="trust-stars" aria-hidden="true">★★★★★</span>
       <span class="trust-label">4.8 {t['trust.reviews']}</span>
-    </div>
+    </a>
     <div class="trust-item">
       <span class="trust-icon" aria-hidden="true">🛡️</span>
       <span class="trust-label">{t['trust.insurance']}</span>
