@@ -185,7 +185,7 @@ const faqSchema = {
               <div class="faq-body">
                 <p>{faq.a}</p>
                 {faq.link && (
-                  <a class="faq-link" href={faq.link.href}>
+                  <a class="faq-link" href={`${base}/${faq.link.href}`}>
                     {faq.link.label} →
                   </a>
                 )}

@@ -37,7 +37,7 @@ const cityPages = [
       <h2>Find Your Local Office</h2>
       <div class="city-grid">
         {cityPages.map((c) => (
-          <a class="city-card" href={c.href}>
+          <a class="city-card" href={`${base}/${c.href}`}>
             <span class="city-name">{c.city}</span>
             <span class="city-blurb">{c.blurb}</span>
             <span class="city-arrow" aria-hidden="true">→</span>

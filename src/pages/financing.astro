@@ -125,7 +125,7 @@ const faqSchema = {
       </p>
       <div class="cta-row">
         <a href="tel:3103883669" class="btn btn-accent">Call (310) 388-3669</a>
-        <a href="contact/" class="btn btn-outline">Get a free estimate</a>
+        <a href={`${base}/contact/`} class="btn btn-outline">Get a free estimate</a>
       </div>
     </div>
   </section>
@@ -193,7 +193,7 @@ const faqSchema = {
           <strong>0% promotional plans</strong> available on select treatments.
           Approval is quick and requires no impact on your credit score to check.
         </p>
-        <a href="contact/" class="btn btn-accent">Check my eligibility</a>
+        <a href={`${base}/contact/`} class="btn btn-accent">Check my eligibility</a>
       </div>
     </div>
   </section>
@@ -224,7 +224,7 @@ const faqSchema = {
               ))}
             </ul>
             <p class="membership-savings">{tier.savings}</p>
-            <a href="contact/" class="btn btn-accent">Join {tier.name}</a>
+            <a href={`${base}/contact/`} class="btn btn-accent">Join {tier.name}</a>
           </div>
         ))}
       </div>
