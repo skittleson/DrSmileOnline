@@ -20,7 +20,7 @@ A local general dentist can examine your wisdom teeth and tell you whether remov
 
 ## Signs You Need an Emergency Dentist in Lomita Right Away
 
-Some symptoms cannot wait for a routine appointment. If you notice any of the following, contact an **[emergency dentist in Lomita](https://doctorsmileonline.com/bleeding-gums-emergency-dentist-in-lomita/)** immediately:
+Some symptoms cannot wait for a routine appointment. If you notice any of the following, contact an **[emergency dentist in Lomita](/DrSmileOnline/blog/bleeding-gums-emergency-dentist-in-lomita/)** immediately:
 
 -   Severe, throbbing pain in the back of your mouth that does not go away
 -   Swollen or bleeding gums around the wisdom tooth area
@@ -40,11 +40,11 @@ While you arrange your emergency appointment, here are a few steps to manage the
 
 These are temporary measures only. They do not replace professional care. Wisdom Tooth Removal in Lomita at a trusted clinic is the only real solution when your wisdom tooth is causing serious problems.
 
-**Read more : [How to Choose the Best Family Dentist in Lomita](https://doctorsmileonline.com/how-to-choose-best-family-dentist-in-lomita/)—book a trusted, experienced dental clinic today for complete family oral care and a healthier smile.**
+**Read more : [How to Choose the Best Family Dentist in Lomita](/DrSmileOnline/blog/how-to-choose-best-family-dentist-in-lomita/)—book a trusted, experienced dental clinic today for complete family oral care and a healthier smile.**
 
 ## How a Local General Dentist in Lomita Diagnoses the Problem
 
-When you visit a **[local general dentist in Lomita](https://doctorsmileonline.com/choosing-local-general-dentist-in-lomita/)**, the process typically follows these steps:
+When you visit a **[local general dentist in Lomita](/DrSmileOnline/blog/choosing-local-general-dentist-in-lomita/)**, the process typically follows these steps:
 
 -   X-rays are taken to see the position and depth of the wisdom tooth
 -   The dentist examines the gum tissue and surrounding teeth
@@ -86,7 +86,7 @@ Dr. Smile offers comprehensive oral care under one roof. Here is why patients tr
 -   Branches in Lomita, San Pedro, Torrance, and Newport Beach
 -   All PPO insurance is accepted
 
-Whether you need a simple extraction or a more complex surgical procedure, wisdom tooth removal in Lomita at [Dr. Smile](https://doctorsmileonline.com/contact/) is handled with precision and care. Their Emergency Dentist in Lomita team is ready to see you when you need it most.
+Whether you need a simple extraction or a more complex surgical procedure, wisdom tooth removal in Lomita at [Dr. Smile](/DrSmileOnline/contact/) is handled with precision and care. Their Emergency Dentist in Lomita team is ready to see you when you need it most.
 
 ## How to Prevent Future Wisdom Tooth Emergencies
 
@@ -103,7 +103,7 @@ Once your wisdom teeth are dealt with, a local dentist can help you stay ahead o
 
 ## The Bottom Line
 
-A wisdom tooth problem does not have to become a dental disaster. Act quickly, find a trusted dentist in Lomita, and get the care you need without delay. Wisdom Tooth Removal in Lomita at [**Dr. Smile**](https://doctorsmileonline.com/contact/) is carried out by experienced professionals who prioritize your comfort at every step. If you are in pain or suspect your wisdom teeth are causing trouble, do not wait.
+A wisdom tooth problem does not have to become a dental disaster. Act quickly, find a trusted dentist in Lomita, and get the care you need without delay. Wisdom Tooth Removal in Lomita at [**Dr. Smile**](/DrSmileOnline/contact/) is carried out by experienced professionals who prioritize your comfort at every step. If you are in pain or suspect your wisdom teeth are causing trouble, do not wait.
 
 Reach out to a general dentist at Dr. Smile today and get back to feeling like yourself again.
 

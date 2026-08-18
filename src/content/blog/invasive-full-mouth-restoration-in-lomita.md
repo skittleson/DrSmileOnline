@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-If you are one of those who have been holding on to your smile for too long, then a [Full Mouth Restoration in Lomita](https://doctorsmileonline.com/full-mouth-restoration-in-lomita-pain-free/) is a treatment that can help you revive and regain control of your smile. From improving health and teeth grinding function and appearance, this modern dental efficacy has been making significant strides. Wondering about the ins and outs of it. Let’s delve more into the following article.
+If you are one of those who have been holding on to your smile for too long, then a [Full Mouth Restoration in Lomita](/DrSmileOnline/blog/full-mouth-restoration-in-lomita-pain-free/) is a treatment that can help you revive and regain control of your smile. From improving health and teeth grinding function and appearance, this modern dental efficacy has been making significant strides. Wondering about the ins and outs of it. Let’s delve more into the following article.
 
 ## What is full mouth restoration in Lomita?
 
@@ -69,7 +69,7 @@ Now that we have discovered all of the benefits of this dental efficiency, let u
 
 ### 1\. Examination of the teeth
 
-As the name suggests, this is the first step; the condition of your teeth will determine the restorative procedures that may be needed. The entire testing and examination is done by the accredited and professional [dentists in Lomita](https://doctorsmileonline.com/lomita/). In a nutshell, the professional will take note of
+As the name suggests, this is the first step; the condition of your teeth will determine the restorative procedures that may be needed. The entire testing and examination is done by the accredited and professional [dentists in Lomita](/DrSmileOnline/location/). In a nutshell, the professional will take note of
 
 -   Porcelain veneers
 -   Full coverage crowns if needed.
@@ -126,4 +126,4 @@ A: Depending on the case, it may include composite bonding, porcelain veneers, c
 
 Minimally invasive methods are designed to reduce pain and discomfort. Most procedures are performed under local anesthesia, and recovery tends to be quicker than traditional approaches.
 
-### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](https://doctorsmileonline.com/what-to-expect-full-mouth-restoration-in-lomita/)
+### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](/DrSmileOnline/blog/what-to-expect-full-mouth-restoration-in-lomita/)

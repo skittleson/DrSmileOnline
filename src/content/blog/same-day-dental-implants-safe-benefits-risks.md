@@ -25,7 +25,7 @@ For eligible patients, these are the advantages that go well beyond convenience.
 
 ## Understanding the Risks — and How They’re Managed
 
-No surgical procedure is without risk, and a thorough **[Dental Implant Guide](https://doctorsmileonline.com/dental-implant-guide/)** should be honest about that. Here’s what to know before you take the very first step –
+No surgical procedure is without risk, and a thorough **[Dental Implant Guide](/DrSmileOnline/dental-implant-guide/)** should be honest about that. Here’s what to know before you take the very first step –
 
 -   Implant failure is the primary concern with immediate loading. If an implant is placed without adequate bone support, or if the patient’s bite places excessive stress on the implant during the early healing phase, osseointegration can fail. This is why not every patient is a same-day candidate — and why the evaluation process matters so much.
 -   Infection is a risk with any oral surgery. But it is well-controlled with proper sterilization protocols, post-operative antibiotics where indicated, and diligent at-home oral hygiene.
@@ -36,7 +36,7 @@ No surgical procedure is without risk, and a thorough **[Dental Implant Guide](h
 
 Procedures like All-on-4 and All-on-6 use strategically placed implants to support a full arch of teeth on just four to six implant posts. The angulation and positioning of these implants are calculated to maximize contact with available bone, which allows for immediate loading.
 
-[**Full Mouth Dental Implants Surgery**](https://doctorsmileonline.com/full-mouth-dental-implants-surgery/) is a transformative procedure for patients who have been living with dentures, significant decay across multiple teeth, or the physical and emotional burden of advanced tooth loss. Dr. Smile is a premier provider of full-arch implant solutions throughout Southern California, with a track record that includes some of the most complex cases in the region.
+[**Full Mouth Dental Implants Surgery**](/DrSmileOnline/blog/full-mouth-dental-implants-surgery/) is a transformative procedure for patients who have been living with dentures, significant decay across multiple teeth, or the physical and emotional burden of advanced tooth loss. Dr. Smile is a premier provider of full-arch implant solutions throughout Southern California, with a track record that includes some of the most complex cases in the region.
 
 ## Are You a Candidate for Same-Day Dental Implants?
 
@@ -51,7 +51,7 @@ A good implant guide always addresses candidacy honestly. Here are the key facto
 
 Same Day Dental Implants are a smarter path to the same permanent, life-changing result. When the procedure is backed by precise imaging, expert surgical technique, and a team that has placed thousands of implants across some of the most complex cases in Southern California, the question shifts from “is this safe?” to “why wait any longer?”
 
-Your new smile isn’t months away. It could be tomorrow.  Book your free consultation at **[Dr. Smile](https://doctorsmileonline.com/contact/)** today and take the right step toward a smile that changes everything.
+Your new smile isn’t months away. It could be tomorrow.  Book your free consultation at **[Dr. Smile](/DrSmileOnline/contact/)** today and take the right step toward a smile that changes everything.
 
 ## Frequently Asked Questions :
 

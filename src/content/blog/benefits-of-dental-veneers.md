@@ -95,7 +95,7 @@ Patients preserve more of their natural tooth structure, ensuring better long-te
 
 ## The process of placing dental veneers
 
-In this section of the article, we shall explore how **[Cosmetic dentistry consultation in Orange County](https://doctorsmileonline.com/cosmetic-dentistry-consultation-oc/)** leads to a beautiful smile.
+In this section of the article, we shall explore how **[Cosmetic dentistry consultation in Orange County](/DrSmileOnline/blog/cosmetic-dentistry-consultation-oc/)** leads to a beautiful smile.
 
 ### Initial Consultation
 

@@ -14,7 +14,7 @@ A Full Mouth Restoration in Lomita is like a dental overhaul and a smile renovat
 
 -   Cosmetic enhancement on the go—we all have the right to look beautiful, aesthetically pleasing, and whatnot. Now, all of this is possible through a full mouth restoration; with trailblazing technology, you can now expect the best smile and set of teeth for yourself.
 -   Customized treatment—a mouth restoration is not bound by a single issue. Just the way you are unique, your problems are unique too. A team of professional dentists in Lomita awaits you at all our offices; they can suggest the best services based on your problems and issues.
--   Comprehensive approach—it treats your entire mouth and works on the interplay of teeth, gums, and the jawbone. In other words, from getting a **[Gum Disease Treatment in Lomita](https://doctorsmileonline.com/cosmetic-care/)** to getting a deep cleaning of your roots and gums, no matter what the issue, a full mouth restoration can fix it all.
+-   Comprehensive approach—it treats your entire mouth and works on the interplay of teeth, gums, and the jawbone. In other words, from getting a **[Gum Disease Treatment in Lomita](/DrSmileOnline/cosmetic-care/)** to getting a deep cleaning of your roots and gums, no matter what the issue, a full mouth restoration can fix it all.
 
 There are too many options for you to look into, but we are here to help you select the best option. So here we present Dr. Smile for you. We are operational in more than one location, including Newport Beach, Torrance, and San Pedro. So no matter where you are stationed, we are there to help you out throughout.
 
@@ -28,7 +28,7 @@ One of the immediate and most profound results to expect from this 360-degree re
 
 ### 2\. Enhanced aesthetic appeal
 
-Have you ever seen a “pristine Cheshire cat” and the laugh that it has? Please, have a look if you have not, as it has one of the brightest smiles. Now it is often noticed that when you lose a tooth, it deeply impacts your confidence. But do not worry; with our team of professional **[dentists in Lomita](https://doctorsmileonline.com/lomita/)**, you can easily get the desired smile, in addition, you also enhance your facial beauty, and needless to mention, the overall appearance.
+Have you ever seen a “pristine Cheshire cat” and the laugh that it has? Please, have a look if you have not, as it has one of the brightest smiles. Now it is often noticed that when you lose a tooth, it deeply impacts your confidence. But do not worry; with our team of professional **[dentists in Lomita](/DrSmileOnline/location/)**, you can easily get the desired smile, in addition, you also enhance your facial beauty, and needless to mention, the overall appearance.
 
 ### 3\. Improved overall health
 
@@ -75,4 +75,4 @@ With proper care, the results of Full Mouth Restoration in Lomita can last for m
 
 Patients often experience improved nutrition, clearer speech, better sleep, and increased confidence in social and professional settings—all contributing to a higher quality of life.
 
-### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](https://doctorsmileonline.com/what-to-expect-full-mouth-restoration-in-lomita/)
+### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](/DrSmileOnline/blog/what-to-expect-full-mouth-restoration-in-lomita/)

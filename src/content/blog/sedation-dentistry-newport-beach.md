@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Let’s be honest, being in that doctor’s seat is nothing less than a nightmare. All those needles and operating syringes can give anyone shivers down anybody’s spine. But now gone are those days when one had to go through crippling fear; with modern dentistry and [**Sedation Dentistry in Newport Beach**](https://doctorsmileonline.com/restorative-care/)**,** one can expect a painless, calming and soothing experience while being at the dentist. For the following article, let us explore the ins and outs of sedation dentistry.
+Let’s be honest, being in that doctor’s seat is nothing less than a nightmare. All those needles and operating syringes can give anyone shivers down anybody’s spine. But now gone are those days when one had to go through crippling fear; with modern dentistry and [**Sedation Dentistry in Newport Beach**](/DrSmileOnline/services/)**,** one can expect a painless, calming and soothing experience while being at the dentist. For the following article, let us explore the ins and outs of sedation dentistry.
 
 ## What is sedation dentistry in Newport Beach?
 

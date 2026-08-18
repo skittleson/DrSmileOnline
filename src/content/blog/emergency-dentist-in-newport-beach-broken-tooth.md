@@ -16,7 +16,7 @@ Stay calm. Take a breath. Then follow these steps right away. A good emergency d
 
 -   Rinse your mouth gently. Use lukewarm water — not hot, not cold. Extreme temperatures can worsen the pain if the nerve is exposed. This helps clean the area and remove any debris or blood.
 -   Control the bleeding. Press a clean piece of gauze or a damp cloth against the area. Hold it for about ten minutes with light, steady pressure.
--   Don’t throw away the broken piece. If you can find the fragment, place it in a small container with milk or your own saliva. Keep it moist. Your **[dental clinic in Newport Beach](https://doctorsmileonline.com/best-dental-clinic-in-newport-beach/)** may be able to bond it back, depending on the break.
+-   Don’t throw away the broken piece. If you can find the fragment, place it in a small container with milk or your own saliva. Keep it moist. Your **[dental clinic in Newport Beach](/DrSmileOnline/blog/best-dental-clinic-in-newport-beach/)** may be able to bond it back, depending on the break.
 -   Manage the pain. An over-the-counter pain reliever like ibuprofen can help while you head to the clinic. You can also apply a small amount of dental cement from a pharmacy to cover any sharp or jagged edges temporarily.
 
 ## What to Do If a Tooth Gets Knocked Out
@@ -32,7 +32,7 @@ A completely knocked-out tooth is a true dental emergency. But don’t panic—k
 
 ## Broken Tooth Repair in Newport Beach — What Treatment Looks Like
 
-Once you’re at the clinic, your dentist will assess the damage and recommend a treatment plan. Here’s what **[broken tooth repair in Newport Beach](https://doctorsmileonline.com/broken-tooth-repair-in-newport-beach/)** typically involves, depending on the severity.
+Once you’re at the clinic, your dentist will assess the damage and recommend a treatment plan. Here’s what **[broken tooth repair in Newport Beach](/DrSmileOnline/blog/broken-tooth-repair-in-newport-beach/)** typically involves, depending on the severity.
 
 -   Minor chips and cracks: These are the most common. If the nerve isn’t involved, dental bonding is usually the quickest fix. A tooth-colored composite resin is applied, shaped, and hardened — often in a single visit. It’s affordable, fast, and looks completely natural.
 -   Moderate breaks: If a larger portion of the tooth has broken off, a dental crown is usually recommended. The crown covers the entire visible tooth, restoring its shape, function, and appearance.
@@ -69,9 +69,9 @@ Once your tooth is repaired, protecting it is the next priority.
 
 ## The Bottom Line
 
-A broken or knocked-out tooth doesn’t have to turn into a dental disaster. What matters most is acting fast, staying calm, and connecting with an emergency dentist in Newport Beach who can give you the right care right away. If you’re dealing with a dental emergency right now, don’t wait. Call **[Dr. Smile](https://doctorsmileonline.com/contact/)** and get the same-day care you deserve.
+A broken or knocked-out tooth doesn’t have to turn into a dental disaster. What matters most is acting fast, staying calm, and connecting with an emergency dentist in Newport Beach who can give you the right care right away. If you’re dealing with a dental emergency right now, don’t wait. Call **[Dr. Smile](/DrSmileOnline/contact/)** and get the same-day care you deserve.
 
-Read more : Looking for a reliable **[family dentist in Newport Beach](https://doctorsmileonline.com/family-dentist-in-newport-beach/)**? Book your appointment now for gentle, comprehensive care for all ages.
+Read more : Looking for a reliable **[family dentist in Newport Beach](/DrSmileOnline/blog/family-dentist-in-newport-beach/)**? Book your appointment now for gentle, comprehensive care for all ages.
 
 ## Frequently Asked Questions:
 

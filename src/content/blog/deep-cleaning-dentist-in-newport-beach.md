@@ -32,7 +32,7 @@ Deep cleaning is not a one-time fix. A qualified deep-cleaning dentist in Newpor
 
 ## Best Dental Clinic in Newport Beach: What to Look For
 
-Finding the **[best dental clinic in Newport Beach](https://doctorsmileonline.com/best-dental-clinic-in-newport-beach/)** for a deep cleaning takes a bit of research. Do not settle for the first result you see online.
+Finding the **[best dental clinic in Newport Beach](/DrSmileOnline/blog/best-dental-clinic-in-newport-beach/)** for a deep cleaning takes a bit of research. Do not settle for the first result you see online.
 
 ### 1\. Start with credentials
 
@@ -76,7 +76,7 @@ A dentist who answers these questions clearly, without rushing you, is one worth
 
 ## Urgent Dental Care in Newport Beach: When You Cannot Wait
 
-Sometimes gum disease reaches a point where it cannot wait for a routine appointment. Severe swelling, persistent pain, or an abscess near the gum line are signs that you need **[urgent dental care in Newport Beach](https://doctorsmileonline.com/urgent-dental-care-in-newport-beach/)** right away.
+Sometimes gum disease reaches a point where it cannot wait for a routine appointment. Severe swelling, persistent pain, or an abscess near the gum line are signs that you need **[urgent dental care in Newport Beach](/DrSmileOnline/blog/urgent-dental-care-in-newport-beach/)** right away.
 
 Look for a practice that offers same-day or next-day emergency appointments. A clinic that provides both scheduled periodontal treatment and urgent dental care gives you flexibility if your condition changes unexpectedly. This matters more than most people realize, since gum infections can worsen quickly if left untreated.
 
@@ -106,7 +106,7 @@ Any of these should make you pause and consider a second opinion.
 
 Gum health affects far more than your smile. Untreated periodontal disease has been linked to heart disease, diabetes complications, and tooth loss. Choosing a skilled deep-cleaning dentist in Newport Beach is one of the most important decisions you can make for your long-term health.
 
-Look for a provider with strong diagnostic tools, a transparent treatment plan, and the flexibility to offer both routine care and urgent dental care when symptoms flare up unexpectedly. Ready to protect your smile? Schedule a consultation with **[Dr. Smile](https://doctorsmileonline.com/contact/)** today and find out what a personalized periodontal treatment plan looks like for you.
+Look for a provider with strong diagnostic tools, a transparent treatment plan, and the flexibility to offer both routine care and urgent dental care when symptoms flare up unexpectedly. Ready to protect your smile? Schedule a consultation with **[Dr. Smile](/DrSmileOnline/contact/)** today and find out what a personalized periodontal treatment plan looks like for you.
 
 ## Frequently Asked Questions :
 

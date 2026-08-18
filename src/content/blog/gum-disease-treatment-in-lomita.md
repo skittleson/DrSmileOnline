@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Imagine you are walking and suddenly see a house foundation eroding and a dilapidated-looking house. Similarly, an issue in your gums is on similar lines to this. Finding the [**Gum Disease Treatment in Lomita**](https://doctorsmileonline.com/cosmetic-care/)**,** or any place for that matter, is crucial; otherwise, each day you need to go through crushing, crunching, and chronic pain in your mouth. Do you want it? No. Dr. Smile is all set to help you opt for a Full Mouth Restoration in Lomita**,** primarily focusing on your gums. With operational branches in San Pedro, Torrance, and Newport Beach, the clinic is available for all. 
+Imagine you are walking and suddenly see a house foundation eroding and a dilapidated-looking house. Similarly, an issue in your gums is on similar lines to this. Finding the [**Gum Disease Treatment in Lomita**](/DrSmileOnline/cosmetic-care/)**,** or any place for that matter, is crucial; otherwise, each day you need to go through crushing, crunching, and chronic pain in your mouth. Do you want it? No. Dr. Smile is all set to help you opt for a Full Mouth Restoration in Lomita**,** primarily focusing on your gums. With operational branches in San Pedro, Torrance, and Newport Beach, the clinic is available for all. 
 
 ## What is Gum disease Treatment in Lomita?
 
@@ -51,7 +51,7 @@ When we think of getting a Gum Disease Treatment in Lomita, the first thing that
 
 -   We offer advanced technology.
 -   Digital X-rays can reduce the amount of radiation exposure and produce instant and clear images for diagnosis. 
--   Some of the core examples of modern technology include a digital X-ray, getting **[oral Surgery in Lomita](https://doctorsmileonline.com/oral-surgery/)**, dental implants, laser-assisted treatments, zoom teeth whitening, and nitrous oxide sedation units. All these technologies assimilated together are known for a more precise and comfortable dental treatment.
+-   Some of the core examples of modern technology include a digital X-ray, getting **[oral Surgery in Lomita](/DrSmileOnline/oral-surgery/)**, dental implants, laser-assisted treatments, zoom teeth whitening, and nitrous oxide sedation units. All these technologies assimilated together are known for a more precise and comfortable dental treatment.
 -   Apart from this, we also have some high-to-advanced level technologies, which include
 
 1.  Ultrasonic cleaning
@@ -111,4 +111,4 @@ Recovery depends on the severity of the disease and the treatment used. Deep cle
 
  Early-stage gum disease (gingivitis) can be reversed with proper care. Advanced periodontal disease can be managed but requires ongoing maintenance to prevent further damage.
 
-[Teeth Whitening Recommendations from a Cosmetic Dentist in Newport Beach](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach-teeth-whitening/)
+[Teeth Whitening Recommendations from a Cosmetic Dentist in Newport Beach](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach-teeth-whitening/)

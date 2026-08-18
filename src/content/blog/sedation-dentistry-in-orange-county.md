@@ -12,7 +12,7 @@ Dental anxiety is real. No questions around it. With this guilt trip,  for many
 
 When procedures are long, invasive, or emotionally taxing, sedation could just be your lifesaver. There are many instances where patients tend to endure the pain, avoiding visiting the clinic. This denies them their right to get treated.
 
-But gone are those days when one had to suffer. With Dr. Smile’s **[sedation dentistry](https://doctorsmileonline.com/sedation-dentistry-newport-beach/)** operational in Newport Beach, Lomita, Orange County, and Torrance, things tend to be easier. Patients can now expect the following revelations:
+But gone are those days when one had to suffer. With Dr. Smile’s **[sedation dentistry](/DrSmileOnline/blog/sedation-dentistry-newport-beach/)** operational in Newport Beach, Lomita, Orange County, and Torrance, things tend to be easier. Patients can now expect the following revelations:
 
 -   Reduces anxiety: Patients with dental phobia or past trauma can finally access care without fear.
 -   Minimizes discomfort: Sedation dulls pain perception, making even invasive treatments feel tolerable.
@@ -67,7 +67,7 @@ Sedation isn’t just for the fearful—it’s for anyone who wants a more comfo
 -   Those undergoing complex or lengthy procedures
 -   Individuals with a strong gag reflex
 -   Patients with special needs or difficulty sitting still
--   For patients considering **[All-on-4 dental implants](https://doctorsmileonline.com/services/)** in Newport Beach, sedation ensures the multi-hour procedure is smooth and stress-free.
+-   For patients considering **[All-on-4 dental implants](/DrSmileOnline/services/)** in Newport Beach, sedation ensures the multi-hour procedure is smooth and stress-free.
 -   Sedation Dentistry in Orange County opens the door to care for those who might otherwise avoid it altogether.
 
 ## The Emotional and Psychological Benefits of Getting Sedation Dentistry
@@ -111,4 +111,4 @@ Absolutely. Sedated patients are less likely to move or react unexpectedly, whic
 
 Yes. Sedation enables dentists to perform several procedures in a single appointment, reducing the number of visits required and minimizing overall treatment time for the patient.
 
-Learn more about **[All-on-4 dental implant options](https://doctorsmileonline.com/how-to-prepare-for-all-on-4-dental-implant/)**
+Learn more about **[All-on-4 dental implant options](/DrSmileOnline/blog/how-to-prepare-for-all-on-4-dental-implant/)**

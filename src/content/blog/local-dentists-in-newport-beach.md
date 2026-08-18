@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-[**Dentists in Newport Beach**](https://doctorsmileonline.com/newport/) are changing the way people think about dental care. With advanced technology, visits to the dentist are becoming faster, easier, and more comfortable. From digital X‑rays that show clear images in seconds to laser treatments that reduce pain, these tools help patients get better results with less stress. Local dental offices like Dr. Smile are leading the way by using modern equipment to ensure every smile receives the highest level of care. Let’s explore more in the following blog. 
+[**Dentists in Newport Beach**](/DrSmileOnline/location/) are changing the way people think about dental care. With advanced technology, visits to the dentist are becoming faster, easier, and more comfortable. From digital X‑rays that show clear images in seconds to laser treatments that reduce pain, these tools help patients get better results with less stress. Local dental offices like Dr. Smile are leading the way by using modern equipment to ensure every smile receives the highest level of care. Let’s explore more in the following blog. 
 
 ## What are the core qualifications of a dentist in Newport Beach
 
@@ -78,7 +78,7 @@ In this section, we explore the top technologies dentists in Newport Beach rely 
 
 ### 2\. Cosmetic Dentistry in Newport Beach
 
-[**Cosmetic dentists in Newport Beach**](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach/) focus on enhancing the appearance of teeth and creating confident smiles.
+[**Cosmetic dentists in Newport Beach**](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach/) focus on enhancing the appearance of teeth and creating confident smiles.
 
 #### Technologies and Services:
 
@@ -152,9 +152,9 @@ Here are some of the benefits that you can reap by opting for an experienced den
 
 Dentists in Newport Beach are transforming patient care with advanced dental technology that ensures safer, faster, and more natural results. From emergency treatments like digital imaging and sedation dentistry to cosmetic solutions such as Invisalign, veneers, and laser gum contouring, modern tools deliver comfort and confidence. Among these practices, Dr. Smile Newport stands out as a leader in innovation and patient‑focused care. Their expertise in All‑on‑4 implants, full mouth restoration, and cosmetic enhancements makes them a trusted choice for healthier teeth and brighter smiles.
 
-Ready for your brighter smile? Schedule with [Dr. Smile](https://doctorsmileonline.com/) Newport today!
+Ready for your brighter smile? Schedule with [Dr. Smile](/DrSmileOnline/) Newport today!
 
-**Read more [:Don’t let dental anxiety hold you back! Schedule your appointment today and experience the calm, pain-free care of sedation dentistry in Newport Beach](https://doctorsmileonline.com/sedation-dentistry-in-newport-beach/)**
+**Read more [:Don’t let dental anxiety hold you back! Schedule your appointment today and experience the calm, pain-free care of sedation dentistry in Newport Beach](/DrSmileOnline/blog/sedation-dentistry-in-newport-beach/)**
 
 ## Frequently Asked Questions
 

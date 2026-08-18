@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-Your smile is the first thing that people notice in you. It makes you confident and expressive, and you soar above the rest. But truth be told, over time, your spark and gleam dwindle. It is here that [**dental Implants in San Pedro**](https://doctorsmileonline.com/services/) come into play. What are they? They are like the foundation instead of bricks, which helps you restore your smile. In this eight-minute read, we will explore in-depth how dental implants help in smile revival. 
+Your smile is the first thing that people notice in you. It makes you confident and expressive, and you soar above the rest. But truth be told, over time, your spark and gleam dwindle. It is here that [**dental Implants in San Pedro**](/DrSmileOnline/services/) come into play. What are they? They are like the foundation instead of bricks, which helps you restore your smile. In this eight-minute read, we will explore in-depth how dental implants help in smile revival. 
 
 ## What are dental implants? – a comprehensive view
 
@@ -70,7 +70,7 @@ Unlike your regular dentures or any temporary dental option, dental implants in 
 
 ## Navigating through the procedure of fitting a dental implant 
 
-Now that we have discussed the ways of smile restoration, let’s take you through the process of [**Oral Surgery**](https://doctorsmileonline.com/say-goodbye-to-dental-anxiety-with-sedation-dentistry/) to fit the implant. 
+Now that we have discussed the ways of smile restoration, let’s take you through the process of [**Oral Surgery**](/DrSmileOnline/blog/say-goodbye-to-dental-anxiety-with-sedation-dentistry/) to fit the implant. 
 
 ### 1.Consultation and planning 
 

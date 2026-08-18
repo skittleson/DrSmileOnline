@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-[**Dental Implants in San Pedro**](https://doctorsmileonline.com/oral-surgery/) are an essential part of dental health, as they support and pave the way for a healthy smile. They are a lifesaver for times when, for any circumstance, you get loose teeth or they are misplaced and bail on you. While this may seem like an elongated task, it requires a guide who will navigate you and help you understand more about this dental efficacy. So let’s delve in.
+[**Dental Implants in San Pedro**](/DrSmileOnline/oral-surgery/) are an essential part of dental health, as they support and pave the way for a healthy smile. They are a lifesaver for times when, for any circumstance, you get loose teeth or they are misplaced and bail on you. While this may seem like an elongated task, it requires a guide who will navigate you and help you understand more about this dental efficacy. So let’s delve in.
 
 ## What are dental implants in San Pedro? An overview
 
@@ -54,7 +54,7 @@ This is the most important step of the process,  as the implant would be placed
 
 ###  5. Placement of the abutment
 
-The placement of the abutment paves the way for the **[All-on-4 dental implants in Orange County](https://doctorsmileonline.com/invasive-full-mouth-restoration-in-lomita/)**. This abatement is known as the base of the artificial tooth and works just fine once the placement is settled.
+The placement of the abutment paves the way for the **[All-on-4 dental implants in Orange County](/DrSmileOnline/blog/invasive-full-mouth-restoration-in-lomita/)**. This abatement is known as the base of the artificial tooth and works just fine once the placement is settled.
 
 ### 6\. Placement of crown or prosthetic teeth
 
@@ -110,4 +110,4 @@ Yes, dental implants are considered one of the safest and most durable tooth rep
 
 Costs vary depending on the number of implants, type of restoration, and any additional procedures required. In San Pedro, prices typically range from moderate to premium depending on the technology used and the complexity of the case.
 
-#### [How Dental Implants in San Pedro Can Restore Your Smile & Oral Health?](https://doctorsmileonline.com/how-dental-implants-in-san-pedro/)
+#### [How Dental Implants in San Pedro Can Restore Your Smile & Oral Health?](/DrSmileOnline/blog/how-dental-implants-in-san-pedro/)

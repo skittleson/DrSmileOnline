@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-Modern dentistry has given you options, unlimited ones, but with that, it has also left you in a hard and rocky place. Yes, people tend to face such a tremendous quandary when they visit their dentist to get their teeth straightened and choose between Invisalign and braces. To come out of this two-minded situation, one needs a professional. Dr. Smile’s **[Cosmetic Dentist in Newport Beach](https://doctorsmileonline.com/cosmetic-care/)** is that torchlight that can guide you through your walks of darkness and help you make the correct decision. For this blog, let’s explore the benefits of  Invisalign, which can be the perfect option for you.
+Modern dentistry has given you options, unlimited ones, but with that, it has also left you in a hard and rocky place. Yes, people tend to face such a tremendous quandary when they visit their dentist to get their teeth straightened and choose between Invisalign and braces. To come out of this two-minded situation, one needs a professional. Dr. Smile’s **[Cosmetic Dentist in Newport Beach](/DrSmileOnline/cosmetic-care/)** is that torchlight that can guide you through your walks of darkness and help you make the correct decision. For this blog, let’s explore the benefits of  Invisalign, which can be the perfect option for you.
 
 ## What are braces and Invisalign in Torrance? – an overview
 
@@ -29,7 +29,7 @@ In this section of the article, we shall explore the prospects and consequences 
 -   ### Appearance
     
 
-For [**Invisalign in Torrance**](https://doctorsmileonline.com/invisalign-aligning-your-smile-the-beautiful-way/), they are mostly clear and are invisible aligners; these are clear and thin, made of BPA-free plastic, making them almost invisible when worn. Over the last few years, these have gained popularity as they are smooth and comfortable. While these are virtually invisible, some people might notice a slight thickness of plastic when the person is talking or is in bright light. 
+For [**Invisalign in Torrance**](/DrSmileOnline/blog/invisalign-aligning-your-smile-the-beautiful-way/), they are mostly clear and are invisible aligners; these are clear and thin, made of BPA-free plastic, making them almost invisible when worn. Over the last few years, these have gained popularity as they are smooth and comfortable. While these are virtually invisible, some people might notice a slight thickness of plastic when the person is talking or is in bright light. 
 
 Braces, on the other hand, are more noticeable; that is because of their primitive and traditional shape. Mainly made of metal brackets and wires, they keep the teeth aligned in place.
 
@@ -85,7 +85,7 @@ Trying to save money or you do not want to break your bank, then you can opt for
 -   ### Age factor 
     
 
-This has been observed in more than 45% of cases: young people recommended braces are often, and in case the patient suffers from dental anxiety, then here at Dr. Smile, we use [**sedation dentistry.**](https://doctorsmileonline.com/services/) This helps in easing pain and also calms the patient from chills running down the spine. Our professional, after viewing your case, may give or suggest Invisalign. It is popular due to its subtle appearance and less invasive nature. 
+This has been observed in more than 45% of cases: young people recommended braces are often, and in case the patient suffers from dental anxiety, then here at Dr. Smile, we use [**sedation dentistry.**](/DrSmileOnline/services/) This helps in easing pain and also calms the patient from chills running down the spine. Our professional, after viewing your case, may give or suggest Invisalign. It is popular due to its subtle appearance and less invasive nature. 
 
 ## Conclusion
 

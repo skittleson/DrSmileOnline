@@ -31,7 +31,7 @@ In Orange County, cosmetic dentistry is steadily gaining recognition for its qua
 
 #### 1\. Restorative
 
--   Implants: For patients dealing with tooth loss or severe dental damage, [**dental implants in San Pedro**](https://doctorsmileonline.com/dental-implants-in-san-pedro/) represent a gold standard in restorative care. These are titanium posts surgically placed into the jawbone, serving as stable foundations for crowns, bridges, or dentures.
+-   Implants: For patients dealing with tooth loss or severe dental damage, [**dental implants in San Pedro**](/DrSmileOnline/blog/dental-implants-in-san-pedro/) represent a gold standard in restorative care. These are titanium posts surgically placed into the jawbone, serving as stable foundations for crowns, bridges, or dentures.
 -   They restore both function and appearance, offering a permanent solution that mimics the look and feel of natural teeth.
 -   Composite bonding is a minimally invasive procedure used to repair chipped, cracked, discolored, or misshapen teeth. It involves applying a tooth-colored resin to the affected area, sculpting it to the desired shape, and hardening it with a special curing light.
 -   Invisalign is a modern orthodontic solution that uses a series of clear, removable aligners to gradually straighten teeth. It’s a discreet alternative to traditional braces, ideal for adults and teens who want to improve alignment without visible hardware.
@@ -40,7 +40,7 @@ In Orange County, cosmetic dentistry is steadily gaining recognition for its qua
 
 -   Teeth whitening services range from in-office laser treatments to custom take-home trays, allowing patients to choose the method that best suits their lifestyle.
 -   Veneers are crafted using high-grade ceramics and applied with meticulous attention to detail, ensuring a natural look that complements facial features.
--   Invisalign is particularly popular among adults seeking discreet orthodontic correction, and many **[San Pedro dentists](https://doctorsmileonline.com/san-pedro/)** are certified providers with extensive experience in aligner therapy.
+-   Invisalign is particularly popular among adults seeking discreet orthodontic correction, and many **[San Pedro dentists](/DrSmileOnline/location/)** are certified providers with extensive experience in aligner therapy.
 -   Smile makeovers are also available, combining multiple treatments to achieve a cohesive and harmonious result.
 -    These comprehensive plans are tailored to each patient’s goals and may include gum contouring, reshaping, and even minor restorative work to support the aesthetic outcome.
 

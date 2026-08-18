@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-[**Gum disease treatment in Lomita**](https://doctorsmileonline.com/services/) is not just about preserving oral health; it may also play a critical role in reducing the risk of serious conditions like stomach cancer. It’s astonishing, but these are facts: in a recently published study as of 2020, the association of periodontal disease and tooth loss with the risk of esophageal and gastric cancer was found in 98,459 women from the Nurses’ Health Study (1992 to 2014). Quite a few strong statements! Let’s delve more into the following article. 
+[**Gum disease treatment in Lomita**](/DrSmileOnline/services/) is not just about preserving oral health; it may also play a critical role in reducing the risk of serious conditions like stomach cancer. It’s astonishing, but these are facts: in a recently published study as of 2020, the association of periodontal disease and tooth loss with the risk of esophageal and gastric cancer was found in 98,459 women from the Nurses’ Health Study (1992 to 2014). Quite a few strong statements! Let’s delve more into the following article. 
 
 ## Gum disease and stomach cancer—decoding the link 
 
@@ -83,7 +83,7 @@ When gum disease progresses, surgical intervention may be necessary. Common proc
 -   **Pocket reduction surgery**: Incisions are made to access and clean deep pockets around the teeth, reducing bacteria and inflammation.
 -   **Bone grafting**: Used when bone loss has occurred, this procedure rebuilds the jawbone using graft material.
 -   **Gum grafting**: Tissue is taken from another part of the mouth (often the palate) and attached to areas with gum recession.
--   **Flap surgery**: The gums are lifted to allow deep cleaning and reshaping of the bone. These procedures are typically performed by periodontists or referred by an [**emergency dentist in Lomita**](https://doctorsmileonline.com/contact/) when immediate care is needed.
+-   **Flap surgery**: The gums are lifted to allow deep cleaning and reshaping of the bone. These procedures are typically performed by periodontists or referred by an [**emergency dentist in Lomita**](/DrSmileOnline/contact/) when immediate care is needed.
 
 ## Conclusion
 

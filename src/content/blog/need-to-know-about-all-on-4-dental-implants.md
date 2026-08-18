@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Restoring missing teeth has become more innovative and accessible than ever, thanks to advancements like the [**All-on-4 dental implant**](https://doctorsmileonline.com/services/) technique. This modern approach to full-arch restoration is a game-changer for those seeking a minimally invasive yet highly effective solution to regain their smile. With its quick recovery time and long-lasting results, All-on-4 is becoming the go-to option for patients across the United States, including those in Newport Beach, Lomita, San Pedro, and Torrance.
+Restoring missing teeth has become more innovative and accessible than ever, thanks to advancements like the [**All-on-4 dental implant**](/DrSmileOnline/services/) technique. This modern approach to full-arch restoration is a game-changer for those seeking a minimally invasive yet highly effective solution to regain their smile. With its quick recovery time and long-lasting results, All-on-4 is becoming the go-to option for patients across the United States, including those in Newport Beach, Lomita, San Pedro, and Torrance.
 
 Here’s a comprehensive guide to help you understand what All-on-4 dental implants are, their benefits, and why you might want to consider this transformative procedure
 
@@ -85,4 +85,4 @@ Selecting a qualified and experienced dentist is crucial for the success of your
 
 All-on-4 dental implants are revolutionizing the way we think about tooth restoration. With their minimally invasive nature, immediate results, and long-lasting benefits, they are an excellent option for anyone looking to restore their smile.
 
-Whether you’re dealing with multiple missing teeth, struggling with traditional dentures, or simply seeking a faster solution, All-on-4 might be the perfect fit for you. If you’re in [**Newport Beach, Lomita, San Pedro, or Torrance, consider consulting**](https://doctorsmileonline.com/about/) with a trusted dental professional to explore this life-changing procedure.
+Whether you’re dealing with multiple missing teeth, struggling with traditional dentures, or simply seeking a faster solution, All-on-4 might be the perfect fit for you. If you’re in [**Newport Beach, Lomita, San Pedro, or Torrance, consider consulting**](/DrSmileOnline/about/) with a trusted dental professional to explore this life-changing procedure.

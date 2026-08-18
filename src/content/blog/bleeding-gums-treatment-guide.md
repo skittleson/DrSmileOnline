@@ -70,7 +70,7 @@ Dry mouth allows bacteria to thrive. Drinking enough water helps wash food parti
 
 Smoking is one of the biggest risk factors for gum disease. It weakens the immune response and restricts blood flow to the gums. Smokers often don’t bleed as visibly because of reduced circulation, but they’re still at serious risk for advanced gum disease. Quitting is one of the most impactful forms of bleeding gums treatment available.
 
-Explore – Looking for the [**best affordable dentist in San Pedro**?](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/) Book your appointment today and get expert care you can trust.
+Explore – Looking for the [**best affordable dentist in San Pedro**?](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/) Book your appointment today and get expert care you can trust.
 
 ## When Home Care Isn’t Enough: Professional Bleeding Gums Treatment
 
@@ -85,7 +85,7 @@ Here’s what professional bleeding gums treatment may include:
 
 ## How Cosmetic Dentistry Connects to Gum Health
 
-A lot of patients come to us asking about **[cosmetic dentistry](https://doctorsmileonline.com/cosmetic-care/)** and are surprised to learn that gum health is a foundation for any cosmetic work. Veneers, whitening, bonding, and Invisalign all perform better and last longer when your gums are in good shape.
+A lot of patients come to us asking about **[cosmetic dentistry](/DrSmileOnline/cosmetic-care/)** and are surprised to learn that gum health is a foundation for any cosmetic work. Veneers, whitening, bonding, and Invisalign all perform better and last longer when your gums are in good shape.
 
 Here’s why it matters:
 
@@ -95,7 +95,7 @@ Here’s why it matters:
 
 ## Choosing the Best Dentist in San Pedro for Bleeding Gums Treatment
 
-Gum health needs more than a basic cleaning. It needs a dentist who takes the time to actually look at what’s happening below the surface. When choosing the **[best dentist in San Pedro](https://doctorsmileonline.com/san-pedro/)** for gum care, here are the key things to look for:
+Gum health needs more than a basic cleaning. It needs a dentist who takes the time to actually look at what’s happening below the surface. When choosing the **[best dentist in San Pedro](/DrSmileOnline/location/)** for gum care, here are the key things to look for:
 
 -       A practice that offers both preventive and periodontal care in one place
 -       Digital X-rays and diagnostic tools that detect early bone loss
@@ -104,7 +104,7 @@ Gum health needs more than a basic cleaning. It needs a dentist who takes the ti
 
 ## The Bottom Line
 
-Bleeding gums are a warning sign, not something to ignore or push through. The earlier you address it, the simpler the fix. Start with good home habits. Rinse with salt water, floss every day, and brush gently. But if the bleeding continues, see a professional. At [Dr. Smile](https://doctorsmileonline.com/contact/), we make bleeding gums treatment straightforward and stress-free. Book your appointment at Dr. Smile today and take the first step toward healthier, stronger gums.
+Bleeding gums are a warning sign, not something to ignore or push through. The earlier you address it, the simpler the fix. Start with good home habits. Rinse with salt water, floss every day, and brush gently. But if the bleeding continues, see a professional. At [Dr. Smile](/DrSmileOnline/contact/), we make bleeding gums treatment straightforward and stress-free. Book your appointment at Dr. Smile today and take the first step toward healthier, stronger gums.
 
 ## Frequently Asked Questions:
 
@@ -124,6 +124,6 @@ Yes. While mild gum bleeding is often caused by plaque buildup or brushing techn
 
 Most cosmetic dentistry procedures should not be performed on unhealthy gums. Inflamed or infected gum tissue needs to be treated first. Once your gums are healthy, cosmetic treatments like veneers, whitening, and bonding will give more accurate, longer-lasting results.
 
-### Q. How to **[choose the best dentist in San Pedro](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)** for bleeding gums treatment?
+### Q. How to **[choose the best dentist in San Pedro](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)** for bleeding gums treatment?
 
 Start by looking for a dentist with experience in periodontal care and a full range of services. A practice that handles everything in-house means you won’t be shuffled between specialists.

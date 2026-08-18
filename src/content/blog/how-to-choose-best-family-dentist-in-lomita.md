@@ -20,7 +20,7 @@ In this section of the article, we shall explore why we chose only an avid famil
 
 -   Key Aspect: Dentists teach proper brushing, flossing, and nutrition practices.
 -   Relevance: Children need guidance to build lifelong oral care routines.
--   Benefits: Strong habits prevent cavities, can obtain  [**Professional Gum Disease Treatment in Lomita**](https://doctorsmileonline.com/professional-gum-disease-treatment-in-lomita/), and support overall wellness.
+-   Benefits: Strong habits prevent cavities, can obtain  [**Professional Gum Disease Treatment in Lomita**](/DrSmileOnline/blog/professional-gum-disease-treatment-in-lomita/), and support overall wellness.
 
 ### 3\. Comfort Across Ages
 
@@ -36,7 +36,7 @@ In this section of the article, we shall explore why we chose only an avid famil
 
 If you have been looking for something likely, but the results have not been up to the mark elsewhere, then your search should end with Dr. Smile. Yes, operational and navigational in more than 2 areas, namely, Lomita, San Pedro, Newport Beach, and Orange County, it is easy to locate and can be visited with and for family; be it getting a preventive treatment in San Pedro or a Professional Gum Disease Treatment in Lomita, there is nothing that cannot be treated at Dr. Smile. With seasonal professionals and practitioners, this place is the best place to be.
 
-[Take the next step after gum disease treatment. Schedule your full mouth rehabilitation consultation in Lomita today and regain comfort, function, and a healthy smile.](https://doctorsmileonline.com/full-mouth-rehab-gum-disease-treatment-in-lomita/)
+[Take the next step after gum disease treatment. Schedule your full mouth rehabilitation consultation in Lomita today and regain comfort, function, and a healthy smile.](/DrSmileOnline/blog/full-mouth-rehab-gum-disease-treatment-in-lomita/)
 
 ## Practical tips to find the best dentist in Lomita—family edition
 
@@ -65,7 +65,7 @@ Listed below are certain tips that can help you find the finest Family dentist i
 ### 5\. Positive Reputation
 
 -   Key Aspect: Online reviews and word-of-mouth recommendations are powerful indicators of quality.
--   Relevance:  what makes the Best **[Dentist in Lomita](https://doctorsmileonline.com/lomita/)** is that they consistently receive positive feedback, which demonstrates reliability and patient satisfaction. Reputation reflects real experiences, helping families make informed decisions with confidence.
+-   Relevance:  what makes the Best **[Dentist in Lomita](/DrSmileOnline/location/)** is that they consistently receive positive feedback, which demonstrates reliability and patient satisfaction. Reputation reflects real experiences, helping families make informed decisions with confidence.
 
 ### 6\. Advanced Technology
 

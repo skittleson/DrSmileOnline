@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Just the way a damaged building is repaired, where all the damaged parts are taken off and replaced with new ones. Similarly, during a **[full Mouth Restoration in Lomita](https://doctorsmileonline.com/restorative-care/)****,** a comprehensive renovation of your teeth. This is a broad spectrum and involves numerous typologies under it; be it boosting your confidence or working on the aesthetics, this dental efficacy has got you covered. Let’s explore more of this oral efficacy in the following article. 
+Just the way a damaged building is repaired, where all the damaged parts are taken off and replaced with new ones. Similarly, during a **[full Mouth Restoration in Lomita](/DrSmileOnline/services/)****,** a comprehensive renovation of your teeth. This is a broad spectrum and involves numerous typologies under it; be it boosting your confidence or working on the aesthetics, this dental efficacy has got you covered. Let’s explore more of this oral efficacy in the following article. 
 
 ## What is Full Mouth Restoration in Lomita
 
@@ -98,7 +98,7 @@ Once these are integrated with the surrounding bone, the implants have the prope
 
 ## Conclusion
 
-A  full Mouth Restoration in Lomita or a complete mouth rehabilitation is more than just a cosmetic dental treatment. It has a significant impact on the overall health too. At Dr Smile, we ensure that you leave with a broken smile or lingering issue, but when you leave the clinic, you are a different person. No matter what the concern is, restorative, cosmetic, or a dreaded ca, our [**Emergency dentists in Lomita**](https://doctorsmileonline.com/contact/) is there for your rescue. So what are you waiting for?, Connect with us today, and keep smiling! 
+A  full Mouth Restoration in Lomita or a complete mouth rehabilitation is more than just a cosmetic dental treatment. It has a significant impact on the overall health too. At Dr Smile, we ensure that you leave with a broken smile or lingering issue, but when you leave the clinic, you are a different person. No matter what the concern is, restorative, cosmetic, or a dreaded ca, our [**Emergency dentists in Lomita**](/DrSmileOnline/contact/) is there for your rescue. So what are you waiting for?, Connect with us today, and keep smiling! 
 
 ## FAQ
 

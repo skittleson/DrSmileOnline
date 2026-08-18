@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Modern dentistry, over the years, has taken some trailblazing leaps. From modern-day aesthetics to getting straight, aligned, pearly white teeth to helping people get rid of dental anxiety, the dental world has seen revolutions. One such rebel move is [**Invisalign in Torrance**](https://doctorsmileonline.com/cosmetic-care/)**.** These are invisible, not hurtful, and no barbed wires grinding in your gums. Sounds interesting, right? Stay with us to learn more about this dental efficacy. 
+Modern dentistry, over the years, has taken some trailblazing leaps. From modern-day aesthetics to getting straight, aligned, pearly white teeth to helping people get rid of dental anxiety, the dental world has seen revolutions. One such rebel move is [**Invisalign in Torrance**](/DrSmileOnline/cosmetic-care/)**.** These are invisible, not hurtful, and no barbed wires grinding in your gums. Sounds interesting, right? Stay with us to learn more about this dental efficacy. 
 
 ## What is Invisalign in Torrance?
 
@@ -32,7 +32,7 @@ Your Invisalign journey begins with a thorough examination by our Oral Surgeon i
 
 -   Assessing your teeth, jaw, and bite
 -   We opt for professional-level X-rays to provide a detailed view of your oral structures.
--   Our team of [**Oral Surgeons in Torrance**](https://doctorsmileonline.com/oral-surgery/) strives for one simple goal, which is to ensure that Invisalign is the right choice for your specific needs. 
+-   Our team of [**Oral Surgeons in Torrance**](/DrSmileOnline/oral-surgery/) strives for one simple goal, which is to ensure that Invisalign is the right choice for your specific needs. 
 
 ### 2\. Creating a personalized treatment 
 
@@ -112,4 +112,4 @@ Most patients experience mild discomfort or pressure when switching to a new set
 
 TMJ disorder affects the temporomandibular joint, which connects your jaw to your skull. It can cause pain, clicking, jaw locking, and headaches. You can always connect with our  TMJ specialists in San Pedro. Some common symptoms of TMJ include jaw pain, difficulty chewing, earaches, facial tenderness, and a clicking or popping sound when opening the mouth.
 
-## [Does Invisalign transform a smile? Here is what you need to know](https://doctorsmileonline.com/does-invisalign-transform-your-smile/)
+## [Does Invisalign transform a smile? Here is what you need to know](/DrSmileOnline/blog/does-invisalign-transform-your-smile/)

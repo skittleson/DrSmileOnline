@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Your smile is a reflection of you, and when the question is about implants, you need somebody whom you can trust, someone who can keep up with your comfort zone. While a dentist is known as your torchlight, you need a guiding force, a philosopher, and a constant companion who can help you through. Here is where an [**Oral Surgeon in Torrance**](https://doctorsmileonline.com/oral-surgery/) comes into the picture, the sole expert who has the right amount of experience to take you out of the swarm of any dental mess. Let’s delve more into the following guide, garnering key insights. 
+Your smile is a reflection of you, and when the question is about implants, you need somebody whom you can trust, someone who can keep up with your comfort zone. While a dentist is known as your torchlight, you need a guiding force, a philosopher, and a constant companion who can help you through. Here is where an [**Oral Surgeon in Torrance**](/DrSmileOnline/oral-surgery/) comes into the picture, the sole expert who has the right amount of experience to take you out of the swarm of any dental mess. Let’s delve more into the following guide, garnering key insights. 
 
 ## Who is an Oral Surgeon in Torrance?
 
@@ -66,7 +66,7 @@ This is a perceived notion, and often, one can get confused between a dentist an
 While for a professional, the former only treats oral and maxillofacial surgeons. The former is responsible for:
 
 -   Operating  and injecting Dental Implants
--   Insert and fix [**Invisalign in Torrance**](https://doctorsmileonline.com/services/)
+-   Insert and fix [**Invisalign in Torrance**](/DrSmileOnline/services/)
 -   Help with any other dental trauma that has been bothering you for a long time. 
 
 ### **Education and training** 

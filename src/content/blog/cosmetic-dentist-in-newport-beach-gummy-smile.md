@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Modern cosmopolitanism has convinced us that a gummy smile is a curse. While you are beautiful in your way, what if we tell you that modern dentistry has a scientific explanation, that is, the ”golden proportion”? This specifies what portion of gums to teeth; when one is beyond this proportion, you have a gummy smile, and to fix this, you need a **[Cosmetic Dentist in Newport Beach](https://doctorsmileonline.com/cosmetic-care/)****.** So if you find that your upper gums steal the spotlight when you smile, you’re not without options. Dr. Smile is one of them. Let’s explore more in the following article. 
+Modern cosmopolitanism has convinced us that a gummy smile is a curse. While you are beautiful in your way, what if we tell you that modern dentistry has a scientific explanation, that is, the ”golden proportion”? This specifies what portion of gums to teeth; when one is beyond this proportion, you have a gummy smile, and to fix this, you need a **[Cosmetic Dentist in Newport Beach](/DrSmileOnline/cosmetic-care/)****.** So if you find that your upper gums steal the spotlight when you smile, you’re not without options. Dr. Smile is one of them. Let’s explore more in the following article. 
 
 ## What Is a Gummy Smile?
 
@@ -49,7 +49,7 @@ An oral surgery in Lomita or any place for that matter is popularly known as _La
 
 ### 2\. Crown Lengthening
 
-If your teeth appear short due to excessive gum coverage, crown lengthening can expose more of the tooth’s surface. So here is what you can expect from this [**oral surgery in Lomita**](https://doctorsmileonline.com/best-oral-surgeon-in-torrance-guide/)
+If your teeth appear short due to excessive gum coverage, crown lengthening can expose more of the tooth’s surface. So here is what you can expect from this [**oral surgery in Lomita**](/DrSmileOnline/blog/best-oral-surgeon-in-torrance-guide/)
 
 -    This may involve removing gum and bone tissue to create a more balanced smile.
 -   The process further involves reshaping the underlying bone
@@ -74,7 +74,7 @@ Braces or clear aligners can help reposition teeth and jaws to improve the gum-t
 #### B. Jaw Surgery (Orthognathic Surgery)
 
 -   In severe cases caused by jaw misalignment, oral surgery in Lomita or nearby areas may be recommended. 
--   This involves repositioning the upper jaw to reduce gum visibility to ease the pain. The dentist uses **[Sedation Dentistry in Newport Beach](https://doctorsmileonline.com/services/).** Your comfort is always our priority. 
+-   This involves repositioning the upper jaw to reduce gum visibility to ease the pain. The dentist uses **[Sedation Dentistry in Newport Beach](/DrSmileOnline/services/).** Your comfort is always our priority. 
 
 ### 5\. Botox Injections
 

@@ -20,7 +20,7 @@ Severe tooth pain is one of the urgent signs that you need emergency dental care
 
 ### Broken or Knocked-Out Tooth
 
-Accidents can cause teeth to break or fall out. This is a true emergency because quick action can save the tooth. In many cases, a **[Best Dentist in Newport Beach](https://doctorsmileonline.com/san-pedro/)** will be able to see you the same day.
+Accidents can cause teeth to break or fall out. This is a true emergency because quick action can save the tooth. In many cases, a **[Best Dentist in Newport Beach](/DrSmileOnline/location/)** will be able to see you the same day.
 
 -   A cracked or chipped tooth with sharp edges
 -   A tooth that has been knocked out completely
@@ -112,7 +112,7 @@ Swelling, bleeding, or pus around the gums may signal infection. Emergency care 
 
 ## Why Choose Newport Beach Emergency Care
 
-When a dental emergency strikes, every minute matters. Choosing the **[best dental clinic in Newport Beach](https://doctorsmileonline.com/best-dental-clinic-in-san-pedro-oral-health/)** gives you fast relief, expert treatment, and peace of mind. Local dentists are trained to handle urgent situations with skill and compassion, making sure your smile stays healthy and strong.
+When a dental emergency strikes, every minute matters. Choosing the **[best dental clinic in Newport Beach](/DrSmileOnline/blog/best-dental-clinic-in-san-pedro-oral-health/)** gives you fast relief, expert treatment, and peace of mind. Local dentists are trained to handle urgent situations with skill and compassion, making sure your smile stays healthy and strong.
 
 ### Immediate Relief for Pain
 
@@ -154,11 +154,11 @@ Dental emergencies can be stressful. Urgent Dental Care in Newport Beach focuses
 -   Options for anxious patients, including sedation
 -   Clear explanations of treatment plans
 
-Explore-  **[How Local Dentists in Newport Beach Are Using Advanced Dental Technology](https://doctorsmileonline.com/local-dentists-in-newport-beach/)**
+Explore-  **[How Local Dentists in Newport Beach Are Using Advanced Dental Technology](/DrSmileOnline/blog/local-dentists-in-newport-beach/)**
 
 ## The bottom line
 
-Never ignore a dental emergency. By acting quickly, you can protect your health and save your smile. At **[Dr. Smile](https://doctorsmileonline.com/contact/)**, patients receive urgent care supported by advanced technology and a caring team. Whether you’re dealing with severe tooth pain, a broken tooth, or swelling, their dentists are ready to provide fast relief and lasting solutions. Choosing emergency dental care ensures problems don’t grow worse or more expensive. Taking care of your teeth today gives you peace of mind and confidence.
+Never ignore a dental emergency. By acting quickly, you can protect your health and save your smile. At **[Dr. Smile](/DrSmileOnline/contact/)**, patients receive urgent care supported by advanced technology and a caring team. Whether you’re dealing with severe tooth pain, a broken tooth, or swelling, their dentists are ready to provide fast relief and lasting solutions. Choosing emergency dental care ensures problems don’t grow worse or more expensive. Taking care of your teeth today gives you peace of mind and confidence.
 
 ## Frequently Asked Questions:
 

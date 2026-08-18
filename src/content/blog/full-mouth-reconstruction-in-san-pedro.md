@@ -24,13 +24,13 @@ If two or three of these sound familiar, a single procedure will not solve the p
 
 Full reconstructions rarely start from a calm, planned visit. They usually start after years of small problems, and sometimes a sudden one. A broken tooth, an abscess, or a flare of pain can show up before the full plan is even finalized.
 
-This is why it matters to choose a practice that also works as an **[emergency dentist in San Pedro](https://doctorsmileonline.com/emergency-dentist-in-san-pedro/)**. If something painful comes up mid-treatment, you do not want to be sent elsewhere for urgent care. The same team that built your treatment plan should be the one stabilizing any sudden issue that pops up along the way.
+This is why it matters to choose a practice that also works as an **[emergency dentist in San Pedro](/DrSmileOnline/blog/emergency-dentist-in-san-pedro/)**. If something painful comes up mid-treatment, you do not want to be sent elsewhere for urgent care. The same team that built your treatment plan should be the one stabilizing any sudden issue that pops up along the way.
 
 Dr. Smile builds same-day emergency slots into the daily schedule for exactly this reason. Patients already in the middle of a reconstruction plan are seen quickly instead of waiting days for an opening, which keeps the larger treatment timeline from getting pushed back. This kind of continuity is a big part of what makes full-mouth reconstruction in San Pedro feel manageable instead of stressful, since you are never bouncing between unfamiliar offices while you are mid-treatment.
 
 ## What to Look For in the Best Dentist in San Pedro for This Kind of Work
 
-Not every general dentist is set up to handle a case this complex. Before committing to a plan, look for these qualities in the **[best dentist in San Pedro](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)** for full mouth work.
+Not every general dentist is set up to handle a case this complex. Before committing to a plan, look for these qualities in the **[best dentist in San Pedro](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)** for full mouth work.
 
 -   A team that includes multiple specialties under one roof, so you are not sent to a different office for implants, crowns, or gum treatment
 -   Digital imaging and X-rays that map out the full mouth before any work begins
@@ -63,7 +63,7 @@ Each phase builds on the one before it, which is why the order matters as much a
 
 ##  The Bottom Line
 
-Full-mouth reconstruction in San Pedro is a big decision, and the dentist you choose shapes how smooth the process feels from start to finish. Look for a team that handles emergencies, plans the full case before starting, and explains the cost clearly from the very first visit. Call **[Dr. Smile](https://doctorsmileonline.com/contact/)** to schedule a consultation and find out exactly what your specific plan would involve.
+Full-mouth reconstruction in San Pedro is a big decision, and the dentist you choose shapes how smooth the process feels from start to finish. Look for a team that handles emergencies, plans the full case before starting, and explains the cost clearly from the very first visit. Call **[Dr. Smile](/DrSmileOnline/contact/)** to schedule a consultation and find out exactly what your specific plan would involve.
 
 ## Frequently Asked Questions :
 

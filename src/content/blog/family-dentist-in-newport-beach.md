@@ -25,7 +25,7 @@ Here is what you can expect:
 
 ## What are the prime features of a Family Dentist in Newport Beach?
 
-Here are the  functions and features  your family and **[Local Dentists in Newport Beach](https://doctorsmileonline.com/local-dentists-in-newport-beach/)** can offer
+Here are the  functions and features  your family and **[Local Dentists in Newport Beach](/DrSmileOnline/blog/local-dentists-in-newport-beach/)** can offer
 
 ### 1\. Comprehensive Care for All Ages
 
@@ -113,7 +113,7 @@ Parents can book appointments for themselves and their children together, saving
 
 ### 11\. Core services
 
-Some of the services that the **[Best Dentist in Newport Beach](https://doctorsmileonline.com/newport/)** offers are
+Some of the services that the **[Best Dentist in Newport Beach](/DrSmileOnline/location/)** offers are
 
 -   General Dentistry: Routine check‑ups and professional cleanings focus on keeping teeth healthy and preventing costly dental problems before they arise.
 -   Cosmetic Dentistry: Options such as tooth whitening, veneers, and Invisalign help improve the look of your smile. Personalized treatments are designed to enhance confidence and aesthetics.
@@ -130,7 +130,7 @@ Some of the services that the **[Best Dentist in Newport Beach](https://doctorsm
 
 Healthy smiles begin with the right dental partner, and choosing a _F_amily Dentist in Newport Beach ensures your entire household receives complete care in one trusted place. From preventive check‑ups and pediatric dentistry to advanced treatments like implants and cosmetic enhancements, every service is designed to keep teeth strong and confidence high. At Dr. Smile, families experience compassionate care, modern technology, and a welcoming environment that makes every visit positive. With a focus on long‑term relationships and community connection, Dr. Smile is here to protect and brighten smiles for all ages—today and for years to come.
 
-**Get Your Smile Now : [Boost your confidence instantly—book with a Cosmetic Dentist in Newport Beach today!](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach/)**
+**Get Your Smile Now : [Boost your confidence instantly—book with a Cosmetic Dentist in Newport Beach today!](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach/)**
 
 ## Frequently asked questions:
 

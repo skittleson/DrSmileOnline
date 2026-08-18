@@ -34,7 +34,7 @@ While the symptoms are clear to us, it’s now time to understand the types of g
 -   Crown lengthening 
 -   Laser therapy 
 
-While there are plenty of fish in the sea, it gets difficult to understand what your starting point is. To help you with an anchor and get you started, visit us at Dr. Smile. We are one of the leading dental service providers, operational in more than 3 places, like Orange County. San Pedro and Newport Beach. With a team of the best dentists and the best equipment that perform top-notch **[Oral Surgery in Lomita](https://doctorsmileonline.com/oral-surgery/)**, we offer tailored services depending on the needs and requirements of the patient. 
+While there are plenty of fish in the sea, it gets difficult to understand what your starting point is. To help you with an anchor and get you started, visit us at Dr. Smile. We are one of the leading dental service providers, operational in more than 3 places, like Orange County. San Pedro and Newport Beach. With a team of the best dentists and the best equipment that perform top-notch **[Oral Surgery in Lomita](/DrSmileOnline/oral-surgery/)**, we offer tailored services depending on the needs and requirements of the patient. 
 
 ## Benefits of Gum Disease Treatment in Lomita
 
@@ -46,7 +46,7 @@ It’s not just your teeth that make your smile great; your gums have a crucial 
 
 ### 2.Fresh breath
 
-When you suffer from bad breath for a long and consistent period of time, it is known as halitosis. First things first, you need to visit a **[dentist in Lomita](https://doctorsmileonline.com/lomita/)** so that you can get a proper diagnosis and get the best type of treatment. Depending on your need, you would be suggested surgical or non-surgical treatment with an expert’s advice, and an adept  Periodontal therapy can alleviate these problems and leave you with naturally fresh breath.
+When you suffer from bad breath for a long and consistent period of time, it is known as halitosis. First things first, you need to visit a **[dentist in Lomita](/DrSmileOnline/location/)** so that you can get a proper diagnosis and get the best type of treatment. Depending on your need, you would be suggested surgical or non-surgical treatment with an expert’s advice, and an adept  Periodontal therapy can alleviate these problems and leave you with naturally fresh breath.
 
 ### 3.Preserving teeth 
 
@@ -122,4 +122,4 @@ While treatment can stop further recession and improve gum health, reversing rec
 
 Anyone experiencing symptoms like bleeding gums, bad breath, gum recession, or loose teeth should consider treatment. Early intervention can prevent tooth loss and other serious complications.
 
-#### [A patient’s guide to post Gum Disease Treatment in Lomita](https://doctorsmileonline.com/healing-after-gum-disease-treatment-in-lomita/)
+#### [A patient’s guide to post Gum Disease Treatment in Lomita](/DrSmileOnline/blog/healing-after-gum-disease-treatment-in-lomita/)

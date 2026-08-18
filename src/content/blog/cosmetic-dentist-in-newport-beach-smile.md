@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-Losing your teeth not only makes everyday tasks difficult but also defuses your aesthetics and confidence. To help you come out of a depressive cocoon, a **[Cosmetic Dentist in Newport Beach](https://doctorsmileonline.com/cosmetic-care/)** is your guardian angel. Whether it’s enhancing the appearance of your teeth, gums, and smile or performing cosmetic procedures, dentists can give you a new smile altogether. In the following blog, we will explore the process of smile reconstruction and the associated processes.
+Losing your teeth not only makes everyday tasks difficult but also defuses your aesthetics and confidence. To help you come out of a depressive cocoon, a **[Cosmetic Dentist in Newport Beach](/DrSmileOnline/cosmetic-care/)** is your guardian angel. Whether it’s enhancing the appearance of your teeth, gums, and smile or performing cosmetic procedures, dentists can give you a new smile altogether. In the following blog, we will explore the process of smile reconstruction and the associated processes.
 
 ## Who are cosmetic dentists in Cosmetic Dentist in Newport Beach?
 
@@ -17,7 +17,7 @@ A Cosmetic Dentist in Newport Beach, as the name suggests, is a professional who
 -   Helps you enhance the overall aesthetics of a smile.
 -   Corrects the alignment gaps, provides aesthetic crowns, and restores a tooth’s function, protecting it from further decay.
 
-While you think anyone can be a cosmetic **[dentist in Lomita](https://doctorsmileonline.com/lomita/)** or any place, you might as well be wrong, because you need certain accreditations and credentials to achieve such a status.
+While you think anyone can be a cosmetic **[dentist in Lomita](/DrSmileOnline/location/)** or any place, you might as well be wrong, because you need certain accreditations and credentials to achieve such a status.
 
 Here are some of the credentials that you need to look for
 
@@ -118,4 +118,4 @@ Most procedures are minimally invasive and performed under local anesthesia. Pos
 
 Absolutely. Once healing is complete, dental restorations function like natural teeth. You’ll be able to chew, speak, and smile with confidence. In fact, many patients report improved speech and digestion after replacing missing teeth.
 
-#### [How does a Cosmetic Dentist in Newport Beach Boost Your Confidence Instantly](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach/)
+#### [How does a Cosmetic Dentist in Newport Beach Boost Your Confidence Instantly](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach/)

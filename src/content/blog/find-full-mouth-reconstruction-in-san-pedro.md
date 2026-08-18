@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Most people do not wake up one day and decide to rebuild their smile. It happens after years of avoiding dental visits, untreated damage, or a health condition that has quietly taken a toll on the teeth and gums. When you finally reach the point of seeking **[full mouth reconstruction in San Pedro](https://doctorsmileonline.com/full-mouth-reconstruction-in-san-pedro/)**, the decision of who performs it matters more than almost anything else. The wrong provider can mean repeated procedures, poor outcomes, and high wasted costs.
+Most people do not wake up one day and decide to rebuild their smile. It happens after years of avoiding dental visits, untreated damage, or a health condition that has quietly taken a toll on the teeth and gums. When you finally reach the point of seeking **[full mouth reconstruction in San Pedro](/DrSmileOnline/blog/full-mouth-reconstruction-in-san-pedro/)**, the decision of who performs it matters more than almost anything else. The wrong provider can mean repeated procedures, poor outcomes, and high wasted costs.
 
 This guide gives you a clear framework for choosing the right dentist from the start.
 
@@ -37,7 +37,7 @@ Finding a provider is not the same as finding the right provider. Use these step
 
 ### Start with a consultation, not a commitment
 
-Schedule consultations with at least two or three practices before deciding. A consultation for **[advanced dental care in San Pedro](https://doctorsmileonline.com/advanced-dental-care-in-san-pedro/)** should include a full clinical examination, X-rays or a 3D scan, and a conversation about your goals and concerns. It should not feel like a sales appointment.
+Schedule consultations with at least two or three practices before deciding. A consultation for **[advanced dental care in San Pedro](/DrSmileOnline/blog/advanced-dental-care-in-san-pedro/)** should include a full clinical examination, X-rays or a 3D scan, and a conversation about your goals and concerns. It should not feel like a sales appointment.
 
 ### Ask specific questions during the consultation:
 
@@ -57,7 +57,7 @@ Look beyond the star rating. Read reviews that describe multi-step treatment exp
 
 ## Key Questions to Ask the Best Dentist in San Pedro Before Committing
 
-Choosing the **[best dentist in San Pedro](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)** for your reconstruction means asking harder questions than most patients think to ask.
+Choosing the **[best dentist in San Pedro](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)** for your reconstruction means asking harder questions than most patients think to ask.
 
 On qualifications:
 
@@ -99,7 +99,7 @@ Any one of these is a reason to keep looking. Several of them together should en
 
 Full mouth reconstruction in San Pedro is one of the most significant dental investments you will make. The outcome depends almost entirely on who performs it. A provider with multi-specialty capability, a documented treatment plan, and a transparent communication style will deliver results that last. One without those qualities will cost you far more in the long run, in time, money, and repeated procedures.
 
-Ready to take the first step? Schedule a consultation with **[Dr. Smile](https://doctorsmileonline.com/contact/)** today and find out what a complete, customized reconstruction plan looks like for your specific needs.
+Ready to take the first step? Schedule a consultation with **[Dr. Smile](/DrSmileOnline/contact/)** today and find out what a complete, customized reconstruction plan looks like for your specific needs.
 
 ## Frequently Asked Questions :
 

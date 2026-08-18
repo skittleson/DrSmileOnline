@@ -17,7 +17,7 @@ A dental emergency is about protecting your teeth, gums, and overall health from
 
 Immediate dental treatment is not an overreaction. It is the responsible choice when your dental health is at risk. Reaching an emergency dentist in San Pedro as quickly as possible gives you the best possible outcome.
 
-## What to Expect at the [Best Dental Clinic in San Pedro](https://doctorsmileonline.com/best-dental-clinic-in-san-pedro-oral-health/)
+## What to Expect at the [Best Dental Clinic in San Pedro](/DrSmileOnline/blog/best-dental-clinic-in-san-pedro-oral-health/)
 
 Knowing what to expect when you arrive saves you from a lot of trouble. Here is how an emergency visit unfolds:
 
@@ -30,7 +30,7 @@ Knowing what to expect when you arrive saves you from a lot of trouble. Here is 
 -   Sedation options are offered for patients who feel anxious or nervous
 -   You leave with a written aftercare plan and a follow-up appointment if needed
 
-**Visit the Best Dentist in San Pedro: Choose the [Best Affordable Dentist in San Pedro](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/) for high-quality, budget-friendly dental care and a healthy, confident smile**.
+**Visit the Best Dentist in San Pedro: Choose the [Best Affordable Dentist in San Pedro](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/) for high-quality, budget-friendly dental care and a healthy, confident smile**.
 
 ## What to Do Before You Reach the Emergency Dentist in San Pedro
 
@@ -75,7 +75,7 @@ For Signs of Infection or Abscess
 
 One of the biggest advantages of visiting Dr. Smile for a dental emergency is that most treatments can be completed on the very day you arrive. The goal is to diagnose and treat in one visit whenever clinically possible.
 
-[**Advanced dental care in San Pedro**](https://doctorsmileonline.com/advanced-dental-care-in-san-pedro/) at Dr. Smile includes same-day access to:
+[**Advanced dental care in San Pedro**](/DrSmileOnline/blog/advanced-dental-care-in-san-pedro/) at Dr. Smile includes same-day access to:
 
 -   Pain relief and targeted treatment for toothaches caused by infection, decay, or trauma
 -   Dental fillings for cavities that are causing sensitivity or acute pain
@@ -87,7 +87,7 @@ One of the biggest advantages of visiting Dr. Smile for a dental emergency is th
 
 ## The Bottom Line
 
-A dental emergency does not provide you the luxury of waiting. Call a dentist immediately and get seen the same day. The emergency dentist in San Pedro at **[Dr. Smile](https://doctorsmileonline.com/contact/)** is ready for exactly these situations. The team is trained for urgent care, equipped with advanced tools, and committed to treating you with the attention your situation deserves. Do not manage the pain at home when real relief is just a phone call away.
+A dental emergency does not provide you the luxury of waiting. Call a dentist immediately and get seen the same day. The emergency dentist in San Pedro at **[Dr. Smile](/DrSmileOnline/contact/)** is ready for exactly these situations. The team is trained for urgent care, equipped with advanced tools, and committed to treating you with the attention your situation deserves. Do not manage the pain at home when real relief is just a phone call away.
 
 Call Dr. Smile San Pedro today and get the care you need without the wait.
 

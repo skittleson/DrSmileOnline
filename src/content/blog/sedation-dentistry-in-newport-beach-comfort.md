@@ -27,7 +27,7 @@ In this section of the article, we shall explore how sedation dentistry is pract
 
 #### Nitrous oxide or laughing gas 
 
--   **[Dentists in Newport Beach](https://doctorsmileonline.com/newport/)** or any of the professionals in any of the branches use mild sedation inhaled through a mask. 
+-   **[Dentists in Newport Beach](/DrSmileOnline/location/)** or any of the professionals in any of the branches use mild sedation inhaled through a mask. 
 -   It induces relaxation and wears off quickly.
 -   The process allows patients to drive themselves home afterward. 
 
@@ -46,7 +46,7 @@ In this section of the article, we shall explore how sedation dentistry is pract
 
 -   Delivered directly into the bloodstream for fast, adjustable sedation. 
 -   Patients remain conscious. 
--   Ideal for longer or more complex procedures like extraction or **[All-on-4 dental implants in Newport Beach](https://doctorsmileonline.com/need-to-know-about-all-on-4-dental-implants/)**
+-   Ideal for longer or more complex procedures like extraction or **[All-on-4 dental implants in Newport Beach](/DrSmileOnline/blog/need-to-know-about-all-on-4-dental-implants/)**
 
 ## How do you prepare for sedation dentistry in Newport Beach? Pre- and postoperative care
 
@@ -104,4 +104,4 @@ Yes, sedation is typically an additional service. Costs vary depending on the ty
 
 Yes, dental implants, including complex procedures like All-on-4 dental implants in Newport Beach, can be safely performed under sedation. Options like oral sedation, IV sedation, or nitrous oxide help patients stay relaxed and comfortable throughout the procedure, reducing pain and anxiety for a stress-free experience.
 
-#### [Everything You Need to Know About All-on-4 Dental Implants](https://doctorsmileonline.com/need-to-know-about-all-on-4-dental-implants/)
+#### [Everything You Need to Know About All-on-4 Dental Implants](/DrSmileOnline/blog/need-to-know-about-all-on-4-dental-implants/)

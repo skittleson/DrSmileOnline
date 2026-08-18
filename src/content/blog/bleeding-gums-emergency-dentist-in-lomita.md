@@ -56,7 +56,7 @@ If you’re dealing with repeat bleeding, don’t assume it’s just from brushi
 
 ## What Does Gum Disease Treatment in Lomita Actually Involve?
 
-[**Gum Disease Treatment in Lomita**](https://doctorsmileonline.com/gum-disease-treatment-in-lomita/) is more than just a cleaning. It’s a targeted process based on how advanced your condition is. Common treatments include:
+[**Gum Disease Treatment in Lomita**](/DrSmileOnline/blog/gum-disease-treatment-in-lomita/) is more than just a cleaning. It’s a targeted process based on how advanced your condition is. Common treatments include:
 
 -   Scaling and Root Planing: This is a deep cleaning procedure. It removes tartar and bacteria from below the gum line. It also smooths out the root surface so gums can reattach.
 -   Antibiotic Therapy: In some cases, antibiotics are placed directly in the gum pockets to kill the infection.
@@ -71,7 +71,7 @@ Swollen gums alongside bleeding are a red flag. Together, they often mean infect
 
 ## Why Choosing the Best Family Dentist in Lomita Matters
 
-An emergency is scary enough on its own. It’s worse when you’re seeing a stranger for the first time in a moment of panic. That’s why having a relationship with the **[Best Family Dentist in Lomita](https://doctorsmileonline.com/how-to-choose-best-family-dentist-in-lomita/)** makes all the difference. A family dentist knows your history. They know which medications you take. They know if you’ve had gum issues before. That context leads to faster, smarter treatment.
+An emergency is scary enough on its own. It’s worse when you’re seeing a stranger for the first time in a moment of panic. That’s why having a relationship with the **[Best Family Dentist in Lomita](/DrSmileOnline/blog/how-to-choose-best-family-dentist-in-lomita/)** makes all the difference. A family dentist knows your history. They know which medications you take. They know if you’ve had gum issues before. That context leads to faster, smarter treatment.
 
 ## Dr. Smile: Your Emergency Dentist Lomita
 
@@ -92,9 +92,9 @@ Once your gums are healthy again, keep them that way.
 
 ## The Bottom Line
 
-Bleeding gums are not something to sleep on. They are a sign that your oral health needs attention — right now. Whether it’s a one-time incident or a recurring problem, reach out to an emergency dentist in Lomita as soon as possible. Early action means easier treatment, lower costs, and healthier gums in the long run. [Dr. Smile](https://doctorsmileonline.com/contact/) is here when you need urgent dental care— fast, compassionate, and thorough.
+Bleeding gums are not something to sleep on. They are a sign that your oral health needs attention — right now. Whether it’s a one-time incident or a recurring problem, reach out to an emergency dentist in Lomita as soon as possible. Early action means easier treatment, lower costs, and healthier gums in the long run. [Dr. Smile](/DrSmileOnline/contact/) is here when you need urgent dental care— fast, compassionate, and thorough.
 
-**Call Emergency Dentist Now-** [**How to Find the Best Dentist in Lomita for Dental Emergencies?**](https://doctorsmileonline.com/find-best-dentist-in-lomita-for-emergencies/)
+**Call Emergency Dentist Now-** [**How to Find the Best Dentist in Lomita for Dental Emergencies?**](/DrSmileOnline/blog/find-best-dentist-in-lomita-for-emergencies/)
 
 ## Frequently Asked Questions :
 

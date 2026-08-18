@@ -81,7 +81,7 @@ By unraveling the complex interplay between the microbiome and stroke, researche
 
 ## **Dr. Smile: Your Partner in Oral Health**
 
-[**Maintaining optimal oral health**](https://doctorsmileonline.com/oral-surgery/) is a crucial step in reducing Your Stroke Risk. At Dr. Smile, we are dedicated to providing exceptional dental care and helping you achieve a healthy, confident smile. Our services, ranging from preventative care to cosmetic enhancements, are tailored to meet your individual needs.
+[**Maintaining optimal oral health**](/DrSmileOnline/oral-surgery/) is a crucial step in reducing Your Stroke Risk. At Dr. Smile, we are dedicated to providing exceptional dental care and helping you achieve a healthy, confident smile. Our services, ranging from preventative care to cosmetic enhancements, are tailored to meet your individual needs.
 
 “Discover the difference at Dr. Smile where your comfort and satisfaction are our top priorities.”
 
@@ -93,4 +93,4 @@ We understand that every smile is unique, and we strive to meet and exceed your 
 
 Schedule an appointment. Prioritize your [**oral health**](https://medium.com/@drsmileonline247/how-veneers-can-transform-your-smile-a-guide-to-cosmetic-dentistry-in-newport-beach-03c9527df409) and take a proactive step towards reducing Your Stroke Risk with Dr. Smile.
 
-[**See Our Services !**](https://doctorsmileonline.com/services/)
+[**See Our Services !**](/DrSmileOnline/services/)

@@ -24,7 +24,7 @@ Biomimetic Scaffolds—These scaffolds mimic the natural environment of the cell
 
 ### 3\. How does Dr. Smile stand out?
 
-Dr. Smile is the name you can lean on. With well-versed professionals like general, emergency, and **[dental implant specialists in San Pedro](https://doctorsmileonline.com/oral-surgery/)**, who have a wealth of experience operating in multiple areas like Lomita, San Pedro, Orange County, and Newport Beach, it makes all dental progression propelled and easy to navigate. Therefore, gone are those days when you had to rely on primitive methods, and why would you when modern efficacies are on the go?
+Dr. Smile is the name you can lean on. With well-versed professionals like general, emergency, and **[dental implant specialists in San Pedro](/DrSmileOnline/oral-surgery/)**, who have a wealth of experience operating in multiple areas like Lomita, San Pedro, Orange County, and Newport Beach, it makes all dental progression propelled and easy to navigate. Therefore, gone are those days when you had to rely on primitive methods, and why would you when modern efficacies are on the go?
 
 ## Stem cells in oral surgery—the ultimate breakthrough in modern dentistry.
 
@@ -32,7 +32,7 @@ Here are some of the reasons that testify to the relevance of stem cells in oral
 
 ### 1\. Tissue regeneration
 
-This is one of the cardinalities of this advanced technology; that is, it can differentiate into various cell types to form new bone, known as osteogenesis. It further helps in soft tissues, which repair the defects caused by any trauma or surgery. Suggestively, when the factors and regenerative attributes are retrieved from the body, it is bound to cause the patients some pain. No need to worry; Dr. Smile, a **[Sedation Dentistry provider in Newport Beach](https://doctorsmileonline.com/prevention/)**, is always there to help you. Here are certain conditions where sedation is a mandate  
+This is one of the cardinalities of this advanced technology; that is, it can differentiate into various cell types to form new bone, known as osteogenesis. It further helps in soft tissues, which repair the defects caused by any trauma or surgery. Suggestively, when the factors and regenerative attributes are retrieved from the body, it is bound to cause the patients some pain. No need to worry; Dr. Smile, a **[Sedation Dentistry provider in Newport Beach](/DrSmileOnline/services/)**, is always there to help you. Here are certain conditions where sedation is a mandate  
 The extraction is generally done from bone marrow from the iliac crest or sternum, which requires general anesthesia.  
 Adipose tissue, during the procedure, is collected from “liposuction,” which may involve local anesthesia.  
 Here, you have to understand that the sole aim and purpose of it is to give you comfort and save you from operative pain and swelling.

@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Craved a confident smile all your life? Unable to bear the pain of swift loss of teeth? Well, from a generalist perspective, we opt for a false tooth or go for painful wire, metal brackets, and braces, but what if we tell you we have something restorative and ground-breaking for your teeth? Yes, it is none other than [**All-on-4 Dental Implant.**](https://doctorsmileonline.com/all-on-four-prosthetics/) Falling from the sky, don’t you? This is a safe, scientifically proven prosthetics, with no rocket science. For this blog, we shall curate a guide on how you can prepare yourself for the voyage- All-on-4 Dental Implant**.**
+Craved a confident smile all your life? Unable to bear the pain of swift loss of teeth? Well, from a generalist perspective, we opt for a false tooth or go for painful wire, metal brackets, and braces, but what if we tell you we have something restorative and ground-breaking for your teeth? Yes, it is none other than [**All-on-4 Dental Implant.**](/DrSmileOnline/all-on-four-prosthetics/) Falling from the sky, don’t you? This is a safe, scientifically proven prosthetics, with no rocket science. For this blog, we shall curate a guide on how you can prepare yourself for the voyage- All-on-4 Dental Implant**.**
 
 ## Common Fears about Dental Implants & how to overcome them
 
@@ -114,6 +114,6 @@ The reason to avoid these foods is to keep the newly carved space de- cluttered 
 
 ## Key takeaways
 
-Now, while we sum up this article, it should be understood that an All-on-4 Dental Implant is a trailblazing technique as far as prosthetics and orthodontics are concerned. However, the very concrete name of it calls for too many second thoughts- what happens? How to take care of your gums post the procedure. However, once you go for this guide, it will answer most of the questions. Additionally, with [**DR Smile**](https://doctorsmileonline.com/) one of the best Newport Beach Dental Clinics**,** you can be at peace while all headache is ours.
+Now, while we sum up this article, it should be understood that an All-on-4 Dental Implant is a trailblazing technique as far as prosthetics and orthodontics are concerned. However, the very concrete name of it calls for too many second thoughts- what happens? How to take care of your gums post the procedure. However, once you go for this guide, it will answer most of the questions. Additionally, with [**DR Smile**](/DrSmileOnline/) one of the best Newport Beach Dental Clinics**,** you can be at peace while all headache is ours.
 
-[**Find More Services!**](https://doctorsmileonline.com/services/)
+[**Find More Services!**](/DrSmileOnline/services/)

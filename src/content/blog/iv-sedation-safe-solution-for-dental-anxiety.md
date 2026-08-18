@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 For many people, visiting the dentist can be a nerve-wracking experience. Whether it’s the sound of dental tools, past experiences, or general fear, dental anxiety is a common issue that prevents individuals from seeking necessary care. Fortunately, modern dentistry offers solutions like Intravenous (IV) sedation, which can help patients relax and feel at ease during dental procedures.
 
-At [**Dr. Smile Dental**](https://doctorsmileonline.com/) Implant Centers, we are proud to provide [**expert IV sedation services**](https://doctorsmileonline.com/services/) for patients in Newport Beach, Lomita, San Pedro, and Torrance. Let’s dive into everything you need to know about IV sedation, including how it works, its benefits, and who might benefit most from this treatment.
+At [**Dr. Smile Dental**](/DrSmileOnline/) Implant Centers, we are proud to provide [**expert IV sedation services**](/DrSmileOnline/services/) for patients in Newport Beach, Lomita, San Pedro, and Torrance. Let’s dive into everything you need to know about IV sedation, including how it works, its benefits, and who might benefit most from this treatment.
 
 ## **What is IV Sedation?**
 
@@ -110,4 +110,4 @@ Dental anxiety no longer needs to be a barrier to achieving excellent oral healt
 
 If you’ve been avoiding the dentist due to fear or anxiety, IV sedation might be the solution you’ve been waiting for. At Dr. Smile Dental Implant Centers, we’re here to guide you through every step of your dental journey with care and compassion.
 
-To learn more about IV sedation or to schedule a consultation, visit [Dr. Smile Online](https://doctorsmileonline.com/). Let us help you achieve the healthy, beautiful smile you deserve.
+To learn more about IV sedation or to schedule a consultation, visit [Dr. Smile Online](/DrSmileOnline/). Let us help you achieve the healthy, beautiful smile you deserve.

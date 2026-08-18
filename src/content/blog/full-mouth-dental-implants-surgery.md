@@ -24,7 +24,7 @@ Think of it this way:
 
 ## Step 1: The First Consultation
 
-This is where your **[dental implant guide](https://doctorsmileonline.com/dental-implant-guide/)** begins. The initial consultation is your chance to learn. Don’t rush it. Take notes, ask questions, and make sure you understand the plan.
+This is where your **[dental implant guide](/DrSmileOnline/dental-implant-guide/)** begins. The initial consultation is your chance to learn. Don’t rush it. Take notes, ask questions, and make sure you understand the plan.
 
 Here’s what happens:
 
@@ -109,13 +109,13 @@ Daily habits:
 
 Lifestyle tip: Treat implants like natural teeth. The better you care for them, the longer they’ll last.
 
-**Read More : See the [benefits of full-mouth dental implants](https://doctorsmileonline.com/benefits-of-full-mouth-dental-implants/) over dentures—contact us today to improve your oral health**
+**Read More : See the [benefits of full-mouth dental implants](/DrSmileOnline/blog/benefits-of-full-mouth-dental-implants/) over dentures—contact us today to improve your oral health**
 
 ## The Bottom Line
 
 Preparing for full-mouth dental implants surgery is about more than the procedure itself. It’s about building good habits, following your dentist’s advice, and being patient during recovery. Whether you choose traditional implants or All-on-4 dental implants, the journey leads to a permanent, confident smile.
 
-Ready to take the next step? Connect with **[Dr. Smile](https://doctorsmileonline.com/contact/)** today and let our expert team guide you through every stage of the process—from consultation to restoration. Your new smile is waiting.
+Ready to take the next step? Connect with **[Dr. Smile](/DrSmileOnline/contact/)** today and let our expert team guide you through every stage of the process—from consultation to restoration. Your new smile is waiting.
 
 ## Frequently Asked Questions
 
@@ -135,6 +135,6 @@ Recovery usually takes a few weeks, with full bone integration happening over se
 
 Yes, the upfront cost is higher. However, implants are more durable, require fewer replacements, and improve overall oral health, making them cost-effective long-term. Think of them as an investment in confidence, health, and convenience.
 
-### Q. Who is a good candidate for full mouth or **[All-on-4 dental implants](https://doctorsmileonline.com/need-to-know-about-all-on-4-dental-implants/)**?
+### Q. Who is a good candidate for full mouth or **[All-on-4 dental implants](/DrSmileOnline/blog/need-to-know-about-all-on-4-dental-implants/)**?
 
 Adults with significant tooth loss, good general health, and sufficient jawbone density are ideal candidates. Even those with bone loss may qualify with grafting procedures. Patients with diabetes or other conditions should consult their dentist for personalized advice.

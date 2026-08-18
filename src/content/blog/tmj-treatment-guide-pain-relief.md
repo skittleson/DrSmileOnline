@@ -68,7 +68,7 @@ Here is a detailed outline of how you can prepare for this dental treatment
 
 -   Keep a journal of your jaw pain, headaches, clicking sounds, or difficulty chewing.
 -   Note when symptoms occur (morning, after meals, during stress).
--   This helps your [**dentists in San Pedro**](https://doctorsmileonline.com/san-pedro/) to make an accurate diagnosis.
+-   This helps your [**dentists in San Pedro**](/DrSmileOnline/location/) to make an accurate diagnosis.
 
 #### 2\. Gather Medical and Dental History
 
@@ -101,7 +101,7 @@ Here is a detailed outline of how you can prepare for this dental treatment
 -   Arrange transportation if you expect procedures that may leave you sore or tired.
 -   Stock up on soft foods (soups, smoothies, and yogurt) for recovery days.
 
-**Get Your Free Consultation:** [Looking for an Affordable Dentist in San Pedro you can trust?](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/)  
+**Get Your Free Consultation:** [Looking for an Affordable Dentist in San Pedro you can trust?](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/)  
 Get high-quality dental care without breaking your budget! Book your appointment today and enjoy a healthier, brighter smile with expert care you can afford.
 
 ### During the treatment

@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-A person’s teeth are the first thing that comes into notice. Did you know more than 45% of the world population, or 3.5 billion people, suffer from oral diseases? Additionally, 3 out of 4 people fall prey to oral diseases. Given these statistics, you require an expert who can quickly identify all of your issues. You need nothing but the [**Best Cosmetic Dentist in Newport Beach**](https://doctorsmileonline.com/services/). So, for the following article, we curate a checklist for you that will help you find the best from the lot.
+A person’s teeth are the first thing that comes into notice. Did you know more than 45% of the world population, or 3.5 billion people, suffer from oral diseases? Additionally, 3 out of 4 people fall prey to oral diseases. Given these statistics, you require an expert who can quickly identify all of your issues. You need nothing but the [**Best Cosmetic Dentist in Newport Beach**](/DrSmileOnline/services/). So, for the following article, we curate a checklist for you that will help you find the best from the lot.
 
 ## Things to remember while opting for the best dentist—points that mark the checklist
 
@@ -28,7 +28,7 @@ Verify that the dentist has the necessary qualifications and credentials. To fal
 
 -   Have an accredited dental school degree
 -   Be licensed to practice dentistry in your state and country
--   Well-adept with the latest technology, like practicing **[sedation Dentistry in Newport Beach](https://doctorsmileonline.com/say-goodbye-to-dental-anxiety-with-sedation-dentistry/).**
+-   Well-adept with the latest technology, like practicing **[sedation Dentistry in Newport Beach](/DrSmileOnline/blog/say-goodbye-to-dental-anxiety-with-sedation-dentistry/).**
 
 ### Reputation and Reviews
 

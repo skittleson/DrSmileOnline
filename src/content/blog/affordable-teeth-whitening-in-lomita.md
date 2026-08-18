@@ -34,13 +34,13 @@ The biggest danger with home kits is the lack of precision. Their generic trays 
 
 While teeth whitening in Lomita is great for surface stains, it cannot fix everything. Some stains are deep inside the tooth, and some teeth have chips, cracks, or gaps that whitening alone cannot change.
 
-If your teeth have deep discoloration or if you want to change the size and shape of your teeth, **[dental veneers in Lomita](https://doctorsmileonline.com/complete-guide-to-dental-veneers-in-lomita/)** might be the right answer for you. Veneers are thin, strong covers that go over your teeth to give you a perfect, bright look instantly.
+If your teeth have deep discoloration or if you want to change the size and shape of your teeth, **[dental veneers in Lomita](/DrSmileOnline/blog/complete-guide-to-dental-veneers-in-lomita/)** might be the right answer for you. Veneers are thin, strong covers that go over your teeth to give you a perfect, bright look instantly.
 
 While whitening is a great start, many patients eventually choose veneers to get the ultimate, uniform smile they have always wanted. We are happy to talk about which option will help you reach your goals during your visit.
 
 ## The Need for Speed: Same-Day Dentist in Lomita
 
-Life is busy, and we know you do not want to wait weeks to get the smile you deserve. Whether you have a big event coming up or just want to feel better as soon as possible, finding a **[same-day dentist in Lomita](https://doctorsmileonline.com/top-benefits-of-a-same-day-dentist-in-lomita/)** is the key to convenience.
+Life is busy, and we know you do not want to wait weeks to get the smile you deserve. Whether you have a big event coming up or just want to feel better as soon as possible, finding a **[same-day dentist in Lomita](/DrSmileOnline/blog/top-benefits-of-a-same-day-dentist-in-lomita/)** is the key to convenience.
 
 A same-day dentist is someone who values your time. You don’t have to rearrange your entire week or wait for a long opening. Our office is set up to handle your needs efficiently, providing high-quality teeth whitening without the long wait. We believe that your confidence shouldn’t have to wait, so we offer quick and professional appointments to get you back to your life with a brighter, whiter smile.
 
@@ -92,9 +92,9 @@ Visiting us for your regular cleanings helps remove surface stains before they b
 
 Professional teeth whitening in Lomita is a safe, effective, and quick way to refresh your look, and our friendly team is ready to walk you through every single step. We combine expert care with a gentle touch to ensure you have a great experience from the moment you walk through our doors to the moment you leave with your new, glowing smile.
 
-Don’t wait to get the smile of your dreams! Call [**Dr. Smile**](https://doctorsmileonline.com/contact/) today or visit our website to book your session and find out how we can help you brighten your day.
+Don’t wait to get the smile of your dreams! Call [**Dr. Smile**](/DrSmileOnline/contact/) today or visit our website to book your session and find out how we can help you brighten your day.
 
-**Book an Emergency Dental Visit : Book Your [Emergency Dentist in Lomita](https://doctorsmileonline.com/bleeding-gums-emergency-dentist-in-lomita/) Appointment Today**
+**Book an Emergency Dental Visit : Book Your [Emergency Dentist in Lomita](/DrSmileOnline/blog/bleeding-gums-emergency-dentist-in-lomita/) Appointment Today**
 
 ## Frequently Asked Questions:
 

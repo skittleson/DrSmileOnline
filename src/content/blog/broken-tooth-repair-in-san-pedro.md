@@ -49,7 +49,7 @@ Dr. Smile is structured specifically for this — same-day access, on-site speci
 
 ## Affordable Dentist in San Pedro: Quality Care Without the Financial Stress
 
-One of the most common reasons patients delay emergency dental care is cost. That hesitation is understandable, but delaying a simple repair almost always results in a more expensive procedure down the line. As an **[affordable dentist in San Pedro](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/)**, Dr. Smile removes that barrier by offering transparent pricing, flexible financing options, and assistance in navigating insurance coverage before treatment begins.
+One of the most common reasons patients delay emergency dental care is cost. That hesitation is understandable, but delaying a simple repair almost always results in a more expensive procedure down the line. As an **[affordable dentist in San Pedro](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/)**, Dr. Smile removes that barrier by offering transparent pricing, flexible financing options, and assistance in navigating insurance coverage before treatment begins.
 
 Here is what financial accessibility looks like at Dr. Smile:
 
@@ -103,13 +103,13 @@ Dental anxiety is real and common. Access to sedation dentistry means no patient
 
 Before any instrument touches your tooth, you should know exactly what is happening, why, and what it will cost.
 
-Dr. Smile delivers all of this consistently. As the **[best dentist in San Pedro](https://doctorsmileonline.com/san-pedro/)** for dental emergencies, the practice combines specialist-level expertise with a patient-first approach that makes high-stakes situations feel manageable.
+Dr. Smile delivers all of this consistently. As the **[best dentist in San Pedro](/DrSmileOnline/location/)** for dental emergencies, the practice combines specialist-level expertise with a patient-first approach that makes high-stakes situations feel manageable.
 
 ## The Bottom Line
 
-Every hour without treatment is an hour the damage has to deepen, the nerve has to become more exposed, and the infection has a clearer path in. Broken tooth repair in San Pedro at **[Dr. Smile](https://doctorsmileonline.com)** means same-day access, accurate diagnosis, and treatment completed efficiently so you leave with your tooth intact and your pain gone. Call Dr. Smile today at (949) 640-0222 or book your appointment online and get the same-day relief you need.
+Every hour without treatment is an hour the damage has to deepen, the nerve has to become more exposed, and the infection has a clearer path in. Broken tooth repair in San Pedro at **[Dr. Smile](/DrSmileOnline/)** means same-day access, accurate diagnosis, and treatment completed efficiently so you leave with your tooth intact and your pain gone. Call Dr. Smile today at (949) 640-0222 or book your appointment online and get the same-day relief you need.
 
-**Get Emergency Dental Care Now : [Emergency Dentist in San Pedro](https://doctorsmileonline.com/emergency-dentist-in-san-pedro/) – Book Your Same-Day Visit**
+**Get Emergency Dental Care Now : [Emergency Dentist in San Pedro](/DrSmileOnline/blog/emergency-dentist-in-san-pedro/) – Book Your Same-Day Visit**
 
 ## Frequently Asked Questions :
 

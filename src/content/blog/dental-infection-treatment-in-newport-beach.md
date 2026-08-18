@@ -36,7 +36,7 @@ Dr. Smile checks every one of these boxes. The Newport Beach practice is built a
 
 ## When You Need an Emergency Dentist in Newport Beach
 
-Some situations cannot wait. You need an **[emergency dentist in Newport Beach](https://doctorsmileonline.com/emergency-dentist-in-newport-beach-broken-tooth/)** when:
+Some situations cannot wait. You need an **[emergency dentist in Newport Beach](/DrSmileOnline/blog/emergency-dentist-in-newport-beach-broken-tooth/)** when:
 
 -   Swelling is spreading to your face or neck
 -   You have a fever along with tooth pain
@@ -62,7 +62,7 @@ The goal is always to save the tooth when possible. Root canal therapy gets a ba
 
 ## The Role of a Deep Cleaning Dentist in Newport Beach
 
-Many patients don’t realize that gum disease and dental infections are closely connected. Infected gum pockets can harbor bacteria that travel deeper into the tooth’s root. A **[deep cleaning dentist in Newport Beach](https://doctorsmileonline.com/deep-cleaning-dentist-in-newport-beach/)** addresses this at the source.
+Many patients don’t realize that gum disease and dental infections are closely connected. Infected gum pockets can harbor bacteria that travel deeper into the tooth’s root. A **[deep cleaning dentist in Newport Beach](/DrSmileOnline/blog/deep-cleaning-dentist-in-newport-beach/)** addresses this at the source.
 
 At Dr. Smile, deep cleaning, also called scaling and root planing, is one of the most effective ways to:
 
@@ -101,7 +101,7 @@ Patients who maintain good oral hygiene and keep up with professional cleanings 
 
 ## The Bottom Line
 
-Dental infections are painful, and they don’t wait for a convenient time. The right care from an experienced, well-equipped team makes a real difference in how fast you recover and how long you stay healthy. **[Dr. Smile](https://doctorsmileonline.com/contact/)** is ready to help. Book your appointment today for trusted dental infection treatment in Newport Beach.
+Dental infections are painful, and they don’t wait for a convenient time. The right care from an experienced, well-equipped team makes a real difference in how fast you recover and how long you stay healthy. **[Dr. Smile](/DrSmileOnline/contact/)** is ready to help. Book your appointment today for trusted dental infection treatment in Newport Beach.
 
 ## Frequently Asked Questions :
 

@@ -14,7 +14,7 @@ In Lomita, the gum disease can range from several non-surgical options, and this
 
 -   Options like scaling and root planing for the early stages can help in removing plaque, tartar, and bacterial toxins from the lower line of the mouth.
 -   Flap surgery is used for advanced levels of treatment. It is the practice of moving the good bacteria from one place to another to reconstruct and build a new area.
--   Depending on the case, **[dentists in Lomita](https://doctorsmileonline.com/lomita/)** also offer antibiotics, which involve medicines, pocket reduction, or bone grafts.
+-   Depending on the case, **[dentists in Lomita](/DrSmileOnline/location/)** also offer antibiotics, which involve medicines, pocket reduction, or bone grafts.
 -   In addition, there can also be some suggestions, which are keeping up with a good lifestyle and following some general principles of a good and healthy lifestyle.
 
 Now that we have discussed some of the best treatments, it’s time for the residents of Lomita to know one of the best dental clinics from which you can get the best gum treatments. It’s Dr Smile. Operational in more than two places of the major hinterland, they have their branches in San Pedro, Orange County, and Newport Beach. With trailblazing technology and the most able-bodied dentists in all their branches, including Lomita, San Pedro, Orange County, and Newport Beach, they have tailored solutions for all. Stay tuned with us till the very end of the blog, as here are some tips from the notepads of a professional explaining how you can treat gum disease by keeping up with the overall health and immunity of people.
@@ -41,7 +41,7 @@ As the name suggests, opting for a professional treatment with adept knowledge a
 -   Perio Protect trays – these are custom-fitted trays that deliver medicated gel directly to gum pockets for a non-invasive approach to manage bacteria.
 -   Laser therapy – A low-impact option that uses lasers to accurately remove infected tissue and bacteria, often resulting in less pain and a faster recovery.
 -   Surgical treatment – dentists at Dr Smile often implement surgical Gum Disease Treatment in Lomita to gather better results. The best example of this is flap surgery, only applicable for the removal of infected tissue.
--   Bone or soft tissue grafting – this procedure is used to rebuild lost bone or gum tissue, which provides a stronger foundation for the teeth. At Dr Smile, you get Affordable **[full mouth restoration in Lomita](https://doctorsmileonline.com/full-mouth-restoration-in-lomita-quality/)** with professional and adept advice is all you have to follow.
+-   Bone or soft tissue grafting – this procedure is used to rebuild lost bone or gum tissue, which provides a stronger foundation for the teeth. At Dr Smile, you get Affordable **[full mouth restoration in Lomita](/DrSmileOnline/blog/full-mouth-restoration-in-lomita-quality/)** with professional and adept advice is all you have to follow.
 
 ### 3\. Steps to follow
 
@@ -111,4 +111,4 @@ While daily brushing and flossing are essential, they may not be enough to remov
 
 Follow-up frequency depends on the severity of your condition and your dentist’s recommendations. Typically, patients are advised to return every three to six months for maintenance cleanings and evaluations.
 
-Want to know more about expert care? Check out [**The Role of Periodontists in Gum Disease Treatment in Lomita**](https://doctorsmileonline.com/periodontist-gum-disease-treatment-in-lomita/) for insights on specialized treatment options.
+Want to know more about expert care? Check out [**The Role of Periodontists in Gum Disease Treatment in Lomita**](/DrSmileOnline/blog/periodontist-gum-disease-treatment-in-lomita/) for insights on specialized treatment options.

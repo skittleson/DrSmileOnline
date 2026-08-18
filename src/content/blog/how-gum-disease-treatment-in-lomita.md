@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-There can be 101 problems and inconveniences in your life, understandably, but suffering from Gum Woes is something else. It steals away your mental peace, but apart from that, it also dwindles your confidence. Amidst this monstrous sea of pain and agony, **[gum Disease Treatment in Lomita](https://doctorsmileonline.com/services/)**. Yes, Dr. Smile has an invasive, all-comprehensive offer for Full Mouth Restoration in Lomita. Let us take you through what a holistic gum treatment looks like.
+There can be 101 problems and inconveniences in your life, understandably, but suffering from Gum Woes is something else. It steals away your mental peace, but apart from that, it also dwindles your confidence. Amidst this monstrous sea of pain and agony, **[gum Disease Treatment in Lomita](/DrSmileOnline/services/)**. Yes, Dr. Smile has an invasive, all-comprehensive offer for Full Mouth Restoration in Lomita. Let us take you through what a holistic gum treatment looks like.
 
 ## What is gum disease?
 
@@ -94,7 +94,7 @@ There is nothing as unsightly as inflamed gum, a hub for discomfort, and the bes
 
 ### Enhances the overall appearance of the gums
 
--   With a **[Full Mouth Restoration in Lomita](https://doctorsmileonline.com/overcome-dental-anxiety-with-sedation-dentistry/)** and other invasive and groundbreaking approaches, the natural contours of the tooth are reversed.
+-   With a **[Full Mouth Restoration in Lomita](/DrSmileOnline/blog/overcome-dental-anxiety-with-sedation-dentistry/)** and other invasive and groundbreaking approaches, the natural contours of the tooth are reversed.
 -   Some of these treatments include tissue grafts. The efficacy and the specification of this treatment help in improving gum health
 -   It also helps in improving the overall aesthetics of your smile.
 

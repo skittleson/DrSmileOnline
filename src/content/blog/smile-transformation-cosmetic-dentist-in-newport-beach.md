@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Imagine the wizards from the childhood core stories—how magical were they? We believed all those spells. Young dreams. Cut to now, when you are an adult, you no longer believe in wizards, but you certainly do believe in a [**cosmetic dentist in Newport Beach**.](https://doctorsmileonline.com/cosmetic-care/) Operational in Torrance, Lomita, and San Pedro, these are made available to all. The sorcerers who, with their knowledge, spells, and elder wand artistry, can fix any flaw that exists in your teeth. So, for the following article, let’s explore some of the cosmetic transformations that these unsung heroes can perform.
+Imagine the wizards from the childhood core stories—how magical were they? We believed all those spells. Young dreams. Cut to now, when you are an adult, you no longer believe in wizards, but you certainly do believe in a [**cosmetic dentist in Newport Beach**.](/DrSmileOnline/cosmetic-care/) Operational in Torrance, Lomita, and San Pedro, these are made available to all. The sorcerers who, with their knowledge, spells, and elder wand artistry, can fix any flaw that exists in your teeth. So, for the following article, let’s explore some of the cosmetic transformations that these unsung heroes can perform.
 
 ## Who is a Cosmetic Dentist in Newport Beach?
 
@@ -49,7 +49,7 @@ Losing a loved one, and if you are feeling sad about it, we would ask you to rec
 -   This can make you feel shy; simple tasks can become a chore
 -   There can be a lack of stability and security.
 
-Now, there are so many problems that occur when you lose a tooth. With all these things being said, our professionals at Dr. Smile are the cosmetic dentists in Newport Beach who can fix this with the method of [**4 dental implants in Newport Beach.**](https://doctorsmileonline.com/services/) 
+Now, there are so many problems that occur when you lose a tooth. With all these things being said, our professionals at Dr. Smile are the cosmetic dentists in Newport Beach who can fix this with the method of [**4 dental implants in Newport Beach.**](/DrSmileOnline/services/) 
 
 -   Here, the dentist calls for permanent solutions called dental implants
 -   It is revolutionary, allowing doctors to replace your entire upper or lower set of teeth.
@@ -106,4 +106,4 @@ Some treatments, like veneers and implants, are long-lasting but require proper 
 
 Look for experience, patient reviews, advanced technology, and personalized care. Clinics like Luminous Smiles and Taylor Cosmetic Dentistry offer high-quality services with expert professionals.
 
-**[Does Invisalign transform a smile? Here is what you need to know](https://doctorsmileonline.com/does-invisalign-transform-your-smile/)**
+**[Does Invisalign transform a smile? Here is what you need to know](/DrSmileOnline/blog/does-invisalign-transform-your-smile/)**

@@ -36,13 +36,13 @@ Normally, seeing a specialist means waiting for your general dentist to refer yo
 
 ## Affordable Emergency Dentist in Lomita Options
 
-People sometimes delay dental care because they worry about cost. But putting off treatment often leads to more expensive procedures later. An affordable **[emergency dentist in Lomita](https://doctorsmileonline.com/bleeding-gums-emergency-dentist-in-lomita/)**, like Dr. Smile, works with most PPO insurance plans and also offers financing options. Getting care now is almost always more budget-friendly than waiting until a small problem becomes a serious one.
+People sometimes delay dental care because they worry about cost. But putting off treatment often leads to more expensive procedures later. An affordable **[emergency dentist in Lomita](/DrSmileOnline/blog/bleeding-gums-emergency-dentist-in-lomita/)**, like Dr. Smile, works with most PPO insurance plans and also offers financing options. Getting care now is almost always more budget-friendly than waiting until a small problem becomes a serious one.
 
 -   Most PPO insurance is accepted
 -   Payment plans are available
 -   Same-day care prevents costly complications down the road
 
-**Read More : [Choose an Affordable Family Dentist in Lomita for quality care and healthy smiles at a budget-friendly cost.](https://doctorsmileonline.com/affordable-family-dentist-in-lomita//)**
+**Read More : [Choose an Affordable Family Dentist in Lomita for quality care and healthy smiles at a budget-friendly cost.](/DrSmileOnline/blog/affordable-family-dentist-in-lomita/)**
 
 ## A Calm, Comfortable Experience Even in a Crisis
 
@@ -62,7 +62,7 @@ When you come in as an emergency patient, the team moves quickly but carefully. 
 
 Wisdom teeth are a common source of dental emergencies. They are the last molars to grow in, usually between ages 17 and 25, and most people do not have enough space in their jaws for them. This leads to pain, swelling, and infection that can get serious fast.
 
-**[Wisdom tooth removal in Lomita](https://doctorsmileonline.com/wisdom-tooth-removal-in-lomita/)** (at Dr. Smile) is handled with precision. Whether your tooth needs a simple extraction or a more involved surgical removal, the team has the experience and technology to do it safely and comfortably. Signs that your wisdom tooth needs emergency attention include:
+**[Wisdom tooth removal in Lomita](/DrSmileOnline/blog/wisdom-tooth-removal-in-lomita/)** (at Dr. Smile) is handled with precision. Whether your tooth needs a simple extraction or a more involved surgical removal, the team has the experience and technology to do it safely and comfortably. Signs that your wisdom tooth needs emergency attention include:
 
 -   Severe throbbing pain in the back of your mouth
 -   Swelling in the jaw or cheek that gets worse over time
@@ -88,7 +88,7 @@ When you visit a same-day dentist in Lomita, you are never just a name on a list
 
 Dental emergencies are scary, painful, and stressful. But they do not have to stay that way for long. A same-day dentist in Lomita gives you fast access to professional care right when you need it most. From broken teeth to infections to emergency wisdom tooth removal, Dr. Smile handles it all with skill and compassion.
 
-Do not wait out the pain. Reach out to **[Dr. Smile Lomita](https://doctorsmileonline.com/contact/)** today and get the care you deserve without delay.
+Do not wait out the pain. Reach out to **[Dr. Smile Lomita](/DrSmileOnline/contact/)** today and get the care you deserve without delay.
 
 ## Frequently Asked Questions :
 

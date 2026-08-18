@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-a disease so chronic that it affects people’s overall health. But did you know that it also impacts oral health? Yes, you heard right; an elevated glucose level can create an environment where bacteria thrive. Taking immediate insights from the **[Best Dentist in San Pedro](https://doctorsmileonline.com/san-pedro/)** is the need of the hour and a rational thing to do. Let’s explore the key insights and how to keep the insulin spike and take care of your oral health.
+a disease so chronic that it affects people’s overall health. But did you know that it also impacts oral health? Yes, you heard right; an elevated glucose level can create an environment where bacteria thrive. Taking immediate insights from the **[Best Dentist in San Pedro](/DrSmileOnline/location/)** is the need of the hour and a rational thing to do. Let’s explore the key insights and how to keep the insulin spike and take care of your oral health.
 
 ## The link between diabetes and oral health—an inquisitive case
 
@@ -33,7 +33,7 @@ Diabetes in general is killing!  It not only affects your body but also your mo
 
 ## How does the Best Dentist in San Pedro help?
 
-Here are some practical tips from the best **[Family Dentist in San Pedro](https://doctorsmileonline.com/why-choosing-family-dentist-in-san-pedro-matters/)**
+Here are some practical tips from the best **[Family Dentist in San Pedro](/DrSmileOnline/blog/why-choosing-family-dentist-in-san-pedro-matters/)**
 
 ### 1\. Regular checkups are a mandate.
 

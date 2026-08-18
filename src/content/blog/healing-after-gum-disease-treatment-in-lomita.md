@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-Gum disease is nothing less than a slow-burning fire in the mouth that gradually erodes the foundation of your oral health. It starts with a minor inflammation, commonly known as gingivitis. However, when left untreated, it escalates quickly to something serious, mainly known as periodontitis. It might sound intimidating, but it is not. With the right form of [**Gum Disease Treatment in Lomita**](https://doctorsmileonline.com/prevention/)**,** you can keep the issue at bay. Let’s delve into and understand the issue in the larger context. 
+Gum disease is nothing less than a slow-burning fire in the mouth that gradually erodes the foundation of your oral health. It starts with a minor inflammation, commonly known as gingivitis. However, when left untreated, it escalates quickly to something serious, mainly known as periodontitis. It might sound intimidating, but it is not. With the right form of [**Gum Disease Treatment in Lomita**](/DrSmileOnline/services/)**,** you can keep the issue at bay. Let’s delve into and understand the issue in the larger context. 
 
 ## What is Gum Disease Treatment in Lomita?
 
@@ -64,7 +64,7 @@ iii) Women who are on birth control will be advised that antibiotics may interfe
 ### Postoperative care 
 
 -   First 24-48 hours: The postoperative care includes the following periodontal surgery tips, beginning from the 24-48 hours.
--   You may experience some minor bleeding, oozing, swelling, or bruising. To minimize the discomfort, you need to keep an eye on your current condition. However, if you see that the blood is uncontrollable, connect with us; we have an **[Emergency dentist in Lomita](https://doctorsmileonline.com/contact/)** who can take care of the situation immediately. 
+-   You may experience some minor bleeding, oozing, swelling, or bruising. To minimize the discomfort, you need to keep an eye on your current condition. However, if you see that the blood is uncontrollable, connect with us; we have an **[Emergency dentist in Lomita](/DrSmileOnline/contact/)** who can take care of the situation immediately. 
 
 #### Don’ts  
 
@@ -138,4 +138,4 @@ Sedation dentistry is generally safe when administered by trained professionals.
 
 Dr. Smile Dental Clinic offers root canals, cosmetic dentistry, orthodontics, implants, and preventive care. With multiple locations across Orange County, San Pedro, Newport Beach, and Torrance., The clinic emphasizes advanced technology, patient comfort, and personalized treatment for long-term oral health.
 
-[How Gum Disease Treatment in Lomita Can Improve Your Oral Health?](https://doctorsmileonline.com/how-gum-disease-treatment-in-lomita/)
+[How Gum Disease Treatment in Lomita Can Improve Your Oral Health?](/DrSmileOnline/blog/how-gum-disease-treatment-in-lomita/)

@@ -16,7 +16,7 @@ A periodontist is a specialized dentist in Lomita who is known for their experti
 -   Complete  Parts I and II of the NBDE or the Integrated National Board Dental Examination (INBDE)
 -   Pass the state licensing examination, administered by the Dental Board of California. 
 -   Apply for a license through the ADEX examination pathway, which includes a written exam and a practical clinical skills assessment.
--   There are some general requirements of a specialized **[dentist in Lomita](https://doctorsmileonline.com/lomita/)**, like English proficiency and meeting deadlines.
+-   There are some general requirements of a specialized **[dentist in Lomita](/DrSmileOnline/location/)**, like English proficiency and meeting deadlines.
 
 ### When do you need a periodontist?
 
@@ -51,7 +51,7 @@ Ideal for early-stage gum disease (gingivitis), professional cleaning combined w
 
 #### 1.Flap Surgery (Pocket Reduction Surgery)
 
-Designed for advanced periodontitis, this procedure forms a flap in the gum tissue to facilitate deep cleaning and elimination of infected tissue from extensive pockets. This is generally done by a professional by performing an  **[Oral Surgery in Lomita](https://doctorsmileonline.com/oral-surgery/)**. 
+Designed for advanced periodontitis, this procedure forms a flap in the gum tissue to facilitate deep cleaning and elimination of infected tissue from extensive pockets. This is generally done by a professional by performing an  **[Oral Surgery in Lomita](/DrSmileOnline/oral-surgery/)**. 
 
 #### 2.Bone Grafting:
 
@@ -120,4 +120,4 @@ Yes—early-stage gum disease (gingivitis) is reversible with professional clean
 
 While general dentists can treat mild gum issues, periodontists have advanced training in managing complex gum disease and restoring supporting structures like bone and connective tissue. Dr. Smile offers specialized tools and techniques that go beyond routine dental care.
 
-#### [The Silent Connection Between Gum Disease and Stomach Cancer](https://doctorsmileonline.com/silent-connection-gum-disease-stomach-cancer/)
+#### [The Silent Connection Between Gum Disease and Stomach Cancer](/DrSmileOnline/blog/silent-connection-gum-disease-stomach-cancer/)

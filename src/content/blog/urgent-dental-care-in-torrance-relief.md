@@ -21,7 +21,7 @@ If you experience any of these, do not wait. Urgent dental care in Torrance at D
 
 ## Walk-In Dentist in Torrance: No Appointment Needed
 
-One of the biggest worries during a dental emergency is not knowing if you can be seen right away. As a **[walk-in dentist in Torrance](https://doctorsmileonline.com/best-walk-in-dentist-in-torrance/)**, Dr. Smile removes that worry entirely. You do not need to book in advance or wait days for an opening. Simply walk in, and our team will attend to you as quickly as possible.
+One of the biggest worries during a dental emergency is not knowing if you can be seen right away. As a **[walk-in dentist in Torrance](/DrSmileOnline/blog/best-walk-in-dentist-in-torrance/)**, Dr. Smile removes that worry entirely. You do not need to book in advance or wait days for an opening. Simply walk in, and our team will attend to you as quickly as possible.
 
 This is especially valuable for:
 
@@ -34,7 +34,7 @@ Our welcoming front desk staff will guide you through the process from the momen
 
 ## Same-Day Dentist in Torrance: Relief Without the Long Wait
 
-Time matters when you are in pain. As a **[same-day dentist in Torrance](https://doctorsmileonline.com/same-day-dentist-in-torrance/)**, Dr. Smile prioritizes emergency patients so treatment happens on the very day you come in. You will not be told to wait a week for your appointment. You come in, we assess the issue, and we begin treatment right away.
+Time matters when you are in pain. As a **[same-day dentist in Torrance](/DrSmileOnline/blog/same-day-dentist-in-torrance/)**, Dr. Smile prioritizes emergency patients so treatment happens on the very day you come in. You will not be told to wait a week for your appointment. You come in, we assess the issue, and we begin treatment right away.
 
 Here is what same-day emergency care at Dr. Smile typically looks like:
 
@@ -88,11 +88,11 @@ Our approach is always patient-first:
 
 Urgent dental care in Torrance at Dr. Smile is designed to feel like care from a practice that genuinely has your best interest at heart.
 
-Explore More : **[Choose a trusted family dentist in Torrance today and give your entire family the quality dental care they deserve.](https://doctorsmileonline.com/best-family-dentist-in-torrance/)**
+Explore More : **[Choose a trusted family dentist in Torrance today and give your entire family the quality dental care they deserve.](/DrSmileOnline/blog/best-family-dentist-in-torrance/)**
 
 ## The Bottom Line
 
-Dental emergencies are never convenient, but the right care makes them manageable. At Dr. Smile, we are committed to providing urgent dental care in Torrance that is fast, thorough, and compassionate. Whether you need a walk-in dentist in Torrance for an unexpected issue or reliable treatment for a cracked tooth, our team is here for you. Do not wait for the pain to get worse—contact **[Dr. Smile](https://doctorsmileonline.com/)** today and let us take care of you.
+Dental emergencies are never convenient, but the right care makes them manageable. At Dr. Smile, we are committed to providing urgent dental care in Torrance that is fast, thorough, and compassionate. Whether you need a walk-in dentist in Torrance for an unexpected issue or reliable treatment for a cracked tooth, our team is here for you. Do not wait for the pain to get worse—contact **[Dr. Smile](/DrSmileOnline/)** today and let us take care of you.
 
 ## Frequently Asked Questions :
 

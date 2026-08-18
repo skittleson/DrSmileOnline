@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-As children, we all suffered from this problem, fearing and, more so, resisting the dentist because of dental anxiety. Let’s be honest, at some point in our lives, we have been through the fear of being exposed to those painful drills, the patient’s chair, and even those injections. But what if we tell you that dental efficacy has advanced, and there are ways visiting your dentist will not seem scary? All thanks to [**Sedation Dentistry in Newport Beach**](https://doctorsmileonline.com/services/)**.** What is it? Let’s explore this in the following article. 
+As children, we all suffered from this problem, fearing and, more so, resisting the dentist because of dental anxiety. Let’s be honest, at some point in our lives, we have been through the fear of being exposed to those painful drills, the patient’s chair, and even those injections. But what if we tell you that dental efficacy has advanced, and there are ways visiting your dentist will not seem scary? All thanks to [**Sedation Dentistry in Newport Beach**](/DrSmileOnline/services/)**.** What is it? Let’s explore this in the following article. 
 
 ## What is dental anxiety?
 
@@ -49,7 +49,7 @@ While the buzz of dental anxiety seems continuous and vibrating, Sedation Dentis
 -   Require complex or lengthy treatments
 -   Gives mild relaxation to deep levels of sedation. 
 
-And if you think that is going to be painful, then do not, because this is a crucial part of the [**Cosmetic Dentist in Newport Beach**](https://doctorsmileonline.com/cosmetic-care/) and has benefited over 90% of people (or those who have opted for this).
+And if you think that is going to be painful, then do not, because this is a crucial part of the [**Cosmetic Dentist in Newport Beach**](/DrSmileOnline/cosmetic-care/) and has benefited over 90% of people (or those who have opted for this).
 
 Below are listed certain ways that can help you overcome sedation Dentistry in Newport Beach.
 
@@ -123,4 +123,4 @@ If you receive oral or IV sedation, you’ll need someone to drive you home and 
 
 Coverage varies. Many insurance plans do not cover sedation unless it’s deemed medically necessary. However, some Newport Beach dental offices offer financing options or payment plans to make sedation more accessible.
 
-## [The Ultimate Guide to Invisalign in Torrance for Families](https://doctorsmileonline.com/invisalign-in-torrance-for-families/)
+## [The Ultimate Guide to Invisalign in Torrance for Families](/DrSmileOnline/blog/invisalign-in-torrance-for-families/)

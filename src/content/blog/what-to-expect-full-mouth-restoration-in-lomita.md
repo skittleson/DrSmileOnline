@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-If the paint of your house chips off or the tiles come off, what do you do? Probably opt for a home renovator or contractor. Not only will they help you to fix all the flaws, but they also give your house a new look altogether. Similarly, a **[full mouth restoration in Lomita](https://doctorsmileonline.com/restorative-care/)** is akin to that. From chipped to stained to even crooked teeth, this modern dental efficacy fixes it all. But there is a poignant question to ask. Whom should you trust for your health? Well, Dr. Smile is all there to help you with the process. Let’s explore more in the following article. 
+If the paint of your house chips off or the tiles come off, what do you do? Probably opt for a home renovator or contractor. Not only will they help you to fix all the flaws, but they also give your house a new look altogether. Similarly, a **[full mouth restoration in Lomita](/DrSmileOnline/services/)** is akin to that. From chipped to stained to even crooked teeth, this modern dental efficacy fixes it all. But there is a poignant question to ask. Whom should you trust for your health? Well, Dr. Smile is all there to help you with the process. Let’s explore more in the following article. 
 
 ## What is a full mouth restoration in Lomita?
 
@@ -62,7 +62,7 @@ In this section of the article, we shall explore all that you can expect from a 
 ### 1\. Invisalign
 
 -   This is one of those treatments that will compel you to bid farewell to those perky and gum-hurting braces. A modern alternative for traditional braces, which uses a series of custom-made, virtually invisible plastic aligners. 
--   An  **[Invisalign in Torrance](https://doctorsmileonline.com/cosmetic-care/),** or any place for that matter, is a clear aligner therapy that is predominantly used for straightening the teeth. 
+-   An  **[Invisalign in Torrance](/DrSmileOnline/cosmetic-care/),** or any place for that matter, is a clear aligner therapy that is predominantly used for straightening the teeth. 
 -   These are removable, which makes it easier to eat, drink, and maintain basic oral hygiene as compared to the traditional braces. 
 -   Lasts you for 18 months. 
 
@@ -104,4 +104,4 @@ Yes! Dental bridges replace missing teeth, while veneers enhance the appearance 
 
 Full mouth restoration is performed with local anesthesia, sedation, or pain management techniques. Most patients report minimal discomfort. Post-treatment soreness is temporary. Dentists design each step to ensure a smooth and comfortable experience. There is no way you cannot be satisfied with the services. 
 
-## [How Gum Disease Treatment in Lomita Can Improve Your Oral Health?](https://doctorsmileonline.com/how-gum-disease-treatment-in-lomita/)
+## [How Gum Disease Treatment in Lomita Can Improve Your Oral Health?](/DrSmileOnline/blog/how-gum-disease-treatment-in-lomita/)

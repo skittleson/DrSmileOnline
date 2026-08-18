@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-A broken tooth is not something you plan for. It happens suddenly, and when it does, two things matter most: getting the right care and getting it fast. A small problem becomes a bigger one with every hour that passes. The good news is that **[broken tooth repair in San Pedro](https://doctorsmileonline.com/broken-tooth-repair-in-san-pedro/)** at Dr. Smile is designed for exactly this kind of situation. From same-day assessment to precise restoration, the team brings the full spectrum of restorative care to patients who need answers and results quickly.
+A broken tooth is not something you plan for. It happens suddenly, and when it does, two things matter most: getting the right care and getting it fast. A small problem becomes a bigger one with every hour that passes. The good news is that **[broken tooth repair in San Pedro](/DrSmileOnline/blog/broken-tooth-repair-in-san-pedro/)** at Dr. Smile is designed for exactly this kind of situation. From same-day assessment to precise restoration, the team brings the full spectrum of restorative care to patients who need answers and results quickly.
 
 ## Why Broken Teeth Require Immediate Attention
 
@@ -39,7 +39,7 @@ Here is how dental bonding works at Dr. Smile:
 
 ## Best Dentist in San Pedro: What to Look for When Your Tooth Breaks
 
-Choosing the right provider matters enormously when a tooth breaks. Not every practice has the technology, the specialists, or the same-day availability that a broken tooth situation requires. The **[best dentist in San Pedro](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)** for broken tooth repair brings several specific qualities to the table.
+Choosing the right provider matters enormously when a tooth breaks. Not every practice has the technology, the specialists, or the same-day availability that a broken tooth situation requires. The **[best dentist in San Pedro](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)** for broken tooth repair brings several specific qualities to the table.
 
 -   ### Advanced diagnostic technology
     
@@ -70,7 +70,7 @@ Before any treatment begins, your dentist explains exactly what the tooth needs,
 
 A broken tooth does not have to mean a long, complicated road to recovery. Broken tooth repair in San Pedro at Dr. Smile is fast, precise, and backed by the kind of multispecialty expertise that handles every broken tooth case correctly the first time. The longer you wait, the fewer options remain. Acting quickly preserves the tooth, reduces complexity, and gets your smile back to full strength faster than you might expect.
 
-Call [**Dr. Smile**](https://doctorsmileonline.com/contact/) today at (310) 548-8128 or visit our website to book your appointment. Your smile deserves expert care and prompt attention.
+Call [**Dr. Smile**](/DrSmileOnline/contact/) today at (310) 548-8128 or visit our website to book your appointment. Your smile deserves expert care and prompt attention.
 
 ## Frequently Asked Questions :
 

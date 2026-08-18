@@ -29,11 +29,11 @@ Walking into an emergency visit can feel overwhelming, especially when you are a
 -   Extraction performed the same day: If removal is the right call, it happens during that visit
 -   Aftercare instructions: A full recovery plan is given before you leave
 
-Dr. Smile operates as a **[same-day dentist in Lomita](https://doctorsmileonline.com/top-benefits-of-a-same-day-dentist-in-lomita/)**, which means you are not told to go home and wait. Treatment begins the day you arrive.
+Dr. Smile operates as a **[same-day dentist in Lomita](/DrSmileOnline/blog/top-benefits-of-a-same-day-dentist-in-lomita/)**, which means you are not told to go home and wait. Treatment begins the day you arrive.
 
 ## Wisdom Tooth Removal in Lomita: A Separate but Equally Urgent Case
 
-Wisdom teeth deserve their own section because they cause a specific and often misunderstood kind of dental emergency. **[Wisdom tooth removal in Lomita](https://doctorsmileonline.com/wisdom-tooth-removal-in-lomita/)** becomes urgent when:
+Wisdom teeth deserve their own section because they cause a specific and often misunderstood kind of dental emergency. **[Wisdom tooth removal in Lomita](/DrSmileOnline/blog/wisdom-tooth-removal-in-lomita/)** becomes urgent when:
 
 -   The tooth is impacted — stuck beneath the gum and pressing against neighboring teeth
 -   The area around a partially erupted wisdom tooth becomes infected, a condition called pericoronitis
@@ -90,7 +90,7 @@ Tooth extraction in Lomita at Dr. Smile is designed to be efficient, comfortable
 
 Dental problems that require extraction will not heal on their own. Over time, the damage can worsen, leading to severe infection, pain, and complications that may affect nearby teeth and the jawbone. Taking quick action helps protect your oral health and prevents more extensive treatment later.
 
-At doctorsmileonline, getting professional care for tooth extraction in Lomita is simple and stress-free. If you are experiencing dental pain or discomfort, contact **[Dr. Smile](https://doctorsmileonline.com/contact/)** today for prompt, compassionate treatment and lasting relief.
+At doctorsmileonline, getting professional care for tooth extraction in Lomita is simple and stress-free. If you are experiencing dental pain or discomfort, contact **[Dr. Smile](/DrSmileOnline/contact/)** today for prompt, compassionate treatment and lasting relief.
 
 ## Frequently Asked Questions :
 

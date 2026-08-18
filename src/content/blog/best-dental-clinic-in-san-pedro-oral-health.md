@@ -16,7 +16,7 @@ In San Pedro, the best dentists can spot cavities, gum disease, or even oral can
 
 -   Early detection saves you from paying excessive money; prevention is better than a cure.
 -   Modern clinics use digital X-ray machines and 3D procedures to help you detect the problems that have been bothering you for a long time.
--   With the **[best dentists in San Pedro](https://doctorsmileonline.com/san-pedro/)**, procedures become faster, safer, and more accurate.
+-   With the **[best dentists in San Pedro](/DrSmileOnline/location/)**, procedures become faster, safer, and more accurate.
 
 ### 2\. Professional help
 
@@ -27,7 +27,7 @@ When you visit the best dental clinic in San Pedro, you say goodbye to DIY treat
 -   Helps you keep your teeth and gums healthier.
 -   Patients are provided with a pre-cleaning process, a way they prepare themselves for major operations.
 -   Post-care treatments.
--   With [**advanced dental care in San Pedro**,](https://doctorsmileonline.com/advanced-dental-care-in-san-pedro/) you can reduce discomfort.
+-   With [**advanced dental care in San Pedro**,](/DrSmileOnline/blog/advanced-dental-care-in-san-pedro/) you can reduce discomfort.
 
 All these factors, assimilated together, make dental visits less stressful and encourage people to keep up with regular care.
 
@@ -143,9 +143,9 @@ Choosing the best clinic in San Pedro means looking for trust, expertise, and lo
 
 Don’t settle for temporary fixes; step into modern dentistry that builds lasting confidence and healthier smiles.
 
-Book your visit at **[Dr. Smile](https://doctorsmileonline.com/contact/)** Dental today—your brighter future starts now!
+Book your visit at **[Dr. Smile](/DrSmileOnline/contact/)** Dental today—your brighter future starts now!
 
-Book Your Appointment Now – **[Choose a Family Dentist in San Pedro for Long-Term Oral Health with DoctorSmileOnline!](https://doctorsmileonline.com/why-choosing-family-dentist-in-san-pedro-matters/)** 
+Book Your Appointment Now – **[Choose a Family Dentist in San Pedro for Long-Term Oral Health with DoctorSmileOnline!](/DrSmileOnline/blog/why-choosing-family-dentist-in-san-pedro-matters/)** 
 
 ## Frequently Asked Questions :
 

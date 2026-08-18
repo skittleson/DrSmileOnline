@@ -67,7 +67,7 @@ Seeing the same dentist regularly builds trust and comfort.
 
 ## Services provided by the Dentists in San Pedro
 
-Here are some of the core services that are rendered by the professional **[dentists in San Pedro](https://doctorsmileonline.com/san-pedro/)**.
+Here are some of the core services that are rendered by the professional **[dentists in San Pedro](/DrSmileOnline/location/)**.
 
 ### 1\. Routine Checkups and Cleanings
 
@@ -83,7 +83,7 @@ When teeth are damaged or decayed, restorative treatments bring them back to hea
 
 ### 4\. Dental Implants
 
-[**Dental implants in San Pedro**](https://doctorsmileonline.com/dental-implants-in-san-pedro/) are a modern solution for missing teeth. They involve placing a small titanium post into the jawbone, which acts like a natural tooth root. A crown is then attached to create a strong, natural‑looking replacement. Family dentists often provide or coordinate implant services, giving patients a permanent option that improves chewing, speaking, and overall confidence.
+[**Dental implants in San Pedro**](/DrSmileOnline/blog/dental-implants-in-san-pedro/) are a modern solution for missing teeth. They involve placing a small titanium post into the jawbone, which acts like a natural tooth root. A crown is then attached to create a strong, natural‑looking replacement. Family dentists often provide or coordinate implant services, giving patients a permanent option that improves chewing, speaking, and overall confidence.
 
 ### 5.Cosmetic Options (Whitening, Veneers)
 
@@ -97,9 +97,9 @@ Unexpected problems like toothaches, broken teeth, or mouth injuries can happen 
 
 Selecting a Family Dentist in San Pedro goes beyond convenience—it’s a smart choice for protecting your family’s oral health for the future. With services that cover every stage of life, from children’s checkups to advanced treatments like dental implants, a trusted dentist ensures consistent care and peace of mind. Dr Smile in San Pedro stands out by rendering comprehensive, family‑focused dental solutions that build lasting relationships and healthy smiles for years to come.
 
-Ready to secure your family’s oral health? Schedule with **[Dr. Smile](https://doctorsmileonline.com/contact/)** in San Pedro today!
+Ready to secure your family’s oral health? Schedule with **[Dr. Smile](/DrSmileOnline/contact/)** in San Pedro today!
 
-**[Schedule Your Visit with the Best Dentist](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)**
+**[Schedule Your Visit with the Best Dentist](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)**
 
 ## Frequently Asked Questions
 

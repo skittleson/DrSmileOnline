@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Need an expert dentist to relieve tooth pain on the same day? That’s absolutely possible, sometimes within the hour! But knowing where to go and what to expect when tooth pain strikes can save you hours of unnecessary suffering. Here is everything you need to know about getting fast, reliable relief from a **[same-day dentist in Lomita](https://doctorsmileonline.com/top-benefits-of-a-same-day-dentist-in-lomita/)**—without the runaround.
+Need an expert dentist to relieve tooth pain on the same day? That’s absolutely possible, sometimes within the hour! But knowing where to go and what to expect when tooth pain strikes can save you hours of unnecessary suffering. Here is everything you need to know about getting fast, reliable relief from a **[same-day dentist in Lomita](/DrSmileOnline/blog/top-benefits-of-a-same-day-dentist-in-lomita/)**—without the runaround.
 
 ## Why Tooth Pain Cannot Wait
 
@@ -38,7 +38,7 @@ A cracked tooth can feel sharp, dull, or somewhere in between. The treatment dep
 
 ### 2\. Sudden Severe Pain
 
-Pain that comes on strong and fast — especially at night — often points to an infection or pulp damage inside the tooth. This is not something to manage with painkillers alone. An **[emergency dentist in Lomita](https://doctorsmileonline.com/bleeding-gums-emergency-dentist-in-lomita/)** can identify the source and provide real treatment, not just temporary relief.
+Pain that comes on strong and fast — especially at night — often points to an infection or pulp damage inside the tooth. This is not something to manage with painkillers alone. An **[emergency dentist in Lomita](/DrSmileOnline/blog/bleeding-gums-emergency-dentist-in-lomita/)** can identify the source and provide real treatment, not just temporary relief.
 
 ### 3\. Wisdom Tooth Pain
 
@@ -82,7 +82,7 @@ Having an affordable family dentist in Lomita means no one in your household has
 
 ## The Bottom Line
 
-Every hour of delay gives a dental problem more time to grow. A crack spreads. An infection deepens. A knocked-out tooth becomes unviable for re-implantation. The same issue that takes 30 minutes to fix today can require hours of treatment — and significantly more cost — a week from now. A same-day dentist in Lomita at **[Dr. Smile](https://doctorsmileonline.com/contact/)** is ready to see you today. Walk in, get assessed, and start feeling better — all in one visit.
+Every hour of delay gives a dental problem more time to grow. A crack spreads. An infection deepens. A knocked-out tooth becomes unviable for re-implantation. The same issue that takes 30 minutes to fix today can require hours of treatment — and significantly more cost — a week from now. A same-day dentist in Lomita at **[Dr. Smile](/DrSmileOnline/contact/)** is ready to see you today. Walk in, get assessed, and start feeling better — all in one visit.
 
 ## Frequently Asked Questions :
 

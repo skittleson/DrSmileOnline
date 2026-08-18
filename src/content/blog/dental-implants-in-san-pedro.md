@@ -14,7 +14,7 @@ Full mouth restoration is a comprehensive dental procedure aimed at rehabilitati
 
 Dental Implants, in their simplest sense, are titanium posts surgically placed into the jawbone to serve as artificial tooth roots. These implants support crowns, bridges, or dentures, offering a permanent solution for missing teeth.
 
-The procedure is typically performed by a qualified **[dentist in San Pedro](https://doctorsmileonline.com/san-pedro/)** and involves multiple stages, including consultation, imaging, surgical placement, and final restoration.
+The procedure is typically performed by a qualified **[dentist in San Pedro](/DrSmileOnline/location/)** and involves multiple stages, including consultation, imaging, surgical placement, and final restoration.
 
 ### Some cardinalities that you need to know
 
@@ -69,7 +69,7 @@ The long-term benefits of Dental Implants in S_an Pedro_ are substantial. Unlike
 
 ### Why choose Dr. Smile?
 
-Patients seeking **[Full Mouth Restoration in Lomita](https://doctorsmileonline.com/invasive-full-mouth-restoration-in-lomita/)** frequently choose Dr. Smile’s  San Pedro facility due to its proximity and the availability of advanced dental facilities. San Pedro clinics are known for their expertise in implantology and postoperative care. The restoration process not only improves chewing efficiency but also enhances speech clarity, facial symmetry, and self-confidence. The integration of implants into the jawbone prevents bone resorption, which is common with traditional dentures.
+Patients seeking **[Full Mouth Restoration in Lomita](/DrSmileOnline/blog/invasive-full-mouth-restoration-in-lomita/)** frequently choose Dr. Smile’s  San Pedro facility due to its proximity and the availability of advanced dental facilities. San Pedro clinics are known for their expertise in implantology and postoperative care. The restoration process not only improves chewing efficiency but also enhances speech clarity, facial symmetry, and self-confidence. The integration of implants into the jawbone prevents bone resorption, which is common with traditional dentures.
 
 -   Full mouth restoration improves occlusion and bite alignment.
 -   Implants preserve jawbone integrity and facial structure.
@@ -104,4 +104,4 @@ Dental Implants in San Pedro have a documented success rate of over 95% when pla
 
  Select a dentist from any of the branches of Dr. Smile. Be informed that all of them specialize in implantology, hold relevant certifications, and have a proven track record of successful full mouth restorations.
 
-### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](https://doctorsmileonline.com/what-to-expect-full-mouth-restoration-in-lomita/)
+### [What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](/DrSmileOnline/blog/what-to-expect-full-mouth-restoration-in-lomita/)

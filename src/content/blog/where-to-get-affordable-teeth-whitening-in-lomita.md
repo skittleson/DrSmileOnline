@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-You catch your reflection at a red light and notice it again. Your teeth look duller than they used to, almost gray under certain light. In-office treatments work fast, but people worry about the bill and the burning feeling that sometimes comes with strong gel. **[Affordable teeth whitening in Lomita](https://doctorsmileonline.com/affordable-teeth-whitening-in-lomita/)** exists, and it does not require trading comfort for a lower price. The two are not opposites once a trained team is involved. A short consultation can clear up more confusion than an hour of scrolling reviews online.
+You catch your reflection at a red light and notice it again. Your teeth look duller than they used to, almost gray under certain light. In-office treatments work fast, but people worry about the bill and the burning feeling that sometimes comes with strong gel. **[Affordable teeth whitening in Lomita](/DrSmileOnline/blog/affordable-teeth-whitening-in-lomita/)** exists, and it does not require trading comfort for a lower price. The two are not opposites once a trained team is involved. A short consultation can clear up more confusion than an hour of scrolling reviews online.
 
 Here is what actually matters before you book anything.
 
@@ -21,7 +21,7 @@ Every one of these causes is preventable with the right setup, which is exactly 
 
 ## Why a Cosmetic Dentist in Lomita Gets Better Results
 
-A drugstore kit cannot see inside your mouth. A **[cosmetic dentist in Lomita](https://doctorsmileonline.com/cosmetic-care/)** can. At Dr. Smile, Dr. Kayvon Javid and Dr. Mariam Nadi start with an evaluation of your enamel, gum health, and any crowns or fillings you already have. This step alone prevents two common problems, gum irritation and uneven color around existing dental work.
+A drugstore kit cannot see inside your mouth. A **[cosmetic dentist in Lomita](/DrSmileOnline/cosmetic-care/)** can. At Dr. Smile, Dr. Kayvon Javid and Dr. Mariam Nadi start with an evaluation of your enamel, gum health, and any crowns or fillings you already have. This step alone prevents two common problems, gum irritation and uneven color around existing dental work.
 
 The exam also includes a simple shade match, so you know roughly how much change to expect before any gel touches your teeth. Many patients also receive before and after photos, which makes it easy to see the actual change instead of guessing from memory. You leave with a plan built around your mouth instead of a guess copied from someone else’s smile. Because the treatment is matched to your enamel instead of a generic strength, the result looks natural rather than artificial. This careful approach is part of why patients describe affordable teeth whitening in Lomita at Dr. Smile as worth the appointment.
 
@@ -70,7 +70,7 @@ It helps to see the difference side by side.
 
 A bright smile and a comfortable visit are not opposites. Affordable teeth whitening in Lomita is built around protecting your gums, matching the treatment to your enamel, and keeping the cost manageable. Every part of the process, from the first exam to the aftercare instructions, is designed around comfort first.
 
-Call **[Dr. Smile](https://doctorsmileonline.com/contact/)** and ask about a whitening consult. The visit is short, and the results are worth seeing.
+Call **[Dr. Smile](/DrSmileOnline/contact/)** and ask about a whitening consult. The visit is short, and the results are worth seeing.
 
 ## Frequently Asked Questions :
 

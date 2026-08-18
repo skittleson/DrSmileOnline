@@ -30,13 +30,13 @@ Broken tooth repair in Newport Beach means you don’t have to suffer through th
 
 ### 4\. Preserve the Broken Piece if You Can Find It
 
-If you’ve managed to find the broken fragment, don’t throw it away. Place it in a small container with milk or your own saliva to keep it moist. In some cases, a **[trusted dentist in Newport Beach](https://doctorsmileonline.com/newport/)** may be able to bond it back, depending on the size and location of the break.
+If you’ve managed to find the broken fragment, don’t throw it away. Place it in a small container with milk or your own saliva to keep it moist. In some cases, a **[trusted dentist in Newport Beach](/DrSmileOnline/location/)** may be able to bond it back, depending on the size and location of the break.
 
 ### 5\. Call for Emergency Dental Care Right Away
 
 Now, here is the most important step. You have to connect with a dental office immediately and let them know you have a dental emergency. A trusted dentist in Newport Beach will prioritize your case and get you in as quickly as possible. When you call, describe your symptoms clearly. Mention any pain level, whether the tooth is sensitive to air or pressure, and if there’s visible damage to the gum area.
 
-[**Urgent Dental Care in Newport Beach**](https://doctorsmileonline.com/urgent-dental-care-in-newport-beach/) is built around exactly these kinds of moments. You don’t have to wait days for an appointment when you’re in pain.
+[**Urgent Dental Care in Newport Beach**](/DrSmileOnline/blog/urgent-dental-care-in-newport-beach/) is built around exactly these kinds of moments. You don’t have to wait days for an appointment when you’re in pain.
 
 ## What Happens at Broken Tooth Repair in Newport Beach?
 
@@ -69,7 +69,7 @@ Once your tooth is repaired, a few simple habits can go a long way in protecting
 
 ## The Bottom Line
 
-An emergency broken tooth repair in Newport Beach has never been easier. A broken tooth is never convenient. However, it doesn’t have to be a medical disaster. Act quickly, stay calm, and connect with a professional dentist. At **[Dr. Smile](https://doctorsmileonline.com/)**, these things are the ones that matter the most in the first moments, which are immensely valuable.  Whether you need a simple bonding procedure or a full restoration, tooth repair at our clinic means you’re in experienced, caring hands. We also offer sedation dentistry for patients who feel anxious—because your comfort matters as much as your treatment.
+An emergency broken tooth repair in Newport Beach has never been easier. A broken tooth is never convenient. However, it doesn’t have to be a medical disaster. Act quickly, stay calm, and connect with a professional dentist. At **[Dr. Smile](/DrSmileOnline/)**, these things are the ones that matter the most in the first moments, which are immensely valuable.  Whether you need a simple bonding procedure or a full restoration, tooth repair at our clinic means you’re in experienced, caring hands. We also offer sedation dentistry for patients who feel anxious—because your comfort matters as much as your treatment.
 
 Connect with us today if you need any emergency assistance when it comes to your teeth. Make sure you’re in the right hands.
 

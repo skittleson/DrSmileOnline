@@ -28,7 +28,7 @@ Placing a dental implant too early can interfere with healing, while waiting too
 
 ## The timeline you need to follow for a dental implant to do its job
 
-In this section of the article, we shall explore the healing timeline, the role of the **[implant dentist in Newport Beach](https://doctorsmileonline.com/newport/)**, if any, and other crucial prerequisites
+In this section of the article, we shall explore the healing timeline, the role of the **[implant dentist in Newport Beach](/DrSmileOnline/location/)**, if any, and other crucial prerequisites
 
 ### 1\. Typical healing time
 
@@ -62,7 +62,7 @@ Ensures that the site is strong enough to support the implant.
 
 Ideal for patients with complex oral health issues or who have infections and have gone through multiple extractions.
 
-These have a deeper connection with larger treatment plans like **[Full Mouth Restoration in Lomita](https://doctorsmileonline.com/full-mouth-restoration-in-lomita-pain-free/)**.
+These have a deeper connection with larger treatment plans like **[Full Mouth Restoration in Lomita](/DrSmileOnline/blog/full-mouth-restoration-in-lomita-pain-free/)**.
 
 The time span is more than 6 months
 

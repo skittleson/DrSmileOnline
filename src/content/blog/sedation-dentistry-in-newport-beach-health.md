@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-With [**Sedation Dentistry in Newport Beach**](https://doctorsmileonline.com/sedation-dentistry-in-newport-beach/)**,** things are about to change. All that pain, all the drillings cannot affect you anymore. Let’s explore more in the following article. 
+With [**Sedation Dentistry in Newport Beach**](/DrSmileOnline/blog/sedation-dentistry-in-newport-beach/)**,** things are about to change. All that pain, all the drillings cannot affect you anymore. Let’s explore more in the following article. 
 
 It’s not you, but for many who experience chilling experiences while visiting a dentist. Did you know more than 36% of the population experience dental anxiety, shills, chills, and pain? In addition, 12% of them have a severe fear of even visiting the dentist. Well, those days are gone. 
 
@@ -38,7 +38,7 @@ One thing has to be cleared: this dental efficacy is not for extreme cases, but 
 
 ### 2\. Types of sedation used 
 
-This should be as clear as day that implying and applying these efficacies is not the deed of any attendee dentist, but a professional. Someone like a [**Cosmetic Dentist in Newport Beach.**](https://doctorsmileonline.com/cosmetic-care/) It depends on the patient and the concerns the former has; depending on these, the professionals come up with different types of dentistry processes. 
+This should be as clear as day that implying and applying these efficacies is not the deed of any attendee dentist, but a professional. Someone like a [**Cosmetic Dentist in Newport Beach.**](/DrSmileOnline/cosmetic-care/) It depends on the patient and the concerns the former has; depending on these, the professionals come up with different types of dentistry processes. 
 
 -   Oral conscious sedation—take a prescribed sedative pill before the procedure; this helps the patients to remain awake and have a look at the administering procedure. This method is ideal for [All-on-4 dental implants in Orange County](https://doctorsmiledentalclinic.blogspot.com/2025/06/how-to-prepare-for-all-on-4-dental.html)**.** 
 -   Nitrous oxide—laughing gas—is passed through the mask, which helps you feel relaxed and is often used for minor procedures. 
@@ -142,4 +142,4 @@ Recovery depends on the type of sedation. Nitrous oxide wears off quickly, while
 
 Traditional implants often require one implant per tooth and bone grafting. All-on-4 uses fewer implants and avoids grafting in many cases, making it faster and more cost-effective.
 
-## [Understanding Intravenous IV Sedation: A Safe Solution for Dental Anxiety](https://doctorsmileonline.com/iv-sedation-safe-solution-for-dental-anxiety/)
+## [Understanding Intravenous IV Sedation: A Safe Solution for Dental Anxiety](/DrSmileOnline/blog/iv-sedation-safe-solution-for-dental-anxiety/)

@@ -4,13 +4,13 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Are you one of those who recently got a gum treatment? If yes, then this article is for you. A **[Gum Disease Treatment in Lomita](https://doctorsmileonline.com/how-gum-disease-treatment-in-lomita/)** serves as the foundation of this process, ensuring that infection is controlled and healthy gum tissue is re-established before restorative procedures begin. It acts as a dental approach designed to restore oral health, function, and aesthetics for patients who have experienced periodontal damage. Let’s delve more into the following piece.
+Are you one of those who recently got a gum treatment? If yes, then this article is for you. A **[Gum Disease Treatment in Lomita](/DrSmileOnline/blog/how-gum-disease-treatment-in-lomita/)** serves as the foundation of this process, ensuring that infection is controlled and healthy gum tissue is re-established before restorative procedures begin. It acts as a dental approach designed to restore oral health, function, and aesthetics for patients who have experienced periodontal damage. Let’s delve more into the following piece.
 
 ## What Is Full Mouth Restoration? – the walkthrough you will need
 
 ### Overview
 
-A **[Full Mouth Restoration in Lomita](https://doctorsmileonline.com/invasive-full-mouth-restoration-in-lomita/)**  (also called full mouth reconstruction or restoration) is a customized dental plan designed to address multiple oral health issues at once. It combines multiple procedures to rebuild or replace all teeth in the upper and lower jaws, addressing both medical and cosmetic concerns
+A **[Full Mouth Restoration in Lomita](/DrSmileOnline/blog/invasive-full-mouth-restoration-in-lomita/)**  (also called full mouth reconstruction or restoration) is a customized dental plan designed to address multiple oral health issues at once. It combines multiple procedures to rebuild or replace all teeth in the upper and lower jaws, addressing both medical and cosmetic concerns
 
 ### Key aspects
 
@@ -134,7 +134,7 @@ Dental implants are titanium posts surgically placed into the jawbone, serving a
 
 ##  Benefits
 
-The **[benefit of Full-Mouth Dental Implants](https://doctorsmileonline.com/benefits-of-full-mouth-dental-implants/)** is that patients regain the ability to chew and speak naturally, enjoy improved facial structure, and experience a dramatic boost in confidence. Implants also prevent bone loss in the jaw, which is a common consequence of missing teeth.
+The **[benefit of Full-Mouth Dental Implants](/DrSmileOnline/blog/benefits-of-full-mouth-dental-implants/)** is that patients regain the ability to chew and speak naturally, enjoy improved facial structure, and experience a dramatic boost in confidence. Implants also prevent bone loss in the jaw, which is a common consequence of missing teeth.
 
 Now that we have discussed much about the ways of Gum Disease Treatment in Lomita, this comes as a mandate to introduce you to a clinic that can render all these efficacies to you. Dr. Smile is one such dental and full-mouth rehabilitation clinic, operational in more than two areas, namely San Pedro, Newport Beach, Orange County, and, of course, Lomita. So if you are anyone who is looking for a gum treatment, then Dr Smile should be the end of it.
 

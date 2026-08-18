@@ -6,11 +6,11 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Have you ever seen a tree whose roots keep it bound and strong, all integrated? Similar to this are the [**dental implants in San Pedro**](https://doctorsmileonline.com/dental-implants-in-san-pedro/)**.** Apart from a strong in-bond hold of the teeth, it also helps replace damaged or missing teeth with new teeth. This type of implant and the condition of the jawbone guide how dental implant surgery is done. In the following blog, we shall explore what this implant can do at all, propelling overall healthcare. 
+Have you ever seen a tree whose roots keep it bound and strong, all integrated? Similar to this are the [**dental implants in San Pedro**](/DrSmileOnline/blog/dental-implants-in-san-pedro/)**.** Apart from a strong in-bond hold of the teeth, it also helps replace damaged or missing teeth with new teeth. This type of implant and the condition of the jawbone guide how dental implant surgery is done. In the following blog, we shall explore what this implant can do at all, propelling overall healthcare. 
 
 ## What are dental implants in San Pedro?
 
-Dental Implants in San Pedro are one of those boons of dental efficacy that help fill the gap that is made when your teeth go missing. As sturdy as an OA, these implants will not move or budge, as they are made of titanium, giving your teeth the exact support they need. But are these for everybody? Here are a few scenarios where an [**oral surgeon in Torrance**](https://doctorsmileonline.com/oral-surgery/) can suggest these implants to you. 
+Dental Implants in San Pedro are one of those boons of dental efficacy that help fill the gap that is made when your teeth go missing. As sturdy as an OA, these implants will not move or budge, as they are made of titanium, giving your teeth the exact support they need. But are these for everybody? Here are a few scenarios where an [**oral surgeon in Torrance**](/DrSmileOnline/oral-surgery/) can suggest these implants to you. 
 
 -   Have one or more missing teeth.
 -   Have a jawbone that has reached full growth.
@@ -116,4 +116,4 @@ At Dr Smile, we perform dental implants in San Pedro using a multi-step approach
 
 Yes, Dr Smile provides sedation dentistry in Newport Beach for patients with anxiety or complex needs. We tailor sedation methods for maximum comfort and safety. Our team ensures relaxation throughout your procedure, whether you’re getting implants or another treatment, making it smooth and seamless. 
 
-## [How to Correct a ‘Gummy Smile’ with a Cosmetic Dentist in Newport Beach](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach-gummy-smile/)
+## [How to Correct a ‘Gummy Smile’ with a Cosmetic Dentist in Newport Beach](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach-gummy-smile/)

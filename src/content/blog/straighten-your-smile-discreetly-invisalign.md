@@ -10,7 +10,7 @@ At Dr. Smile Dental Implant Centers, we understand the importance of a flawless 
 
 ## **What is Invisalign?**
 
-Invisalign is an advanced orthodontic treatment that uses clear, removable aligners to straighten teeth gradually. These aligners are custom-made for your teeth, ensuring a perfect fit and maximum comfort. Unlike traditional braces, [**Invisalign aligners**](https://doctorsmileonline.com/invisalign-orthodontcs/) are nearly invisible, making them an excellent choice for individuals who want a discreet option to enhance their smile.
+Invisalign is an advanced orthodontic treatment that uses clear, removable aligners to straighten teeth gradually. These aligners are custom-made for your teeth, ensuring a perfect fit and maximum comfort. Unlike traditional braces, [**Invisalign aligners**](/DrSmileOnline/invisalign-orthodontcs/) are nearly invisible, making them an excellent choice for individuals who want a discreet option to enhance their smile.
 
 ## **How It Works**
 
@@ -94,6 +94,6 @@ Once your Invisalign treatment is complete, maintaining your results is essentia
 
 Investing in Invisalign is not just about improving your appearance—it’s about enhancing your quality of life. A straighter smile can boost your confidence, improve oral health, and open doors to new opportunities.
 
-If you’re in Newport Beach, Lomita, San Pedro, or Torrance, Dr. Smile Dental Implant Centers is here to guide you through your [**Invisalign journey**](https://doctorsmileonline.com/invisalign-aligning-your-smile-the-beautiful-way/). Our caring team is committed to helping you achieve the smile of your dreams with personalized treatment plans tailored to your needs.
+If you’re in Newport Beach, Lomita, San Pedro, or Torrance, Dr. Smile Dental Implant Centers is here to guide you through your [**Invisalign journey**](/DrSmileOnline/blog/invisalign-aligning-your-smile-the-beautiful-way/). Our caring team is committed to helping you achieve the smile of your dreams with personalized treatment plans tailored to your needs.
 
 For more information about Invisalign or to schedule a consultation,  Let us help you take the first step toward a healthier, more confident smile!

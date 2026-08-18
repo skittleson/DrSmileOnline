@@ -33,7 +33,7 @@ A cosmetic dentistry consultation is designed to:
 
 #### 2.Exploring Treatment Options
 
--   It renders a wide range of procedures, including teeth whitening, veneers, bonding, [dental implants in San Pedro](https://doctorsmileonline.com/dental-implants-in-san-pedro/), and orthodontics.
+-   It renders a wide range of procedures, including teeth whitening, veneers, bonding, [dental implants in San Pedro](/DrSmileOnline/blog/dental-implants-in-san-pedro/), and orthodontics.
 -   A consultation helps you compare these options, understand their benefits, and choose the one that best fits your goals.
 
 #### 3\. Understanding Costs and Timelines
@@ -43,7 +43,7 @@ A cosmetic dentistry consultation is designed to:
 
 Now that we have explained the relevance of cosmetic dentistry consultation, we believe it is important that we suggest, or perhaps introduce you to, the best dental clinic in town. Dr. Smile is one of those dental establishments that can help you get that makeover. Operational in more than two places, mainly Lomita, San Pedro, Orange County, and Newport Beach, makes it navigational enough and gains desirable results throughout. Stay tuned as we shed more light on the ins and outs of cosmetic dentistry. 
 
-Read more :**[How a Cosmetic Dentist in Newport Beach Can Rebuild Your Smile After Tooth Loss](https://doctorsmileonline.com/cosmetic-dentist-in-newport-beach-smile/)**
+Read more :**[How a Cosmetic Dentist in Newport Beach Can Rebuild Your Smile After Tooth Loss](/DrSmileOnline/blog/cosmetic-dentist-in-newport-beach-smile/)**
 
 ## What to expect at a cosmetic dentistry consultation in Orange County?
 
@@ -59,7 +59,7 @@ The process begins with a professional Cosmetic Dentist in Orange County conduct
 
 -   **Diagnostic Imaging and Smile Design** 
 
-**[Cosmetic dentists in Orange County](https://doctorsmileonline.com/cosmetic-dentist-in-orange-county/)** frequently employ 3D imaging or digital smile design software. These tools allow patients to preview potential results and understand the scope of treatment.
+**[Cosmetic dentists in Orange County](/DrSmileOnline/blog/cosmetic-dentist-in-orange-county/)** frequently employ 3D imaging or digital smile design software. These tools allow patients to preview potential results and understand the scope of treatment.
 
 -   **Treatment Options** 
 

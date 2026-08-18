@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-Have you ever wondered how it would be to get a perfect smile without bleeding gums? Or what is it to have poor oral hygiene, accompanied by difficulty eating?  Horrendous! Isn’t it? So if you are looking for a discreet and effective way to straighten your teeth and get a pristine smile, then  [**Invisalign in Torrance**](https://doctorsmileonline.com/cosmetic-care/) is what you need to opt for. At Dr. Smile, we offer top-notch Invisalign fitting services and the best Cosmetic Dentist in Newport Beach**,** Torrance, Lomita, and San Pedro,  who can help you in the process.  Let’s explore more in the following article. 
+Have you ever wondered how it would be to get a perfect smile without bleeding gums? Or what is it to have poor oral hygiene, accompanied by difficulty eating?  Horrendous! Isn’t it? So if you are looking for a discreet and effective way to straighten your teeth and get a pristine smile, then  [**Invisalign in Torrance**](/DrSmileOnline/cosmetic-care/) is what you need to opt for. At Dr. Smile, we offer top-notch Invisalign fitting services and the best Cosmetic Dentist in Newport Beach**,** Torrance, Lomita, and San Pedro,  who can help you in the process.  Let’s explore more in the following article. 
 
 ## What is Invisalign in Torrance?
 
@@ -47,7 +47,7 @@ Invisalign in Torrance pushes the envelope; due to its custom-made and clear pla
 
 At Dr. Smile, there is a reason why we have opted for Invisalign in Torrance: it’s because of its ability to improve and address the following issues.
 
--   Spacing :The divine did what it had to, giving you gaps and spaces; our [**Cosmetic Dentist in Newport Beach**](https://doctorsmileonline.com/services/) and Torrance would do what the divine power failed to do and give you the most radiant smile by closing the space, creating a more uniform and attractive smile. 
+-   Spacing :The divine did what it had to, giving you gaps and spaces; our [**Cosmetic Dentist in Newport Beach**](/DrSmileOnline/services/) and Torrance would do what the divine power failed to do and give you the most radiant smile by closing the space, creating a more uniform and attractive smile. 
 -   Crowding: Too far and too close, too much of anything can make you sick. No worries, our Oral Surgeon in Torrance will help you to shift, alleviate crowding improve overall dental health. 
 -   Bite problems: Invisalign can correct and fix issues like 
 

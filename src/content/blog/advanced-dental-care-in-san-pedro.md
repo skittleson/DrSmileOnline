@@ -51,7 +51,7 @@ Modern dental practices use digital X-rays that produce clearer images with far 
 Intraoral cameras give both dentists and patients a magnified view of the inside of the mouth.
 
 -   This technology helps detect cracks and plaque buildup.
--   When you visit a [**family dentist in San Pedro**,](https://doctorsmileonline.com/why-choosing-family-dentist-in-san-pedro-matters/) they look at these images.
+-   When you visit a [**family dentist in San Pedro**,](/DrSmileOnline/blog/why-choosing-family-dentist-in-san-pedro-matters/) they look at these images.
 -    They look at the early signs of gum disease that might be missed during a routine visual exam.
 -   Adept use of this also improves patient understanding by showing them exactly what the dentist sees.
 
@@ -106,7 +106,7 @@ Regular checks on fillings, crowns, and implants to ensure they remain intact an
 
 ## Advanced dental care cost-effective, or does it cost a fortune?
 
-Pro-level dental care does not need to be expensive. There are **[Affordable Dentist in San Pedro](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/)** whom you can visit.
+Pro-level dental care does not need to be expensive. There are **[Affordable Dentist in San Pedro](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/)** whom you can visit.
 
 ### 1\. Comprehensive Services at Reasonable Costs
 
@@ -144,11 +144,11 @@ Preventive treatments and consistent monitoring help patients maintain strong, h
 
  Clinics ensure services are tailored for children, adults, and seniors, including specialized care for patients with unique dental or medical conditions. This marks unformity and inclsuity in treatment.
 
-**Get Affordable Dental Care – [Book Your Appointment Today with an Affordable Dentist in San Pedro!](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/)**
+**Get Affordable Dental Care – [Book Your Appointment Today with an Affordable Dentist in San Pedro!](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/)**
 
 ## The key takeaway
 
-Advanced Dental Care plays a vital role in ensuring long-term oral health by combining modern technology, a preventive focus, and patient-centred treatment. In San Pedro, families and individuals can rely on affordable solutions that make quality dentistry accessible without compromise. By emphasizing early detection, flexible payment options, and community-oriented care, patients enjoy healthier smiles and peace of mind. [Dr. Smile](https://doctorsmileonline.com/contact/) is the clinic that offers this commitment to excellence, making this care both affordable and dependable for every patient.
+Advanced Dental Care plays a vital role in ensuring long-term oral health by combining modern technology, a preventive focus, and patient-centred treatment. In San Pedro, families and individuals can rely on affordable solutions that make quality dentistry accessible without compromise. By emphasizing early detection, flexible payment options, and community-oriented care, patients enjoy healthier smiles and peace of mind. [Dr. Smile](/DrSmileOnline/contact/) is the clinic that offers this commitment to excellence, making this care both affordable and dependable for every patient.
 
 ## Frequently Asked Questions:
 

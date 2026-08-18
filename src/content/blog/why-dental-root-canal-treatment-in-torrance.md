@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction
 
-Picture this: if one of your teeth seems to slip into decay, would you cut off your mouth or restore the rest of the teeth and take preventive and restorative remedies? Well, restoration is the probable solution for the same. [Dental Root Canal Treatment in Torrance](https://doctorsmileonline.com/oral-surgery/) is one such tooth restorative dental treatment that helps you to restore your teeth and get rid of all the pain that has been squeezing the life out of you. For this blog, we shall explore what the ins and outs involved in a root canal treatment are.
+Picture this: if one of your teeth seems to slip into decay, would you cut off your mouth or restore the rest of the teeth and take preventive and restorative remedies? Well, restoration is the probable solution for the same. [Dental Root Canal Treatment in Torrance](/DrSmileOnline/oral-surgery/) is one such tooth restorative dental treatment that helps you to restore your teeth and get rid of all the pain that has been squeezing the life out of you. For this blog, we shall explore what the ins and outs involved in a root canal treatment are.
 
 ## What is Root Canal treatment?
 
@@ -98,7 +98,7 @@ Now that you are done with the procedure, it is time for you to take care of the
 You have undergone a treatment; commonly, you will wither in agony, and truth be told, to ease out the discomfort, you need:
 
 -   Refrain from touching your teeth.
--   The pain is expected to go away within a day or two, so opt for over-the-counter medicines and [TMJ Treatment in Torrance](https://doctorsmileonline.com/services/). In case the pain continues, then visit us; we will give you a checkup identifying the root cause.
+-   The pain is expected to go away within a day or two, so opt for over-the-counter medicines and [TMJ Treatment in Torrance](/DrSmileOnline/services/). In case the pain continues, then visit us; we will give you a checkup identifying the root cause.
 
 ### Avoid hard foods
 

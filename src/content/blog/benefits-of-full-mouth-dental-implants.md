@@ -15,13 +15,13 @@ The all-on-4 dental implants are rewriting the story of tooth replacement, turni
 1.  Enhanced stability—these are surgically placed into the jawbone and are fixed and cannot be removed by the patient. It provides a more secure and permanent fit than traditional dentures.
 2.  Jawbone preservation—implants are made of titanium and resemble natural tooth roots. This helps in preventing bone loss, sunken face, and facial sagging.
 3.  More natural function because they are fixed. Yes, it is due to their stability and strong stature that prevents the denture from slipping.
-4.  Improved oral hygiene—The **[all-on-4 dental implants](https://doctorsmileonline.com/services/)** are easier to clean than traditional dentures. They prevent food from getting trapped underneath and are less prone to wear and tear.
+4.  Improved oral hygiene—The **[all-on-4 dental implants](/DrSmileOnline/services/)** are easier to clean than traditional dentures. They prevent food from getting trapped underneath and are less prone to wear and tear.
 
 If you are one of those who is looking to get a permanent solution to a dysfunctional smile, then this is your chance to get the most out of it. At Dr. Smile, we ensure that not only is your smile restored, but it also becomes beautiful and functional. Operational in more than 3 places, namely Torrance, Newport Beach, Lomita, San Pedro, and Orange County, we have made medical facilities easy and highly navigable. With a team of professional dentists and trailblazing dental technology, you no longer have to live with flaws and fixtures. Stay tuned, as we shall delve into the ways Full-Mouth Dental Implants can benefit patients.
 
 ## What are the benefits of Full-Mouth Dental Implants?
 
-In this section of the **[Dental Implants Guide](https://doctorsmileonline.com/dental-implant-guide/)**, we shall explore some of the advantages of modern dental implants.
+In this section of the **[Dental Implants Guide](/DrSmileOnline/dental-implant-guide/)**, we shall explore some of the advantages of modern dental implants.
 
 ### 1\. Improved stability and security
 

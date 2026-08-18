@@ -4,7 +4,7 @@ description: ""
 pubDate: 2024-01-01
 ---
 
-Gum disease is one of the most common dental problems, but many people don’t realize how serious it can become if left untreated. A skilled [dentist in San Pedro](https://doctorsmileonline.com/san-pedro/) can help patients protect their oral health through treatments like scaling and root planing. This procedure is designed to clean below the gum line, remove harmful bacteria, and stop gum disease from getting worse. By understanding how scaling and root planing work, patients can see why it is such an important step in keeping their teeth and gums healthy.
+Gum disease is one of the most common dental problems, but many people don’t realize how serious it can become if left untreated. A skilled [dentist in San Pedro](/DrSmileOnline/location/) can help patients protect their oral health through treatments like scaling and root planing. This procedure is designed to clean below the gum line, remove harmful bacteria, and stop gum disease from getting worse. By understanding how scaling and root planing work, patients can see why it is such an important step in keeping their teeth and gums healthy.
 
 ## What is gum disease?
 
@@ -56,7 +56,7 @@ Root Planing: 
 -   Rough root surfaces allow bacteria to adhere, fostering reinfection; smoothing them prevents this.
 -   Polished roots enable gums to reattach securely to teeth, forming a protective barrier against future bacteria.
 
-**Protect Your Family’s Smile : [Choose Trusted Family Dental Care in San Pedro for Better Oral Health!](https://doctorsmileonline.com/why-choosing-family-dentist-in-san-pedro-matters/)**
+**Protect Your Family’s Smile : [Choose Trusted Family Dental Care in San Pedro for Better Oral Health!](/DrSmileOnline/blog/why-choosing-family-dentist-in-san-pedro-matters/)**
 
 ## Why is scaling and root planning trusted by all the dentists in San Pedro?
 
@@ -89,7 +89,7 @@ In this section of the article, we shall explore why [Periodontal Treatment in S
 
 ### Long-Term Benefits with Proper Care
 
-Scaling and root planing is most effective when combined with consistent oral hygiene and regular dental visits. An [affordable dentist in San Pedro](https://doctorsmileonline.com/best-affordable-dentist-in-san-pedro/) will guide patients through ongoing care to maximize results:
+Scaling and root planing is most effective when combined with consistent oral hygiene and regular dental visits. An [affordable dentist in San Pedro](/DrSmileOnline/blog/best-affordable-dentist-in-san-pedro/) will guide patients through ongoing care to maximize results:
 
 -   Routine checkups to monitor gum health
 -   Professional cleanings to maintain progress
@@ -167,13 +167,13 @@ Scaling and root planing are highly effective, but proper recovery and aftercare
 -   Professional Cleanings: Regular cleanings help maintain results and prevent recurrence.
 -   Progress Evaluation: Gum pocket depth may be measured to ensure improvement.
 
- **Read More : [Book Your Appointment with the Best Dentist in San Pedro Today](https://doctorsmileonline.com/how-to-choose-the-best-dentist-in-san-pedro/)**
+ **Read More : [Book Your Appointment with the Best Dentist in San Pedro Today](/DrSmileOnline/blog/how-to-choose-the-best-dentist-in-san-pedro/)**
 
 ## The bottom line
 
 Scaling and root planing are the cornerstones of gum disease treatment, but preparation makes the process smoother and recovery faster. By working closely with your dentist in San Pedro, maintaining good oral hygiene, and planning, you’ll set yourself up for successful healing and long-term oral health. At Dr. Smile, patients receive compassionate care, affordable options, and expert guidance for every stage of periodontal treatment. With the right support, you can protect your gums, preserve your smile, and enjoy lasting confidence.
 
-Ready to protect your gums and reclaim your smile? Schedule your scaling and root planing consultation with [Dr. Smile](https://doctorsmileonline.com/) in San Pedro today!
+Ready to protect your gums and reclaim your smile? Schedule your scaling and root planing consultation with [Dr. Smile](/DrSmileOnline/) in San Pedro today!
 
 ## Frequently Asked Questions:
 

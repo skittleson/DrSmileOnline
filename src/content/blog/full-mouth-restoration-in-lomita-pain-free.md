@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-When the divine power created the human populace, we need not mention it, but it did make some disparities and dissimilarities. Like not having a symmetrical set of teeth, to some, it is due to having a crooked set of teeth, and to others, it is due to the internal anatomy of the teeth. But what if the dental progression surpasses the divine’s creation, giving you the desired appearance and dental stature you need? Yes, we are talking about [**Full Mouth Restoration in Lomita**](https://doctorsmileonline.com/prevention/)**.** Let’s delve more into the following blog. 
+When the divine power created the human populace, we need not mention it, but it did make some disparities and dissimilarities. Like not having a symmetrical set of teeth, to some, it is due to having a crooked set of teeth, and to others, it is due to the internal anatomy of the teeth. But what if the dental progression surpasses the divine’s creation, giving you the desired appearance and dental stature you need? Yes, we are talking about [**Full Mouth Restoration in Lomita**](/DrSmileOnline/services/)**.** Let’s delve more into the following blog. 
 
 ## What is Full Mouth Restoration in Lomita?
 
@@ -42,7 +42,7 @@ Just the way a crown protects pride and honor, these dental crowns are all you n
 
 ### 3\. Bone grafts and sinus lifts 
 
--   If you are one of those who are suffering from a “damaged jawbone,” then only an oral surgeon can restore your facial aesthetics and bone density. This is generally done by an [**oral surgeon in Lomita**](https://doctorsmileonline.com/oral-surgery/) or any of the places we operate. 
+-   If you are one of those who are suffering from a “damaged jawbone,” then only an oral surgeon can restore your facial aesthetics and bone density. This is generally done by an [**oral surgeon in Lomita**](/DrSmileOnline/oral-surgery/) or any of the places we operate. 
 -   With a bone graft and extra bone materials, the jaw is tactfully grafted around your teeth. 
 -   Over time, it fuses with the existing bone and provides a strong foundation. 
 -   Once all of this is done, a sinus lift works similarly but is applied to the maxillary sinus in the upper jaw. 
@@ -90,4 +90,4 @@ This procedure treats multiple dental problems, including tooth decay, missing t
 
  Expect a thorough examination, customized treatment plan, and staged procedures. The process may include imaging, consultations, sedation, and restorative work. Recovery varies, but most patients report improved confidence and comfort. The dental team ensures each step is explained and tailored to your needs.
 
-**[What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](https://doctorsmileonline.com/what-to-expect-full-mouth-restoration-in-lomita/)**
+**[What to expect during a full Mouth Restoration in Lomita: Exploring the ins and outs](/DrSmileOnline/blog/what-to-expect-full-mouth-restoration-in-lomita/)**

@@ -32,7 +32,7 @@ Here are the warning signs that mean it’s time to book an appointment:
 -   Loose teeth: Bone loss from periodontitis can make teeth feel unstable.
 -   Pain when chewing: Discomfort during meals can indicate infected gum tissue or bone damage.
 
-**Read More :  [Why Choosing Urgent Dental Care in Newport Beach Can Save Your Smile](https://doctorsmileonline.com/urgent-dental-care-in-newport-beach/)**
+**Read More :  [Why Choosing Urgent Dental Care in Newport Beach Can Save Your Smile](/DrSmileOnline/blog/urgent-dental-care-in-newport-beach/)**
 
 ## Periodontal Treatment in Newport Beach: What Are Your Options?
 
@@ -46,7 +46,7 @@ At Dr. Smile, periodontal treatment in Newport Beach covers a full range of opti
 
 ## Broken Tooth Repair in Newport Beach: The Connection to Gum Health
 
-Many patients come in for **[broken tooth repair in Newport Beach](https://doctorsmileonline.com/broken-tooth-repair-in-newport-beach/)** and are surprised to learn that their gum health plays a direct role in their treatment outcome. A broken or cracked tooth near the gumline can allow bacteria to enter and infect the surrounding gum tissue. Over time, this accelerates gum disease and makes repair more complex.
+Many patients come in for **[broken tooth repair in Newport Beach](/DrSmileOnline/blog/broken-tooth-repair-in-newport-beach/)** and are surprised to learn that their gum health plays a direct role in their treatment outcome. A broken or cracked tooth near the gumline can allow bacteria to enter and infect the surrounding gum tissue. Over time, this accelerates gum disease and makes repair more complex.
 
 At Dr. Smile, we assess both the tooth and the surrounding gum tissue before moving forward with any repair. This ensures the restoration lasts and that the gum tissue around it remains healthy. Whether you need bonding, a crown, or a more involved restoration, healthy gums are the foundation.
 
@@ -68,13 +68,13 @@ Healthy gums aren’t just an adult concern. Kids, teens, and seniors all face d
 
 Children are taught proper brushing and flossing habits early, which sets the foundation for a lifetime of healthy gums. Teenagers going through hormonal changes are monitored for early signs of gingivitis. Adults receive routine cleanings and periodontal screenings. Seniors are evaluated for recession, bone loss, and medication-related dry mouth that can accelerate gum disease.
 
-When your whole family sees the same **[family dentist in Newport Beach](https://doctorsmileonline.com/family-dentist-in-newport-beach/)**, we build a complete picture of each patient’s oral health history. That continuity of care makes a real difference in long-term outcomes.
+When your whole family sees the same **[family dentist in Newport Beach](/DrSmileOnline/blog/family-dentist-in-newport-beach/)**, we build a complete picture of each patient’s oral health history. That continuity of care makes a real difference in long-term outcomes.
 
 ## The Bottom Line
 
 Gum disease is serious, but it’s also very treatable when you act early. Dr. Smile has the experience and technology to help. Whether you need a routine cleaning or something extra, we are always ready to help you out. Our team takes gum health seriously because we know it’s the foundation of your entire smile. Don’t neglect it at any cost!
 
-Book your appointment with a trusted deep cleaning dentist in Newport Beach at **[Dr. Smile](https://doctorsmileonline.com/)** today. Your gums — and your overall health — will thank you.
+Book your appointment with a trusted deep cleaning dentist in Newport Beach at **[Dr. Smile](/DrSmileOnline/)** today. Your gums — and your overall health — will thank you.
 
 ## Frequently Asked Questions :
 

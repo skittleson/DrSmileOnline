@@ -8,7 +8,7 @@ A great smile does more than improve your appearance. It affects how you feel ab
 
 ## Local General Dentist in Lomita: Why Choosing the Right Provider Matters
 
-Veneers are a long-term investment in your smile. Choosing the right provider is one of the most important decisions in the entire process. A **[local general dentist in Lomita](https://doctorsmileonline.com/choosing-local-general-dentist-in-lomita/)** with the right experience and technology makes the difference between a result that looks outstanding and one that falls short of expectations.
+Veneers are a long-term investment in your smile. Choosing the right provider is one of the most important decisions in the entire process. A **[local general dentist in Lomita](/DrSmileOnline/blog/choosing-local-general-dentist-in-lomita/)** with the right experience and technology makes the difference between a result that looks outstanding and one that falls short of expectations.
 
 At Dr. Smile, our team brings cosmetic and restorative expertise together under one roof. Here is what you can expect from a local general dentist who handles veneers at this level:
 
@@ -47,7 +47,7 @@ Dental veneers in Lomita at Dr. Smile typically require two to three visits from
 
 ## Affordable Family Dentist in Lomita: Making Veneers Accessible
 
-One of the most common concerns patients have before pursuing veneers is cost. The assumption is that cosmetic dentistry is beyond reach for most budgets. An **[affordable family dentist in Lomita](https://doctorsmileonline.com/affordable-family-dentist-in-lomita//)**, like Dr. Smile, challenges that assumption directly.
+One of the most common concerns patients have before pursuing veneers is cost. The assumption is that cosmetic dentistry is beyond reach for most budgets. An **[affordable family dentist in Lomita](/DrSmileOnline/blog/affordable-family-dentist-in-lomita/)**, like Dr. Smile, challenges that assumption directly.
 
 The practice offers transparent pricing on all cosmetic services, including dental veneers in Lomita. Before treatment begins, you receive a clear estimate with no hidden fees. Flexible financing options are also available for patients who prefer to spread the cost over time.
 
@@ -78,7 +78,7 @@ Patients who grind their teeth at night may need to address that habit before ve
 
 ## The Bottom Line
 
-A confident, beautiful smile is within reach for most people. Dental veneers in Lomita at Dr. Smile offer a precise, long-lasting solution to a wide range of cosmetic concerns. With advanced technology, an experienced multispecialty team, transparent pricing, and a patient-first approach, **[Dr. Smile](https://doctorsmileonline.com/contact/)** makes the path to your ideal smile straightforward and genuinely accessible.
+A confident, beautiful smile is within reach for most people. Dental veneers in Lomita at Dr. Smile offer a precise, long-lasting solution to a wide range of cosmetic concerns. With advanced technology, an experienced multispecialty team, transparent pricing, and a patient-first approach, **[Dr. Smile](/DrSmileOnline/contact/)** makes the path to your ideal smile straightforward and genuinely accessible.
 
 If you are ready to take the first step, call Dr. Smile today at (949) 640-0222 or visit our website to schedule your consultation.
 

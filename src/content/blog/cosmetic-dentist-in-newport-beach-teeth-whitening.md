@@ -6,7 +6,7 @@ pubDate: 2024-01-01
 
 ## Introduction 
 
-There is nothing as captivating and pristine as a pearly smile, is there? Nothing instills confidence like a million pearly white, shining smiles. But here, there is a catch: not all of us are born with a radiant smile. That’s something. To help you overcome this situation, there is no one but a [**Cosmetic Dentist in Newport Beach**](https://doctorsmileonline.com/cosmetic-care/) who can help, and Dr. Smile is all set with a team of professionals to help you achieve that radiant, warm smile that lights up the entire room. We operate in Torrance, San Pedro, and Lomita., Let’s explore more in the following article.
+There is nothing as captivating and pristine as a pearly smile, is there? Nothing instills confidence like a million pearly white, shining smiles. But here, there is a catch: not all of us are born with a radiant smile. That’s something. To help you overcome this situation, there is no one but a [**Cosmetic Dentist in Newport Beach**](/DrSmileOnline/cosmetic-care/) who can help, and Dr. Smile is all set with a team of professionals to help you achieve that radiant, warm smile that lights up the entire room. We operate in Torrance, San Pedro, and Lomita., Let’s explore more in the following article.
 
 ## Who is a Cosmetic Dentist in Newport Beach?
 
@@ -86,7 +86,7 @@ Here is how you can take care of your freshly whitened teeth. 
 
 ## Conclusion 
 
-A  Cosmetic Dentist in Newport Beach is a lifesaver for those who are cursed with stained teeth or have succumbed to decay due to their own lifestyle choices and practices. Here is where Dr. Smile walks. Our professionals are adept in all spheres, be it  [**all-on-4 dental implants in Newport Beac**](https://doctorsmileonline.com/services/)**h** or any other modern efficacy. Once you visit and opt for our services, you can rest assured that you will not be disappointed. So, do not wait any further, just connect with us and avail our services today. 
+A  Cosmetic Dentist in Newport Beach is a lifesaver for those who are cursed with stained teeth or have succumbed to decay due to their own lifestyle choices and practices. Here is where Dr. Smile walks. Our professionals are adept in all spheres, be it  [**all-on-4 dental implants in Newport Beac**](/DrSmileOnline/services/)**h** or any other modern efficacy. Once you visit and opt for our services, you can rest assured that you will not be disappointed. So, do not wait any further, just connect with us and avail our services today. 
 
 ## FAQ
 

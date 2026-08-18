@@ -8,7 +8,7 @@ Simplicity needs no ornaments, and a beautiful smile is just that. It’s a refl
 
 ## What does it take to keep a beautiful smile intact?—A dental veneers guide
 
-In this section of the article, we shall explore a [dental veneers guide](https://doctorsmileonline.com/dental-veneers-guide/) that will help you to keep up with a healthy and gleaming smile.
+In this section of the article, we shall explore a [dental veneers guide](/DrSmileOnline/dental-veneers-guide/) that will help you to keep up with a healthy and gleaming smile.
 
 ### The overview
 
@@ -58,7 +58,7 @@ Dental veneers are thin, custom‑made shells bonded to the front surface of tee
 
 ## What are the key benefits of dental veneers?
 
-In this section of the article, we shall explore some of the [benefits of dental veneers](https://doctorsmileonline.com/benefits-of-dental-veneers/)
+In this section of the article, we shall explore some of the [benefits of dental veneers](/DrSmileOnline/blog/benefits-of-dental-veneers/)
 
 ### 1.  Natural Appearance
 
