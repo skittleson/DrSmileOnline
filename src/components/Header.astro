@@ -33,9 +33,13 @@ const assetBase = `${base}/`;
   <nav aria-label="Main navigation" class="nav">
     <div class="nav-inner container">
       <a href={base + '/'} class="nav-logo" aria-label="Dr. Smile Dental Group — Home">
-        <img src={`${assetBase}images/footer-logo.png`} alt="Dr. Smile Dental Group" width="180" height="48" />
+        <img src={`${assetBase}images/footer-logo.webp`} alt="Dr. Smile Dental Group" width="180" height="48" />
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" onclick="
+        const m = document.getElementById('nav-menu');
+        const open = m.classList.toggle('open');
+        this.setAttribute('aria-expanded', open);
+      ">
         <span class="sr-only">Toggle navigation menu</span>
         ☰
       </button>
@@ -160,6 +164,9 @@ const assetBase = `${base}/`;
       width: 100%;
       padding: 16px 0;
       gap: 8px;
+    }
+    .nav-menu.open {
+      display: flex;
     }
     .nav-inner { flex-wrap: wrap; }
     .nav-dropdown {
