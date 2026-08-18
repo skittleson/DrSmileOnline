@@ -95,6 +95,13 @@ const esHref = withBase(locale === 'es' ? currentPath : (counterpartPath || fall
     padding: var(--space-1) var(--space-2);
   }
   @media (max-width: 600px) {
-    .utility-center { display: none; }
+    .utility-inner {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-1);
+    }
+    /* The sticky mobile CTA already surfaces "Schedule" on small screens,
+       so drop the duplicate here to make room for the language toggle. */
+    .utility-cta { display: none; }
   }
 </style>

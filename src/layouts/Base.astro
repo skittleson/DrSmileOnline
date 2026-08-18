@@ -12,6 +12,25 @@ const { title, description, canonicalUrl, locale = 'en' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const assetBase = `${base}/`;
 const canonical = canonicalUrl || new URL(Astro.url.pathname, Astro.site);
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Dentist',
+  name: 'Dr. Smile Dental Group',
+  description:
+    'Comprehensive dental care including oral surgery, implants, cosmetics, and orthodontics across Southern California.',
+  telephone: '(310) 388-3669',
+  url: 'https://doctorsmileonline.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressRegion: 'CA',
+  },
+  areaServed: 'Southern California',
+  sameAs: [
+    'https://www.facebook.com/drsmiledentalgroup',
+    'https://www.instagram.com/dr.smile_dental_group/',
+  ],
+};
 ---
 
 <!doctype html>
@@ -46,25 +65,7 @@ const canonical = canonicalUrl || new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:description" content={description} />
 
     <!-- Structured Data -->
-    <script type="application/ld+json">
-      JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Dentist',
-        'name': 'Dr. Smile Dental Group',
-        'description': 'Comprehensive dental care including oral surgery, implants, cosmetics, and orthodontics across Southern California.',
-        'telephone': '(310) 388-3669',
-        'url': 'https://doctorsmileonline.com',
-        'address': {
-          '@type': 'PostalAddress',
-          'addressRegion': 'CA'
-        },
-        'areaServed': 'Southern California',
-        'sameAs': [
-          'https://www.facebook.com/drsmiledentalgroup',
-          'https://www.instagram.com/dr.smile_dental_group/'
-        ]
-      })
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
     <slot name="head" />
   </head>
   <body>

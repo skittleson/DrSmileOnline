@@ -24,7 +24,7 @@ const slugs = locale === 'es' ? esSlugs : enSlugs;
 <footer>
   <div class="footer-top container">
     <div class="footer-brand">
-      <a href={`${base}/`} aria-label="Dr. Smile Dental Group — {t['nav.home']}">
+      <a href={`${base}/`} aria-label={`Dr. Smile Dental Group — ${t['nav.home']}`}>
         <img src={`${base}/images/footer-logo.webp`} alt="Dr. Smile Dental Group" width="180" height="48" />
       </a>
       <p>{locale === 'es' ? 'Cuidado dental integral en el Sur de California.' : 'Comprehensive dental care across Southern California.'}</p>
