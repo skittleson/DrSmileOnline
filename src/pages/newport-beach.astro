@@ -1,0 +1,34 @@
+---
+import LocationPage from '../components/LocationPage.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const city = 'Newport Beach';
+const region = 'Newport Beach, CA';
+const canonical = `${import.meta.env.SITE}${base}/newport-beach/`;
+---
+
+<LocationPage
+  locale="en"
+  currentPath="/newport-beach/"
+  counterpartPath="/es/nueva-anchorage/"
+  city={city}
+  region={region}
+  address="1000 Baker Street, Suite 100, Newport Beach, CA 92660"
+  phone="(310) 388-3669"
+  hours="Mon–Fri: 8AM–5PM, Sat: By appointment"
+  mapQuery="1000 Baker St, Newport Beach, CA 92660"
+  title="Dentist in Newport Beach, CA | Dr. Smile Dental Group"
+  description="Cosmetic dentist in Newport Beach, CA. Veneers, whitening, All-on-Four implants, and full smile makeovers. We accept all PPO insurance and offer financing. Call (310) 388-3669."
+  canonical={canonical}
+  intro="Elevated dental care in Newport Beach. From cosmetic dentistry and veneers to All-on-Four implants and full smile makeovers, Dr. Smile’s Newport Beach office delivers results that look natural — and last."
+  about="Our Newport Beach office is where patients come for cosmetic and restorative excellence. Dr. Mariam Nadi and Dr. Kayvon Javid bring 16+ years of experience and a refined, detail-oriented approach to every smile. Whether you’re pursuing veneers, professional whitening, All-on-Four implants, or a complete transformation, you’ll get a personalized plan in a comfortable, modern office — with financing and membership options to make it work for your budget."
+  tags={['Cosmetic dentistry', 'Veneers & whitening', 'All-on-Four implants', 'Smile makeovers', 'Deep cleaning', 'Sedation dentistry', 'Accepts all PPO insurance']}
+  relatedPosts={[
+    { title: 'Best Cosmetic Dentist in Newport Beach', slug: 'best-cosmetic-dentist-in-newport-beach' },
+    { title: 'All-on-4 Dental Implants in Newport Beach', slug: 'all-on-4-dental-implants-newport-beach' },
+    { title: 'Best Dental Clinic in Newport Beach', slug: 'best-dental-clinic-in-newport-beach' },
+    { title: 'Cosmetic Dentist in Newport Beach — Teeth Whitening', slug: 'cosmetic-dentist-in-newport-beach-teeth-whitening' },
+    { title: 'Best Deep Cleaning Dentist in Newport Beach', slug: 'best-deep-cleaning-dentist-in-newport-beach' },
+    { title: 'Affordable Dentist in Newport Beach', slug: 'affordable-best-dentist-in-newport' },
+  ]}
+/>

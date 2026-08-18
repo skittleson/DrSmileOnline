@@ -11,6 +11,13 @@ import { getTranslations } from '../i18n/index';
 const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/location/`;
+
+const cityPages = [
+  { city: 'Newport Beach', href: 'newport-beach/', blurb: 'Cosmetic dentistry, veneers & All-on-Four implants' },
+  { city: 'San Pedro', href: 'san-pedro/', blurb: 'Family care, implants & emergency dentistry' },
+  { city: 'Torrance', href: 'torrance/', blurb: 'Family dentistry, Invisalign & same-day care' },
+  { city: 'Lomita', href: 'lomita/', blurb: 'Gum care, veneers & full-mouth restoration' },
+];
 ---
 
 <BaseLayout title="Locations | Dr. Smile Dental Group" description="Four convenient locations across Southern California: Newport Beach, San Pedro, Torrance, and Lomita." canonicalUrl={canonical} locale="en">
@@ -21,7 +28,22 @@ const canonical = `${import.meta.env.SITE}${base}/location/`;
     <div class="container">
       <p class="eyebrow">Location</p>
       <h1>Our Locations</h1>
-      <p>With four locations across Southern California, we're confident there's a convenient location near you.</p>
+      <p>With four locations across Southern California, we're confident there's a convenient location near you. Pick your city to see the office, hours, and local care.</p>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <h2>Find Your Local Office</h2>
+      <div class="city-grid">
+        {cityPages.map((c) => (
+          <a class="city-card" href={c.href}>
+            <span class="city-name">{c.city}</span>
+            <span class="city-blurb">{c.blurb}</span>
+            <span class="city-arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -41,5 +63,44 @@ const canonical = `${import.meta.env.SITE}${base}/location/`;
     font-size: 0.85rem;
     color: var(--color-primary);
     margin-bottom: 8px;
+  }
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+  .city-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .city-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(20, 89, 79, 0.08);
+  }
+  .city-name {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-bottom: 6px;
+  }
+  .city-blurb {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: var(--space-2);
+  }
+  .city-arrow {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.1rem;
   }
 </style>

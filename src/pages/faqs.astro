@@ -11,35 +11,142 @@ const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/faqs/`;
 
-const faqs = [
+// Categorized FAQs. Answers reflect what the practice actually offers (per
+// site copy + blog content): general dentistry, oral surgery, implants,
+// Invisalign, veneers/whitening, sedation, All-on-Four, emergency care,
+// all PPO insurance, CareCredit/Sunbit/Cherry financing, membership plans,
+// and pediatric care. Each answer links to the most relevant page.
+const faqCategories = [
   {
-    q: 'What are the benefits of visiting the best dental clinic in San Pedro?',
-    a: 'Visiting a reputable dental clinic in San Pedro ensures you receive high-quality, personalized care from experienced professionals. Our clinic offers state-of-the-art technology, a comfortable environment, and a team dedicated to your oral health.',
+    label: 'Getting Started',
+    faqs: [
+      {
+        q: 'What should I expect during my first visit?',
+        a: 'We start with a comprehensive exam, take X-rays if needed, and review your dental history and concerns. You’ll leave with a personalized treatment plan — no pressure, just a clear picture of your options and costs.',
+        link: { label: 'Meet our team', href: 'about/' },
+      },
+      {
+        q: 'How do I book an appointment?',
+        a: 'Call us at (310) 388-3669 or use our contact form. We have four locations across Southern California — Newport Beach, San Pedro, Torrance, and Lomita — so there’s likely one close to you.',
+        link: { label: 'See our locations', href: 'location/' },
+      },
+      {
+        q: 'Do you offer same-day or emergency appointments?',
+        a: 'Yes. We see walk-in and emergency patients and do our best to accommodate you the same day. If you’re in pain, call us first thing in the morning at (310) 388-3669.',
+      },
+      {
+        q: 'What are your hours?',
+        a: 'We’re open Monday–Friday, 8AM–5PM, with Saturday appointments available by request. Call to confirm the hours at your nearest location.',
+        link: { label: 'View all locations & hours', href: 'location/' },
+      },
+    ],
   },
   {
-    q: 'Do you offer same-day appointments?',
-    a: 'Yes, we offer same-day appointments for dental emergencies and urgent care. Call us at (310) 388-3669 and we will do our best to accommodate you the same day.',
+    label: 'Cost, Insurance & Financing',
+    faqs: [
+      {
+        q: 'What insurance plans do you accept?',
+        a: 'We accept all PPO insurance plans, including for walk-in and emergency care. Bring your card and our team will verify your exact coverage and maximize your benefits.',
+        link: { label: 'Financing & insurance details', href: 'financing/' },
+      },
+      {
+        q: 'Do you offer financing options?',
+        a: 'Yes — no-interest financing through CareCredit, Sunbit, and Cherry, so you can spread the cost over 6–36 months. Checking your eligibility won’t hurt your credit score.',
+        link: { label: 'See financing options', href: 'financing/' },
+      },
+      {
+        q: 'What if I don’t have dental insurance?',
+        a: 'Our membership plans are built for that. For a simple yearly fee (from $399/yr for children to $899/yr for perio care) you get preventive care plus 15–20% off treatment — no deductibles, waiting periods, or annual maximums.',
+        link: { label: 'Explore membership plans', href: 'financing/' },
+      },
+      {
+        q: 'How much does treatment cost?',
+        a: 'It depends on the treatment. As a guide, whitening runs $200–$600, veneers $900–$2,500 per tooth, and implants $3,000–$5,000. You’ll get a written estimate before you commit to anything.',
+        link: { label: 'See typical costs', href: 'financing/' },
+      },
+    ],
   },
   {
-    q: 'What insurance plans do you accept?',
-    a: 'We accept most major insurance plans. Contact our office for specific details about your plan and how we can help maximize your benefits.',
+    label: 'Treatments & Services',
+    faqs: [
+      {
+        q: 'Do you do dental implants?',
+        a: 'Yes. We place implants and offer full-arch solutions like All-on-Four. Many implants can be placed without bone grafting, and they’re designed to last decades.',
+        link: { label: 'Dental implant guide', href: 'dental-implant-guide/' },
+      },
+      {
+        q: 'Do you offer Invisalign or braces?',
+        a: 'Yes. Invisalign is a clear, removable aligner system that’s great for teens and adults. Treatment is planned with 3D imaging, and aligners are made from smooth, BPA-free plastic you can remove to eat and brush.',
+        link: { label: 'Invisalign & orthodontics', href: 'invisalign-orthodontcs/' },
+      },
+      {
+        q: 'Do you do cosmetic dentistry like veneers and whitening?',
+        a: 'Absolutely. We offer porcelain veneers, professional teeth whitening, and full smile makeovers. A cosmetic consultation is a great first step to seeing what’s possible for your smile.',
+        link: { label: 'Cosmetic care', href: 'cosmetic-care/' },
+      },
+      {
+        q: 'Do you perform oral surgery?',
+        a: 'Yes — extractions, wisdom teeth, and implant placement. For longer or more involved procedures we offer sedation dentistry to keep you comfortable.',
+        link: { label: 'Oral surgery', href: 'oral-surgery/' },
+      },
+      {
+        q: 'What is All-on-Four?',
+        a: 'All-on-Four is a full-arch solution where a complete set of teeth is supported by just four implants. It’s a faster, often graft-free alternative to individual implants for patients missing most or all of their teeth.',
+        link: { label: 'All-on-Four & prosthetics', href: 'all-on-four-prosthetics/' },
+      },
+      {
+        q: 'Do you treat gum disease?',
+        a: 'Yes. We diagnose and treat periodontal disease, including maintenance plans to keep your gums healthy and protect your teeth long-term.',
+      },
+    ],
   },
   {
-    q: 'Do you offer financing options?',
-    a: 'Yes, we offer flexible financing options to make quality dental care accessible and affordable. Visit our Financing page for more details.',
+    label: 'Comfort & Concerns',
+    faqs: [
+      {
+        q: 'I’m nervous about the dentist. Can you help me relax?',
+        a: 'Completely. We offer sedation dentistry for patients with dental anxiety or past trauma, so even longer or more involved procedures feel manageable. Tell us your concerns and we’ll make a plan.',
+      },
+      {
+        q: 'Will it hurt?',
+        a: 'We use modern anesthesia and gentle techniques to keep you comfortable. Most patients are surprised by how little discomfort they feel. If you’re anxious, ask about sedation options.',
+      },
+      {
+        q: 'Do you treat children?',
+        a: 'Yes, we welcome patients of all ages and offer a dedicated membership plan for children under 14, including cleanings, exams, fluoride treatments, and X-rays.',
+      },
+    ],
   },
   {
-    q: 'What should I expect during my first visit?',
-    a: 'During your first visit, we will conduct a comprehensive examination, take X-rays if needed, and discuss your dental history and concerns. We will then create a personalized treatment plan tailored to your needs.',
-  },
-  {
-    q: 'Do you treat children?',
-    a: 'Yes, we welcome patients of all ages. Our team is experienced in providing gentle, comprehensive care for children and adults alike.',
+    label: 'Locations',
+    faqs: [
+      {
+        q: 'Where are you located?',
+        a: 'We have four locations across Southern California: Newport Beach, San Pedro, Torrance, and Lomita. There’s likely one close to you.',
+        link: { label: 'See all 4 locations', href: 'location/' },
+      },
+      {
+        q: 'Do you have parking?',
+        a: 'Each location has convenient parking nearby. When you call to book, we’ll point you to the best parking for your specific office.',
+      },
+    ],
   },
 ];
+
+const flatFaqs = faqCategories.flatMap((c) => c.faqs);
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: flatFaqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
 ---
 
-<BaseLayout title="FAQs | Dr. Smile Dental Group" description="Frequently asked questions about our dental services, insurance, financing, and what to expect at your first visit." canonicalUrl={canonical} locale="en">
+<BaseLayout title="Frequently Asked Questions | Dr. Smile Dental Group" description="Answers to common questions about Dr. Smile Dental Group: what to expect on your first visit, insurance, financing, membership plans, implants, Invisalign, sedation, and our four SoCal locations." canonicalUrl={canonical} locale="en">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(faqSchema)} />
   <UtilityBar slot="header" locale="en" currentPath="/faqs/" counterpartPath="/es/preguntas-frecuentes/" />
   <Header slot="header" locale="en" />
 
@@ -47,20 +154,40 @@ const faqs = [
     <div class="container">
       <p class="eyebrow">FAQs</p>
       <h1>Frequently Asked Questions</h1>
-      <div class="faq-list">
-        {faqs.map((faq) => (
-          <details class="faq-item">
-            <summary>{faq.q}</summary>
-            <p>{faq.a}</p>
-          </details>
-        ))}
-      </div>
+      <p class="lead">
+        Straight answers about your first visit, costs, insurance, financing, and
+        the treatments we offer. Can’t find what you’re looking for? Call us at
+        <a href="tel:3103883669">(310) 388-3669</a>.
+      </p>
     </div>
   </section>
 
+  {faqCategories.map((cat, i) => (
+    <section class={`section ${i % 2 === 1 ? 'section-surface' : ''}`}>
+      <div class="container">
+        <h2>{cat.label}</h2>
+        <div class="faq-list">
+          {cat.faqs.map((faq) => (
+            <details class="faq-item">
+              <summary>{faq.q}</summary>
+              <div class="faq-body">
+                <p>{faq.a}</p>
+                {faq.link && (
+                  <a class="faq-link" href={faq.link.href}>
+                    {faq.link.label} →
+                  </a>
+                )}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
   <TrustBand locale="en" />
 
-  <CtaBanner heading="Still Have Questions?" subheading="We're here to help." buttonLabel="Contact Us" buttonHref="contact/" />
+  <CtaBanner heading="Still Have Questions?" subheading="Our team is happy to help — call us or send a message and we’ll get back to you." buttonLabel="Contact Us" buttonHref="contact/" />
 
   <Footer slot="footer" locale="en" />
 </BaseLayout>
@@ -73,25 +200,50 @@ const faqs = [
     color: var(--color-primary);
     margin-bottom: 8px;
   }
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    max-width: 720px;
+  }
+  .lead a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
   .faq-list {
-    margin-top: 32px;
+    margin-top: var(--space-3);
   }
   .faq-item {
     border-bottom: 1px solid var(--color-border);
-    padding: 16px 0;
+    padding: var(--space-2) 0;
   }
   .faq-item summary {
     font-weight: 600;
     cursor: pointer;
     color: var(--color-primary);
-    padding: 8px 0;
+    padding: var(--space-1) 0;
   }
   .faq-item summary:hover {
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
   }
-  .faq-item p {
-    margin-top: 12px;
+  .faq-item[open] summary {
+    color: var(--color-primary-dark);
+  }
+  .faq-body {
+    margin-top: var(--space-1);
+    padding-bottom: var(--space-1);
+  }
+  .faq-body p {
     color: var(--color-text-light);
-    padding-bottom: 8px;
+  }
+  .faq-link {
+    display: inline-block;
+    margin-top: var(--space-1);
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  .faq-link:hover {
+    color: var(--color-primary-dark);
   }
 </style>

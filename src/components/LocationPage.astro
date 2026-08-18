@@ -1,0 +1,277 @@
+---
+import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+interface Props {
+  locale: 'en' | 'es';
+  currentPath: string;
+  counterpartPath: string;
+  city: string;
+  region: string;
+  address: string;
+  phone: string;
+  hours: string;
+  mapQuery: string;
+  intro: string;
+  about: string;
+  tags: string[];
+  relatedPosts: { title: string; slug: string }[];
+  title: string;
+  description: string;
+  canonical: string;
+}
+
+const p = Astro.props;
+const t = getTranslations(p.locale);
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
+const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.mapQuery)}`;
+const embedSrc = `https://www.google.com/maps?q=${encodeURIComponent(p.mapQuery)}&z=15&output=embed`;
+const telHref = `tel:${p.phone.replace(/[^0-9]/g, '')}`;
+
+// LocalBusiness / Dentist schema for this specific location.
+const locationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Dentist',
+  name: `Dr. Smile Dental Group — ${p.city}`,
+  description: p.description,
+  telephone: p.phone,
+  url: p.canonical,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: p.address,
+    addressRegion: 'CA',
+  },
+  areaServed: p.city,
+  openingHours: p.hours,
+  parentOrganization: {
+    '@type': 'Dentist',
+    name: 'Dr. Smile Dental Group',
+    sameAs: [
+      'https://www.facebook.com/drsmiledentalgroup',
+      'https://www.instagram.com/dr.smile_dental_group/',
+    ],
+  },
+};
+---
+
+<BaseLayout title={p.title} description={p.description} canonicalUrl={p.canonical} locale={p.locale}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(locationSchema)} />
+  <UtilityBar slot="header" locale={p.locale} currentPath={p.currentPath} counterpartPath={p.counterpartPath} />
+  <Header slot="header" locale={p.locale} />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">{p.region}</p>
+      <h1>Dentist in {p.city}, CA</h1>
+      <p class="lead">{p.intro}</p>
+      <div class="cta-row">
+        <a href={telHref} class="btn btn-accent">Call {p.phone}</a>
+        <a href="contact/" class="btn btn-outline">Schedule a visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About this office -->
+  <section class="section section-surface">
+    <div class="container">
+      <h2>Your {p.city} Dental Team</h2>
+      <p>{p.about}</p>
+      <div class="tag-row">
+        {p.tags.map((tag) => (
+          <span class="tag">{tag}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit us: map + details -->
+  <section class="section">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <h2>Visit Our {p.city} Office</h2>
+        <div class="info-block">
+          <h3>Address</h3>
+          <p>
+            <a href={directionsUrl} target="_blank" rel="noopener noreferrer">{p.address}</a>
+          </p>
+        </div>
+        <div class="info-block">
+          <h3>Phone</h3>
+          <p><a href={telHref}>{p.phone}</a></p>
+        </div>
+        <div class="info-block">
+          <h3>Hours</h3>
+          <p>{p.hours}</p>
+        </div>
+        <div class="info-actions">
+          <a href={directionsUrl} class="btn btn-outline" target="_blank" rel="noopener noreferrer">Get directions</a>
+          <a href="tel:3103883669" class="btn btn-accent">Call now</a>
+        </div>
+      </div>
+      <div class="visit-map">
+        <iframe
+          class="location-map"
+          title={`Map of Dr. Smile Dental Group ${p.city}`}
+          src={embedSrc}
+          width="100%"
+          height="100%"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related local content -->
+  <section class="section section-surface">
+    <div class="container">
+      <h2>More for {p.city} Patients</h2>
+      <p class="section-intro">Guides and answers for patients in {p.city} and the surrounding area.</p>
+      <div class="post-grid">
+        {p.relatedPosts.map((post) => (
+          <a class="post-card" href={`${base}/blog/${post.slug}/`}>
+            <span class="post-title">{post.title}</span>
+            <span class="post-arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+      <a class="view-all" href={`${base}/blog/`}>View all blog posts →</a>
+    </div>
+  </section>
+
+  <TrustBand locale={p.locale} />
+
+  <CtaBanner heading={`Ready to Visit Our ${p.city} Office?`} subheading="Schedule a consultation or call us — we’ll take great care of you." buttonLabel="Schedule a Consult" buttonHref="contact/" />
+
+  <Footer slot="footer" locale={p.locale} />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+  }
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    max-width: 760px;
+    margin-bottom: var(--space-3);
+  }
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .section-intro {
+    color: var(--color-text-light);
+    max-width: 720px;
+    margin-bottom: var(--space-3);
+  }
+
+  /* Tags */
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    margin-top: var(--space-3);
+  }
+  .tag {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-primary-dark);
+  }
+
+  /* Visit grid */
+  .visit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    align-items: stretch;
+  }
+  .info-block {
+    margin-bottom: var(--space-2);
+  }
+  .info-block h3 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-text-light);
+    margin-bottom: 2px;
+  }
+  .info-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+  .visit-map {
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    min-height: 320px;
+  }
+  .visit-map .location-map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+  }
+  @media (max-width: 760px) {
+    .visit-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Related posts */
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+  }
+  .post-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-1);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: var(--space-2);
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .post-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+  }
+  .post-title {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+  .post-arrow {
+    color: var(--color-primary);
+    font-weight: 700;
+    flex: 0 0 auto;
+  }
+  .view-all {
+    display: inline-block;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+</style>

@@ -10,9 +10,107 @@ import { getTranslations } from '../i18n/index';
 const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/financing/`;
+
+// ---- Content data ----
+// Insured: the practice accepts all PPO insurance plans (per site copy), so we
+// don't hard-code a plan list — we state the policy instead.
+const insuranceAccepted = 'all PPO insurance plans';
+
+// Pricing ranges drawn from the practice's own published content
+// (blog posts on whitening, veneers, implants, Invisalign).
+const serviceCosts = [
+  { service: 'Dental Cleaning & Exam', from: 'often fully covered', note: 'Typically covered by insurance' },
+  { service: 'Teeth Whitening', from: '$200–$600', note: 'In-office or take-home' },
+  { service: 'Veneer', from: '$900–$2,500', note: 'Per tooth' },
+  { service: 'Dental Implant', from: '$3,000–$5,000', note: 'Per implant' },
+  { service: 'Invisalign', from: '$3,000–$8,000', note: 'Full treatment, 0% plans available' },
+];
+
+// Membership tiers from the practice's own "Dr. Smile Membership Plan" post.
+const membershipTiers = [
+  {
+    name: "Children's Plan",
+    price: '$399',
+    period: 'per year',
+    tag: 'Under 14',
+    includes: ['2 cleanings', '2 exams', 'Fluoride treatments', 'Routine X-rays', '1 emergency exam'],
+    savings: '15% off additional treatment',
+  },
+  {
+    name: 'Adult Wellness Plan',
+    price: '$599',
+    period: 'per year',
+    tag: 'Most popular',
+    includes: ['2 cleanings', '2 comprehensive exams', 'Routine X-rays', '1 emergency exam', 'Oral cancer screening'],
+    savings: '15% off treatment · 10% off cosmetic',
+  },
+  {
+    name: 'VIP Smile Plan',
+    price: '$799',
+    period: 'per year',
+    tag: 'Cosmetic + priority',
+    includes: ['2 cleanings', '2 exams', 'Routine X-rays', 'Free take-home whitening kit', 'Priority scheduling'],
+    savings: '20% off treatment · free cosmetic consult',
+  },
+  {
+    name: 'Perio Care Plan',
+    price: '$899',
+    period: 'per year',
+    tag: 'Gum maintenance',
+    includes: ['3 perio maintenance cleanings', '2 exams', 'Routine X-rays', 'Perio evaluation', '1 emergency exam'],
+    savings: '15% off additional treatment',
+  },
+];
+
+// Confirmed across multiple site posts as "no-interest financing."
+const lenders = ['CareCredit', 'Sunbit', 'Cherry'];
+
+const steps = [
+  { n: '1', title: 'Tell us about your insurance', body: 'Send us your plan details and we’ll verify exactly what’s covered — free, no obligation.' },
+  { n: '2', title: 'Get your estimate', body: 'We break down your out-of-pocket cost in writing, including financing options that fit your budget.' },
+  { n: '3', title: 'Choose how to pay', body: 'Pay in full, use insurance, or spread it across monthly payments over 6–36 months.' },
+];
+
+const finFaqs = [
+  {
+    q: 'Do I have to pay the full amount upfront?',
+    a: 'No. Most patients split the cost of treatment into monthly payments through one of our financing partners. You only need a small amount (or nothing) down on many plans.',
+  },
+  {
+    q: 'What if my insurance runs out mid-treatment?',
+    a: 'It happens often. We’ll show you where your benefits end and set up a financing plan for the remaining balance so your treatment isn’t interrupted.',
+  },
+  {
+    q: 'How long can I spread payments over?',
+    a: 'Depending on the lender and your credit, plans typically run 6, 12, 18, 24, or 36 months. Some plans offer 0% interest for a promotional period.',
+  },
+  {
+    q: 'Do you take Medicaid or DentaQuest?',
+    a: 'Coverage varies by plan and location. Call us at (310) 388-3669 and we’ll check your specific plan and tell you exactly what’s accepted.',
+  },
+  {
+    q: 'Is there a catch with the membership plan?',
+    a: 'No hidden fees, no deductibles, no waiting periods, and no annual maximums. You pay one simple yearly fee (from $399/yr for children to $899/yr for perio care) that covers preventive care and gives you 15–20% off treatment. Cancel anytime.',
+  },
+  {
+    q: 'Do you offer a free quote before I commit?',
+    a: 'Yes. We’ll verify your insurance and give you a written estimate in 24 hours, so you know your true cost before you book treatment.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: finFaqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
 ---
 
-<BaseLayout title="Dental Financing & Insurance | Dr. Smile Dental Group" description="Affordable dental care with flexible financing options and insurance acceptance. Quality care for all." canonicalUrl={canonical} locale="en">
+<BaseLayout title="Dental Financing, Insurance & Membership | Dr. Smile Dental Group" description="Affordable dental care in SoCal. We accept most major insurance, offer CareCredit/Sunbit financing, and a no-insurance membership plan. Get a free estimate in 24 hours." canonicalUrl={canonical} locale="en">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(faqSchema)} />
   <UtilityBar slot="header" locale="en" currentPath="/financing/" counterpartPath="/es/financiamiento/" />
   <Header slot="header" locale="en" />
 
@@ -20,24 +118,173 @@ const canonical = `${import.meta.env.SITE}${base}/financing/`;
     <div class="container">
       <p class="eyebrow">Financing</p>
       <h1>Explore Dental Financing & Insurance Benefits</h1>
+      <p class="lead">
+        Quality care shouldn’t be out of reach. We accept most major insurance,
+        offer flexible financing, and carry a membership plan for patients without
+        coverage — so you can get the treatment you need on a budget that works.
+      </p>
+      <div class="cta-row">
+        <a href="tel:3103883669" class="btn btn-accent">Call (310) 388-3669</a>
+        <a href="contact/" class="btn btn-outline">Get a free estimate</a>
+      </div>
+    </div>
+  </section>
 
-      <p><strong>Affordable Care</strong></p>
-      <p>At Dr. Smile Dental Group, we believe that everyone deserves quality dental care, so we strive to make dental care accessible and affordable for all of our patients. Our fees are competitive within our industry and reflect the quality of care and technology we provide.</p>
+  <!-- How to pay -->
+  <section class="section section-surface">
+    <div class="container">
+      <h2>How to Pay — 3 Simple Steps</h2>
+      <p class="section-intro">No surprises, no pressure. Here’s how we make it affordable.</p>
+      <div class="steps">
+        {steps.map((s) => (
+          <div class="step-card">
+            <span class="step-num" aria-hidden="true">{s.n}</span>
+            <h3>{s.title}</h3>
+            <p>{s.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
 
-      <h2>Insurance</h2>
-      <p>We accept most major dental insurance plans. Our team will work with your insurance provider to maximize your benefits and minimize your out-of-pocket costs. Contact our office to verify your specific plan coverage.</p>
+  <!-- Insurance -->
+  <section class="section">
+    <div class="container">
+      <h2>Insurance We Accept</h2>
+      <p class="section-intro">
+        We accept <strong>{insuranceAccepted}</strong> — including for walk-in and
+        emergency appointments. Our team handles the paperwork, files your claims,
+        and maximizes your benefits so you pay as little out of pocket as possible.
+      </p>
+      <div class="insurance-callout">
+        <span class="insurance-check" aria-hidden="true">✓</span>
+        <div>
+          <p class="insurance-headline">All PPO plans in-network</p>
+          <p class="insurance-sub">
+            Bring your card and we’ll verify your exact coverage in minutes —
+            including what’s covered, your deductible status, and your
+            out-of-pocket estimate.
+          </p>
+        </div>
+      </div>
+      <p class="fine-print">
+        Not sure if your plan is accepted? Call us at (310) 388-3669 and we’ll
+        check your specific plan before you book.
+      </p>
+    </div>
+  </section>
 
-      <h2>Financing Options</h2>
-      <p>For patients without insurance or those needing treatment beyond their insurance coverage, we offer flexible financing options through third-party lenders. These plans allow you to spread the cost of your treatment over monthly payments that fit your budget.</p>
+  <!-- Financing / lenders -->
+  <section class="section section-surface">
+    <div class="container">
+      <h2>Flexible Dental Financing</h2>
+      <p class="section-intro">
+        No insurance, or treatment beyond your coverage? Spread the cost over
+        monthly payments that fit your budget. We partner with trusted lenders so
+        you can start treatment now and pay over 6–36 months.
+      </p>
+      <div class="lender-row">
+        {lenders.map((name) => (
+          <span class="lender-badge">{name}</span>
+        ))}
+      </div>
+      <div class="lender-note">
+        <p>
+          <strong>0% promotional plans</strong> available on select treatments.
+          Approval is quick and requires no impact on your credit score to check.
+        </p>
+        <a href="contact/" class="btn btn-accent">Check my eligibility</a>
+      </div>
+    </div>
+  </section>
 
-      <h2>Membership Plans</h2>
-      <p>We also offer membership plans for patients who don't have dental insurance. These plans provide discounted rates on preventive and basic dental services, making ongoing care more affordable.</p>
+  <!-- Membership plan -->
+  <section class="section">
+    <div class="container">
+      <div class="membership-header">
+        <span class="membership-tag">No Insurance? This Is For You</span>
+        <h2>Dr. Smile Membership Plans</h2>
+        <p class="section-intro">
+          One simple yearly fee. No deductibles, no waiting periods, no annual
+          maximums, and no claims to file. Pick the plan that fits you.
+        </p>
+      </div>
+      <div class="membership-grid">
+        {membershipTiers.map((tier) => (
+          <div class="membership-card">
+            <span class="membership-tier-tag">{tier.tag}</span>
+            <h3>{tier.name}</h3>
+            <p class="membership-price">
+              <span class="price">{tier.price}</span>
+              <span class="price-sub">{tier.period}</span>
+            </p>
+            <ul class="membership-list">
+              {tier.includes.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+            <p class="membership-savings">{tier.savings}</p>
+            <a href="contact/" class="btn btn-accent">Join {tier.name}</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost guide -->
+  <section class="section section-surface">
+    <div class="container">
+      <h2>What Dental Care Costs — A Quick Guide</h2>
+      <p class="section-intro">
+        Transparent ranges so you know what to expect. Your final quote depends
+        on the specific treatment and your insurance — we’ll give you a written
+        estimate before you commit.
+      </p>
+      <div class="table-wrap">
+        <table class="cost-table">
+          <thead>
+            <tr>
+              <th scope="col">Treatment</th>
+              <th scope="col">Typical range</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {serviceCosts.map((row) => (
+              <tr>
+                <th scope="row">{row.service}</th>
+                <td>{row.from}</td>
+                <td>{row.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="fine-print">
+        Prices are estimates and vary by case complexity, location, and
+        insurance. Many of these are partially or fully covered by insurance.
+      </p>
+    </div>
+  </section>
+
+  <!-- Financing FAQs -->
+  <section class="section">
+    <div class="container">
+      <h2>Financing Questions, Answered</h2>
+      <div class="faq-list">
+        {finFaqs.map((faq) => (
+          <details class="faq-item">
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </div>
     </div>
   </section>
 
   <TrustBand locale="en" />
 
-  <CtaBanner heading="Questions About Financing?" subheading="Our team is happy to help you find the right option." buttonLabel="Contact Us" buttonHref="contact/" />
+  <CtaBanner heading="Ready to See What You Actually Owe?" subheading="Send us your insurance details and get a written estimate — plus your financing options — within 24 hours." buttonLabel="Get My Free Estimate" buttonHref="contact/" />
 
   <Footer slot="footer" locale="en" />
 </BaseLayout>
@@ -50,12 +297,272 @@ const canonical = `${import.meta.env.SITE}${base}/financing/`;
     color: var(--color-primary);
     margin-bottom: 8px;
   }
-  .section p {
-    margin-bottom: 16px;
+  .lead {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-3);
+    max-width: 720px;
+  }
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+  .section-intro {
+    color: var(--color-text-light);
+    max-width: 720px;
+    margin-bottom: var(--space-3);
+  }
+
+  /* Steps */
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+  }
+  .step-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: var(--space-2);
+  }
+  .step-card p {
+    color: var(--color-text-light);
+    margin-top: var(--space-1);
+  }
+
+  /* Insurance */
+  .insurance-callout {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-sm);
+    padding: var(--space-3);
+    margin: var(--space-3) 0;
+  }
+  .insurance-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .insurance-headline {
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    font-size: 1.15rem;
+  }
+  .insurance-sub {
+    color: var(--color-text-light);
+    margin-top: 2px;
+  }
+  .fine-print {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-top: var(--space-2);
+  }
+
+  /* Lenders */
+  .lender-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin: var(--space-3) 0;
+  }
+  .lender-badge {
+    background: var(--color-bg);
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary-dark);
+    font-weight: 700;
+    padding: var(--space-1) var(--space-3);
+    border-radius: 999px;
+  }
+  .lender-note {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-3);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+  }
+  .lender-note p {
+    flex: 1 1 320px;
     color: var(--color-text-light);
   }
-  .section h2 {
-    margin-top: 32px;
-    margin-bottom: 12px;
+
+  /* Membership */
+  .membership-header {
+    max-width: 720px;
+    margin-bottom: var(--space-4);
+  }
+  .membership-tag {
+    display: inline-block;
+    background: var(--color-accent);
+    color: var(--color-accent-text);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: var(--space-2);
+  }
+  .membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-3);
+  }
+  .membership-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+    display: flex;
+    flex-direction: column;
+  }
+  .membership-tier-tag {
+    align-self: flex-start;
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: var(--space-2);
+  }
+  .membership-card h3 {
+    margin-bottom: var(--space-1);
+  }
+  .membership-price {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-1);
+    margin-bottom: var(--space-2);
+  }
+  .membership-price .price {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-primary-dark);
+  }
+  .membership-price .price-sub {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+  .membership-list {
+    list-style: none;
+    margin-bottom: var(--space-2);
+  }
+  .membership-list li {
+    padding-left: 26px;
+    position: relative;
+    margin-bottom: var(--space-1);
+    color: var(--color-text-light);
+  }
+  .membership-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+  .membership-savings {
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    background: var(--color-bg);
+    border-radius: var(--radius-sm);
+    padding: var(--space-1) var(--space-2);
+    margin-bottom: var(--space-2);
+    font-size: 0.9rem;
+  }
+  .membership-card .btn {
+    margin-top: auto;
+  }
+
+  /* Cost table */
+  .table-wrap {
+    overflow-x: auto;
+    margin-top: var(--space-3);
+  }
+  .cost-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .cost-table th,
+  .cost-table td {
+    text-align: left;
+    padding: var(--space-2);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .cost-table thead th {
+    background: var(--color-primary);
+    color: #fff;
+    font-weight: 700;
+  }
+  .cost-table tbody th {
+    font-weight: 600;
+    color: var(--color-primary-dark);
+  }
+  .cost-table tbody tr:last-child td,
+  .cost-table tbody tr:last-child th {
+    border-bottom: none;
+  }
+  .cost-table td {
+    color: var(--color-text-light);
+  }
+
+  /* FAQ */
+  .faq-list {
+    margin-top: var(--space-3);
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-2) 0;
+  }
+  .faq-item summary {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding: var(--space-1) 0;
+    list-style-position: inside;
+  }
+  .faq-item summary:hover {
+    color: var(--color-primary-dark);
+  }
+  .faq-item p {
+    margin-top: var(--space-1);
+    color: var(--color-text-light);
+    padding-bottom: var(--space-1);
   }
 </style>
