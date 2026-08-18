@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skittleson.github.io/dr-smile-static/sitemap-index.xml
+Sitemap: https://skittleson.github.io/DrSmileOnline/sitemap-index.xml
