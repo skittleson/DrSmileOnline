@@ -14,8 +14,10 @@ const otherPrefix = otherLocale === 'es' ? '/es' : '';
 const phone = t['utility.phone'];
 
 const withBase = (p: string) => `${base}${p.startsWith('/') ? p : `/${p}`}`;
-const enHref = withBase(currentPath);
-const esHref = withBase(counterpartPath || `${otherPrefix}${currentPath}`);
+// currentPath is always THIS locale's page; counterpartPath is the OTHER locale's page.
+const fallbackOther = `${otherPrefix}${currentPath}`;
+const enHref = withBase(locale === 'en' ? currentPath : (counterpartPath || fallbackOther));
+const esHref = withBase(locale === 'es' ? currentPath : (counterpartPath || fallbackOther));
 ---
 
 <div class="utility-bar">
