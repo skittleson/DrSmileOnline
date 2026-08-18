@@ -12,6 +12,10 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const otherLocale = locale === 'en' ? 'es' : 'en';
 const otherPrefix = otherLocale === 'es' ? '/es' : '';
 const phone = t['utility.phone'];
+
+const withBase = (p: string) => `${base}${p.startsWith('/') ? p : `/${p}`}`;
+const enHref = withBase(currentPath);
+const esHref = withBase(counterpartPath || `${otherPrefix}${currentPath}`);
 ---
 
 <div class="utility-bar">
@@ -23,13 +27,13 @@ const phone = t['utility.phone'];
       <span class="sr-only">{t['utility.language']}</span>
       <nav aria-label={t['utility.language']} class="lang-toggle">
         <a
-          href={currentPath}
+          href={enHref}
           class={locale === 'en' ? 'active' : ''}
           aria-current={locale === 'en' ? 'true' : undefined}
         >EN</a>
         <span aria-hidden="true">|</span>
         <a
-          href={counterpartPath || `${otherPrefix}${currentPath}`}
+          href={esHref}
           class={locale === 'es' ? 'active' : ''}
           aria-label={locale === 'en' ? t['utility.switchToSpanish'] : t['utility.switchToEnglish']}
           aria-current={locale === 'es' ? 'true' : undefined}
