@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/preguntas-frecuentes/`;
+const enUrl = `${import.meta.env.SITE}${base}/faqs/`;
+
+const faqs = [
+  {
+    q: '¿Cuáles son los beneficios de visitar la mejor clínica dental en San Pedro?',
+    a: 'Visitar una clínica dental de buena reputación en San Pedro asegura que reciba atención personalizada y de alta calidad de profesionales experimentados. Nuestra clínica ofrece tecnología de última generación, un ambiente cómodo y un equipo dedicado a su salud bucal.',
+  },
+  {
+    q: '¿Ofrecen citas el mismo día?',
+    a: 'Sí, ofrecemos citas el mismo día para emergencias dentales y atención urgente. Llámenos al (310) 388-3669 y haremos todo lo posible para atenderle el mismo día.',
+  },
+  {
+    q: '¿Qué planes de seguro aceptan?',
+    a: 'Aceptamos la mayoría de los principales planes de seguro. Comuníquese con nuestra oficina para obtener detalles específicos sobre su plan y cómo podemos ayudarle a maximizar sus beneficios.',
+  },
+  {
+    q: '¿Ofrecen opciones de financiamiento?',
+    a: 'Sí, ofrecemos opciones de financiamiento flexibles para que la atención dental de calidad sea accesible y asequible. Visite nuestra página de Financiamiento para obtener más detalles.',
+  },
+  {
+    q: '¿Qué debo esperar durante mi primera visita?',
+    a: 'Durante su primera visita, realizaremos un examen completo, tomaremos radiografías si es necesario y hablaremos sobre su historial dental y sus preocupaciones. Luego crearemos un plan de tratamiento personalizado adaptado a sus necesidades.',
+  },
+  {
+    q: '¿Atienden a niños?',
+    a: 'Sí, damos la bienvenida a pacientes de todas las edades. Nuestro equipo tiene experiencia en brindar atención suave e integral tanto a niños como a adultos.',
+  },
+];
+---
+
+<BaseLayout
+  title="Preguntas Frecuentes | Dr. Smile Dental Group"
+  description="Preguntas frecuentes sobre nuestros servicios dentales, seguros, financiamiento y qué esperar en su primera visita."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/preguntas-frecuentes/" counterpartPath="/faqs/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Preguntas Frecuentes</p>
+      <h1>Preguntas Frecuentes</h1>
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Aún Tiene Preguntas?" subheading="Estamos aquí para ayudar." buttonLabel="Contáctenos" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .faq-list {
+    margin-top: 32px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--color-border);
+    padding: 16px 0;
+  }
+  .faq-item summary {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-primary);
+    padding: 8px 0;
+  }
+  .faq-item summary:hover {
+    color: var(--color-accent);
+  }
+  .faq-item p {
+    margin-top: 12px;
+    color: var(--color-text-light);
+    padding-bottom: 8px;
+  }
+</style>

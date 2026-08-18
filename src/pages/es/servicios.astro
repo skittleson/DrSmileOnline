@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/servicios/`;
+const enUrl = `${import.meta.env.SITE}${base}/services/`;
+---
+
+<BaseLayout
+  title="Servicios | Dr. Smile Dental Group"
+  description="Servicios dentales integrales: cirugía bucal, ATM e implantes, estética, carillas y blanqueamiento, Invisalign y ortodoncia, All-on-Four y prótesis."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/servicios/" counterpartPath="/services/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Nuestros Servicios</p>
+      <h1>Servicios Dentales Expertos para una Sonrisa Más Sana y Brillante</h1>
+      <p>En Dr. Smile, preservar su sonrisa no es solo nuestra prioridad — es nuestra pasión. Imagine entrar a cualquiera de nuestras cuatro instalaciones de última generación, donde cada aspecto de su salud bucal se maneja de manera experta bajo un mismo techo.</p>
+      <p>Ya sea que venga para limpiezas de rutina, mejoras estéticas o procedimientos quirúrgicos complejos, nuestro equipo multiespecialidad está listo para brindar la atención que usted merece.</p>
+
+      <div class="services-grid">
+        <ServiceCard
+          image="images/service-1.webp"
+          title="Cirugía Bucal, ATM e Implantes"
+          description="Nuestro enfoque se basa en los principios de longevidad, función y salud general."
+          href="es/cirugia-bucal/"
+        />
+        <ServiceCard
+          image="images/service-2.webp"
+          title="Estética, Carillas y Blanqueamiento"
+          description="Lograr resultados estéticos naturales requiere experiencia y materiales de calidad."
+          href="es/cuidado-cosmetico/"
+        />
+        <ServiceCard
+          image="images/service-3.webp"
+          title="Invisalign y Ortodoncia"
+          description="Nuestra filosofía ortodóncica enfatiza la oclusión adecuada y el cuidado preventivo."
+          href="es/invisalign-ortodoncia/"
+        />
+        <ServiceCard
+          image="images/service-4.webp"
+          title="All-on-Four y Prótesis"
+          description="Nuestros implantólogos ofrecen opciones fijas y removibles para satisfacer sus necesidades individuales."
+          href="es/all-on-four/"
+        />
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+  }
+  @media (max-width: 768px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
+</style>

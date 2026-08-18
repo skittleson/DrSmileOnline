@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/invisalign-ortodoncia/`;
+const enUrl = `${import.meta.env.SITE}${base}/invisalign-orthodontcs/`;
+---
+
+<BaseLayout
+  title="Invisalign y Ortodoncia | Dr. Smile Dental Group"
+  description="Tratamiento discreto con Invisalign y atención ortodóncica que enfatiza la oclusión adecuada y el cuidado preventivo."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/invisalign-ortodoncia/" counterpartPath="/invisalign-orthodontcs/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Invisalign en Torrance</p>
+      <h1>Invisalign y Ortodoncia</h1>
+
+      <p>¿Sabía que sufrir de dientes torcidos es más una preocupación de salud que de estética? Sí, más bien un hecho: según fuentes de Scientific American, alrededor del 90% de cada 9 de cada 10 personas sufren el problema de los dientes torcidos. Pues bien, en 2025, aunque las opciones de tratamiento han evolucionado, Invisalign sigue siendo una de las soluciones más populares y efectivas.</p>
+
+      <h2>¿Qué es Invisalign?</h2>
+      <p>Invisalign representa un avance en el tratamiento ortodóncico, ofreciendo una alternativa discreta y cómoda a los brackets metálicos tradicionales. Este tratamiento utiliza una serie de alineadores transparentes hechos a medida que enderezan gradualmente sus dientes con el tiempo.</p>
+
+      <h2>Beneficios de Invisalign</h2>
+      <p><strong>Casi Invisible:</strong> Los alineadores transparentes son apenas perceptibles, por lo que puede enderezar sus dientes sin la inseguridad que conlleva usar brackets metálicos.</p>
+      <p><strong>Removible:</strong> Puede quitarse los alineadores para comer, beber y cepillarse los dientes, facilitando el mantenimiento de la higiene bucal.</p>
+      <p><strong>Cómodo:</strong> No hay brackets ni alambres que irriten sus encías y mejillas.</p>
+      <p><strong>Resultados Predecibles:</strong> Nuestro equipo utiliza imágenes 3D avanzadas para trazar su plan de tratamiento y mostrarle los resultados esperados antes de comenzar.</p>
+
+      <h2>Filosofía Ortodóncica</h2>
+      <p>Nuestra filosofía ortodóncica enfatiza la oclusión adecuada y el cuidado preventivo. Creemos que unos dientes sanos y bien alineados son la base de una vida de salud bucal.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para Enderezar su Sonrisa?" subheading="Agende una consulta para ver si Invisalign es adecuado para usted." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

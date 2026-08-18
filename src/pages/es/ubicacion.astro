@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import LocationCards from '../../components/LocationCards.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/ubicacion/`;
+const enUrl = `${import.meta.env.SITE}${base}/location/`;
+---
+
+<BaseLayout
+  title="Ubicaciones | Dr. Smile Dental Group"
+  description="Cuatro ubicaciones convenientes en el Sur de California: Newport Beach, San Pedro, Torrance y Lomita."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/ubicacion/" counterpartPath="/location/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Ubicación</p>
+      <h1>Nuestras Ubicaciones</h1>
+      <p>Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay una ubicación conveniente cerca de usted.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <LocationCards locale="es" />
+
+  <CtaBanner heading="¿Listo para Visitarnos?" subheading="Agende una consulta en la ubicación más conveniente para usted." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+</style>

@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/all-on-four/`;
+const enUrl = `${import.meta.env.SITE}${base}/all-on-four-prosthetics/`;
+---
+
+<BaseLayout
+  title="All-on-Four y Prótesis | Dr. Smile Dental Group"
+  description="Soluciones de implantes fijas y removibles para la restauración de arcada completa. All-on-Four y atención protésica en Newport Beach."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/all-on-four/" counterpartPath="/all-on-four-prosthetics/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Restauración de Sonrisa</p>
+      <h1>Implantes All-on-Four y Prótesis</h1>
+
+      <p>¿A quién le gusta una sonrisa falsa? A nadie. Pero la pérdida constante de dientes, la dentición degradada en la mandíbula superior e inferior, y el edentulismo no le dejan otra opción. Pues bien, atrás quedaron esos días en los que tenía que ocultar su sonrisa. Dr. Smile, con sus soluciones de implantes novedosas y de vanguardia, le ofrece un camino de regreso a una sonrisa segura y de aspecto natural.</p>
+
+      <h2>¿Qué es All-on-Four?</h2>
+      <p>All-on-Four es una solución de implantes revolucionaria que utiliza solo cuatro implantes para soportar una arcada completa de dientes. Este procedimiento es ideal para pacientes que han perdido la mayoría o todos sus dientes y buscan una solución permanente y fija.</p>
+
+      <h2>Beneficios de All-on-Four</h2>
+      <p><strong>Dientes el Mismo Día:</strong> En muchos casos, puede salir del consultorio con un conjunto completo de dientes temporales el mismo día de su cirugía de implantes.</p>
+      <p><strong>Solución Fija:</strong> A diferencia de las dentaduras tradicionales, los implantes All-on-Four están fijos en su lugar, por lo que no se resbalan ni se mueven.</p>
+      <p><strong>Aspecto y Sensación Natural:</strong> Los dientes protésicos están diseñados para verse y funcionar como dientes naturales.</p>
+      <p><strong>Preserva el Hueso:</strong> Los implantes estimulan el hueso de la mandíbula, previniendo la pérdida ósea que ocurre con las dentaduras tradicionales.</p>
+
+      <h2>Opciones Removibles</h2>
+      <p>Para los pacientes que prefieren una solución removible, nuestros implantólogos también ofrecen dentaduras soportadas por implantes que se ajustan de forma segura en su lugar, proporcionando la estabilidad y comodidad de una solución fija con la flexibilidad de una removible.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para Restaurar su Sonrisa?" subheading="Consulte con nuestro equipo de implantes para explorar sus opciones." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

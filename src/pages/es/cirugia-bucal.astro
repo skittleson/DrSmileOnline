@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/cirugia-bucal/`;
+const enUrl = `${import.meta.env.SITE}${base}/oral-surgery/`;
+---
+
+<BaseLayout
+  title="Cirugía Bucal, ATM e Implantes | Dr. Smile Dental Group"
+  description="Cirujanos bucales y periodoncistas experimentados especializados en procedimientos complejos, tratamiento de ATM e implantes dentales."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/cirugia-bucal/" counterpartPath="/oral-surgery/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Especialidades en Dr. Smile</p>
+      <h1>Cirugía Bucal e Implantes</h1>
+
+      <p>A veces, la pérdida de un hueso o un diente puede requerir cirugía bucal, que puede variar desde procedimientos sencillos hasta intervenciones más complejas. Nuestro experimentado equipo de cirujanos bucales y periodoncistas se especializa en estos procedimientos quirúrgicos, asegurando los mejores resultados posibles para nuestros pacientes.</p>
+
+      <h2>Tratamiento de ATM</h2>
+      <p>Los trastornos de la articulación temporomandibular (ATM) pueden causar dolor y molestias significativas. Nuestro equipo brinda un tratamiento integral de la ATM, desde el diagnóstico hasta el manejo a largo plazo, ayudándole a encontrar un alivio duradero.</p>
+
+      <h2>Implantes Dentales</h2>
+      <p>Los implantes dentales son una solución transformadora para los dientes faltantes, proporcionando una alternativa confiable y duradera que se ve y se siente como dientes naturales. Nuestros implantólogos ofrecen soluciones de implantes únicos y múltiples adaptadas a sus necesidades.</p>
+
+      <h2>Extracción de Muelas del Juicio</h2>
+      <p>Las muelas del juicio pueden causar apiñamiento, dolor y otros problemas dentales. Nuestros cirujanos bucales realizan extracciones de muelas del juicio con cuidado y precisión, asegurando una recuperación sin complicaciones.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para Consultar?" subheading="Nuestro experimentado equipo está listo para ayudarle a lograr una salud bucal óptima." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

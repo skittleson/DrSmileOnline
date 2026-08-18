@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/anuncios-importantes/`;
+const enUrl = `${import.meta.env.SITE}${base}/important-announcements/`;
+
+const posts = (await getCollection('blog'))
+  .filter((post) => post.data.category === 'announcements')
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="Anuncios Importantes | Dr. Smile Dental Group"
+  description="Anuncios importantes y actualizaciones de Dr. Smile Dental Group."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/anuncios-importantes/" counterpartPath="/important-announcements/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Anuncios</p>
+      <h1>Anuncios Importantes</h1>
+
+      {posts.length === 0 && (
+        <p>No hay anuncios en este momento. Vuelva pronto.</p>
+      )}
+
+      <div class="announcement-list">
+        {posts.map((post) => (
+          <article class="announcement">
+            <h2>
+              <a href={`${base}/blog/${post.id}/`}>{post.data.title}</a>
+            </h2>
+            <time datetime={post.data.pubDate.toISOString()}>
+              {post.data.pubDate.toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .announcement-list {
+    margin-top: 32px;
+  }
+  .announcement {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .announcement h2 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .announcement h2 a {
+    color: var(--color-primary);
+  }
+  .announcement h2 a:hover {
+    color: var(--color-accent);
+  }
+  .announcement time {
+    color: var(--color-text-light);
+    font-size: 0.875rem;
+  }
+</style>

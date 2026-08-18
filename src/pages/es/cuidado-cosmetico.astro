@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/cuidado-cosmetico/`;
+const enUrl = `${import.meta.env.SITE}${base}/cosmetic-care/`;
+---
+
+<BaseLayout
+  title="Odontología Estética, Carillas y Blanqueamiento | Dr. Smile Dental Group"
+  description="Logre resultados estéticos naturales con carillas expertas, blanqueamiento dental y odontología estética en el Sur de California."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/cuidado-cosmetico/" counterpartPath="/cosmetic-care/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Su Sonrisa se lo Agradecerá</p>
+      <h1>Odontología Estética y Carillas</h1>
+
+      <p>Usted merece la sonrisa que siempre ha soñado. En Dr. Smile, nuestra misión es brindar exactamente eso. Sentirse y hablar con confianza con su sonrisa puede ser difícil cuando se trata de problemas de color, forma o alineación. Si años de inseguridad lo han detenido, es hora de cambiar eso.</p>
+
+      <h2>Carillas Dentales</h2>
+      <p>Las carillas dentales son un pilar de la odontología estética moderna, ofreciendo una solución mínimamente invasiva pero altamente efectiva para transformar la apariencia de los dientes. Ya sea para tratar decoloración, astillas, espacios o desalineaciones menores, las carillas proporcionan un resultado de aspecto natural y duradero.</p>
+
+      <h2>Blanqueamiento Dental</h2>
+      <p>El blanqueamiento dental profesional es una de las formas más rápidas de iluminar su sonrisa. Nuestros tratamientos de blanqueamiento en el consultorio son seguros, efectivos y diseñados para darle una sonrisa notablemente más blanca en una sola visita.</p>
+
+      <h2>Transformaciones de Sonrisa</h2>
+      <p>Para los pacientes que buscan una transformación integral de la sonrisa, nuestros dentistas estéticos trabajan con usted para diseñar una transformación de sonrisa personalizada que aborde múltiples preocupaciones a la vez — desde el color y la forma hasta la alineación y la proporción.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para Transformar su Sonrisa?" subheading="Consulte con nuestro equipo de odontología estética hoy." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

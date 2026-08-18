@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/tratamiento-invisalign/`;
+const enUrl = `${import.meta.env.SITE}${base}/dental-invisalign-treatment/`;
+---
+
+<BaseLayout
+  title="Guía del Tratamiento Invisalign | Dr. Smile Dental Group"
+  description="Una guía completa de Invisalign: cómo funciona, la duración del tratamiento, los costos y cómo se compara con los brackets tradicionales."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/tratamiento-invisalign/" counterpartPath="/dental-invisalign-treatment/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Tratamiento Invisalign</p>
+      <h1>Eficacia Dental Moderna para una Sonrisa Más Recta</h1>
+
+      <p>Invisalign representa un avance en el tratamiento ortodóncico, ofreciendo una alternativa discreta y cómoda a los brackets metálicos tradicionales. Este tratamiento utiliza una serie de alineadores transparentes hechos a medida que enderezan gradualmente sus dientes con el tiempo.</p>
+
+      <h2>¿Cómo Funciona Invisalign?</h2>
+      <p>El tratamiento con Invisalign comienza con un escaneo 3D de sus dientes. Nuestro equipo utiliza este escaneo para crear un plan de tratamiento personalizado que le muestra los resultados esperados en cada etapa de su tratamiento. Recibirá una serie de alineadores transparentes, cada uno usado durante aproximadamente 1 a 2 semanas antes de pasar al siguiente de la serie.</p>
+
+      <h2>Duración del Tratamiento</h2>
+      <p>La mayoría de los tratamientos con Invisalign duran entre 6 y 18 meses, dependiendo de la complejidad de su caso. Su ortodoncista le dará una estimación más precisa durante su consulta.</p>
+
+      <h2>Invisalign vs. Brackets Tradicionales</h2>
+      <p><strong>Visibilidad:</strong> Los alineadores Invisalign son casi invisibles, mientras que los brackets metálicos son claramente visibles.</p>
+      <p><strong>Comodidad:</strong> Invisalign no tiene brackets ni alambres, por lo que hay menos irritación en las encías y las mejillas.</p>
+      <p><strong>Dieta:</strong> Puede quitarse los alineadores Invisalign para comer, por lo que no hay restricciones dietéticas. Con los brackets, debe evitar alimentos duros, pegajosos o crujientes.</p>
+      <p><strong>Higiene Bucal:</strong> Puede cepillarse y usar hilo dental normalmente con Invisalign. Con los brackets, limpiar alrededor de los brackets y alambres es más difícil.</p>
+
+      <h2>¿Para Quién es Adecuado Invisalign?</h2>
+      <p>Invisalign es adecuado para la mayoría de los problemas ortodóncicos, incluyendo apiñamiento, espacios, sobremordidas, submordidas y mordidas cruzadas. Sin embargo, algunos casos complejos pueden ser más adecuados para los brackets tradicionales. Su ortodoncista evaluará su caso y recomendará la mejor opción.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para Comenzar su Viaje con Invisalign?" subheading="Agende una consulta para ver si Invisalign es adecuado para usted." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

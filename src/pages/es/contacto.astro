@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/contacto/`;
+const enUrl = `${import.meta.env.SITE}${base}/contact/`;
+---
+
+<BaseLayout
+  title="Contáctenos | Dr. Smile Dental Group"
+  description="Agende una consulta o comuníquese con Dr. Smile Dental Group. Llame al (310) 388-3669."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/contacto/" counterpartPath="/contact/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">¡Conectemos!</p>
+      <h1>Contáctenos</h1>
+      <p>Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay un horario conveniente para que consulte con uno de nuestros excepcionales médicos.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Póngase en Contacto</h2>
+          <p><strong>Teléfono:</strong> <a href="tel:(310)388-3669">(310) 388-3669</a></p>
+
+          <h2>Nuestras Ubicaciones</h2>
+          <ul class="contact-locations">
+            <li>Newport Beach, CA</li>
+            <li>San Pedro, CA</li>
+            <li>Torrance, CA</li>
+            <li>Lomita, CA</li>
+          </ul>
+
+          <h2>Horario de Atención</h2>
+          <p>Lunes – Viernes: 8:00 AM – 5:00 PM<br />
+          Sábado: Por cita<br />
+          Domingo: Cerrado</p>
+        </div>
+
+        <div class="contact-form">
+          <h2>Agendar una Consulta</h2>
+          <p>Complete el formulario a continuación y nuestro equipo se comunicará con usted.</p>
+
+          <form class="form" method="post" action={`${base}/es/contacto/`}>
+            <div class="form-field">
+              <label for="name">Nombre Completo</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Número de Teléfono</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+
+            <div class="form-field">
+              <label for="location">Ubicación Preferida</label>
+              <select id="location" name="location" required>
+                <option value="">Seleccione una ubicación…</option>
+                <option value="newport-beach">Newport Beach</option>
+                <option value="san-pedro">San Pedro</option>
+                <option value="torrance">Torrance</option>
+                <option value="lomita">Lomita</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-status" role="status" aria-live="polite"></div>
+
+            <button type="submit" class="btn btn-accent">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-top: 32px;
+  }
+  .contact-info h2 {
+    font-size: 1.25rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .contact-info h2:first-child {
+    margin-top: 0;
+  }
+  .contact-info p {
+    color: var(--color-text-light);
+    margin-bottom: 8px;
+  }
+  .contact-locations {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-locations li {
+    padding: 4px 0;
+    color: var(--color-text-light);
+  }
+  .contact-form h2 {
+    margin-bottom: 8px;
+  }
+  .contact-form p {
+    color: var(--color-text-light);
+    margin-bottom: 16px;
+  }
+  .form-field {
+    margin-bottom: 16px;
+  }
+  .form-field label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: var(--color-text);
+  }
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 1rem;
+    font-family: var(--font-body);
+    background: var(--color-bg);
+    color: var(--color-text);
+  }
+  .form-field input:focus,
+  .form-field select:focus,
+  .form-field textarea:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 1px;
+  }
+  .form-status {
+    margin-top: 12px;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 768px) {
+    .contact-grid { grid-template-columns: 1fr; }
+  }
+</style>

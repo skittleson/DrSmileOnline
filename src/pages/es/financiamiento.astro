@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/financiamiento/`;
+const enUrl = `${import.meta.env.SITE}${base}/financing/`;
+---
+
+<BaseLayout
+  title="Financiamiento Dental y Seguros | Dr. Smile Dental Group"
+  description="Atención dental asequible con opciones de financiamiento flexibles y aceptación de seguros. Atención de calidad para todos."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/financiamiento/" counterpartPath="/financing/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Financiamiento</p>
+      <h1>Explore el Financiamiento Dental y los Beneficios del Seguro</h1>
+
+      <p><strong>Atención Asequible</strong></p>
+      <p>En Dr. Smile Dental Group, creemos que todos merecen atención dental de calidad, por lo que nos esforzamos por hacer que la atención dental sea accesible y asequible para todos nuestros pacientes. Nuestras tarifas son competitivas dentro de nuestra industria y reflejan la calidad de la atención y la tecnología que brindamos.</p>
+
+      <h2>Seguros</h2>
+      <p>Aceptamos la mayoría de los principales planes de seguro dental. Nuestro equipo trabajará con su proveedor de seguros para maximizar sus beneficios y minimizar sus costos de bolsillo. Comuníquese con nuestra oficina para verificar la cobertura específica de su plan.</p>
+
+      <h2>Opciones de Financiamiento</h2>
+      <p>Para los pacientes sin seguro o aquellos que necesitan tratamiento más allá de la cobertura de su seguro, ofrecemos opciones de financiamiento flexibles a través de prestamistas externos. Estos planes le permiten distribuir el costo de su tratamiento en pagos mensuales que se ajustan a su presupuesto.</p>
+
+      <h2>Planes de Membresía</h2>
+      <p>También ofrecemos planes de membresía para pacientes que no tienen seguro dental. Estos planes brindan tarifas con descuento en servicios dentales preventivos y básicos, haciendo que la atención continua sea más asequible.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Preguntas Sobre el Financiamiento?" subheading="Nuestro equipo estará encantado de ayudarle a encontrar la opción adecuada." buttonLabel="Contáctenos" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

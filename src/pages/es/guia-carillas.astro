@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/guia-carillas/`;
+const enUrl = `${import.meta.env.SITE}${base}/dental-veneers-guide/`;
+---
+
+<BaseLayout
+  title="Guía de Carillas Dentales | Dr. Smile Dental Group"
+  description="Una guía completa de las carillas dentales: qué son, el procedimiento, los costos y cómo cuidarlas."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/guia-carillas/" counterpartPath="/dental-veneers-guide/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Carillas Dentales</p>
+      <h1>El Arte y la Ciencia de una Sonrisa Perfecta</h1>
+
+      <p>Las carillas dentales son un pilar de la odontología estética moderna, ofreciendo una solución mínimamente invasiva pero altamente efectiva para transformar la apariencia de los dientes. Ya sea para tratar decoloración, astillas, espacios o desalineaciones menores, las carillas proporcionan un resultado de aspecto natural y duradero.</p>
+
+      <h2>¿Qué Son las Carillas Dentales?</h2>
+      <p>Las carillas son finas láminas de porcelana o resina compuesta que se adhieren a la superficie frontal de sus dientes. Se fabrican a medida para coincidir con el color, la forma y el tamaño de sus dientes naturales, creando un resultado impecable y de aspecto natural.</p>
+
+      <h2>Tipos de Carillas</h2>
+      <p><strong>Carillas de Porcelana:</strong> Duraderas, resistentes a las manchas y de aspecto muy natural. Requieren una preparación dental ligeramente mayor que las carillas de composite.</p>
+      <p><strong>Carillas de Composite:</strong> Hechas de material de resina del color del diente. Son menos costosas y a menudo se pueden colocar en una sola visita, pero no son tan duraderas como la porcelana.</p>
+
+      <h2>El Procedimiento de Carillas</h2>
+      <p><strong>Paso 1: Consulta.</strong> Su dentista discutirá sus objetivos, examinará sus dientes y creará un plan de tratamiento.</p>
+      <p><strong>Paso 2: Preparación.</strong> Se elimina una pequeña cantidad de esmalte de la superficie frontal de los dientes para dar espacio a las carillas.</p>
+      <p><strong>Paso 3: Impresiones.</strong> Se toman impresiones de sus dientes y se envían a un laboratorio dental para fabricar las carillas personalizadas.</p>
+      <p><strong>Paso 4: Colocación.</strong> Las carillas se adhieren a sus dientes con un cemento dental especial. La adhesión se cura con una luz especial.</p>
+
+      <h2>Cuidado de sus Carillas</h2>
+      <p><strong>Cepíllese y use hilo dental</strong> dos veces al día, tal como lo haría con sus dientes naturales.</p>
+      <p><strong>Evite los alimentos duros</strong> como el hielo, las nueces y los caramelos duros, que pueden astillar o agrietar las carillas.</p>
+      <p><strong>Limite los alimentos y bebidas que manchan</strong> como el café, el té, el vino tinto y el tabaco.</p>
+      <p><strong>Use un protector nocturno</strong> si rechina los dientes por la noche.</p>
+      <p><strong>Visite a su dentista</strong> regularmente para chequeos y limpiezas.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Listo para una Consulta de Carillas?" subheading="A nuestro equipo estético le encantaría mostrarle lo que es posible." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

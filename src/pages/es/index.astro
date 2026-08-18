@@ -1,0 +1,241 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import TestimonialCarousel from '../../components/TestimonialCarousel.astro';
+import LocationCards from '../../components/LocationCards.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import StickyMobileCTA from '../../components/StickyMobileCTA.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/`;
+const enUrl = `${import.meta.env.SITE}${base}/`;
+---
+
+<BaseLayout
+  title="Dr. Smile Dental Group | Cirugía Bucal, Implantes y Más"
+  description="Cuidado dental integral en el Sur de California. Cirugía bucal, implantes, estética, Invisalign y más bajo un mismo techo. Llame al (310) 388-3669."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/" counterpartPath="/" />
+  <Header slot="header" locale="es" />
+
+  <section class="hero" style={`background-image: linear-gradient(rgba(29,92,84,0.85), rgba(29,92,84,0.85)), url('${base}/images/dr-smile-bg-new.webp');`}>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">dr. smile dental group</p>
+      <h1>¡Nada de lo que Usas es tan Hermoso como una Sonrisa Sana!</h1>
+      <p class="hero-sub">¡Libere todo el potencial de su sonrisa!</p>
+      <a href="tel:(310)388-3669" class="btn btn-lg">LLAME AL (310) 388-3669</a>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <section class="section section-surface">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Servicios multiespecialidad</p>
+          <h2>Servicios Dentales Integrales en Dr. Smile</h2>
+          <p>Por lo general, los dentistas generales derivan a los pacientes a especialistas para procedimientos como cirugías bucales, implantes, atención prostodóncica y ortodoncia. Sin embargo, nuestras instalaciones cuentan con un equipo diverso de profesionales dentales en varias especialidades, eliminando la necesidad de referencias externas.</p>
+          <p>Como resultado, usted y su familia pueden acceder a un cuidado dental integral bajo un mismo techo, brindado por expertos en cada especialidad. Esto simplifica su proceso de tratamiento y mejora la atención personalizada que recibe.</p>
+          <a href={base + '/es/servicios/'} class="btn">Especialidades en Dr. Smile</a>
+        </div>
+        <img src={`${base}/images/nabiaa.webp`} alt="Equipo dental de Dr. Smile brindando atención integral" width="480" height="360" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Servicios</p>
+      <h2>Nuestras Especialidades</h2>
+      <div class="services-grid">
+        <ServiceCard
+          image="images/service-1.webp"
+          title="Cirugía Bucal, ATM e Implantes"
+          description="Nuestro enfoque se basa en los principios de longevidad, función y salud general."
+          href="es/cirugia-bucal/"
+        />
+        <ServiceCard
+          image="images/service-2.webp"
+          title="Estética, Carillas y Blanqueamiento"
+          description="Lograr resultados estéticos naturales requiere experiencia y materiales de calidad."
+          href="es/cuidado-cosmetico/"
+        />
+        <ServiceCard
+          image="images/service-3.webp"
+          title="Invisalign y Ortodoncia"
+          description="Nuestra filosofía ortodóncica enfatiza la oclusión adecuada y el cuidado preventivo."
+          href="es/invisalign-ortodoncia/"
+        />
+        <ServiceCard
+          image="images/service-4.webp"
+          title="All-on-Four y Prótesis"
+          description="Nuestros implantólogos ofrecen opciones fijas y removibles para satisfacer sus necesidades individuales."
+          href="es/all-on-four/"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <p class="eyebrow">Por Qué Dr. Smile</p>
+      <h2>Lo Que Nos Distingue</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <h3>Multiespecialidad Bajo un Mismo Techo</h3>
+          <p>Cirugía bucal, implantes, estética y ortodoncia — sin referencias, sin salas de espera en otros lugares.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>Citas el Mismo Día</h3>
+          <p>La programación flexible en cuatro ubicaciones del Sur de California significa atención cuando la necesita.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>Opciones de Sedación</h3>
+          <p>Atención integral y suave para pacientes de todas las edades y niveles de comodidad.</p>
+        </div>
+      </div>
+      <p class="benefits-note">En todo el Sur de California, nuestras instalaciones de última generación y la tecnología avanzada nos permiten brindar lo más reciente en tratamientos y técnicas dentales, asegurando que nuestros pacientes reciban la más alta calidad de atención. Creemos que todos merecen una sonrisa hermosa y saludable de la que puedan sentirse orgullosos.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <img src={`${base}/images/about-patients.webp`} alt="Paciente de Dr. Smile recibiendo atención" width="480" height="360" loading="lazy" />
+        <div>
+          <p class="eyebrow">¡Todo se Trata de Nuestros Pacientes!</p>
+          <h2>Sus Necesidades Son Nuestra Prioridad</h2>
+          <p><strong>Si es nuevo aquí, ¡bienvenido!</strong></p>
+          <p>Nos apasiona enormemente lo que hacemos y hemos dedicado años a la educación continua para brindar lo mejor en atención de salud bucal.</p>
+          <a href={base + '/es/nosotros/'} class="btn btn-outline">Más Sobre Nosotros</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <TestimonialCarousel locale="es" />
+
+  <LocationCards locale="es" />
+
+  <CtaBanner
+    heading="Una Sonrisa Sana y Segura le Espera"
+    subheading="Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay un horario conveniente para que consulte con uno de nuestros excepcionales médicos."
+    buttonLabel="Agendar una Consulta"
+    buttonHref="es/contacto/"
+  />
+
+  <StickyMobileCTA locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 12px;
+  }
+  .hero h1 {
+    color: #fff;
+    font-size: 3rem;
+    max-width: 800px;
+    margin: 0 auto 16px;
+  }
+  .hero-sub {
+    font-size: 1.25rem;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 32px;
+  }
+  .hero .btn-lg {
+    padding: 16px 48px;
+    font-size: 1.1rem;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section h2 {
+    margin-bottom: 16px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .two-col img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+  }
+  .benefit-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+  }
+  .benefit-card h3 {
+    margin-bottom: var(--space-2);
+    color: var(--color-primary-dark);
+  }
+  .benefit-card p {
+    margin-bottom: 0;
+  }
+  .benefits-note {
+    margin-top: var(--space-5);
+    font-size: 1.05rem;
+  }
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2rem; }
+    .two-col { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr 1fr; }
+    .benefits-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 480px) {
+    .services-grid { grid-template-columns: 1fr; }
+  }
+</style>

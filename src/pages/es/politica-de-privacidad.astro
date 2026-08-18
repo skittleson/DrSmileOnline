@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/politica-de-privacidad/`;
+const enUrl = `${import.meta.env.SITE}${base}/privacy-policy/`;
+---
+
+<BaseLayout
+  title="Política de Privacidad | Dr. Smile Dental Group"
+  description="Cómo Dr. Smile Dental Group recopila, usa y protege su información personal."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/politica-de-privacidad/" counterpartPath="/privacy-policy/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <h1>Política de Privacidad</h1>
+      <p>Última actualización: 2024</p>
+
+      <p>En Dr. Smile Dental Group, accesible desde https://doctorsmileonline.com, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de Privacidad describe los tipos de información que recopila y utiliza doctorsmileonline.com.</p>
+
+      <h2>Archivos de Registro</h2>
+      <p>Dr. Smile Dental Group sigue un procedimiento estándar de uso de archivos de registro. Estos archivos registran a los visitantes cuando visitan sitios web. La información recopilada por los archivos de registro incluye direcciones de protocolo de internet (IP), tipo de navegador, proveedor de servicios de internet (ISP), fecha y hora, páginas de referencia/salida y, posiblemente, el número de clics. Estos no están vinculados a ninguna información personal, como direcciones de correo electrónico y cuentas, y se utilizan para analizar tendencias, administrar el sitio, rastrear el movimiento por el sitio y recopilar información demográfica.</p>
+
+      <h2>Cookies y Balizas Web</h2>
+      <p>Como muchos sitios web, Dr. Smile Dental Group utiliza "cookies". Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes y las páginas del sitio web a las que acceden o visitan. Las cookies también se utilizan para comprender el tráfico y rastrear el comportamiento de los visitantes de este sitio web. Puede optar por deshabilitar las cookies a través de las opciones individuales de su navegador. Para obtener más información sobre las cookies, visite el artículo sobre cookies en Wikipedia.</p>
+
+      <h2>Cookie DART de Google DoubleClick</h2>
+      <p>Google es uno de los proveedores externos en nuestro sitio que utiliza cookies. Su uso de la cookie DART les permite mostrar anuncios a nuestros visitantes en función de su visita a doctorsmileonline.com y a otros sitios en Internet. Los usuarios pueden rechazar el uso de la cookie DART visitando la política de privacidad de la red de anuncios y contenido de Google.</p>
+
+      <h2>Políticas de Privacidad de Terceros</h2>
+      <p>La Política de Privacidad de Dr. Smile Dental Group no se aplica a otros anunciantes o sitios web. Por lo tanto, aconsejamos a nuestros usuarios que consulten las respectivas Políticas de Privacidad de estos servidores de anuncios de terceros para obtener información más detallada. Puede incluir sus prácticas y cómo optar por no participar en ciertas opciones. Puede visitar este enlace para optar por no participar en servidores de anuncios de terceros individuales.</p>
+
+      <h2>Información de los Niños</h2>
+      <p>Otra parte de nuestra prioridad es proteger la seguridad de los niños en línea. Alentamos a los padres y tutores a observar, participar y/o monitorear y guiar su actividad en línea.</p>
+
+      <h2>Política de Privacidad en Línea</h2>
+      <p>Puede revisar nuestras reglas y políticas sobre el uso de información personal en el sitio web. Dr. Smile Dental Group recopila los siguientes tipos de información: dirección IP, dirección de correo electrónico, dirección física, fecha de nacimiento e información médica. La información personal se utiliza para los siguientes propósitos: proporcionar información a los usuarios; enviar correos electrónicos periódicos; responder a sus consultas; procesar sus solicitudes; cumplir con su solicitud; procesar pagos; brindar atención al cliente; y solicitar sugerencias e información relevantes.</p>
+
+      <h2>Consentimiento</h2>
+      <p>Al utilizar nuestro sitio web, usted consiente nuestra Política de Privacidad y acepta sus términos.</p>
+
+      <h2>Aceptación de Esta Política</h2>
+      <p>Si tiene alguna pregunta sobre esta Política de Privacidad, comuníquese con nosotros.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/terminos-y-condiciones/`;
+const enUrl = `${import.meta.env.SITE}${base}/terms-and-conditions/`;
+---
+
+<BaseLayout
+  title="Términos y Condiciones | Dr. Smile Dental Group"
+  description="Términos y condiciones para el uso del sitio web de Dr. Smile Dental Group."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/terminos-y-condiciones/" counterpartPath="/terms-and-conditions/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <h1>Términos y Condiciones</h1>
+      <p>Última actualización: 2024</p>
+
+      <p>Al acceder a este sitio web, se considera que aceptamos estos términos y condiciones. No continúe usando doctorsmileonline.com si no está de acuerdo con todos los términos y condiciones establecidos en esta página.</p>
+
+      <h2>Licencia</h2>
+      <p>El contenido de este sitio web está licenciado bajo la Licencia Internacional Creative Commons Attribution 4.0. Usted es libre de compartir y adaptar el material para cualquier propósito, incluso comercialmente, siempre que otorgue el crédito apropiado, proporcione un enlace a la licencia e indique si se realizaron cambios.</p>
+
+      <h2>Propiedad Intelectual</h2>
+      <p>Todos los derechos de propiedad intelectual están reservados por Dr. Smile Dental Group. Cualquier uso no autorizado de este sitio web o su contenido puede resultar en acciones legales.</p>
+
+      <h2>Descargo de Responsabilidad</h2>
+      <p>La información en este sitio web es solo para fines informativos generales. Toda la información proporcionada se ofrece de buena fe; sin embargo, no hacemos ninguna representación o garantía de ningún tipo, expresa o implícita, con respecto a la exactitud, adecuación, validez, confiabilidad, disponibilidad o integridad de cualquier información en el sitio web.</p>
+
+      <h2>Limitaciones</h2>
+      <p>En ningún caso Dr. Smile Dental Group será responsable de ningún daño que surja de o en conexión con el uso de este sitio web. Su uso de este sitio web y cualquier confianza en la información que obtenga en este sitio web es bajo su propio riesgo. No seremos responsables de ninguna pérdida o daño, incluidas, entre otras, pérdidas o daños indirectos o consecuentes, o cualquier pérdida de ganancias, ingresos, datos, buena voluntad u otras pérdidas intangibles.</p>
+
+      <h2>Exactitud de la Información</h2>
+      <p>La información en este sitio web se proporciona de buena fe, pero no hacemos ninguna representación o garantía de ningún tipo, expresa o implícita, con respecto a la exactitud, adecuación, validez, confiabilidad, disponibilidad o integridad de cualquier información en el sitio web. Bajo ninguna circunstancia seremos responsables de ninguna pérdida o daño de cualquier tipo incurrido como resultado del uso del sitio.</p>
+
+      <h2>Enlaces a Otros Sitios Web</h2>
+      <p>Este sitio web puede contener enlaces a otros sitios web que no son operados por nosotros. Si hace clic en un enlace de un tercero, será dirigido al sitio de ese tercero. Le recomendamos encarecidamente que lea los términos y condiciones y la política de privacidad de cada sitio que visite.</p>
+
+      <h2>Consentimiento</h2>
+      <p>Al utilizar nuestro sitio web, usted consiente nuestros Términos y Condiciones y acepta sus términos.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

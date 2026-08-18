@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/guia-implantes/`;
+const enUrl = `${import.meta.env.SITE}${base}/dental-implant-guide/`;
+---
+
+<BaseLayout
+  title="Guía de Implantes Dentales | Dr. Smile Dental Group"
+  description="Una guía completa de los implantes dentales: qué son, el procedimiento, la recuperación y cómo se comparan con otras opciones de reemplazo dental."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/guia-implantes/" counterpartPath="/dental-implant-guide/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Guía de Implantes Dentales</p>
+      <h1>Explorando las Complejidades del Reemplazo Dental Permanente</h1>
+
+      <p>Los implantes dentales representan una solución transformadora en la odontología moderna, proporcionando a los pacientes una alternativa confiable y duradera para los dientes faltantes o dañados. La combinación perfecta de odontología restauradora y estética, esta solución de eficacia dental ha cambiado la forma en que pensamos sobre el reemplazo dental.</p>
+
+      <h2>¿Qué Son los Implantes Dentales?</h2>
+      <p>Los implantes dentales son pequeños postes, típicamente hechos de titanio, que se colocan quirúrgicamente en el hueso de la mandíbula. Sirven como raíces dentales artificiales, proporcionando una base estable para los dientes de reemplazo (coronas, puentes o dentaduras).</p>
+
+      <h2>El Procedimiento de Implante</h2>
+      <p><strong>Paso 1: Consulta y Planificación.</strong> Su dentista examinará su salud bucal, tomará radiografías o escaneos 3D y creará un plan de tratamiento personalizado.</p>
+      <p><strong>Paso 2: Colocación del Implante.</strong> El poste de titanio se inserta quirúrgicamente en el hueso de la mandíbula. Este procedimiento generalmente se realiza bajo anestesia local.</p>
+      <p><strong>Paso 3: Osteointegración.</strong> Durante los siguientes 3 a 6 meses, el implante se fusiona con el hueso de la mandíbula, creando una base fuerte y estable.</p>
+      <p><strong>Paso 4: Pilar y Corona.</strong> Una vez que el implante se ha integrado, se coloca un pilar y una corona personalizada encima.</p>
+
+      <h2>Beneficios de los Implantes Dentales</h2>
+      <p><strong>Apariencia Natural:</strong> Los implantes se ven y se sienten como dientes naturales.</p>
+      <p><strong>Solución Permanente:</strong> Con el cuidado adecuado, los implantes pueden durar toda la vida.</p>
+      <p><strong>Preserva el Hueso de la Mandíbula:</strong> A diferencia de las dentaduras, los implantes estimulan el hueso y previenen la reabsorción.</p>
+      <p><strong>Mejora el Habla:</strong> Los implantes no se resbalan como las dentaduras, por lo que puede hablar con confianza.</p>
+      <p><strong>Protege los Dientes Adyacentes:</strong> A diferencia de los puentes, los implantes no requieren desgastar los dientes vecinos.</p>
+
+      <h2>Recuperación y Cuidados Posteriores</h2>
+      <p>La mayoría de los pacientes experimentan hinchazón leve y molestias durante algunos días después del procedimiento. Los analgésicos de venta libre suelen ser suficientes. Siga las instrucciones de cuidado posterior de su dentista para asegurar una curación adecuada.</p>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <CtaBanner heading="¿Está Considerando Implantes?" subheading="A nuestro equipo de implantes le encantaría responder sus preguntas." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .section p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .section h2 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+</style>

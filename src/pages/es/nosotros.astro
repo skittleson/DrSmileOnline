@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/es/nosotros/`;
+const enUrl = `${import.meta.env.SITE}${base}/about/`;
+---
+
+<BaseLayout
+  title="Sobre Dr. Smile Dental Group | Conozca a Nuestros Doctores"
+  description="Conozca a la Dra. Mariam Nadi y al Dr. Kayvon Javid. Más de 16 años de atención dental centrada en el paciente en el Sur de California."
+  canonicalUrl={canonical}
+  locale="es"
+>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
+
+  <UtilityBar slot="header" locale="es" currentPath="/es/nosotros/" counterpartPath="/about/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Nosotros</p>
+      <h1>Conozca a Nuestros Doctores</h1>
+
+      <div class="doctor-card">
+        <h2>Dra. Mariam Nadi</h2>
+        <p>La Dra. Mariam Nadi ha ejercido con orgullo en el Sur de California durante 16 años. Junto con su esposo, el Dr. Kayvon Javid, han construido una próspera marca Dr. Smile centrada en el paciente, sirviendo a múltiples comunidades.</p>
+        <p>Las oficinas han sido diseñadas para ser cálidas y acogedoras, creando espacios donde los pacientes se sienten cómodos y atendidos. El enfoque de la Dra. Nadi combina tecnología avanzada con un toque suave y personal.</p>
+      </div>
+
+      <div class="doctor-card">
+        <h2>Dr. Kayvon Javid</h2>
+        <p>El Dr. Kayvon Javid aporta una amplia experiencia en cirugía bucal, implantes y prostodoncia al equipo de Dr. Smile. Su enfoque en la longevidad, la función y la salud general asegura que cada plan de tratamiento esté hecho para durar.</p>
+        <p>Juntos, la Dra. Nadi y el Dr. Javid brindan atención dental integral bajo un mismo techo, eliminando la necesidad de referencias externas y simplificando el proceso de tratamiento para los pacientes y sus familias.</p>
+      </div>
+
+      <div class="about-values">
+        <h2>Nuestra Filosofía</h2>
+        <p>Creemos que todos merecen una sonrisa hermosa y saludable de la que puedan sentirse orgullosos. Nuestras instalaciones de última generación y la tecnología avanzada nos permiten brindar lo más reciente en tratamientos y técnicas dentales.</p>
+        <p>Sin importar su edad o sus preocupaciones dentales, estamos dedicados a crear un plan de tratamiento personalizado adaptado a sus necesidades y objetivos específicos.</p>
+        <a href={base + '/es/contacto/'} class="btn">Agendar una Consulta</a>
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+  }
+  .doctor-card {
+    margin: 32px 0;
+    padding: 24px;
+    background: var(--color-surface);
+    border-radius: var(--radius);
+  }
+  .doctor-card h2 {
+    margin-bottom: 12px;
+  }
+  .doctor-card p {
+    margin-bottom: 12px;
+    color: var(--color-text-light);
+  }
+  .about-values {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border);
+  }
+  .about-values p {
+    margin-bottom: 16px;
+    color: var(--color-text-light);
+  }
+  .about-values .btn {
+    margin-top: 16px;
+  }
+</style>
