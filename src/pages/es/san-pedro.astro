@@ -1,0 +1,35 @@
+---
+import LocationPageEs from '../../components/LocationPageEs.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const city = 'San Pedro';
+const region = 'San Pedro, CA';
+const canonical = `${import.meta.env.SITE}${base}/es/san-pedro/`;
+const enUrl = `${import.meta.env.SITE}${base}/san-pedro/`;
+---
+
+<LocationPageEs
+  currentPath="/es/san-pedro/"
+  counterpartPath="/san-pedro/"
+  city={city}
+  region={region}
+  address="2000 Gaffey Street, San Pedro, CA 90731"
+  phone="(310) 388-3669"
+  hours="Lun–Vie: 8AM–5PM, Sáb: Bajo cita"
+  mapQuery="2000 Gaffey St, San Pedro, CA 90731"
+  title="Odontólogo en San Pedro, CA | Dr. Smile Dental Group"
+  description="Odontólogo familiar en San Pedro, CA. Atención asequible, implantes, odontología de emergencia y tratamientos estéticos. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame (310) 388-3669."
+  canonical={canonical}
+  enUrl={enUrl}
+  intro="Atención dental de confianza en el corazón de San Pedro. Ya sea que necesite una revisión rutinaria, reparación de emergencia de un diente, implantes o una transformación de la sonrisa, la oficina de Dr. Smile en San Pedro hace que la atención de calidad sea accesible y asequible para toda la familia."
+  about="Nuestra oficina de San Pedro es hogar de un equipo dedicado a la comunidad del puerto. La Dra. Mariam Nadi y el Dr. Kayvon Javid han pasado más de 16 años sirviendo a familias del Sur de California, y traen ese mismo enfoque cálido y personal a San Pedro. Desde la odontología general y la atención de emergencia hasta implantes, reconstrucción de boca completa y tratamientos estéticos, recibirá atención integral en un ambiente cómodo y sin juicios."
+  tags={['Odontología familiar', 'Emergencias y caminantes', 'Implantes dentales', 'Reconstrucción de boca completa', 'Atención asequible', 'Planes de membresía', 'Acepta todos los seguros PPO']}
+  relatedPosts={[
+    { title: 'Mejor Dentista Asequible en San Pedro', slug: 'best-affordable-dentist-in-san-pedro' },
+    { title: 'Implantes Dentales en San Pedro', slug: 'dental-implants-in-san-pedro' },
+    { title: 'Dentista de Emergencia en San Pedro', slug: 'emergency-dentist-in-san-pedro' },
+    { title: 'Reparación de Diente Roto en San Pedro', slug: 'broken-tooth-repair-in-san-pedro' },
+    { title: 'Reconstrucción de Boca Completa en San Pedro', slug: 'full-mouth-reconstruction-in-san-pedro' },
+    { title: 'Mejor Clínica Dental en San Pedro', slug: 'best-dental-clinic-in-san-pedro-oral-health' },
+  ]}
+/>

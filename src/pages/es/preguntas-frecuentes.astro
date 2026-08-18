@@ -12,37 +12,143 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/preguntas-frecuentes/`;
 const enUrl = `${import.meta.env.SITE}${base}/faqs/`;
 
-const faqs = [
+// FAQ organizadas por categoría. Las respuestas reflejan lo que la práctica
+// realmente ofrece (según su contenido): odontología general, cirugía oral,
+// implantes, Invisalign, carillas/blanqueamiento, sedación, All-on-Four,
+// atención de emergencia, todos los seguros PPO, financiamiento
+// CareCredit/Sunbit/Cherry, planes de membresía y atención pediátrica.
+const faqCategories = [
   {
-    q: '¿Cuáles son los beneficios de visitar la mejor clínica dental en San Pedro?',
-    a: 'Visitar una clínica dental de buena reputación en San Pedro asegura que reciba atención personalizada y de alta calidad de profesionales experimentados. Nuestra clínica ofrece tecnología de última generación, un ambiente cómodo y un equipo dedicado a su salud bucal.',
+    label: 'Para Comenzar',
+    faqs: [
+      {
+        q: '¿Qué debo esperar durante mi primera visita?',
+        a: 'Comenzamos con un examen completo, tomamos radiografías si es necesario y revisamos su historial dental y sus preocupaciones. Saldrá con un plan de tratamiento personalizado — sin presión, solo una imagen clara de sus opciones y costos.',
+        link: { label: 'Conozca a nuestro equipo', href: 'es/nosotros/' },
+      },
+      {
+        q: '¿Cómo agendo una cita?',
+        a: 'Llámenos al (310) 388-3669 o use nuestro formulario de contacto. Contamos con cuatro ubicaciones en el Sur de California — Newport Beach, San Pedro, Torrance y Lomita — así que probablemente haya una cerca de usted.',
+        link: { label: 'Vea nuestras ubicaciones', href: 'es/ubicacion/' },
+      },
+      {
+        q: '¿Ofrecen citas el mismo día o para emergencias?',
+        a: 'Sí. Atendemos pacientes de caminantes y emergencias e intentamos acomodarle el mismo día. Si tiene dolor, llámenos primero en la mañana al (310) 388-3669.',
+      },
+      {
+        q: '¿Cuáles son sus horarios?',
+        a: 'Estamos abiertos de lunes a viernes, de 8AM a 5PM, con citas los sábados disponibles bajo solicitud. Llame para confirmar los horarios de su ubicación más cercana.',
+        link: { label: 'Vea todas las ubicaciones y horarios', href: 'es/ubicacion/' },
+      },
+    ],
   },
   {
-    q: '¿Ofrecen citas el mismo día?',
-    a: 'Sí, ofrecemos citas el mismo día para emergencias dentales y atención urgente. Llámenos al (310) 388-3669 y haremos todo lo posible para atenderle el mismo día.',
+    label: 'Costo, Seguro y Financiamiento',
+    faqs: [
+      {
+        q: '¿Qué planes de seguro aceptan?',
+        a: 'Aceptamos todos los planes de seguro PPO, incluidos para citas de caminantes y emergencias. Traiga su tarjeta y nuestro equipo verificará su cobertura exacta y maximizará sus beneficios.',
+        link: { label: 'Detalles de financiamiento y seguros', href: 'es/financiamiento/' },
+      },
+      {
+        q: '¿Ofrecen opciones de financiamiento?',
+        a: 'Sí — financiamiento sin intereses a través de CareCredit, Sunbit y Cherry, para que distribuya el costo en 6 a 36 meses. Verificar su elegibilidad no afecta su puntaje de crédito.',
+        link: { label: 'Vea las opciones de financiamiento', href: 'es/financiamiento/' },
+      },
+      {
+        q: '¿Qué pasa si no tengo seguro dental?',
+        a: 'Nuestros planes de membresía están hechos para eso. Con una simple cuota anual (desde $399/año para niños hasta $899/año para cuidado periodontal) recibe atención preventiva más 15–20% de descuento en el tratamiento — sin deducibles, períodos de espera ni máximos anuales.',
+        link: { label: 'Explore los planes de membresía', href: 'es/financiamiento/' },
+      },
+      {
+        q: '¿Cuánto cuesta el tratamiento?',
+        a: 'Depende del tratamiento. Como guía, el blanqueamiento va de $200 a $600, las carillas de $900 a $2,500 por diente, y los implantes de $3,000 a $5,000. Recibirá una cotización por escrito antes de comprometerse con nada.',
+        link: { label: 'Vea costos típicos', href: 'es/financiamiento/' },
+      },
+    ],
   },
   {
-    q: '¿Qué planes de seguro aceptan?',
-    a: 'Aceptamos la mayoría de los principales planes de seguro. Comuníquese con nuestra oficina para obtener detalles específicos sobre su plan y cómo podemos ayudarle a maximizar sus beneficios.',
+    label: 'Tratamientos y Servicios',
+    faqs: [
+      {
+        q: '¿Hacen implantes dentales?',
+        a: 'Sí. Colocamos implantes y ofrecemos soluciones de arco completo como All-on-Four. Muchos implantes pueden colocarse sin injerto óseo y están diseñados para durar décadas.',
+        link: { label: 'Guía de implantes dentales', href: 'es/guia-implantes/' },
+      },
+      {
+        q: '¿Ofrecen Invisalign o brackets?',
+        a: 'Sí. Invisalign es un sistema de alineadores transparente y removible, ideal para adolescentes y adultos. El tratamiento se planifica con imagen 3D y los alineadores son de plástico suave y libre de BPA que puede retirarlos para comer y cepillarse.',
+        link: { label: 'Invisalign y ortodoncia', href: 'es/invisalign-ortodoncia/' },
+      },
+      {
+        q: '¿Hacen odontología estética como carillas y blanqueamiento?',
+        a: 'Absolutamente. Ofrecemos carillas de porcelana, blanqueamiento profesional y transformaciones completas de la sonrisa. Una consulta estética es un gran primer paso para ver lo que es posible para su sonrisa.',
+        link: { label: 'Cuidado cosmético', href: 'es/cuidado-cosmetico/' },
+      },
+      {
+        q: '¿Realizan cirugía oral?',
+        a: 'Sí — extracciones, muelas del juicio y colocación de implantes. Para procedimientos más largos o complejos ofrecemos sedación dentística para mantenerlo cómodo.',
+        link: { label: 'Cirugía oral', href: 'es/cirugia-bucal/' },
+      },
+      {
+        q: '¿Qué es All-on-Four?',
+        a: 'All-on-Four es una solución de arco completo donde un conjunto completo de dientes se apoya en solo cuatro implantes. Es una alternativa más rápida y muchas veces sin injerto a los implantes individuales para pacientes que han perdido la mayoría o todos sus dientes.',
+        link: { label: 'All-on-Four y prótesis', href: 'es/all-on-four/' },
+      },
+      {
+        q: '¿Tratan la enfermedad de las encías?',
+        a: 'Sí. Diagnosticamos y tratamos la enfermedad periodontal, incluidos planes de mantenimiento para mantener sus encías sanas y proteger sus dientes a largo plazo.',
+      },
+    ],
   },
   {
-    q: '¿Ofrecen opciones de financiamiento?',
-    a: 'Sí, ofrecemos opciones de financiamiento flexibles para que la atención dental de calidad sea accesible y asequible. Visite nuestra página de Financiamiento para obtener más detalles.',
+    label: 'Comodidad y Preocupaciones',
+    faqs: [
+      {
+        q: 'Tengo miedo al dentista. ¿Pueden ayudarme a relajarme?',
+        a: 'Por supuesto. Ofrecemos sedación dentística para pacientes con ansiedad dental o trauma previo, para que incluso los procedimientos más largos o complejos sean manejables. Cuéntenos sus preocupaciones y haremos un plan.',
+      },
+      {
+        q: '¿Dolerá?',
+        a: 'Usamos anestesia moderna y técnicas suaves para mantenerlo cómodo. La mayoría de los pacientes se sorprende de lo poco que sienten. Si está ansioso, pregunte por las opciones de sedación.',
+      },
+      {
+        q: '¿Atienden a niños?',
+        a: 'Sí, damos la bienvenida a pacientes de todas las edades y ofrecemos un plan de membresía dedicado para niños menores de 14, que incluye limpiezas, exámenes, tratamientos de flúor y radiografías.',
+      },
+    ],
   },
   {
-    q: '¿Qué debo esperar durante mi primera visita?',
-    a: 'Durante su primera visita, realizaremos un examen completo, tomaremos radiografías si es necesario y hablaremos sobre su historial dental y sus preocupaciones. Luego crearemos un plan de tratamiento personalizado adaptado a sus necesidades.',
-  },
-  {
-    q: '¿Atienden a niños?',
-    a: 'Sí, damos la bienvenida a pacientes de todas las edades. Nuestro equipo tiene experiencia en brindar atención suave e integral tanto a niños como a adultos.',
+    label: 'Ubicaciones',
+    faqs: [
+      {
+        q: '¿Dónde están ubicados?',
+        a: 'Contamos con cuatro ubicaciones en el Sur de California: Newport Beach, San Pedro, Torrance y Lomita. Probablemente haya una cerca de usted.',
+        link: { label: 'Vea las 4 ubicaciones', href: 'es/ubicacion/' },
+      },
+      {
+        q: '¿Tienen estacionamiento?',
+        a: 'Cada ubicación tiene estacionamiento conveniente cerca. Cuando llame para agendar, le indicaremos el mejor estacionamiento para su consultorio específico.',
+      },
+    ],
   },
 ];
+
+const flatFaqs = faqCategories.flatMap((c) => c.faqs);
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: flatFaqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
 ---
 
 <BaseLayout
   title="Preguntas Frecuentes | Dr. Smile Dental Group"
-  description="Preguntas frecuentes sobre nuestros servicios dentales, seguros, financiamiento y qué esperar en su primera visita."
+  description="Respuestas a preguntas comunes sobre Dr. Smile Dental Group: qué esperar en su primera visita, costos, seguros, financiamiento, planes de membresía, implantes, Invisalign, sedación y nuestras cuatro ubicaciones en el Sur de California."
   canonicalUrl={canonical}
   locale="es"
 >
@@ -50,6 +156,7 @@ const faqs = [
     <link rel="alternate" hreflang="en" href={enUrl} />
     <link rel="alternate" hreflang="es" href={canonical} />
     <link rel="alternate" hreflang="x-default" href={enUrl} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
 
   <UtilityBar slot="header" locale="es" currentPath="/es/preguntas-frecuentes/" counterpartPath="/faqs/" />
@@ -59,20 +166,40 @@ const faqs = [
     <div class="container">
       <p class="eyebrow">Preguntas Frecuentes</p>
       <h1>Preguntas Frecuentes</h1>
-      <div class="faq-list">
-        {faqs.map((faq) => (
-          <details class="faq-item">
-            <summary>{faq.q}</summary>
-            <p>{faq.a}</p>
-          </details>
-        ))}
-      </div>
+      <p class="lead">
+        Respuestas directas sobre su primera visita, costos, seguros,
+        financiamiento y los tratamientos que ofrecemos. ¿No encuentra lo que
+        busca? Llámenos al <a href="tel:3103883669">(310) 388-3669</a>.
+      </p>
     </div>
   </section>
 
+  {faqCategories.map((cat, i) => (
+    <section class={`section ${i % 2 === 1 ? 'section-surface' : ''}`}>
+      <div class="container">
+        <h2>{cat.label}</h2>
+        <div class="faq-list">
+          {cat.faqs.map((faq) => (
+            <details class="faq-item">
+              <summary>{faq.q}</summary>
+              <div class="faq-body">
+                <p>{faq.a}</p>
+                {faq.link && (
+                  <a class="faq-link" href={faq.link.href}>
+                    {faq.link.label} →
+                  </a>
+                )}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
   <TrustBand locale="es" />
 
-  <CtaBanner heading="¿Aún Tiene Preguntas?" subheading="Estamos aquí para ayudar." buttonLabel="Contáctenos" buttonHref="es/contacto/" />
+  <CtaBanner heading="¿Aún Tiene Preguntas?" subheading="Nuestro equipo está para ayudar — llámenos o envíenos un mensaje y le responderemos." buttonLabel="Contáctenos" buttonHref="es/contacto/" />
 
   <Footer slot="footer" locale="es" />
 </BaseLayout>
@@ -85,25 +212,50 @@ const faqs = [
     color: var(--color-primary);
     margin-bottom: 8px;
   }
+  .lead {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    max-width: 720px;
+  }
+  .lead a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
   .faq-list {
-    margin-top: 32px;
+    margin-top: var(--space-3);
   }
   .faq-item {
     border-bottom: 1px solid var(--color-border);
-    padding: 16px 0;
+    padding: var(--space-2) 0;
   }
   .faq-item summary {
     font-weight: 600;
     cursor: pointer;
     color: var(--color-primary);
-    padding: 8px 0;
+    padding: var(--space-1) 0;
   }
   .faq-item summary:hover {
-    color: var(--color-primary);
+    color: var(--color-primary-dark);
   }
-  .faq-item p {
-    margin-top: 12px;
+  .faq-item[open] summary {
+    color: var(--color-primary-dark);
+  }
+  .faq-body {
+    margin-top: var(--space-1);
+    padding-bottom: var(--space-1);
+  }
+  .faq-body p {
     color: var(--color-text-light);
-    padding-bottom: 8px;
+  }
+  .faq-link {
+    display: inline-block;
+    margin-top: var(--space-1);
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  .faq-link:hover {
+    color: var(--color-primary-dark);
   }
 </style>

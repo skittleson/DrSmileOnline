@@ -1,0 +1,35 @@
+---
+import LocationPageEs from '../../components/LocationPageEs.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const city = 'Newport Beach';
+const region = 'Newport Beach, CA';
+const canonical = `${import.meta.env.SITE}${base}/es/newport-beach/`;
+const enUrl = `${import.meta.env.SITE}${base}/newport-beach/`;
+---
+
+<LocationPageEs
+  currentPath="/es/newport-beach/"
+  counterpartPath="/newport-beach/"
+  city={city}
+  region={region}
+  address="1000 Baker Street, Suite 100, Newport Beach, CA 92660"
+  phone="(310) 388-3669"
+  hours="Lun–Vie: 8AM–5PM, Sáb: Bajo cita"
+  mapQuery="1000 Baker St, Newport Beach, CA 92660"
+  title="Odontólogo en Newport Beach, CA | Dr. Smile Dental Group"
+  description="Dentista estético en Newport Beach, CA. Carillas, blanqueamiento, implantes All-on-Four y transformaciones de sonrisa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame (310) 388-3669."
+  canonical={canonical}
+  enUrl={enUrl}
+  intro="Atención dental de alto nivel en Newport Beach. Desde la odontología estética y las carillas hasta los implantes All-on-Four y las transformaciones completas de la sonrisa, la oficina de Dr. Smile en Newport Beach ofrece resultados que se ven naturales — y duran."
+  about="Nuestra oficina de Newport Beach es a donde acuden los pacientes por la excelencia estética y restauradora. La Dra. Mariam Nadi y el Dr. Kayvon Javid traen más de 16 años de experiencia y un enfoque refinado y detallado a cada sonrisa. Ya sea que busque carillas, blanqueamiento profesional, implantes All-on-Four o una transformación completa, recibirá un plan personalizado en una oficina moderna y cómoda."
+  tags={['Odontología estética', 'Carillas y blanqueamiento', 'Implantes All-on-Four', 'Transformaciones de sonrisa', 'Limpieza profunda', 'Sedación dentística', 'Acepta todos los seguros PPO']}
+  relatedPosts={[
+    { title: 'Mejor Dentista Estético en Newport Beach', slug: 'best-cosmetic-dentist-in-newport-beach' },
+    { title: 'Implantes All-on-4 en Newport Beach', slug: 'all-on-4-dental-implants-newport-beach' },
+    { title: 'Mejor Clínica Dental en Newport Beach', slug: 'best-dental-clinic-in-newport-beach' },
+    { title: 'Dentista Estético en Newport Beach — Blanqueamiento', slug: 'cosmetic-dentist-in-newport-beach-teeth-whitening' },
+    { title: 'Mejor Dentista de Limpieza Profunda en Newport Beach', slug: 'best-deep-cleaning-dentist-in-newport-beach' },
+    { title: 'Dentista Asequible en Newport Beach', slug: 'affordable-best-dentist-in-newport' },
+  ]}
+/>

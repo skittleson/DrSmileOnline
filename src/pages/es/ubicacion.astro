@@ -12,6 +12,13 @@ const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/ubicacion/`;
 const enUrl = `${import.meta.env.SITE}${base}/location/`;
+
+const cityPages = [
+  { city: 'Newport Beach', href: 'es/newport-beach/', blurb: 'Odontología estética, carillas e implantes All-on-Four' },
+  { city: 'San Pedro', href: 'es/san-pedro/', blurb: 'Atención familiar, implantes y odontología de emergencia' },
+  { city: 'Torrance', href: 'es/torrance/', blurb: 'Odontología familiar, Invisalign y atención el mismo día' },
+  { city: 'Lomita', href: 'es/lomita/', blurb: 'Cuidado de encías, carillas y restauración de boca completa' },
+];
 ---
 
 <BaseLayout
@@ -33,7 +40,22 @@ const enUrl = `${import.meta.env.SITE}${base}/location/`;
     <div class="container">
       <p class="eyebrow">Ubicación</p>
       <h1>Nuestras Ubicaciones</h1>
-      <p>Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay una ubicación conveniente cerca de usted.</p>
+      <p>Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay una ubicación conveniente cerca de usted. Elija su ciudad para ver la oficina, los horarios y la atención local.</p>
+    </div>
+  </section>
+
+  <section class="section section-surface">
+    <div class="container">
+      <h2>Encuentre Su Oficina Local</h2>
+      <div class="city-grid">
+        {cityPages.map((c) => (
+          <a class="city-card" href={c.href}>
+            <span class="city-name">{c.city}</span>
+            <span class="city-blurb">{c.blurb}</span>
+            <span class="city-arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -53,5 +75,44 @@ const enUrl = `${import.meta.env.SITE}${base}/location/`;
     font-size: 0.85rem;
     color: var(--color-primary);
     margin-bottom: 8px;
+  }
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+  }
+  .city-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .city-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(20, 89, 79, 0.08);
+  }
+  .city-name {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-bottom: 6px;
+  }
+  .city-blurb {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: var(--space-2);
+  }
+  .city-arrow {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.1rem;
   }
 </style>

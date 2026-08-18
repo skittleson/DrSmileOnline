@@ -1,0 +1,35 @@
+---
+import LocationPageEs from '../../components/LocationPageEs.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const city = 'Lomita';
+const region = 'Lomita, CA';
+const canonical = `${import.meta.env.SITE}${base}/es/lomita/`;
+const enUrl = `${import.meta.env.SITE}${base}/lomita/`;
+---
+
+<LocationPageEs
+  currentPath="/es/lomita/"
+  counterpartPath="/lomita/"
+  city={city}
+  region={region}
+  address="4000 California St, Lomita, CA 90717"
+  phone="(310) 388-3669"
+  hours="Lun–Vie: 8AM–5PM, Sáb: Bajo cita"
+  mapQuery="33.7922,-118.3151"
+  title="Odontólogo en Lomita, CA | Dr. Smile Dental Group"
+  description="Odontólogo familiar en Lomita, CA. Tratamiento de enfermedad de encías, carillas, atención de emergencia y restauración de boca completa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame (310) 388-3669."
+  canonical={canonical}
+  enUrl={enUrl}
+  intro="Atención dental integral cerca de su hogar en Lomita. Desde la odontología familiar suave y el tratamiento de la enfermedad de las encías hasta carillas, atención de emergencia y restauración de boca completa, la oficina de Dr. Smile en Lomita cubre a toda su familia."
+  about="Nuestra oficina de Lomita sirve a la comunidad de Westchester y las áreas circundantes con un enfoque en la comodidad y la prevención. La Dra. Mariam Nadi y el Dr. Kayvon Javid traen más de 16 años de experiencia a cada visita, combinando tecnología avanzada con un toque suave y personal. Los pacientes de Lomita confían en nosotros para todo, desde limpiezas rutinarias y trabajo estético hasta tratamiento periodontal y restauraciones de boca completa."
+  tags={['Odontología familiar', 'Tratamiento de enfermedad de encías', 'Carillas y blanqueamiento', 'Atención de emergencia', 'Restauración de boca completa', 'Planes de membresía', 'Acepta todos los seguros PPO']}
+  relatedPosts={[
+    { title: 'Dentista Familiar Asequible en Lomita', slug: 'affordable-family-dentist-in-lomita' },
+    { title: 'Guía Completa de Carillas Dentales en Lomita', slug: 'complete-guide-to-dental-veneers-in-lomita' },
+    { title: 'Tratamiento de Enfermedad de Encías en Lomita', slug: 'deep-gum-disease-treatment-in-lomita' },
+    { title: 'Extracción Dental de Emergencia en Lomita', slug: 'emergency-tooth-extraction-in-lomita' },
+    { title: 'Restauración de Boca Completa en Lomita', slug: 'full-mouth-restoration-in-lomita-pain-free' },
+    { title: 'Blanqueamiento Dental Asequible en Lomita', slug: 'affordable-teeth-whitening-in-lomita' },
+  ]}
+/>
