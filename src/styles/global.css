@@ -1,7 +1,8 @@
 :root {
-  --color-primary: #2A9D8F;
-  --color-primary-dark: #1D5C54;
+  --color-primary: #1A7A6E;
+  --color-primary-dark: #14594F;
   --color-accent: #E9A03B;
+  --color-accent-text: #2C3E50;
   --color-surface: #FDF8F0;
   --color-text: #2C3E50;
   --color-text-light: #5D6D7E;
@@ -129,7 +130,7 @@ h4 { font-size: 1.125rem; }
 
 .btn-accent {
   background: var(--color-accent);
-  color: #fff;
+  color: var(--color-accent-text);
 }
 
 .btn-accent:hover {

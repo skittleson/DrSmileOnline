@@ -10,7 +10,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const contactPath = locale === 'es' ? '/es/contacto/' : '/contact/';
 ---
 
-<div class="sticky-cta" aria-hidden="true">
+<div class="sticky-cta" inert>
   <a href="tel:(310)388-3669" class="btn sticky-cta-call">{t['cta.call']}</a>
   <a href={`${base}${contactPath}`} class="btn btn-accent sticky-cta-schedule">{t['cta.schedule']}</a>
 </div>
@@ -20,7 +20,11 @@ const contactPath = locale === 'es' ? '/es/contacto/' : '/contact/';
   if (sticky) {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        sticky.setAttribute('aria-hidden', entry.isIntersecting ? 'true' : 'false');
+        if (entry.isIntersecting) {
+          sticky.setAttribute('inert', '');
+        } else {
+          sticky.removeAttribute('inert');
+        }
         sticky.classList.toggle('visible', !entry.isIntersecting);
       },
       { threshold: 0 }
