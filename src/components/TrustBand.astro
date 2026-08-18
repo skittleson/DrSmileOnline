@@ -8,11 +8,9 @@ const { locale } = Astro.props;
 const t = getTranslations(locale);
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const locationHref = `${base}${locale === 'es' ? '/es/ubicacion/' : '/location/'}`;
-// Google reviews link. No real Google Business Profile / CID URL exists in the
-// repo yet, so this is a Google Maps name-search that reliably lands on the
-// practice's real listing/reviews. Replace with the practice's real Google
-// Business Profile URL (place_id/CID) when available.
-const reviewsHref = 'https://www.google.com/maps/search/?api=1&query=Dr+Smile+Dental+Group+reviews';
+// Google reviews link. This is the practice's real Google Business Profile
+// (place) URL, which lands directly on the listing's reviews.
+const reviewsHref = 'https://www.google.com/maps/place/Dr.+Smile/@35.756611,-121.2054256,495183m/data=!3m1!1e3!4m12!1m2!2m1!1sDr+Smile+Dental!3m8!1s0x80dd362ceb0c81c3:0x52b53fa7bd99d275!8m2!3d33.7291388!4d-118.2920058!9m1!1b1!15sCg9EciBTbWlsZSBEZW50YWxaESIPZHIgc21pbGUgZGVudGFskgENZGVudGFsX2NsaW5pY5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VScWQzTm1iQzFCUlJBQuABAPoBBAgzEEs!16s%2Fg%2F1v2kxrg5!5m1!1e3?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D';
 const reviewsLabel =
   locale === 'es'
     ? 'Lea nuestras reseñas de Google (calificación 4.8)'
