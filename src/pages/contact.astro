@@ -33,6 +33,7 @@ const canonical = `${import.meta.env.SITE}${base}/contact/`;
             <li>Torrance, CA</li>
             <li>Lomita, CA</li>
           </ul>
+          <a href={`${base}/location/#locations`} class="btn btn-outline contact-locations-cta">Our Locations</a>
 
           <h2>Office Hours</h2>
           <p>Monday – Friday: 8:00 AM – 5:00 PM<br />
@@ -123,6 +124,9 @@ const canonical = `${import.meta.env.SITE}${base}/contact/`;
   .contact-locations li {
     padding: 4px 0;
     color: var(--color-text-light);
+  }
+  .contact-locations-cta {
+    margin-top: 8px;
   }
   .contact-form h2 {
     margin-bottom: 8px;
