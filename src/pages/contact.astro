@@ -9,6 +9,18 @@ import { getTranslations } from '../i18n/index';
 const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/contact/`;
+
+// Map targets kept in sync with LocationCards.astro's mapQuery values so the
+// Contact page links land on the same spots as the rest of the site. Lomita
+// uses coordinates because its placeholder street address does not geocode.
+const contactLocations = [
+  { label: 'Newport Beach, CA', mapQuery: '1000 Baker St, Newport Beach, CA 92660' },
+  { label: 'San Pedro, CA', mapQuery: '2000 Gaffey St, San Pedro, CA 90731' },
+  { label: 'Torrance, CA', mapQuery: '3000 Torrance Blvd, Torrance, CA 90503' },
+  { label: 'Lomita, CA', mapQuery: '33.7922,-118.3151' },
+];
+const mapsUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 ---
 
 <BaseLayout title="Contact Us | Dr. Smile Dental Group" description="Schedule a consultation or get in touch with Dr. Smile Dental Group. Call (310) 388-3669." canonicalUrl={canonical} locale="en">
@@ -28,10 +40,18 @@ const canonical = `${import.meta.env.SITE}${base}/contact/`;
 
           <h2>Our Locations</h2>
           <ul class="contact-locations">
-            <li>Newport Beach, CA</li>
-            <li>San Pedro, CA</li>
-            <li>Torrance, CA</li>
-            <li>Lomita, CA</li>
+            {contactLocations.map((loc) => (
+              <li>
+                <a
+                  href={mapsUrl(loc.mapQuery)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Open ${loc.label.replace(/, CA$/, '')} location in Google Maps`}
+                >
+                  {loc.label}
+                </a>
+              </li>
+            ))}
           </ul>
           <a href={`${base}/location/#locations`} class="btn btn-outline contact-locations-cta">Our Locations</a>
 
@@ -124,6 +144,18 @@ const canonical = `${import.meta.env.SITE}${base}/contact/`;
   .contact-locations li {
     padding: 4px 0;
     color: var(--color-text-light);
+  }
+  .contact-locations a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 6px 0;
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  .contact-locations a:hover,
+  .contact-locations a:focus {
+    text-decoration: underline;
   }
   .contact-locations-cta {
     margin-top: 8px;
