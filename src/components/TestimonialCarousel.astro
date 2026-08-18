@@ -5,6 +5,7 @@ interface Props {
   locale: 'en' | 'es';
 }
 const { locale } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
 const testimonials = [
   {
@@ -43,32 +44,20 @@ const testimonials = [
       <div class="carousel-controls">
         <button
           class="carousel-btn"
+          data-dir="prev"
           aria-label={locale === 'es' ? 'Anterior' : 'Previous'}
-          onclick="
-            const track = this.closest('.carousel').querySelector('.carousel-track');
-            const slides = track.querySelectorAll('.carousel-slide');
-            let current = Array.from(slides).findIndex(s => s.getAttribute('aria-hidden') === 'false');
-            if (current === 0 || current === -1) current = slides.length - 1; else current--;
-            slides.forEach((s, i) => s.setAttribute('aria-hidden', i !== current ? 'true' : 'false'));
-            track.style.transform = 'translateX(-' + (current * 100) + '%)';
-          "
         >←</button>
         <button
           class="carousel-btn"
+          data-dir="next"
           aria-label={locale === 'es' ? 'Siguiente' : 'Next'}
-          onclick="
-            const track = this.closest('.carousel').querySelector('.carousel-track');
-            const slides = track.querySelectorAll('.carousel-slide');
-            let current = Array.from(slides).findIndex(s => s.getAttribute('aria-hidden') === 'false');
-            if (current === slides.length - 1) current = 0; else current++;
-            slides.forEach((s, i) => s.setAttribute('aria-hidden', i !== current ? 'true' : 'false'));
-            track.style.transform = 'translateX(-' + (current * 100) + '%)';
-          "
         >→</button>
       </div>
     </div>
   </div>
 </section>
+
+<script src={`${base}/js/carousel.js`} is:inline></script>
 
 <style>
   .carousel {

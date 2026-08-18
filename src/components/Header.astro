@@ -75,12 +75,6 @@ const nav = [
         class="nav-toggle"
         aria-expanded="false"
         aria-controls="nav-menu"
-        onclick="
-          const m = document.getElementById('nav-menu');
-          const open = m.classList.toggle('open');
-          this.setAttribute('aria-expanded', open);
-          if (open) { m.querySelector('a, button')?.focus(); }
-        "
       >
         <span class="sr-only">Toggle navigation menu</span>
         ☰
@@ -107,6 +101,8 @@ const nav = [
     </div>
   </nav>
 </header>
+
+<script src={`${base}/js/nav-toggle.js`} is:inline></script>
 
 <style>
   .nav {
