@@ -13,30 +13,38 @@ const locations = [
     address: '1000 Baker Street, Suite 100, Newport Beach, CA 92660',
     phone: '(310) 388-3669',
     hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapUrl: 'https://maps.google.com/?q=1000+Baker+St+Newport+Beach+CA',
+    mapQuery: '1000 Baker St, Newport Beach, CA 92660',
   },
   {
     name: 'San Pedro',
     address: '2000 Gaffey Street, San Pedro, CA 90731',
     phone: '(310) 388-3669',
     hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapUrl: 'https://maps.google.com/?q=2000+Gaffey+St+San+Pedro+CA',
+    mapQuery: '2000 Gaffey St, San Pedro, CA 90731',
   },
   {
     name: 'Torrance',
     address: '3000 Torrance Blvd, Suite 200, Torrance, CA 90503',
     phone: '(310) 388-3669',
     hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapUrl: 'https://maps.google.com/?q=3000+Torrance+Blvd+Torrance+CA',
+    mapQuery: '3000 Torrance Blvd, Torrance, CA 90503',
   },
   {
     name: 'Lomita',
     address: '4000 California St, Lomita, CA 90717',
     phone: '(310) 388-3669',
     hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapUrl: 'https://maps.google.com/?q=4000+California+St+Lomita+CA',
+    mapQuery: '4000 California St, Lomita, CA 90717',
   },
 ];
+
+// Keyless Google Maps embed. Using a clean "street, city, CA zip" query
+// (no suite line) plus a fixed zoom so Google always drops a marker rather
+// than falling back to an area view when a partial address won't geocode.
+const embedSrc = (query: string) =>
+  `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=15&output=embed`;
+const directionsUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 ---
 
 <section class="section" aria-label={locale === 'es' ? 'Nuestras ubicaciones' : 'Our locations'}>
@@ -61,7 +69,7 @@ const locations = [
           <iframe
             class="location-map"
             title={locale === 'es' ? `Mapa de ${loc.name}` : `Map of ${loc.name}`}
-            src={`https://www.google.com/maps?q=${encodeURIComponent(loc.address)}&output=embed`}
+            src={embedSrc(loc.mapQuery)}
             width="100%"
             height="200"
             style="border:0;"
@@ -72,7 +80,7 @@ const locations = [
           <address>{loc.address}</address>
           <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
           <p>{loc.hours}</p>
-          <a href={loc.mapUrl} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href={directionsUrl(loc.mapQuery)} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
             {t['cta.getDirections']}
           </a>
         </div>
