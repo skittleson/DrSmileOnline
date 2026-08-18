@@ -34,7 +34,10 @@ const locations = [
     address: '4000 California St, Lomita, CA 90717',
     phone: '(310) 388-3669',
     hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapQuery: '4000 California St, Lomita, CA 90717',
+    // The placeholder street address does not geocode in Google's keyless
+    // embed and falls back to a markerless area view. A lat,lng query for
+    // Lomita, CA always drops a spotlit pin. Address above stays as-is.
+    mapQuery: '33.7922,-118.3151',
   },
 ];
 
