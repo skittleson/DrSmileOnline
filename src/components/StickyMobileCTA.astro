@@ -15,24 +15,7 @@ const contactPath = locale === 'es' ? '/es/contacto/' : '/contact/';
   <a href={`${base}${contactPath}`} class="btn btn-accent sticky-cta-schedule">{t['cta.schedule']}</a>
 </div>
 
-<script>
-  const sticky = document.querySelector('.sticky-cta');
-  if (sticky) {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          sticky.setAttribute('inert', '');
-        } else {
-          sticky.removeAttribute('inert');
-        }
-        sticky.classList.toggle('visible', !entry.isIntersecting);
-      },
-      { threshold: 0 }
-    );
-    const hero = document.querySelector('.hero');
-    if (hero) observer.observe(hero);
-  }
-</script>
+<script src={`${base}/js/sticky-cta.js`} is:inline></script>
 
 <style>
   .sticky-cta {
