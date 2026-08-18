@@ -6,6 +6,8 @@ interface Props {
 }
 const { locale } = Astro.props;
 const t = getTranslations(locale);
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const locationHref = `${base}${locale === 'es' ? '/es/ubicacion/' : '/location/'}`;
 ---
 
 <section class="trust-band" aria-label={locale === 'es' ? 'Señales de confianza' : 'Trust signals'}>
@@ -18,10 +20,10 @@ const t = getTranslations(locale);
       <span class="trust-icon" aria-hidden="true">🛡️</span>
       <span class="trust-label">{t['trust.insurance']}</span>
     </div>
-    <div class="trust-item">
+    <a class="trust-item trust-item-link" href={locationHref}>
       <span class="trust-icon" aria-hidden="true">📍</span>
       <span class="trust-label">4 {t['trust.locations']}</span>
-    </div>
+    </a>
   </div>
 </section>
 
@@ -53,6 +55,23 @@ const t = getTranslations(locale);
   }
   .trust-label {
     color: var(--color-text);
+  }
+  .trust-item-link {
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    padding: 4px 8px;
+    min-height: 44px;
+    transition: color 0.15s ease;
+  }
+  .trust-item-link .trust-label {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .trust-item-link:hover .trust-label,
+  .trust-item-link:focus-visible .trust-label {
+    color: var(--color-primary-dark);
   }
   @media (max-width: 600px) {
     .trust-inner {

@@ -42,9 +42,32 @@ const locations = [
 <section class="section" aria-label={locale === 'es' ? 'Nuestras ubicaciones' : 'Our locations'}>
   <div class="container">
     <h2>{locale === 'es' ? 'Nuestras Ubicaciones' : 'Our Locations'}</h2>
+    <p class="location-intro">
+      {locale === 'es'
+        ? 'Cuatro consultorios en el Sur de California. Vea las cuatro ubicaciones en el mapa a continuación.'
+        : 'Four practices across Southern California. See all four locations on the maps below.'}
+      <a
+        class="location-map-link"
+        href="https://www.google.com/maps/search/Dr+Smile+Dental+Group+Newport+Beach+San+Pedro+Torrance+Lomita+CA"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {locale === 'es' ? 'Ver las 4 en Google Maps' : 'View all 4 on Google Maps'}
+      </a>
+    </p>
     <div class="location-grid">
       {locations.map((loc) => (
         <div class="location-card">
+          <iframe
+            class="location-map"
+            title={locale === 'es' ? `Mapa de ${loc.name}` : `Map of ${loc.name}`}
+            src={`https://www.google.com/maps?q=${encodeURIComponent(loc.address)}&output=embed`}
+            width="100%"
+            height="200"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
           <h3>{loc.name}</h3>
           <address>{loc.address}</address>
           <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
@@ -59,6 +82,15 @@ const locations = [
 </section>
 
 <style>
+  .location-intro {
+    color: var(--color-text-light);
+    margin-top: var(--space-1);
+  }
+  .location-map-link {
+    color: var(--color-primary);
+    font-weight: 600;
+    white-space: nowrap;
+  }
   .location-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -70,6 +102,13 @@ const locations = [
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
     padding: var(--space-3);
+    overflow: hidden;
+  }
+  .location-map {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-2);
   }
   .location-card h3 {
     margin-bottom: var(--space-1);
