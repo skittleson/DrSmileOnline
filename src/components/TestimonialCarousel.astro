@@ -1,0 +1,120 @@
+---
+import { getTranslations } from '../i18n/index';
+
+interface Props {
+  locale: 'en' | 'es';
+}
+const { locale } = Astro.props;
+
+const testimonials = [
+  {
+    quote: locale === 'es'
+      ? 'El Dr. Javid y el Dr. Nadi son increíbles — ayudando a crear la sonrisa de mis sueños. Siempre me hacen sentir cómoda y el equipo es atento y amable.'
+      : 'Dr. Javid and Dr. Nadi are amazing — helping to create the smile of my dreams. They always make me feel comfortable and the team is caring and kind!',
+    name: 'Ellie',
+  },
+  {
+    quote: locale === 'es'
+      ? 'El Dr. Javid y el Dr. Nadi son absolutamente increíbles. Han transformado mi sonrisa de maneras que nunca imaginé. Su atención al detalle y su genuino cuidado por sus pacientes es notable.'
+      : 'Dr. Javid and Dr. Nadi are absolutely incredible! They\'ve transformed my smile in ways I never imagined. Their attention to detail and genuine care for their patients is remarkable!',
+    name: 'Maria',
+  },
+  {
+    quote: locale === 'es'
+      ? 'Después de años evitando al dentista, el equipo de Dr. Smile me hizo sentir bienvenido. El procedimiento fue indoloro y el resultado es increíble.'
+      : 'After years of avoiding the dentist, the Dr. Smile team made me feel welcome. The procedure was painless and the result is incredible.',
+    name: 'Carlos',
+  },
+];
+---
+
+<section class="section section-surface" aria-label={locale === 'es' ? 'Testimonios de pacientes' : 'Patient testimonials'}>
+  <div class="container">
+    <h2>{locale === 'es' ? 'Lo Que Dicen Nuestros Pacientes' : 'What Our Patients Say'}</h2>
+    <div class="carousel" role="region" aria-label={locale === 'es' ? 'Testimonios' : 'Testimonials'}>
+      <div class="carousel-track" aria-live="polite">
+        {testimonials.map((t, i) => (
+          <blockquote class="carousel-slide" aria-hidden={i !== 0}>
+            <p>&ldquo;{t.quote}&rdquo;</p>
+            <cite>— {t.name}</cite>
+          </blockquote>
+        ))}
+      </div>
+      <div class="carousel-controls">
+        <button
+          class="carousel-btn"
+          aria-label={locale === 'es' ? 'Anterior' : 'Previous'}
+          onclick="
+            const track = this.closest('.carousel').querySelector('.carousel-track');
+            const slides = track.querySelectorAll('.carousel-slide');
+            let current = Array.from(slides).findIndex(s => s.getAttribute('aria-hidden') === 'false');
+            if (current === 0 || current === -1) current = slides.length - 1; else current--;
+            slides.forEach((s, i) => s.setAttribute('aria-hidden', i !== current ? 'true' : 'false'));
+            track.style.transform = 'translateX(-' + (current * 100) + '%)';
+          "
+        >←</button>
+        <button
+          class="carousel-btn"
+          aria-label={locale === 'es' ? 'Siguiente' : 'Next'}
+          onclick="
+            const track = this.closest('.carousel').querySelector('.carousel-track');
+            const slides = track.querySelectorAll('.carousel-slide');
+            let current = Array.from(slides).findIndex(s => s.getAttribute('aria-hidden') === 'false');
+            if (current === slides.length - 1) current = 0; else current++;
+            slides.forEach((s, i) => s.setAttribute('aria-hidden', i !== current ? 'true' : 'false'));
+            track.style.transform = 'translateX(-' + (current * 100) + '%)';
+          "
+        >→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .carousel {
+    max-width: 700px;
+    margin: var(--space-4) auto 0;
+    overflow: hidden;
+  }
+  .carousel-track {
+    display: flex;
+    transition: transform 0.2s ease-out;
+  }
+  .carousel-slide {
+    min-width: 100%;
+    padding: var(--space-3);
+  }
+  .carousel-slide p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--color-text);
+    margin-bottom: var(--space-2);
+  }
+  .carousel-slide cite {
+    color: var(--color-text-light);
+    font-style: normal;
+  }
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+  }
+  .carousel-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+    background: var(--color-bg);
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-btn:hover {
+    background: var(--color-primary);
+    color: #fff;
+  }
+</style>

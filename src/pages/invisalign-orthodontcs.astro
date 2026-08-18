@@ -1,12 +1,26 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/invisalign-orthodontcs/`;
 ---
 
 <BaseLayout
   title="Invisalign & Orthodontics | Dr. Smile Dental Group"
   description="Discreet Invisalign treatment and orthodontic care emphasizing proper occlusion and preventive care."
+  canonicalUrl={canonical}
+  locale="en"
 >
+  <UtilityBar slot="header" locale="en" currentPath="/invisalign-orthodontcs/" counterpartPath="/es/invisalign-ortodoncia/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Invisalign in Torrance</p>
@@ -25,14 +39,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <h2>Orthodontic Philosophy</h2>
       <p>Our orthodontic philosophy emphasizes proper occlusion and preventive care. We believe that healthy, well-aligned teeth are the foundation of a lifetime of oral health.</p>
-
-      <div class="service-cta">
-        <h2>Ready to Straighten Your Smile?</h2>
-        <p>Schedule a consultation to see if Invisalign is right for you.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner
+    heading="Ready to Straighten Your Smile?"
+    subheading="Schedule a consultation to see if Invisalign is right for you."
+    buttonLabel="Schedule a Consult"
+    buttonHref="contact/"
+  />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -50,15 +69,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .service-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .service-cta p {
-    margin-bottom: 16px;
   }
 </style>

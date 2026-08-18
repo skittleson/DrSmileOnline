@@ -1,17 +1,29 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
 
 const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <BaseLayout
   title="Blog | Dr. Smile Dental Group"
   description="Dental health tips, treatment guides, and news from Dr. Smile Dental Group."
+  locale="en"
 >
+  <UtilityBar slot="header" locale="en" currentPath="/blog/" counterpartPath="/blog/" />
+  <Header slot="header" locale="en" />
+
+  <TrustBand locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Blog</p>
@@ -32,6 +44,8 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </div>
     </div>
   </section>
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -50,7 +64,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   }
   .blog-card {
     padding: 24px;
-    background: var(--color-bg-alt);
+    background: var(--color-surface);
     border-radius: var(--radius);
   }
   .blog-card h2 {

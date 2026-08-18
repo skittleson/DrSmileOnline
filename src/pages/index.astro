@@ -1,16 +1,30 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
 import ServiceCard from '../components/ServiceCard.astro';
-import Testimonial from '../components/Testimonial.astro';
+import TestimonialCarousel from '../components/TestimonialCarousel.astro';
+import LocationCards from '../components/LocationCards.astro';
 import CtaBanner from '../components/CtaBanner.astro';
+import StickyMobileCTA from '../components/StickyMobileCTA.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
 
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/`;
 ---
 
 <BaseLayout
   title="Dr. Smile Dental Group | Expert Oral Surgery, Implants & More"
   description="Comprehensive dental care in Southern California. Oral surgery, implants, cosmetics, Invisalign & more under one roof. Call (310) 388-3669."
+  canonicalUrl={canonical}
+  locale="en"
 >
+  <UtilityBar slot="header" locale="en" currentPath="/" counterpartPath="/es/" />
+  <Header slot="header" locale="en" />
+
   {/* Hero */}
   <section class="hero" style={`background-image: linear-gradient(rgba(26,82,118,0.85), rgba(26,82,118,0.85)), url('${base}/images/dr-smile-bg-new.webp');`}>
     <div class="hero-content container">
@@ -21,18 +35,10 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     </div>
   </section>
 
-  {/* What Sets Us Apart */}
-  <section class="section">
-    <div class="container">
-      <h2>What Sets Us Apart</h2>
-      <p>Throughout Southern California, our state-of-the-art facilities and advanced technology allow us to provide the latest in dental treatments and techniques, ensuring our patients receive the highest quality of care.</p>
-      <p>No matter your age or dental concerns, we are dedicated to creating a personalized treatment plan tailored to your specific needs and goals.</p>
-      <p><strong>We believe that everyone deserves a beautiful, healthy smile that they can be proud of.</strong></p>
-    </div>
-  </section>
+  <TrustBand locale="en" />
 
   {/* Multi-Specialty */}
-  <section class="section section-alt">
+  <section class="section section-surface">
     <div class="container">
       <div class="two-col">
         <div>
@@ -43,40 +49,6 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
           <a href={base + '/services/'} class="btn">Specialties at Dr. Smile</a>
         </div>
         <img src={`${base}/images/nabiaa.webp`} alt="Dr. Smile dental team providing comprehensive care" width="480" height="360" loading="lazy" />
-      </div>
-    </div>
-  </section>
-
-  {/* Testimonials */}
-  <section class="section">
-    <div class="container">
-      <p class="eyebrow">Testimonials</p>
-      <h2>What Our Patients Say</h2>
-      <div class="testimonial-grid">
-        <Testimonial
-          quote="Dr. Javid and Dr. Nadi are amazing — helping to create the smile of my dreams. They always make me feel comfortable and the team is caring and kind!"
-          author="Ellie"
-        />
-        <Testimonial
-          quote="Dr. Javid and Dr. Nadi are absolutely incredible! They've transformed my smile in ways I never imagined. Their attention to detail and genuine care for their patients is remarkable!"
-          author="Maria"
-        />
-      </div>
-    </div>
-  </section>
-
-  {/* About Patients */}
-  <section class="section section-alt">
-    <div class="container">
-      <div class="two-col">
-        <img src={`${base}/images/about-patients.webp`} alt="Dr. Smile patient receiving care" width="480" height="360" loading="lazy" />
-        <div>
-          <p class="eyebrow">It's All about Our Patients!</p>
-          <h2>Your Needs Are Our Priority</h2>
-          <p><strong>If you're new here, welcome!</strong></p>
-          <p>We are incredibly passionate about what we do and have spent years in continuing education to provide the utmost in oral health care.</p>
-          <a href={base + '/about/'} class="btn btn-outline">More About Us</a>
-        </div>
       </div>
     </div>
   </section>
@@ -115,6 +87,51 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     </div>
   </section>
 
+  {/* Benefits */}
+  <section class="section section-surface">
+    <div class="container">
+      <p class="eyebrow">Why Dr. Smile</p>
+      <h2>What Sets Us Apart</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <h3>Multi-Specialty Under One Roof</h3>
+          <p>Oral surgery, implants, cosmetics, and orthodontics — no referrals, no waiting rooms elsewhere.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>Same-Day Appointments</h3>
+          <p>Flexible scheduling across four Southern California locations means care when you need it.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>Sedation Options</h3>
+          <p>Comprehensive, gentle care for patients of every age and comfort level.</p>
+        </div>
+      </div>
+      <p class="benefits-note">Throughout Southern California, our state-of-the-art facilities and advanced technology allow us to provide the latest in dental treatments and techniques, ensuring our patients receive the highest quality of care. We believe that everyone deserves a beautiful, healthy smile that they can be proud of.</p>
+    </div>
+  </section>
+
+  {/* About Patients */}
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <img src={`${base}/images/about-patients.webp`} alt="Dr. Smile patient receiving care" width="480" height="360" loading="lazy" />
+        <div>
+          <p class="eyebrow">It's All about Our Patients!</p>
+          <h2>Your Needs Are Our Priority</h2>
+          <p><strong>If you're new here, welcome!</strong></p>
+          <p>We are incredibly passionate about what we do and have spent years in continuing education to provide the utmost in oral health care.</p>
+          <a href={base + '/about/'} class="btn btn-outline">More About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Testimonials */}
+  <TestimonialCarousel locale="en" />
+
+  {/* Locations */}
+  <LocationCards locale="en" />
+
   {/* CTA */}
   <CtaBanner
     heading="A Healthy Confident Smile is Waiting"
@@ -122,6 +139,10 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     buttonLabel="Schedule a Consult"
     buttonHref="contact/"
   />
+
+  <StickyMobileCTA locale="en" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -180,23 +201,40 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     height: auto;
     border-radius: var(--radius);
   }
-  .testimonial-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    margin-top: 24px;
-  }
   .services-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     margin-top: 24px;
   }
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-4);
+  }
+  .benefit-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+  }
+  .benefit-card h3 {
+    margin-bottom: var(--space-2);
+    color: var(--color-primary-dark);
+  }
+  .benefit-card p {
+    margin-bottom: 0;
+  }
+  .benefits-note {
+    margin-top: var(--space-5);
+    font-size: 1.05rem;
+  }
   @media (max-width: 768px) {
     .hero h1 { font-size: 2rem; }
     .two-col { grid-template-columns: 1fr; }
-    .testimonial-grid { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: 1fr 1fr; }
+    .benefits-grid { grid-template-columns: 1fr; }
   }
   @media (max-width: 480px) {
     .services-grid { grid-template-columns: 1fr; }

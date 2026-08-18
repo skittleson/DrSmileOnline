@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "location": "Ubicación",
+    "financing": "Financiamiento",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "faqs": "Preguntas Frecuentes",
+    "announcements": "Anuncios Importantes",
+    "dentalGuide": "Guía Dental",
+    "implantGuide": "Guía de Implantes Dentales",
+    "veneersGuide": "Guía de Carillas Dentales",
+    "invisalignTreatment": "Tratamiento Invisalign",
+    "oralSurgery": "Cirugía Bucal",
+    "cosmeticCare": "Cuidado Cosmético",
+    "invisalign": "Invisalign y Ortodoncia",
+    "allOnFour": "All-on-Four y Prótesis"
+  },
+  "cta": {
+    "schedule": "Agendar una Cita",
+    "call": "Llamar",
+    "scheduleConsult": "Agendar una Consulta",
+    "contactUs": "Contáctenos",
+    "learnMore": "Saber Más",
+    "viewAll": "Ver Todos",
+    "getDirections": "Obtener Direcciones"
+  },
+  "utility": {
+    "phone": "(310) 388-3669",
+    "language": "Idioma",
+    "switchToSpanish": "Cambiar a español",
+    "switchToEnglish": "Switch to English"
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "legal": "Legal",
+    "followUs": "Síguenos",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "accessibility": "Declaración de Accesibilidad",
+    "rights": "Todos los Derechos Reservados."
+  },
+  "trust": {
+    "reviews": "reseñas de pacientes",
+    "insurance": "Aceptamos la Mayoría de los Seguros",
+    "locations": "Ubicaciones en el Sur de California"
+  }
+}

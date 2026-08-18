@@ -1,58 +1,37 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
-const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import LocationCards from '../components/LocationCards.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
 
-const locations = [
-  {
-    name: 'Newport Beach',
-    address: 'Newport Beach, CA',
-    phone: '(310) 388-3669',
-  },
-  {
-    name: 'San Pedro',
-    address: 'San Pedro, CA',
-    phone: '(310) 388-3669',
-  },
-  {
-    name: 'Torrance',
-    address: 'Torrance, CA',
-    phone: '(310) 388-3669',
-  },
-  {
-    name: 'Lomita',
-    address: 'Lomita, CA',
-    phone: '(310) 388-3669',
-  },
-];
+const t = getTranslations('en');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/location/`;
 ---
 
-<BaseLayout
-  title="Locations | Dr. Smile Dental Group"
-  description="Four convenient locations across Southern California: Newport Beach, San Pedro, Torrance, and Lomita."
->
+<BaseLayout title="Locations | Dr. Smile Dental Group" description="Four convenient locations across Southern California: Newport Beach, San Pedro, Torrance, and Lomita." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/location/" counterpartPath="/es/ubicacion/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Location</p>
       <h1>Our Locations</h1>
       <p>With four locations across Southern California, we're confident there's a convenient location near you.</p>
-
-      <div class="locations-grid">
-        {locations.map((loc) => (
-          <div class="location-card">
-            <h2>{loc.name}</h2>
-            <p>{loc.address}</p>
-            <a href={`tel:${loc.phone}`} class="btn btn-outline">Call {loc.phone}</a>
-          </div>
-        ))}
-      </div>
-
-      <div class="location-cta">
-        <h2>Ready to Visit?</h2>
-        <p>Schedule a consultation at the location most convenient for you.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <LocationCards locale="en" />
+
+  <CtaBanner heading="Ready to Visit?" subheading="Schedule a consultation at the location most convenient for you." buttonLabel="Schedule a Consult" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -62,37 +41,5 @@ const locations = [
     font-size: 0.85rem;
     color: var(--color-accent);
     margin-bottom: 8px;
-  }
-  .locations-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    margin-top: 32px;
-  }
-  .location-card {
-    padding: 24px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-  }
-  .location-card h2 {
-    margin-bottom: 8px;
-    font-size: 1.25rem;
-  }
-  .location-card p {
-    color: var(--color-text-light);
-    margin-bottom: 16px;
-  }
-  .location-cta {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 1px solid var(--color-border);
-    text-align: center;
-  }
-  .location-cta p {
-    margin-bottom: 16px;
-    color: var(--color-text-light);
-  }
-  @media (max-width: 768px) {
-    .locations-grid { grid-template-columns: 1fr; }
   }
 </style>

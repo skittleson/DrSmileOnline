@@ -1,12 +1,21 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/dental-implant-guide/`;
 ---
 
-<BaseLayout
-  title="Dental Implant Guide | Dr. Smile Dental Group"
-  description="A complete guide to dental implants: what they are, the procedure, recovery, and how they compare to other tooth replacement options."
->
+<BaseLayout title="Dental Implant Guide | Dr. Smile Dental Group" description="A complete guide to dental implants: what they are, the procedure, recovery, and how they compare to other tooth replacement options." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/dental-implant-guide/" counterpartPath="/es/guia-implantes/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Dental Implant Guide</p>
@@ -32,14 +41,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <h2>Recovery and Aftercare</h2>
       <p>Most patients experience mild swelling and discomfort for a few days after the procedure. Over-the-counter pain relievers are usually sufficient. Follow your dentist's aftercare instructions to ensure proper healing.</p>
-
-      <div class="guide-cta">
-        <h2>Considering Implants?</h2>
-        <p>Our implant team would love to answer your questions.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner heading="Considering Implants?" subheading="Our implant team would love to answer your questions." buttonLabel="Schedule a Consult" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -57,15 +66,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .guide-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .guide-cta p {
-    margin-bottom: 16px;
   }
 </style>

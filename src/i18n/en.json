@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "location": "Location",
+    "financing": "Financing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "faqs": "FAQs",
+    "announcements": "Important Announcements",
+    "dentalGuide": "Dental Guide",
+    "implantGuide": "Dental Implant Guide",
+    "veneersGuide": "Dental Veneers Guide",
+    "invisalignTreatment": "Invisalign Treatment",
+    "oralSurgery": "Oral Surgery",
+    "cosmeticCare": "Cosmetic Care",
+    "invisalign": "Invisalign & Orthodontics",
+    "allOnFour": "All-on-Four & Prosthetics"
+  },
+  "cta": {
+    "schedule": "Schedule a Visit",
+    "call": "Call",
+    "scheduleConsult": "Schedule a Consult",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "getDirections": "Get Directions"
+  },
+  "utility": {
+    "phone": "(310) 388-3669",
+    "language": "Language",
+    "switchToSpanish": "Cambiar a español",
+    "switchToEnglish": "Switch to English"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "followUs": "Follow Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "accessibility": "Accessibility Statement",
+    "rights": "All Rights Reserved."
+  },
+  "trust": {
+    "reviews": "patient reviews",
+    "insurance": "Accepting Most Insurance",
+    "locations": "Locations Across SoCal"
+  }
+}

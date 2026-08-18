@@ -1,12 +1,21 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/financing/`;
 ---
 
-<BaseLayout
-  title="Dental Financing & Insurance | Dr. Smile Dental Group"
-  description="Affordable dental care with flexible financing options and insurance acceptance. Quality care for all."
->
+<BaseLayout title="Dental Financing & Insurance | Dr. Smile Dental Group" description="Affordable dental care with flexible financing options and insurance acceptance. Quality care for all." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/financing/" counterpartPath="/es/financiamiento/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Financing</p>
@@ -23,14 +32,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <h2>Membership Plans</h2>
       <p>We also offer membership plans for patients who don't have dental insurance. These plans provide discounted rates on preventive and basic dental services, making ongoing care more affordable.</p>
-
-      <div class="financing-cta">
-        <h2>Questions About Financing?</h2>
-        <p>Our team is happy to help you find the right option.</p>
-        <a href={base + '/contact/'} class="btn">Contact Us</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner heading="Questions About Financing?" subheading="Our team is happy to help you find the right option." buttonLabel="Contact Us" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -48,15 +57,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .financing-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .financing-cta p {
-    margin-bottom: 16px;
   }
 </style>

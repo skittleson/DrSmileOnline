@@ -1,12 +1,26 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/cosmetic-care/`;
 ---
 
 <BaseLayout
   title="Cosmetic Dentistry, Veneers & Whitening | Dr. Smile Dental Group"
   description="Achieve natural esthetic outcomes with expert veneers, teeth whitening, and cosmetic dentistry in Southern California."
+  canonicalUrl={canonical}
+  locale="en"
 >
+  <UtilityBar slot="header" locale="en" currentPath="/cosmetic-care/" counterpartPath="/es/cuidado-cosmetico/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Your Smile Will Thank You</p>
@@ -22,14 +36,19 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <h2>Smile Makeovers</h2>
       <p>For patients seeking a comprehensive smile transformation, our cosmetic dentists work with you to design a personalized smile makeover that addresses multiple concerns at once — from color and shape to alignment and proportion.</p>
-
-      <div class="service-cta">
-        <h2>Ready to Transform Your Smile?</h2>
-        <p>Consult with our cosmetic dentistry team today.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner
+    heading="Ready to Transform Your Smile?"
+    subheading="Consult with our cosmetic dentistry team today."
+    buttonLabel="Schedule a Consult"
+    buttonHref="contact/"
+  />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -47,15 +66,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .service-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .service-cta p {
-    margin-bottom: 16px;
   }
 </style>

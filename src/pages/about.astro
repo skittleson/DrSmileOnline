@@ -1,12 +1,25 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/about/`;
 ---
 
 <BaseLayout
   title="About Dr. Smile Dental Group | Meet Our Doctors"
   description="Meet Dr. Mariam Nadi and Dr. Kayvon Javid. 16+ years of patient-centered dental care across Southern California."
+  canonicalUrl={canonical}
+  locale="en"
 >
+  <UtilityBar slot="header" locale="en" currentPath="/about/" counterpartPath="/es/nosotros/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">About</p>
@@ -32,6 +45,10 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -45,7 +62,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .doctor-card {
     margin: 32px 0;
     padding: 24px;
-    background: var(--color-bg-alt);
+    background: var(--color-surface);
     border-radius: var(--radius);
   }
   .doctor-card h2 {

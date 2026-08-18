@@ -1,6 +1,15 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/faqs/`;
 
 const faqs = [
   {
@@ -30,10 +39,10 @@ const faqs = [
 ];
 ---
 
-<BaseLayout
-  title="FAQs | Dr. Smile Dental Group"
-  description="Frequently asked questions about our dental services, insurance, financing, and what to expect at your first visit."
->
+<BaseLayout title="FAQs | Dr. Smile Dental Group" description="Frequently asked questions about our dental services, insurance, financing, and what to expect at your first visit." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/faqs/" counterpartPath="/es/preguntas-frecuentes/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">FAQs</p>
@@ -46,12 +55,14 @@ const faqs = [
           </details>
         ))}
       </div>
-      <div class="faq-cta">
-        <p>Still have questions?</p>
-        <a href={base + '/contact/'} class="btn">Contact Us</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner heading="Still Have Questions?" subheading="We're here to help." buttonLabel="Contact Us" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -82,14 +93,5 @@ const faqs = [
     margin-top: 12px;
     color: var(--color-text-light);
     padding-bottom: 8px;
-  }
-  .faq-cta {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 1px solid var(--color-border);
-  }
-  .faq-cta p {
-    margin-bottom: 16px;
-    color: var(--color-text-light);
   }
 </style>

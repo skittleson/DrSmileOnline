@@ -1,0 +1,89 @@
+---
+import { getTranslations } from '../i18n/index';
+
+interface Props {
+  locale: 'en' | 'es';
+}
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+
+const locations = [
+  {
+    name: 'Newport Beach',
+    address: '1000 Baker Street, Suite 100, Newport Beach, CA 92660',
+    phone: '(310) 388-3669',
+    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
+    mapUrl: 'https://maps.google.com/?q=1000+Baker+St+Newport+Beach+CA',
+  },
+  {
+    name: 'San Pedro',
+    address: '2000 Gaffey Street, San Pedro, CA 90731',
+    phone: '(310) 388-3669',
+    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
+    mapUrl: 'https://maps.google.com/?q=2000+Gaffey+St+San+Pedro+CA',
+  },
+  {
+    name: 'Torrance',
+    address: '3000 Torrance Blvd, Suite 200, Torrance, CA 90503',
+    phone: '(310) 388-3669',
+    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
+    mapUrl: 'https://maps.google.com/?q=3000+Torrance+Blvd+Torrance+CA',
+  },
+  {
+    name: 'Lomita',
+    address: '4000 California St, Lomita, CA 90717',
+    phone: '(310) 388-3669',
+    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
+    mapUrl: 'https://maps.google.com/?q=4000+California+St+Lomita+CA',
+  },
+];
+---
+
+<section class="section" aria-label={locale === 'es' ? 'Nuestras ubicaciones' : 'Our locations'}>
+  <div class="container">
+    <h2>{locale === 'es' ? 'Nuestras Ubicaciones' : 'Our Locations'}</h2>
+    <div class="location-grid">
+      {locations.map((loc) => (
+        <div class="location-card">
+          <h3>{loc.name}</h3>
+          <address>{loc.address}</address>
+          <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
+          <p>{loc.hours}</p>
+          <a href={loc.mapUrl} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+            {t['cta.getDirections']}
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .location-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+  }
+  .location-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-3);
+  }
+  .location-card h3 {
+    margin-bottom: var(--space-1);
+  }
+  .location-card address {
+    font-style: normal;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-1);
+  }
+  .location-card p {
+    margin-bottom: var(--space-1);
+    color: var(--color-text-light);
+  }
+  .location-card .btn {
+    margin-top: var(--space-2);
+  }
+</style>

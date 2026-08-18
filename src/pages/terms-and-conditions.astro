@@ -1,11 +1,20 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/terms-and-conditions/`;
 ---
 
-<BaseLayout
-  title="Terms and Conditions | Dr. Smile Dental Group"
-  description="Terms and conditions for using the Dr. Smile Dental Group website."
->
+<BaseLayout title="Terms and Conditions | Dr. Smile Dental Group" description="Terms and conditions for using the Dr. Smile Dental Group website." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/terms-and-conditions/" counterpartPath="/es/terminos-y-condiciones/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <h1>Terms and Conditions</h1>
@@ -35,6 +44,10 @@ import BaseLayout from '../layouts/Base.astro';
       <p>By using our website, you hereby consent to our Terms and Conditions and agree to its terms.</p>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>

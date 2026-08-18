@@ -1,0 +1,62 @@
+---
+import { getTranslations } from '../i18n/index';
+
+interface Props {
+  locale: 'en' | 'es';
+}
+const { locale } = Astro.props;
+const t = getTranslations(locale);
+---
+
+<section class="trust-band" aria-label={locale === 'es' ? 'Señales de confianza' : 'Trust signals'}>
+  <div class="container trust-inner">
+    <div class="trust-item">
+      <span class="trust-stars" aria-hidden="true">★★★★★</span>
+      <span class="trust-label">4.8 {t['trust.reviews']}</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon" aria-hidden="true">🛡️</span>
+      <span class="trust-label">{t['trust.insurance']}</span>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon" aria-hidden="true">📍</span>
+      <span class="trust-label">4 {t['trust.locations']}</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .trust-band {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-3) 0;
+  }
+  .trust-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-weight: 500;
+  }
+  .trust-stars {
+    color: var(--color-accent);
+    font-size: 1.25rem;
+  }
+  .trust-icon {
+    font-size: 1.25rem;
+  }
+  .trust-label {
+    color: var(--color-text);
+  }
+  @media (max-width: 600px) {
+    .trust-inner {
+      gap: var(--space-3);
+    }
+  }
+</style>

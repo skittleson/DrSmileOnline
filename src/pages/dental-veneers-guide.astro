@@ -1,12 +1,21 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/dental-veneers-guide/`;
 ---
 
-<BaseLayout
-  title="Dental Veneers Guide | Dr. Smile Dental Group"
-  description="A complete guide to dental veneers: what they are, the procedure, costs, and how to care for them."
->
+<BaseLayout title="Dental Veneers Guide | Dr. Smile Dental Group" description="A complete guide to dental veneers: what they are, the procedure, costs, and how to care for them." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/dental-veneers-guide/" counterpartPath="/es/guia-carillas/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Dental Veneers</p>
@@ -33,14 +42,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
       <p><strong>Limit staining foods and drinks</strong> like coffee, tea, red wine, and tobacco.</p>
       <p><strong>Wear a nightguard</strong> if you grind your teeth at night.</p>
       <p><strong>Visit your dentist</strong> regularly for check-ups and cleanings.</p>
-
-      <div class="guide-cta">
-        <h2>Ready for a Veneer Consultation?</h2>
-        <p>Our cosmetic team would love to show you what's possible.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner heading="Ready for a Veneer Consultation?" subheading="Our cosmetic team would love to show you what's possible." buttonLabel="Schedule a Consult" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -58,15 +67,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .guide-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .guide-cta p {
-    margin-bottom: 16px;
   }
 </style>

@@ -1,12 +1,21 @@
 ---
 import BaseLayout from '../layouts/Base.astro';
+import UtilityBar from '../components/UtilityBar.astro';
+import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n/index';
+
+const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/dental-invisalign-treatment/`;
 ---
 
-<BaseLayout
-  title="Invisalign Treatment Guide | Dr. Smile Dental Group"
-  description="A complete guide to Invisalign: how it works, treatment duration, costs, and how it compares to traditional braces."
->
+<BaseLayout title="Invisalign Treatment Guide | Dr. Smile Dental Group" description="A complete guide to Invisalign: how it works, treatment duration, costs, and how it compares to traditional braces." canonicalUrl={canonical} locale="en">
+  <UtilityBar slot="header" locale="en" currentPath="/dental-invisalign-treatment/" counterpartPath="/es/tratamiento-invisalign/" />
+  <Header slot="header" locale="en" />
+
   <section class="section">
     <div class="container">
       <p class="eyebrow">Invisalign Treatment</p>
@@ -28,14 +37,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
       <h2>Who is Invisalign Right For?</h2>
       <p>Invisalign is suitable for most orthodontic issues, including crowding, gaps, overbites, underbites, and crossbites. However, some complex cases may be better suited to traditional braces. Your orthodontist will evaluate your case and recommend the best option.</p>
-
-      <div class="guide-cta">
-        <h2>Ready to Start Your Invisalign Journey?</h2>
-        <p>Schedule a consultation to see if Invisalign is right for you.</p>
-        <a href={base + '/contact/'} class="btn">Schedule a Consult</a>
-      </div>
     </div>
   </section>
+
+  <TrustBand locale="en" />
+
+  <CtaBanner heading="Ready to Start Your Invisalign Journey?" subheading="Schedule a consultation to see if Invisalign is right for you." buttonLabel="Schedule a Consult" buttonHref="contact/" />
+
+  <Footer slot="footer" locale="en" />
 </BaseLayout>
 
 <style>
@@ -53,15 +62,5 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
   .section h2 {
     margin-top: 32px;
     margin-bottom: 12px;
-  }
-  .guide-cta {
-    margin-top: 48px;
-    padding: 32px;
-    background: var(--color-bg-alt);
-    border-radius: var(--radius);
-    text-align: center;
-  }
-  .guide-cta p {
-    margin-bottom: 16px;
   }
 </style>
