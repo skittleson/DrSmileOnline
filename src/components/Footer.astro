@@ -94,11 +94,15 @@ const slugs = locale === 'es' ? esSlugs : enSlugs;
   }
   .footer-links li,
   .footer-legal li {
-    margin-bottom: var(--space-1);
+    margin-bottom: 0;
   }
   .footer-links a,
   .footer-legal a {
     color: rgba(255,255,255,0.8);
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: var(--space-1) 0;
   }
   .footer-links a:hover,
   .footer-legal a:hover {
@@ -111,6 +115,10 @@ const slugs = locale === 'es' ? esSlugs : enSlugs;
   }
   .footer-social a {
     color: rgba(255,255,255,0.8);
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: var(--space-1) 0;
   }
   .footer-social a:hover {
     color: var(--color-accent);
