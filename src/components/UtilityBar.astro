@@ -1,5 +1,6 @@
 ---
 import { getTranslations } from '../i18n/index';
+import { locations } from '../data/locations';
 
 interface Props {
   locale: 'en' | 'es';
@@ -12,7 +13,8 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const otherLocale = locale === 'en' ? 'es' : 'en';
 const otherPrefix = otherLocale === 'es' ? '/es' : '';
 const phone = t['utility.phone'];
-const locationSlug = locale === 'es' ? '/es/ubicacion/' : '/location/';
+const callAriaLabel = (city: string) =>
+  locale === 'es' ? `Llamar a la oficina de ${city}` : `Call ${city} office`;
 
 const withBase = (p: string) => `${base}${p.startsWith('/') ? p : `/${p}`}`;
 // currentPath is always THIS locale's page; counterpartPath is the OTHER locale's page.
@@ -23,9 +25,21 @@ const esHref = withBase(locale === 'es' ? currentPath : (counterpartPath || fall
 
 <div class="utility-bar">
   <div class="container utility-inner">
-    <a href={`${base}${locationSlug}`} class="utility-phone" aria-label={t['utility.phone']}>
-      <span aria-hidden="true">📞</span> {phone}
-    </a>
+    <details class="utility-phone-menu">
+      <summary class="utility-phone" aria-label={phone}>
+        <span aria-hidden="true">📞</span> {phone}
+      </summary>
+      <ul class="utility-phone-list">
+        {locations.map((loc) => (
+          <li>
+            <a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`} aria-label={callAriaLabel(loc.city)}>
+              <span class="utility-phone-city">{loc.city}</span>
+              <span class="utility-phone-number">{loc.phone}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </details>
     <div class="utility-center">
       <span class="sr-only">{t['utility.language']}</span>
       <nav aria-label={t['utility.language']} class="lang-toggle">
@@ -60,16 +74,72 @@ const esHref = withBase(locale === 'es' ? currentPath : (counterpartPath || fall
     justify-content: space-between;
     gap: var(--space-2);
   }
+  .utility-phone-menu {
+    position: relative;
+  }
   .utility-phone {
     color: #fff;
     font-weight: 500;
     display: inline-flex;
     align-items: center;
     gap: 4px;
+    cursor: pointer;
+    list-style: none;
+  }
+  .utility-phone::-webkit-details-marker {
+    display: none;
+  }
+  .utility-phone::after {
+    content: '▾';
+    font-size: 0.7em;
   }
   .utility-phone:hover {
     text-decoration: none;
     color: var(--color-accent);
+  }
+  .utility-phone-list {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    margin: 0;
+    padding: var(--space-1);
+    list-style: none;
+    background: var(--color-primary-dark);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius);
+    min-width: 220px;
+    z-index: 50;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+  .utility-phone-list li + li {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .utility-phone-list a {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-2);
+    color: #fff;
+    padding: var(--space-1) var(--space-1);
+    min-height: 44px;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .utility-phone-list a:hover {
+    text-decoration: none;
+    color: var(--color-accent);
+  }
+  .utility-phone-city {
+    opacity: 0.8;
+    font-size: 0.85em;
+  }
+  .utility-phone-number {
+    font-weight: 600;
+  }
+  @media (max-width: 600px) {
+    .utility-phone-list {
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
   .lang-toggle {
     display: flex;

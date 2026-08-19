@@ -1,0 +1,44 @@
+---
+// Static redirect stubs for legacy WordPress URLs (doctorsmileonline.com)
+// that are moving to a different path on the new Astro site. GitHub Pages
+// is static-only (no server-side 301s), so this generates one physical
+// HTML file per legacy path with a <meta http-equiv="refresh"> plus a
+// matching rel="canonical" pointing at the new URL -- the standard
+// "soft 301" pattern for static hosts. See src/data/legacy-redirects.ts
+// for the data source and what's deliberately excluded.
+//
+// IMPORTANT: this route is NOT for the 4 separate city-specific WordPress
+// domains (drsmilenewport.com etc.) -- those need registrar/Cloudflare-level
+// domain forwarding outside this codebase (GitHub Pages only serves one
+// custom domain per repo). See local-reports/redirect-map-2026-08-19.md.
+import { legacyRedirects } from '../data/legacy-redirects';
+
+export function getStaticPaths() {
+  return legacyRedirects.map(({ from, to }) => ({
+    params: { legacyPath: from },
+    props: { to },
+  }));
+}
+
+const { to } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const targetPath = `${base}/${to}${to ? '/' : ''}`.replace(/\/{2,}/g, '/');
+const targetUrl = `${import.meta.env.SITE}${targetPath}`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dr. Smile Dental Group — Page Moved</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href={targetUrl} />
+    <meta http-equiv="refresh" content={`0; url=${targetUrl}`} />
+    <script define:vars={{ targetUrl }} is:inline>
+      window.location.replace(targetUrl);
+    </script>
+  </head>
+  <body>
+    <p>This page has moved. If you are not redirected automatically, <a href={targetUrl}>click here</a>.</p>
+  </body>
+</html>
