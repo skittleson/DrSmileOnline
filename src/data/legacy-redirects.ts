@@ -134,4 +134,73 @@ export const legacyRedirects: LegacyRedirect[] = [
   { from: 'category/important-announcements', to: 'blog' }, // 2 pageviews/90d (WP category archive)
   { from: 'category/iv-sedation', to: 'blog' }, // 2 pageviews/90d (WP category archive)
   { from: 'tag/laugh', to: 'blog' }, // 2 pageviews/90d (WP tag archive)
+
+  // --- 2026-08-19 top-up from the 365-day GA4 dead-URL pull (property 446120868,
+  //     doctorsmileonline.com only). See local-reports/404-handling-strategy.md.
+  //     Existing entries above are NOT duplicated here.
+  //
+  //     STAGED FOR CUTOVER: the WordPress site is still live; these stubs only
+  //     take effect once this Astro site becomes the live doctorsmileonline.com.
+  //     They do NOT fix the current WordPress 404s (handle those on WP now — see
+  //     local-reports/wordpress-404-consultant-response.md).
+
+  // Legacy .html office/service pages -> nearest live page.
+  { from: 'san-pedro-office.html', to: 'san-pedro' }, // 49 pageviews/365d
+  { from: 'dentist-in-newport.html', to: 'newport-beach' }, // 7
+  { from: 'emergency-newport.html', to: 'newport-beach' }, // 6
+  { from: 'Lomita-Office.html', to: 'lomita' }, // 5
+  { from: 'dentist-in-san-pedro.html', to: 'san-pedro' }, // 2
+  { from: 'emergency-dentist-in-san-pedro.html', to: 'san-pedro' }, // 2
+  { from: 'invisalign.html', to: 'invisalign-orthodontcs' }, // 3 (note: the live slug is intentionally misspelled)
+  { from: 'services.html', to: 'services' }, // 3
+  { from: 'offices.html', to: 'location' }, // 4
+  { from: 'wisdom-tooth.html', to: 'oral-surgery' }, // 2
+  { from: 'denture.html', to: 'services' }, // 3
+  { from: 'appointment.html', to: 'contact' }, // 1
+  { from: 'specific-service/contact.html', to: 'contact' }, // 2
+
+  // Old team/nav slugs -> /about/ (no dedicated team page exists yet).
+  { from: 'doctors', to: 'about' }, // 20 pageviews/365d
+  { from: 'our-team', to: 'about' }, // 20
+  { from: 'meet-the-doctors', to: 'about' }, // 19
+  { from: 'meet-the-team', to: 'about' }, // 19
+  { from: 'our-doctors', to: 'about' }, // 19
+  { from: 'dentists', to: 'about' }, // 18
+  { from: 'staff', to: 'about' }, // 17
+  { from: 'about-us', to: 'about' }, // 10
+  { from: 'aboutus', to: 'about' }, // 4
+  { from: 'providers', to: 'about' }, // 5
+  { from: 'our-physicians/dr-kayvon-javid', to: 'about' }, // 2
+
+  // Contact / booking slugs -> /contact/ (or the matching city page).
+  { from: 'contactus', to: 'contact' }, // 4 pageviews/365d
+  { from: 'contacts', to: 'contact' }, // 4
+  { from: 'new-patients', to: 'contact' }, // 9
+  { from: 'appointments', to: 'contact' }, // 1
+  { from: 'contact-us-lomita-ca', to: 'lomita' }, // 16
+  { from: 'contact-us-san-pedro-ca', to: 'san-pedro' }, // 2
+
+  // Service slugs -> nearest live service page.
+  { from: 'oral-surgery', to: 'oral-surgery' }, // 12 pageviews/365d (trailing-slash/case artifact)
+  { from: 'crowns-bridges', to: 'services' }, // 8
+  { from: 'root-canals', to: 'services' }, // 7
+  { from: 'root-canal', to: 'services' }, // 4
+  { from: 'orthodontics', to: 'invisalign-orthodontcs' }, // 5
+  { from: 'tmj', to: 'oral-surgery' }, // 5
+  { from: 'tmj-treatment', to: 'oral-surgery' }, // 2
+  { from: 'gum-disease-treatments', to: 'services' }, // 3
+  { from: 'pinhole-surgical-treatment', to: 'services' }, // 6
+  { from: 'complex-dentistry', to: 'services' }, // 5
+  { from: 'cosmetic-dentistry', to: 'cosmetic-care' }, // 4
+  { from: 'veneers-vs-crowns', to: 'dental-veneers-guide' }, // 7
+  { from: 'dental-implants-or-dentures', to: 'dental-implant-guide' }, // 6
+  { from: 'emergency-dentistry', to: 'services' }, // 3
+
+  // Legacy /locations/{city}-ca-dentist/ landing pages -> the matching /{city}/ page.
+  // (locations/san-pedro-ca-dentist is already mapped above.)
+  { from: 'locations/torrance-ca-dentist', to: 'torrance' }, // 3 pageviews/365d
+  { from: 'locations/lomita-ca-dentist', to: 'lomita' }, // 3
+  { from: 'locations/newport-beach-ca-dentist', to: 'newport-beach' }, // 2
+  // Whittier is NOT a served office -> send to the location finder, never a page.
+  { from: 'locations/whittier-ca-dentist', to: 'location' }, // 3
 ];
