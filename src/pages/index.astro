@@ -26,7 +26,7 @@ const canonical = `${import.meta.env.SITE}${base}/`;
   <Header slot="header" locale="en" />
 
   {/* Hero */}
-  <section class="hero" style={`background-image: linear-gradient(rgba(26,82,118,0.85), rgba(26,82,118,0.85)), url('${base}/images/dr-smile-bg-new.webp');`}>
+  <section class="hero" style={`background-image: url('${base}/images/dr-smile-bg-new.webp');`}>
     <div class="hero-content container">
       <p class="hero-eyebrow">dr. smile dental group</p>
       <h1>Nothing You Wear is as Beautiful as a Healthy Smile!</h1>
@@ -158,19 +158,22 @@ const canonical = `${import.meta.env.SITE}${base}/`;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.9rem;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.9);
     margin-bottom: 12px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
   }
   .hero h1 {
     color: #fff;
     font-size: 3rem;
     max-width: 800px;
     margin: 0 auto 16px;
+    text-shadow: 0 2px 14px rgba(0,0,0,0.65);
   }
   .hero-sub {
     font-size: 1.25rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.95);
     margin-bottom: 32px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
   }
   .hero .btn-lg {
     padding: 16px 48px;
