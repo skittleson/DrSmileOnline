@@ -8,6 +8,7 @@ export interface Location {
   phone: string;
   postalCode: string;
   mapQuery: string;
+  website: string;
   hoursEn: string;
   hoursEs: string;
 }
@@ -23,6 +24,7 @@ export const locations: Location[] = [
     phone: '(949) 640-0222',
     postalCode: '92660',
     mapQuery: '2121 East Coast Hwy Ste 140, Newport Beach, CA 92660',
+    website: 'https://skittleson.github.io/DrSmileOnline/newport-beach/',
     hoursEn: 'Mon–Fri: 8AM–5PM, Sat: By appointment',
     hoursEs: 'Lun–Vie: 8AM–5PM, Sáb: Por cita',
   },
@@ -36,6 +38,7 @@ export const locations: Location[] = [
     phone: '(310) 548-8128',
     postalCode: '90731',
     mapQuery: '1622 S Gaffey St, San Pedro, CA 90731',
+    website: 'https://skittleson.github.io/DrSmileOnline/san-pedro/',
     hoursEn: 'Mon–Fri: 8AM–5PM, Sat: By appointment',
     hoursEs: 'Lun–Vie: 8AM–5PM, Sáb: Por cita',
   },
@@ -49,6 +52,7 @@ export const locations: Location[] = [
     phone: '(310) 325-8555',
     postalCode: '90505',
     mapQuery: '24667 Crenshaw Blvd D, Torrance, CA 90505',
+    website: 'https://skittleson.github.io/DrSmileOnline/torrance/',
     hoursEn: 'Mon–Fri: 8AM–5PM, Sat: By appointment',
     hoursEs: 'Lun–Vie: 8AM–5PM, Sáb: Por cita',
   },
@@ -62,6 +66,7 @@ export const locations: Location[] = [
     phone: '(310) 539-1111',
     postalCode: '90717',
     mapQuery: '2104 Pacific Coast Hwy #5, Lomita, CA 90717',
+    website: 'https://skittleson.github.io/DrSmileOnline/lomita/',
     hoursEn: 'Mon–Fri: 8AM–5PM, Sat: By appointment',
     hoursEs: 'Lun–Vie: 8AM–5PM, Sáb: Por cita',
   },
