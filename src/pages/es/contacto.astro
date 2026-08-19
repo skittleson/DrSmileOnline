@@ -10,6 +10,7 @@ import { locations, getDirectionsUrl } from '../../data/locations';
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/contacto/`;
+const enUrl = `${import.meta.env.SITE}${base}/contact/`;
 
 const contactLocations = locations.map((loc) => ({
   label: `${loc.city}, CA`,
@@ -25,6 +26,11 @@ const mapsUrl = getDirectionsUrl;
   canonicalUrl={canonical}
   locale="es"
 >
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="es" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={enUrl} />
+  </Fragment>
 
   <UtilityBar slot="header" locale="es" currentPath="/es/contacto/" counterpartPath="/contact/" />
   <Header slot="header" locale="es" />
