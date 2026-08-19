@@ -11,7 +11,6 @@ import { locations, getDirectionsUrl, getMapEmbedSrc } from '../../data/location
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/ubicacion/`;
-const enUrl = `${import.meta.env.SITE}${base}/location/`;
 
 const cityBlurb = {
   'newport-beach': 'Odontología estética, carillas e implantes All-on-Four',
@@ -34,11 +33,6 @@ const cards = locations.map((loc) => ({
   canonicalUrl={canonical}
   locale="es"
 >
-  <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href={enUrl} />
-    <link rel="alternate" hreflang="es" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={enUrl} />
-  </Fragment>
 
   <UtilityBar slot="header" locale="es" currentPath="/es/ubicacion/" counterpartPath="/location/" />
   <Header slot="header" locale="es" />

@@ -10,7 +10,7 @@ const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<BaseLayout title="Page Not Found | Dr. Smile Dental Group" description="The page you're looking for doesn't exist." locale="en">
+<BaseLayout title="Page Not Found | Dr. Smile Dental Group" description="The page you're looking for doesn't exist." locale="en" noindex={true}>
   <Fragment slot="head">
     <script is:inline define:vars={{ base }}>
       // GitHub Pages only serves this one 404.html for any unmatched path

@@ -9,7 +9,6 @@ import { getTranslations } from '../../i18n/index';
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/politica-de-privacidad/`;
-const enUrl = `${import.meta.env.SITE}${base}/privacy-policy/`;
 ---
 
 <BaseLayout
@@ -18,11 +17,6 @@ const enUrl = `${import.meta.env.SITE}${base}/privacy-policy/`;
   canonicalUrl={canonical}
   locale="es"
 >
-  <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href={enUrl} />
-    <link rel="alternate" hreflang="es" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={enUrl} />
-  </Fragment>
 
   <UtilityBar slot="header" locale="es" currentPath="/es/politica-de-privacidad/" counterpartPath="/privacy-policy/" />
   <Header slot="header" locale="es" />

@@ -23,7 +23,6 @@ interface Props {
   title: string;
   description: string;
   canonical: string;
-  enUrl: string;
 }
 
 const p = Astro.props;
@@ -62,9 +61,6 @@ const locationSchema = {
 
 <BaseLayout title={p.title} description={p.description} canonicalUrl={p.canonical} locale="es">
   <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href={p.enUrl} />
-    <link rel="alternate" hreflang="es" href={p.canonical} />
-    <link rel="alternate" hreflang="x-default" href={p.enUrl} />
     <script type="application/ld+json" set:html={JSON.stringify(locationSchema)} />
   </Fragment>
 

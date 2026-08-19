@@ -18,16 +18,69 @@ not a target standard — gaps are listed at the bottom, clearly marked.
 - **Structured data** — `Base.astro` emits a single `application/ld+json`
   `Dentist` schema on **every** page, with per-location `PostalAddress` entries
   pulled from `src/data/locations.ts`, plus `sameAs` (Facebook, Instagram) and
-  `areaServed: 'Southern California'`.
+  `areaServed: 'Southern California'`. Additionally: `faqs.astro` emits
+  `FAQPage` schema (built from the same `faqCategories` data the page renders),
+  each city page (`LocationPage.astro` / `LocationPageEs.astro`) emits its own
+  `Dentist` schema scoped to that location, and every blog post
+  (`blog/[...slug].astro`) emits `BlogPosting` schema from its frontmatter
+  (`title`, `description`, `pubDate`). Blog posts and city/FAQ pages therefore
+  carry two `@type` blocks (sitewide `Dentist` + the page-specific one) — that's
+  intentional, not a duplicate to remove.
 - **Sitemap** — `@astrojs/sitemap` integration in `astro.config.mjs`; emits
-  `sitemap-index.xml` + `sitemap-0.xml` into `dist/`.
-- **robots.txt** — `public/robots.txt`: `User-agent: * / Allow: /` +
-  `Sitemap: https://skittleson.github.io/DrSmileOnline/sitemap-index.xml`.
-- **hreflang** — every ES page emits a 3-link set:
-  `<link rel="alternate" hreflang="en" href={enUrl} />`,
-  `<link rel="alternate" hreflang="es" href={canonical} />`,
-  `<link rel="alternate" hreflang="x-default" href={enUrl} />`.
-  The EN⇄ES slug map is the `enSlugs`/`esSlugs` object in `Header.astro`.
+  `sitemap-index.xml` + `sitemap-0.xml` into `dist/`. A `filter` excludes any
+  URL ending in `/404/` (EN and ES) — the 404 pages are `noindex` (see below),
+  so they shouldn't be in the sitemap either.
+- **404 pages are `noindex, nofollow`** — `Base.astro` accepts a `noindex`
+  prop; both `404.astro` and `es/404.astro` pass `noindex={true}`, emitting
+  `<meta name="robots" content="noindex, nofollow">`. The pages remain
+  crawlable/renderable (GitHub Pages still serves them for unmatched paths),
+  they're just excluded from indexing.
+- **robots.txt** — `public/robots.txt`: `User-agent: * / Allow: /` plus explicit
+  `Allow: /` blocks for the major AI crawlers (GPTBot, OAI-SearchBot, Claude-Web,
+  Google-Extended, Amazonbot, anthropic-ai, Bytespider, CCBot, Applebot-Extended),
+  each carrying a `Content-Signal: ai-train=yes, search=yes, ai-input=yes` line,
+  and `Sitemap: https://skittleson.github.io/DrSmileOnline/sitemap-index.xml`.
+  Policy is allow-all (AI + search) — flip the `Allow` lines to `Disallow` and the
+  `ai-train`/`ai-input` flags to `no` if the practice ever wants to opt out of
+  AI training while keeping AI-search visibility.
+- **Link headers (RFC 8288)** — `public/_headers` adds `Link` response headers to
+  the homepage (`/`): `rel="index"` → sitemap, `rel="describedby"` → `/about/`,
+  `rel="service-doc"` → `/services/`. GitHub Pages honors `_headers`.
+- **Agent-readiness (static-max)** — a set of machine-readable discovery
+  artifacts under `public/.well-known/` plus `public/llms.txt`:
+  - **ARD manifest** — `public/.well-known/ai-catalog.json` (4 entries:
+    locations, services, contact, sitemap). Discovered via the
+    `<link rel="ai-catalog">` in `Base.astro` `<head>` and the `Agentmap:`
+    line in `robots.txt`.
+  - **Agent Skills index** — `public/.well-known/agent-skills/index.json`
+    (2 skills: `dr-smile-locations`, `dr-smile-services`), each pointing at a
+    `SKILL.md` artifact. SHA-256 digests are computed by
+    `scripts/compute-digests.mjs` and wired into `npm run build` so they stay
+    current.
+  - **MCP Server Card** — `public/.well-known/mcp/server-card.json`
+    (declarative placeholder; the endpoint does not yet serve a live MCP
+    server).
+  - **llms.txt** — `public/llms.txt`, a human/LLM-readable summary of the
+    practice (locations, services, key pages).
+  - **Not done** (need a backend, out of scope for static): OAuth/OIDC
+    discovery, Protected Resource, Auth.md, WebMCP, DNS-AID,
+    Markdown-for-Agents, and a real MCP server runtime.
+- **hreflang** — every page (EN and ES) emits a reciprocal set, computed
+  centrally in `Base.astro` from `src/i18n/locales.ts` (`localePairs` /
+  `counterpartPath()`): a self-referencing tag for the page's own locale, an
+  `alternate` tag for its counterpart (when one exists), and `x-default`
+  pointing at the EN root. Pages with no counterpart (blog posts, 404) emit
+  only the self tag + `x-default`. Do **not** re-add per-page
+  `<link rel="alternate" hreflang>` blocks — `Base.astro` already emits them
+  for every page; adding your own creates duplicate/conflicting tags.
+- **Content-Security-Policy** — a single source: the `Content-Security-Policy`
+  HTTP header in `public/_headers` (`/*`). There is no `<meta>` CSP in
+  `Base.astro` (a duplicate `<meta http-equiv>` CSP was removed — having both
+  an HTTP header and a meta tag risks drift and the meta version can't set
+  `frame-ancestors`). `frame-src` allows `https://www.google.com` (the actual
+  host used by `getMapEmbedSrc()` in `src/data/locations.ts` for the location
+  page Maps iframes) plus `https://google.com` as a defensive fallback in case
+  Google's embed host ever changes to the bare domain.
 - **`<html lang>`** — set per page via the `locale` prop on `Base.astro`.
 - **Blog** — English-only collection (`src/content/blog/*.md`), glob-loaded via
   `src/content.config.ts`. Spanish pages link to the same English
@@ -40,8 +93,9 @@ not a target standard — gaps are listed at the bottom, clearly marked.
 
 - **Canonicals are per-page literals, not derived.** Each page hard-codes its
   own `const canonical = ...`. There is no single source. If you add a page,
-  you must add its canonical line; if you rename a slug, you must update the
-  canonical in that page **and** the hreflang `enUrl` in its ES counterpart.
+  you must add its canonical line **and** a `{ en, es }` entry in
+  `src/i18n/locales.ts` so `Base.astro` can emit the correct reciprocal
+  hreflang pair for both locales.
 - **The `invisalign-orthodontcs` typo is a live URL.**
   `src/pages/invisalign-orthodontcs.astro` is misspelled ("orthodontcs", missing
   the "o") and is already indexed. It's referenced with the same typo from
@@ -55,36 +109,34 @@ not a target standard — gaps are listed at the bottom, clearly marked.
   **not** base-relative — they only work because the deployed site lives under
   that exact subpath. If the `base` or `site` config ever changes, these links
   silently 404. Prefer `${base}/...` in any new Markdown.
-- **External blog links point to other domains.** ~40 blog posts contain
-  hardcoded links out to `doctorsmiledentalclinic.blogspot.com` and
-  `medium.com/@drsmileonline247` (~71 links total). These are pre-existing
-  content, not generated by this repo, and carry no `rel` attribute (the Markdown
-  source doesn't add one). They're outbound `follow` links by default — a
-  nofollow/ugc consideration if you ever audit link equity.
-- **The `Dentist` schema is on every page, including blog posts.** That's
-  current behavior, not a bug — but if you later add `Article` or `BlogPosting`
-  schema to blog pages, you'll be emitting two `@type` blocks per page. Decide
-  whether to replace or augment before adding.
+- **The `Dentist` schema is on every page, and blog posts also carry a
+  `BlogPosting` block** (`src/pages/blog/[...slug].astro`) — two `@type`
+  blocks per blog post is intentional (sitewide business identity +
+  per-article schema), not a duplicate to clean up.
 - **`sameAs` is hardcoded in `Base.astro`**, not in `locations.ts`. If the
   Facebook/Instagram handles change, update `Base.astro:27-28`, not the data
   file.
 - **`telephone` in the top-level schema is `locations[0].phone`** — i.e. the
   Newport Beach line. There is no single sitewide number; the per-location
   `telephone` values are correct. Don't "consolidate" to one number.
-- **`public/CNAME` and `public/_headers` exist** but are GitHub Pages
-  deployment artifacts, not SEO. Don't confuse them with sitemap/robots.
+- **`public/CNAME`** is a GitHub Pages deployment artifact (custom domain
+  mapping), not SEO. Don't confuse it with sitemap/robots. Note: as of this
+  writing `doctorsmileonline.com` (the CNAME target) resolves to a **different,
+  live WordPress site**, not this Astro build — the domain/schema `url` field
+  in `Base.astro` and this deployment are not currently the same site. Resolve
+  which one is canonical before treating `doctorsmileonline.com` as this
+  site's production domain.
 
 ## Known gaps (current, not requirements)
 
 - **No `og:image` / `twitter:image`.** Share cards render without an image.
-- **No `Article` / `BlogPosting` schema** on blog posts — only the sitewide
-  `Dentist` block.
-- **No `FAQPage` schema** on `faqs.astro` despite the page being a Q&A list.
 - **No `ImageObject`** for the doctor photos on `about.astro`.
 - **No `VideoObject`** (no video content currently, so low priority).
 - **Blog `description`/`category` fields** are defined in
   `src/content.config.ts` but `category` is unused by any page; `description`
-  is optional and not all posts set it.
+  is optional and not all posts set it — see the "Required for every new blog
+  post" note in `AGENTS.md`, which now treats `description` as required in
+  practice (it feeds the `BlogPosting` schema's `description` field).
 - **Blog `pubDate` is a placeholder for 102 of 103 posts.** All posts were
   seeded with `pubDate: 2024-01-01`; only
   `urgent-dental-care-in-newport-beach.md` has a real date (2026-04-13, matched
@@ -94,13 +146,10 @@ not a target standard — gaps are listed at the bottom, clearly marked.
   UTC midnight in the viewer's local timezone, the 102 placeholder posts
   actually display as **"December 31, 2023"**, not 2024. It also drives sort
   order in all four; with all dates equal, ordering is effectively arbitrary
-  (insertion order). The real publish dates live on
+  (insertion order). It also now drives `datePublished`/`dateModified` in each
+  post's `BlogPosting` schema, so the placeholder date is baked into structured
+  data too, not just the visible byline. The real publish dates live on
   `doctorsmiledentalclinic.blogspot.com` (80 posts, Sept 2024–July 2026) and
   `medium.com/@drsmileonline247` (36 posts, 403-blocked); the local titles are
   paraphrased, so they can't be auto-mapped. Recovering them needs a slug→date
   list from the source.
-- **No `noindex` on the 404 page** — `src/pages/404.astro` is crawlable.
-  (GitHub Pages serves it for unmatched paths, so this is mostly harmless, but
-  a `noindex, nofollow` meta would be cleaner.)
-- **Sitemap includes the 404 route** — `@astrojs/sitemap` picks up
-  `src/pages/404.astro` as a routable page. Harmless but noisy.

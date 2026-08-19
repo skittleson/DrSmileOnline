@@ -10,7 +10,7 @@ const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
-<BaseLayout title="Página No Encontrada | Dr. Smile Dental Group" description="La página que busca no existe." locale="es">
+<BaseLayout title="Página No Encontrada | Dr. Smile Dental Group" description="La página que busca no existe." locale="es" noindex={true}>
   <UtilityBar slot="header" locale="es" currentPath="/es/404/" counterpartPath="/404/" />
   <Header slot="header" locale="es" />
 

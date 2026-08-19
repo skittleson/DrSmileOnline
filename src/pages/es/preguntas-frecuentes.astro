@@ -10,7 +10,6 @@ import { getTranslations } from '../../i18n/index';
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/preguntas-frecuentes/`;
-const enUrl = `${import.meta.env.SITE}${base}/faqs/`;
 
 // FAQ organizadas por categoría. Las respuestas reflejan lo que la práctica
 // realmente ofrece (según su contenido): odontología general, cirugía oral,
@@ -153,9 +152,6 @@ const faqSchema = {
   locale="es"
 >
   <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href={enUrl} />
-    <link rel="alternate" hreflang="es" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={enUrl} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
 

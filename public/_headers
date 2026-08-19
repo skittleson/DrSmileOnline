@@ -1,2 +1,7 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src https://www.google.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src https://www.google.com https://google.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'
+
+/
+  Link: </DrSmileOnline/sitemap-index.xml>; rel="index"
+  Link: </DrSmileOnline/about/>; rel="describedby"
+  Link: </DrSmileOnline/services/>; rel="service-doc"

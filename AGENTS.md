@@ -11,9 +11,15 @@ no lint, no typecheck script configured — verify by building and inspecting `d
 
 ```
 npm run dev       # astro dev
-npm run build     # astro build -> dist/
+npm run digests   # compute SHA-256 digests for the agent-skills index
+npm run build     # node scripts/compute-digests.mjs && astro build -> dist/
 npm run preview   # astro preview, serves dist/
 ```
+
+`npm run build` runs `scripts/compute-digests.mjs` first — it recomputes the
+SHA-256 `digest` fields in `public/.well-known/agent-skills/index.json` from the
+actual SKILL.md files, then runs Astro. If you add or edit a SKILL.md artifact,
+rebuild so the digest stays current.
 
 There is no `lint`, `test`, or `typecheck` script. `astro check` is *not* set up
 (it needs `@astrojs/check` installed and will prompt interactively to install it —
@@ -95,6 +101,35 @@ used for sort order on `/blog/`), and optional `description`/`category` (the
 `category` field is defined but currently unused by any page). A new post
 missing `pubDate` will fail the build.
 
+### Required for every new blog post (SEO)
+
+`src/pages/blog/[...slug].astro` auto-generates a `BlogPosting` JSON-LD block
+for **every** post in the collection from its frontmatter — there is no
+manual/per-post schema step, but the schema quality is only as good as the
+frontmatter:
+
+- **`description` is required in practice, not just schema-optional.** It
+  feeds both `<meta name="description">` and the JSON-LD `description` field.
+  Leaving it empty means the template falls back to `title`, so the meta
+  description and headline become identical — thin and duplicate-looking to
+  Google. Write a real 1–2 sentence summary.
+- **`pubDate` must be the real publish date**, not a placeholder. It drives
+  `datePublished`/`dateModified` in the schema, the visible byline date, and
+  sort order on `/blog/`. Don't seed new posts with a copy-pasted date from
+  another post.
+- Outbound links to `doctorsmiledentalclinic.blogspot.com` or
+  `medium.com/@drsmileonline247` automatically get
+  `rel="nofollow ugc noopener" target="_blank"` injected by the
+  `rehypeLegacyOutboundLinks` plugin (`src/utils/rehype-legacy-outbound-links.mjs`,
+  wired in `astro.config.mjs`) — no per-link markup needed, and no other
+  domains are affected. If a new post links to another *external* domain that
+  should also be nofollow'd, add that hostname to `LEGACY_LINK_HOSTS` rather
+  than hand-editing the Markdown link.
+- If a post is a genuine duplicate/rewrite of an existing blogspot/medium post
+  (most are), don't add `Article`/`BlogPosting` schema pointing at content
+  that's substantively the same as the linked original — that's already
+  handled here, just don't fight it by adding a second schema block.
+
 ## Known intentional oddity
 
 `src/pages/invisalign-orthodontcs.astro` — the slug is misspelled ("orthodontcs",
@@ -110,6 +145,34 @@ Actual implemented tokens are in `src/styles/global.css` (`--color-primary:
 `DESIGN-REPORT.md` at the repo root is early-stage *research* (competitor
 analysis, a different candidate palette) from before the current implementation
 — it does not reflect what's actually built. Don't treat it as current.
+
+## Agent-readiness (static-max)
+
+The site publishes a set of machine-readable discovery artifacts for AI agents
+and crawlers. All are static files under `public/`, copied verbatim to `dist/`.
+
+- **robots.txt** — `public/robots.txt`: `User-agent: *` allow, explicit `Allow: /`
+  blocks for 9 AI crawlers (GPTBot, OAI-SearchBot, Claude-Web, Google-Extended,
+  Amazonbot, anthropic-ai, Bytespider, CCBot, Applebot-Extended) each with
+  `Content-Signal: ai-train=yes, search=yes, ai-input=yes`, plus `Sitemap:` and
+  `Agentmap:` lines.
+- **Link headers** — `public/_headers` adds RFC 8288 `Link` response headers to
+  the homepage (`/`): `rel="index"` → sitemap, `rel="describedby"` → `/about/`,
+  `rel="service-doc"` → `/services/`.
+- **ARD manifest** — `public/.well-known/ai-catalog.json` (4 entries: locations,
+  services, contact, sitemap). Discovered via `<link rel="ai-catalog">` in
+  `Base.astro` `<head>` and the `Agentmap:` line in robots.txt.
+- **Agent Skills index** — `public/.well-known/agent-skills/index.json` (2 skills:
+  `dr-smile-locations`, `dr-smile-services`), each pointing at a `SKILL.md`
+  artifact. SHA-256 digests are computed by `scripts/compute-digests.mjs` and
+  wired into `npm run build`.
+- **MCP Server Card** — `public/.well-known/mcp/server-card.json` (declarative
+  placeholder; the endpoint does not yet serve a live MCP server).
+- **llms.txt** — `public/llms.txt`, a human/LLM-readable summary of the practice.
+
+**Not done** (need a backend, out of scope for static): OAuth/OIDC discovery,
+Protected Resource, Auth.md, WebMCP, DNS-AID, Markdown-for-Agents, and a real
+MCP server runtime.
 
 ## Misc
 

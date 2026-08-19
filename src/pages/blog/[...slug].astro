@@ -19,13 +19,35 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const canonical = `${import.meta.env.SITE}${base}/blog/${post.id}/`;
+
+const blogPostingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.description || post.data.title,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: post.data.pubDate.toISOString(),
+  mainEntityOfPage: canonical,
+  url: canonical,
+  publisher: {
+    '@type': 'Dentist',
+    name: 'Dr. Smile Dental Group',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${import.meta.env.SITE}${base}/images/footer-logo.png`,
+    },
+  },
+};
 ---
 
 <BaseLayout
   title={`${post.data.title} | Dr. Smile Dental Group`}
   description={post.data.description || post.data.title}
+  canonicalUrl={canonical}
   locale="en"
 >
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(blogPostingSchema)} />
   <UtilityBar slot="header" locale="en" currentPath="/blog/" counterpartPath="/blog/" />
   <Header slot="header" locale="en" />
 
