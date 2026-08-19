@@ -52,7 +52,7 @@ Our team works with advanced digital imaging and minimally invasive techniques t
 
 ## How to get seen today
 
-1.  **Call the Torrance office** at (310) 325-8555. Tell them it's an emergency and describe the problem — a broken tooth, a knocked-out tooth, or severe pain.
+1.  **Call the Torrance office** at {{nap:phone:torrance}}. Tell them it's an emergency and describe the problem — a broken tooth, a knocked-out tooth, or severe pain.
 2.  **Ask for the earliest same-day slot.** Most urgent cases are seen the same day you call.
 3.  **Bring the broken piece** if you have it, and keep a knocked-out tooth in milk on the way in.
 

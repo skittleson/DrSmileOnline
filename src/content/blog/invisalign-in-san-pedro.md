@@ -37,7 +37,7 @@ Invisalign is a months-long process with regular check-ins along the way. Doing 
 
 ## In a nutshell
 
-Invisalign in San Pedro gives you a way to straighten your smile without anyone needing to know you're doing it. The first step is a consultation — a real look at your teeth and an honest answer on whether you're a fit. Ready to get started? [**Contact us**](/DrSmileOnline/contact/) or call the San Pedro office at (310) 548-8128.
+Invisalign in San Pedro gives you a way to straighten your smile without anyone needing to know you're doing it. The first step is a consultation — a real look at your teeth and an honest answer on whether you're a fit. Ready to get started? [**Contact us**](/DrSmileOnline/contact/) or call the San Pedro office at {{nap:phone:san-pedro}}.
 
 ## Frequently Asked Questions
 

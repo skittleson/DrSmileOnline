@@ -80,7 +80,7 @@ Patients who grind their teeth at night may need to address that habit before ve
 
 A confident, beautiful smile is within reach for most people. Dental veneers in Lomita at Dr. Smile offer a precise, long-lasting solution to a wide range of cosmetic concerns. With advanced technology, an experienced multispecialty team, transparent pricing, and a patient-first approach, **[Dr. Smile](/DrSmileOnline/contact/)** makes the path to your ideal smile straightforward and genuinely accessible.
 
-If you are ready to take the first step, call Dr. Smile today at (949) 640-0222 or visit our website to schedule your consultation.
+If you are ready to take the first step, call Dr. Smile today at {{nap:phone:lomita}} or visit our website to schedule your consultation.
 
 ## Frequently Asked Questions :
 

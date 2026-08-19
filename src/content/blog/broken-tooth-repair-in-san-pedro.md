@@ -107,7 +107,7 @@ Dr. Smile delivers all of this consistently. As the **[best dentist in San Pedro
 
 ## The Bottom Line
 
-Every hour without treatment is an hour the damage has to deepen, the nerve has to become more exposed, and the infection has a clearer path in. Broken tooth repair in San Pedro at **[Dr. Smile](/DrSmileOnline/)** means same-day access, accurate diagnosis, and treatment completed efficiently so you leave with your tooth intact and your pain gone. Call Dr. Smile today at (949) 640-0222 or book your appointment online and get the same-day relief you need.
+Every hour without treatment is an hour the damage has to deepen, the nerve has to become more exposed, and the infection has a clearer path in. Broken tooth repair in San Pedro at **[Dr. Smile](/DrSmileOnline/)** means same-day access, accurate diagnosis, and treatment completed efficiently so you leave with your tooth intact and your pain gone. Call Dr. Smile today at {{nap:phone:san-pedro}} or book your appointment online and get the same-day relief you need.
 
 **Get Emergency Dental Care Now : [Emergency Dentist in San Pedro](/DrSmileOnline/blog/emergency-dentist-in-san-pedro/) – Book Your Same-Day Visit**
 

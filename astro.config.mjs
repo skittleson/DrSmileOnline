@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { rehypeLegacyOutboundLinks } from './src/utils/rehype-legacy-outbound-links.mjs';
+import { remarkNapVars } from './src/utils/remark-nap-vars.mjs';
 import { legacyRedirects } from './src/data/legacy-redirects.ts';
 
 const legacyRedirectSlugs = new Set(legacyRedirects.map((r) => r.from));
@@ -25,6 +26,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
+    remarkPlugins: [remarkNapVars],
     rehypePlugins: [rehypeLegacyOutboundLinks],
   },
   i18n: {

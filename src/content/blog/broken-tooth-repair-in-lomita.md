@@ -36,7 +36,7 @@ Same-day treatment isn't just about convenience — it limits how far the fractu
 
 ## Getting seen today
 
-1.  **Call the Lomita office** at (310) 539-1111 and describe what happened.
+1.  **Call the Lomita office** at {{nap:phone:lomita}} and describe what happened.
 2.  **Ask for the earliest same-day slot.** Most broken-tooth cases are seen the day you call.
 3.  **Bring the broken piece**, if you have it, and skip eating on that side until you're seen.
 

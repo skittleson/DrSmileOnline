@@ -39,7 +39,7 @@ Invisalign is a multi-month commitment with several visits. Keeping the scan, th
 
 ## In a nutshell
 
-Invisalign in Newport Beach is a realistic way to straighten your smile without the look of traditional braces — clear, removable, and comfortable, for both teens and adults. The first step is a consultation to see if your case is a fit and what the plan would look like. If you're ready, [**contact us**](/DrSmileOnline/contact/) or call the Newport Beach office at (949) 640-0222 to book one.
+Invisalign in Newport Beach is a realistic way to straighten your smile without the look of traditional braces — clear, removable, and comfortable, for both teens and adults. The first step is a consultation to see if your case is a fit and what the plan would look like. If you're ready, [**contact us**](/DrSmileOnline/contact/) or call the Newport Beach office at {{nap:phone:newport-beach}} to book one.
 
 ## Frequently Asked Questions
 

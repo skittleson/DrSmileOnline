@@ -46,7 +46,7 @@ An implant is a multi-step, multi-visit commitment. Keeping the placement, the r
 
 ## In a nutshell
 
-A dental implant in Torrance is the most natural fix for a missing tooth — and All-on-4 extends that to a full arch. The first step is always a consultation: a real look at your bone and gums, an honest read on whether you're a candidate, and a clear picture of cost and timeline. If you're ready, [**contact us**](/DrSmileOnline/contact/) or call the Torrance office at (310) 325-8555 to book one.
+A dental implant in Torrance is the most natural fix for a missing tooth — and All-on-4 extends that to a full arch. The first step is always a consultation: a real look at your bone and gums, an honest read on whether you're a candidate, and a clear picture of cost and timeline. If you're ready, [**contact us**](/DrSmileOnline/contact/) or call the Torrance office at {{nap:phone:torrance}} to book one.
 
 ## Frequently Asked Questions
 

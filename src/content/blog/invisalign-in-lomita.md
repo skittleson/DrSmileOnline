@@ -40,7 +40,7 @@ Invisalign runs over many months with regular check-ins. Keeping the scan, the a
 
 ## In a nutshell
 
-Invisalign in Lomita is a practical way to straighten your smile for teens and adults alike — clear, removable, and far less noticeable than traditional braces. The next step is a consultation to see if your case is a fit and what your plan would look like. Ready to find out? [**Contact us**](/DrSmileOnline/contact/) or call the Lomita office at (310) 539-1111.
+Invisalign in Lomita is a practical way to straighten your smile for teens and adults alike — clear, removable, and far less noticeable than traditional braces. The next step is a consultation to see if your case is a fit and what your plan would look like. Ready to find out? [**Contact us**](/DrSmileOnline/contact/) or call the Lomita office at {{nap:phone:lomita}}.
 
 ## Frequently Asked Questions
 
