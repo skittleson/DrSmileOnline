@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "digests": "node scripts/compute-digests.mjs",
+    "build": "node scripts/compute-digests.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

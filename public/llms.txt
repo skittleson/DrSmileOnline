@@ -1,0 +1,38 @@
+# Dr. Smile Dental Group
+
+Dr. Smile Dental Group is a multi-specialty dental practice serving Southern
+California. Four offices, one roof: oral surgery, implants, cosmetics,
+Invisalign, and All-on-Four prosthetics — no external referrals needed.
+
+## Locations
+
+| Office | Address | Phone |
+|---|---|---|
+| Newport Beach | 2121 East Coast Hwy Ste 140, Newport Beach, CA 92660 | (949) 640-0222 |
+| San Pedro | 1622 S Gaffey St, San Pedro, CA 90731 | (310) 548-8128 |
+| Torrance | 24667 Crenshaw Blvd D, Torrance, CA 90505 | (310) 325-8555 |
+| Lomita | 2104 Pacific Coast Hwy #5, Lomita, CA 90717 | (310) 539-1111 |
+
+All offices: Mon–Fri 8AM–5PM, Sat by appointment.
+
+## Services
+
+- **Oral Surgery, TMJ & Implants** — extractions, wisdom teeth, TMJ, dental implants
+- **Cosmetics, Veneers & Whitening** — porcelain veneers, professional whitening, smile makeovers
+- **Invisalign & Orthodontics** — clear aligners, traditional orthodontics
+- **All-on-Four & Prosthetics** — fixed and removable implant-supported options
+
+## Key pages
+
+- Home: https://skittleson.github.io/DrSmileOnline/
+- Services: https://skittleson.github.io/DrSmileOnline/services/
+- Locations: https://skittleson.github.io/DrSmileOnline/location/
+- Contact / scheduling: https://skittleson.github.io/DrSmileOnline/contact/
+- Financing: https://skittleson.github.io/DrSmileOnline/financing/
+- FAQs: https://skittleson.github.io/DrSmileOnline/faqs/
+- Blog: https://skittleson.github.io/DrSmileOnline/blog/
+
+## Spanish
+
+All main pages are available in Spanish under `/es/`:
+https://skittleson.github.io/DrSmileOnline/es/

@@ -9,7 +9,8 @@ static output, deployed to GitHub Pages under the `/DrSmileOnline/` subpath.
 ```sh
 npm ci
 npm run dev        # local dev server
-npm run build      # -> dist/
+npm run digests    # recompute SHA-256 digests for the agent-skills index
+npm run build      # node scripts/compute-digests.mjs && astro build -> dist/
 npm run preview    # serve dist/ locally
 ```
 
@@ -64,6 +65,22 @@ CTAs generally say "Find Your Location" / "Call your local office" and link to
 missing the "o") and is a real, live, already-indexed URL, referenced with the
 same typo from `Header.astro`. Do not "fix" the spelling without adding a
 redirect for the old URL.
+
+## Agent-readiness
+
+The site publishes machine-readable discovery artifacts for AI agents and
+crawlers, all as static files under `public/`:
+
+- **robots.txt** — AI-crawler rules (9 bots) + Content-Signals + sitemap + Agentmap
+- **Link headers** — RFC 8288 `Link` response headers on the homepage (`_headers`)
+- **ARD manifest** — `public/.well-known/ai-catalog.json` (4 entries)
+- **Agent Skills index** — `public/.well-known/agent-skills/index.json` (2 skills,
+  SHA-256 digests computed at build time)
+- **MCP Server Card** — `public/.well-known/mcp/server-card.json` (declarative)
+- **llms.txt** — `public/llms.txt` (LLM-readable practice summary)
+
+Not done (need a backend): OAuth/OIDC, Protected Resource, Auth.md, WebMCP,
+DNS-AID, Markdown-for-Agents, real MCP server runtime.
 
 ## Deployment
 

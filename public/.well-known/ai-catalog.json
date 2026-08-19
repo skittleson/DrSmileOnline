@@ -1,0 +1,54 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Dr. Smile Dental Group",
+    "identifier": "did:web:skittleson.github.io:DrSmileOnline"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:skittleson.github.io:drsmile:locations",
+      "displayName": "Dr. Smile Locations",
+      "type": "application/ld+json",
+      "url": "https://skittleson.github.io/DrSmileOnline/location/",
+      "representativeQueries": [
+        "where is Dr. Smile in Newport Beach",
+        "Dr. Smile San Pedro address and phone",
+        "Dr. Smile Torrance office hours",
+        "Dr. Smile Lomita location"
+      ]
+    },
+    {
+      "identifier": "urn:air:skittleson.github.io:drsmile:services",
+      "displayName": "Dr. Smile Services",
+      "type": "text/html",
+      "url": "https://skittleson.github.io/DrSmileOnline/services/",
+      "representativeQueries": [
+        "Dr. Smile oral surgery implants",
+        "Dr. Smile Invisalign orthodontics",
+        "Dr. Smile cosmetic dentistry veneers",
+        "Dr. Smile All-on-Four prosthetics"
+      ]
+    },
+    {
+      "identifier": "urn:air:skittleson.github.io:drsmile:contact",
+      "displayName": "Dr. Smile Contact",
+      "type": "text/html",
+      "url": "https://skittleson.github.io/DrSmileOnline/contact/",
+      "representativeQueries": [
+        "how to contact Dr. Smile dental group",
+        "Dr. Smile appointment scheduling",
+        "Dr. Smile patient inquiry form"
+      ]
+    },
+    {
+      "identifier": "urn:air:skittleson.github.io:drsmile:sitemap",
+      "displayName": "Dr. Smile Sitemap",
+      "type": "application/xml",
+      "url": "https://skittleson.github.io/DrSmileOnline/sitemap-index.xml",
+      "representativeQueries": [
+        "Dr. Smile site map all pages",
+        "list of Dr. Smile blog posts"
+      ]
+    }
+  ]
+}

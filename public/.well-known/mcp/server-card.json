@@ -1,0 +1,18 @@
+{
+  "serverInfo": {
+    "name": "dr-smile-dental-group",
+    "version": "1.0.0",
+    "description": "Dr. Smile Dental Group — read-only access to practice locations, services, and contact information."
+  },
+  "endpoint": "https://skittleson.github.io/DrSmileOnline/mcp",
+  "capabilities": {
+    "tools": [
+      "list-locations",
+      "list-services",
+      "get-contact-info"
+    ],
+    "resources": [],
+    "prompts": []
+  },
+  "notes": "This server card is a declarative placeholder. The endpoint does not yet serve a live MCP server; it documents the read-only tools the practice intends to expose when a Streamable-HTTP MCP backend is deployed."
+}

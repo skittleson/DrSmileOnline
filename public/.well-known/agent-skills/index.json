@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "dr-smile-locations",
+      "type": "skill-md",
+      "description": "Dr. Smile Dental Group location and contact data for all four Southern California offices.",
+      "url": "https://skittleson.github.io/DrSmileOnline/.well-known/agent-skills/dr-smile-locations.md",
+      "digest": "sha256:c1bcca228bd2df455df411f9bef2e2a50a685b5fc05f46cc0236f419d159d46f"
+    },
+    {
+      "name": "dr-smile-services",
+      "type": "skill-md",
+      "description": "Dr. Smile Dental Group specialty services: oral surgery, implants, cosmetics, Invisalign, All-on-Four.",
+      "url": "https://skittleson.github.io/DrSmileOnline/.well-known/agent-skills/dr-smile-services.md",
+      "digest": "sha256:fff96fa220a7e555503acb550b9d739a9d4b4dcc47e9228493f4946bd4050023"
+    }
+  ]
+}
