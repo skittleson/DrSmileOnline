@@ -3,21 +3,28 @@ import BaseLayout from '../layouts/Base.astro';
 import UtilityBar from '../components/UtilityBar.astro';
 import Header from '../components/Header.astro';
 import TrustBand from '../components/TrustBand.astro';
-import LocationCards from '../components/LocationCards.astro';
 import CtaBanner from '../components/CtaBanner.astro';
 import Footer from '../components/Footer.astro';
 import { getTranslations } from '../i18n/index';
+import { locations, getDirectionsUrl, getMapEmbedSrc } from '../data/locations';
 
 const t = getTranslations('en');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/location/`;
 
-const cityPages = [
-  { city: 'Newport Beach', href: 'newport-beach/', blurb: 'Cosmetic dentistry, veneers & All-on-Four implants' },
-  { city: 'San Pedro', href: 'san-pedro/', blurb: 'Family care, implants & emergency dentistry' },
-  { city: 'Torrance', href: 'torrance/', blurb: 'Family dentistry, Invisalign & same-day care' },
-  { city: 'Lomita', href: 'lomita/', blurb: 'Gum care, veneers & full-mouth restoration' },
-];
+const cityBlurb = {
+  'newport-beach': 'Cosmetic dentistry, veneers & All-on-Four implants',
+  'san-pedro': 'Family care, implants & emergency dentistry',
+  'torrance': 'Family dentistry, Invisalign & same-day care',
+  'lomita': 'Gum care, veneers & full-mouth restoration',
+};
+
+const cards = locations.map((loc) => ({
+  ...loc,
+  blurb: cityBlurb[loc.slug] ?? '',
+  cityHref: `${base}/${loc.slug}/`,
+  hours: loc.hoursEn,
+}));
 ---
 
 <BaseLayout title="Locations | Dr. Smile Dental Group" description="Four convenient locations across Southern California: Newport Beach, San Pedro, Torrance, and Lomita." canonicalUrl={canonical} locale="en">
@@ -28,28 +35,51 @@ const cityPages = [
     <div class="container">
       <p class="eyebrow">Location</p>
       <h1>Our Locations</h1>
-      <p>With four locations across Southern California, we're confident there's a convenient location near you. Pick your city to see the office, hours, and local care.</p>
+      <p>Four practices across Southern California. Find your local office — see the map, address, hours, and local care for each city.</p>
     </div>
   </section>
 
-  <section class="section section-surface">
+  <section id="locations" class="section section-surface" aria-label="Our locations">
     <div class="container">
-      <h2>Find Your Local Office</h2>
-      <div class="city-grid">
-        {cityPages.map((c) => (
-          <a class="city-card" href={`${base}/${c.href}`}>
-            <span class="city-name">{c.city}</span>
-            <span class="city-blurb">{c.blurb}</span>
-            <span class="city-arrow" aria-hidden="true">→</span>
-          </a>
+      <div class="location-grid">
+        {cards.map((loc) => (
+          <div class="location-card">
+            <iframe
+              class="location-map"
+              title={`Map of ${loc.name}`}
+              src={getMapEmbedSrc(loc.mapQuery)}
+              width="100%"
+              height="200"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h2 class="city-name">{loc.name}</h2>
+            <p class="city-blurb">{loc.blurb}</p>
+            <address>
+              <a
+                class="location-address-link"
+                href={getDirectionsUrl(loc.mapQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Open ${loc.name} in Google Maps`}
+              >
+                {loc.address}
+              </a>
+            </address>
+            <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
+            <p class="hours">{loc.hours}</p>
+            <div class="card-actions">
+              <a class="btn btn-outline" href={loc.cityHref}>Visit {loc.name}</a>
+              <a class="btn btn-outline" href={getDirectionsUrl(loc.mapQuery)} target="_blank" rel="noopener noreferrer">{t['cta.getDirections']}</a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
   </section>
 
   <TrustBand locale="en" />
-
-  <LocationCards locale="en" />
 
   <CtaBanner heading="Ready to Visit?" subheading="Schedule a consultation at the location most convenient for you." buttonLabel="Schedule a Consult" buttonHref="contact/" />
 
@@ -64,26 +94,25 @@ const cityPages = [
     color: var(--color-primary);
     margin-bottom: 8px;
   }
-  .city-grid {
+  .location-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: var(--space-2);
-    margin-top: var(--space-3);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-4);
   }
-  .city-card {
-    display: flex;
-    flex-direction: column;
+  .location-card {
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
     padding: var(--space-3);
-    text-decoration: none;
-    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    display: flex;
+    flex-direction: column;
   }
-  .city-card:hover {
-    border-color: var(--color-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(20, 89, 79, 0.08);
+  .location-map {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-2);
   }
   .city-name {
     font-family: var(--font-display);
@@ -98,9 +127,30 @@ const cityPages = [
     line-height: 1.5;
     margin-bottom: var(--space-2);
   }
-  .city-arrow {
+  .location-card address {
+    font-style: normal;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-1);
+  }
+  .location-address-link {
     color: var(--color-primary);
-    font-weight: 700;
-    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .location-address-link:hover,
+  .location-address-link:focus {
+    text-decoration: underline;
+  }
+  .location-card p {
+    margin-bottom: var(--space-1);
+    color: var(--color-text-light);
+  }
+  .hours {
+    font-size: 0.9rem;
+  }
+  .card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
   }
 </style>

@@ -3,22 +3,29 @@ import BaseLayout from '../../layouts/Base.astro';
 import UtilityBar from '../../components/UtilityBar.astro';
 import Header from '../../components/Header.astro';
 import TrustBand from '../../components/TrustBand.astro';
-import LocationCards from '../../components/LocationCards.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n/index';
+import { locations, getDirectionsUrl, getMapEmbedSrc } from '../../data/locations';
 
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/ubicacion/`;
 const enUrl = `${import.meta.env.SITE}${base}/location/`;
 
-const cityPages = [
-  { city: 'Newport Beach', href: 'es/newport-beach/', blurb: 'Odontología estética, carillas e implantes All-on-Four' },
-  { city: 'San Pedro', href: 'es/san-pedro/', blurb: 'Atención familiar, implantes y odontología de emergencia' },
-  { city: 'Torrance', href: 'es/torrance/', blurb: 'Odontología familiar, Invisalign y atención el mismo día' },
-  { city: 'Lomita', href: 'es/lomita/', blurb: 'Cuidado de encías, carillas y restauración de boca completa' },
-];
+const cityBlurb = {
+  'newport-beach': 'Odontología estética, carillas e implantes All-on-Four',
+  'san-pedro': 'Atención familiar, implantes y odontología de emergencia',
+  'torrance': 'Odontología familiar, Invisalign y atención el mismo día',
+  'lomita': 'Cuidado de encías, carillas y restauración de boca completa',
+};
+
+const cards = locations.map((loc) => ({
+  ...loc,
+  blurb: cityBlurb[loc.slug] ?? '',
+  cityHref: `${base}/es/${loc.slug}/`,
+  hours: loc.hoursEs,
+}));
 ---
 
 <BaseLayout
@@ -40,28 +47,51 @@ const cityPages = [
     <div class="container">
       <p class="eyebrow">Ubicación</p>
       <h1>Nuestras Ubicaciones</h1>
-      <p>Con cuatro ubicaciones en el Sur de California, estamos seguros de que hay una ubicación conveniente cerca de usted. Elija su ciudad para ver la oficina, los horarios y la atención local.</p>
+      <p>Cuatro consultorios en el Sur de California. Encuentre su oficina local — vea el mapa, la dirección, los horarios y la atención local de cada ciudad.</p>
     </div>
   </section>
 
-  <section class="section section-surface">
+  <section id="locations" class="section section-surface" aria-label="Nuestras ubicaciones">
     <div class="container">
-      <h2>Encuentre Su Oficina Local</h2>
-      <div class="city-grid">
-        {cityPages.map((c) => (
-          <a class="city-card" href={`${base}/${c.href}`}>
-            <span class="city-name">{c.city}</span>
-            <span class="city-blurb">{c.blurb}</span>
-            <span class="city-arrow" aria-hidden="true">→</span>
-          </a>
+      <div class="location-grid">
+        {cards.map((loc) => (
+          <div class="location-card">
+            <iframe
+              class="location-map"
+              title={`Mapa de ${loc.name}`}
+              src={getMapEmbedSrc(loc.mapQuery)}
+              width="100%"
+              height="200"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h2 class="city-name">{loc.name}</h2>
+            <p class="city-blurb">{loc.blurb}</p>
+            <address>
+              <a
+                class="location-address-link"
+                href={getDirectionsUrl(loc.mapQuery)}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Abrir ${loc.name} en Google Maps`}
+              >
+                {loc.address}
+              </a>
+            </address>
+            <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
+            <p class="hours">{loc.hours}</p>
+            <div class="card-actions">
+              <a class="btn btn-outline" href={loc.cityHref}>Visitar {loc.name}</a>
+              <a class="btn btn-outline" href={getDirectionsUrl(loc.mapQuery)} target="_blank" rel="noopener noreferrer">{t['cta.getDirections']}</a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
   </section>
 
   <TrustBand locale="es" />
-
-  <LocationCards locale="es" />
 
   <CtaBanner heading="¿Listo para Visitarnos?" subheading="Agende una consulta en la ubicación más conveniente para usted." buttonLabel="Agendar una Consulta" buttonHref="es/contacto/" />
 
@@ -76,26 +106,25 @@ const cityPages = [
     color: var(--color-primary);
     margin-bottom: 8px;
   }
-  .city-grid {
+  .location-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: var(--space-2);
-    margin-top: var(--space-3);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-3);
+    margin-top: var(--space-4);
   }
-  .city-card {
-    display: flex;
-    flex-direction: column;
+  .location-card {
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
     padding: var(--space-3);
-    text-decoration: none;
-    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    display: flex;
+    flex-direction: column;
   }
-  .city-card:hover {
-    border-color: var(--color-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(20, 89, 79, 0.08);
+  .location-map {
+    display: block;
+    width: 100%;
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-2);
   }
   .city-name {
     font-family: var(--font-display);
@@ -110,9 +139,30 @@ const cityPages = [
     line-height: 1.5;
     margin-bottom: var(--space-2);
   }
-  .city-arrow {
+  .location-card address {
+    font-style: normal;
+    color: var(--color-text-light);
+    margin-bottom: var(--space-1);
+  }
+  .location-address-link {
     color: var(--color-primary);
-    font-weight: 700;
-    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .location-address-link:hover,
+  .location-address-link:focus {
+    text-decoration: underline;
+  }
+  .location-card p {
+    margin-bottom: var(--space-1);
+    color: var(--color-text-light);
+  }
+  .hours {
+    font-size: 0.9rem;
+  }
+  .card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
   }
 </style>
