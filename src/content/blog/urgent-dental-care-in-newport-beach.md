@@ -1,7 +1,7 @@
 ---
 title: "Why Choosing Urgent Dental Care in Newport Beach Can Save Your Smile"
 description: ""
-pubDate: 2024-01-01
+pubDate: 2026-04-13
 ---
 
 Dental emergencies can happen anytime, whether it’s a broken tooth, sudden pain, or swelling. Ignoring these problems can lead to bigger issues and costly treatments later. That’s why **[urgent dental care in Newport Beach](https://drsmile01.livejournal.com/12115.html)** is so important.  Skilled dentists can help you feel better quickly, keep your mouth healthy, and stop long-term damage. You can quickly regain comfort and confidence with same-day appointments and advanced treatments. Choosing urgent care can help you keep your smile before small problems turn into big ones.

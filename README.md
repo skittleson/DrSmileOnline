@@ -75,3 +75,4 @@ No lint/test gate.
 
 - [accessibility.md](accessibility.md) — current a11y state, gotchas, known gaps.
 - [seo.md](seo.md) — current SEO state (canonicals, hreflang, schema, sitemap), gotchas, known gaps.
+- [google-business-profile.md](google-business-profile.md) — canonical NAP for the 4 locations, GBP↔website consistency rules, gotchas, known gaps.

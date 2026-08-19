@@ -85,6 +85,20 @@ not a target standard — gaps are listed at the bottom, clearly marked.
 - **Blog `description`/`category` fields** are defined in
   `src/content.config.ts` but `category` is unused by any page; `description`
   is optional and not all posts set it.
+- **Blog `pubDate` is a placeholder for 102 of 103 posts.** All posts were
+  seeded with `pubDate: 2024-01-01`; only
+  `urgent-dental-care-in-newport-beach.md` has a real date (2026-04-13, matched
+  to its blogspot source). The placeholder is user-visible in four templates
+  (`blog/index.astro`, `blog/[...slug].astro`, `important-announcements.astro`,
+  `es/anuncios-importantes.astro`) — and because `toLocaleDateString` renders
+  UTC midnight in the viewer's local timezone, the 102 placeholder posts
+  actually display as **"December 31, 2023"**, not 2024. It also drives sort
+  order in all four; with all dates equal, ordering is effectively arbitrary
+  (insertion order). The real publish dates live on
+  `doctorsmiledentalclinic.blogspot.com` (80 posts, Sept 2024–July 2026) and
+  `medium.com/@drsmileonline247` (36 posts, 403-blocked); the local titles are
+  paraphrased, so they can't be auto-mapped. Recovering them needs a slug→date
+  list from the source.
 - **No `noindex` on the 404 page** — `src/pages/404.astro` is crawlable.
   (GitHub Pages serves it for unmatched paths, so this is mostly harmless, but
   a `noindex, nofollow` meta would be cleaner.)
