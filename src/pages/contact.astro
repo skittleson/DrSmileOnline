@@ -63,6 +63,12 @@ const mapsUrl = getDirectionsUrl;
           <p>Fill out the form below and our team will get back to you.</p>
 
           <form class="form" method="post" action={`${base}/contact/`}>
+            <div class="form-honeypot">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+            </div>
+            <input type="hidden" name="form_timestamp" id="form_timestamp" />
+
             <div class="form-field">
               <label for="name">Full Name</label>
               <input type="text" id="name" name="name" autocomplete="name" required />
@@ -107,6 +113,28 @@ const mapsUrl = getDirectionsUrl;
 
             <button type="submit" class="btn btn-accent">Send Message</button>
           </form>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', () => {
+              const form = document.querySelector('form');
+              const status = document.querySelector('.form-status');
+              const timestampInput = document.querySelector('#form_timestamp');
+              if (!form || !status || !timestampInput) return;
+
+              timestampInput.value = Math.floor(Date.now() / 1000).toString();
+
+              form.addEventListener('submit', (event) => {
+                const company = form.querySelector('[name="company"]');
+                const elapsed = (Date.now() / 1000) - Number(timestampInput.value);
+
+                if (company && company.value.trim() !== '' || elapsed < 3) {
+                  event.preventDefault();
+                  status.textContent = 'Your message could not be sent. Please try again.';
+                  return;
+                }
+              });
+            });
+          </script>
         </div>
       </div>
     </div>
@@ -215,6 +243,13 @@ const mapsUrl = getDirectionsUrl;
   .form-status {
     margin-top: 12px;
     font-size: 0.9rem;
+  }
+  .form-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
   }
   .form-service-area {
     margin-top: 16px;
