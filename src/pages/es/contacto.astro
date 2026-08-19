@@ -127,7 +127,7 @@ const mapsUrl = getDirectionsUrl;
           </form>
 
           <script>
-            document.addEventListener('DOMContentLoaded', () => {
+            (() => {
               const form = document.querySelector('form');
               const status = document.querySelector('.form-status');
               const timestampInput = document.querySelector('#form_timestamp');
@@ -139,13 +139,13 @@ const mapsUrl = getDirectionsUrl;
                 const company = form.querySelector('[name="company"]');
                 const elapsed = (Date.now() / 1000) - Number(timestampInput.value);
 
-                if (company && company.value.trim() !== '' || elapsed < 3) {
+                if ((company && company.value.trim() !== '') || elapsed < 3) {
                   event.preventDefault();
                   status.textContent = 'No se pudo enviar su mensaje. Por favor, intente de nuevo.';
                   return;
                 }
               });
-            });
+            })();
           </script>
         </div>
       </div>
