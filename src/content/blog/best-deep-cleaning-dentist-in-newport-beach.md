@@ -52,7 +52,7 @@ At Dr. Smile, we assess both the tooth and the surrounding gum tissue before mov
 
 ## Why Dr. Smile Is the Right Deep Cleaning Dentist in Newport Beach
 
-Dr. Smile’s Newport Beach location is designed to provide modern, comprehensive dental care in a comfortable setting. Located at 2121 East Coast Hwy STE 140, Corona Del Mar, CA 92625, our practice serves patients from across Newport Beach, Balboa Island, the Balboa Peninsula, Newport Coast, and the surrounding communities.
+Dr. Smile’s Newport Beach location is designed to provide modern, comprehensive dental care in a comfortable setting. Located at {{nap:address:newport-beach}}, our practice serves patients from across Newport Beach, Balboa Island, the Balboa Peninsula, Newport Coast, and the surrounding communities.
 
 Here’s what sets us apart:
 

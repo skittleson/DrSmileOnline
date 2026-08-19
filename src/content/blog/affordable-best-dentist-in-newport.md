@@ -134,7 +134,7 @@ From pediatric dentistry to orthodontics, Newport dentists cater to all age grou
 
 Choosing the Best Dentists in Newport means prioritizing both health and confidence. With advanced technology, affordable care plans, and a patient‑first approach, Dr Smile ensures every visit is comfortable and effective. From preventive checkups to cosmetic enhancements, their comprehensive services cater to families, professionals, and children alike. Trusted for emergency support and admired for aesthetic results, Dr. Smile stands as the leading choice for affordable and reliable dental care.
 
-Book your visit with [Dr. Smile](tel:\(949\)640-0222) today and take the first step toward a brighter, healthier smile with care you can trust.
+Book your visit with [Dr. Smile](tel:{{nap:phone:newport-beach}}) today and take the first step toward a brighter, healthier smile with care you can trust.
 
 **Read more : [Experience advanced dental technology in Newport Beach—book your visit today](/DrSmileOnline/blog/local-dentists-in-newport-beach/)**
 

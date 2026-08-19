@@ -70,7 +70,7 @@ Before any treatment begins, your dentist explains exactly what the tooth needs,
 
 A broken tooth does not have to mean a long, complicated road to recovery. Broken tooth repair in San Pedro at Dr. Smile is fast, precise, and backed by the kind of multispecialty expertise that handles every broken tooth case correctly the first time. The longer you wait, the fewer options remain. Acting quickly preserves the tooth, reduces complexity, and gets your smile back to full strength faster than you might expect.
 
-Call [**Dr. Smile**](/DrSmileOnline/contact/) today at (310) 548-8128 or visit our website to book your appointment. Your smile deserves expert care and prompt attention.
+Call [**Dr. Smile**](/DrSmileOnline/contact/) today at {{nap:phone:san-pedro}} or visit our website to book your appointment. Your smile deserves expert care and prompt attention.
 
 ## Frequently Asked Questions :
 

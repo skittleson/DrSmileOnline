@@ -108,7 +108,7 @@ In the dental world, preventative measures are to be taken. Here is your guide t
 
 ## The final word
 
-Tooth decay may be common, but with the right preventive care, it doesn’t have to affect your smile. A trusted Dentist in Lomita offers routine checkups, professional cleanings, and personalized guidance to keep cavities away and protect long‑term oral health. At Dr Smile, patients of all ages receive compassionate, affordable, and family‑friendly care designed to make dental visits stress‑free and effective. Choosing [Dr. Smile](tel:\(310\)539-1111) means choosing lasting protection, healthier teeth, and the confidence that comes with a brighter smile.
+Tooth decay may be common, but with the right preventive care, it doesn’t have to affect your smile. A trusted Dentist in Lomita offers routine checkups, professional cleanings, and personalized guidance to keep cavities away and protect long‑term oral health. At Dr Smile, patients of all ages receive compassionate, affordable, and family‑friendly care designed to make dental visits stress‑free and effective. Choosing [Dr. Smile](tel:{{nap:phone:lomita}}) means choosing lasting protection, healthier teeth, and the confidence that comes with a brighter smile.
 
 Ready for a cavity-free smile? Schedule your appointment with Dr. Smile today!
 

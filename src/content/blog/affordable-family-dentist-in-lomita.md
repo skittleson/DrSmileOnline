@@ -127,7 +127,7 @@ Choosing an affordable family dentist in Lomita ensures families receive compreh
 
 Protect your family’s smiles for generations.
 
-Contact Dr. Smile now for affordable care—book online at drsmilelomita.com or call (310) 555-SMILE. Your healthier future starts today!
+Contact Dr. Smile now for affordable care—[book online](/DrSmileOnline/contact/) or call {{nap:phone:lomita}}. Your healthier future starts today!
 
 **Read more : [See how full mouth restoration in Lomita can improve your quality of life—book your consultation today](/DrSmileOnline/blog/what-to-expect-full-mouth-restoration-in-lomita/).**
 
