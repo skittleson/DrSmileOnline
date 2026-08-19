@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../../layouts/Base.astro';
+import UtilityBar from '../../components/UtilityBar.astro';
+import Header from '../../components/Header.astro';
+import TrustBand from '../../components/TrustBand.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n/index';
+
+const t = getTranslations('es');
+const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+---
+
+<BaseLayout title="Página No Encontrada | Dr. Smile Dental Group" description="La página que busca no existe." locale="es">
+  <UtilityBar slot="header" locale="es" currentPath="/es/404/" counterpartPath="/404/" />
+  <Header slot="header" locale="es" />
+
+  <section class="section not-found">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Ups — Se Perdió el Camino</p>
+          <h1>Esta Página Se Tomó el Día Libre. Nosotros Seguimos Aquí.</h1>
+          <p>
+            La página que busca fue movida o ya no existe — pero nuestro equipo está disponible
+            ahora mismo para responder su pregunta directamente. Llámenos o envíenos un mensaje
+            rápido y nosotros nos encargamos.
+          </p>
+          <div class="not-found-actions">
+            <a href={`${base}/es/ubicacion/`} class="btn btn-accent btn-lg">Encuentre Su Ubicación</a>
+            <a href={`${base}/es/contacto/`} class="btn btn-outline">Envíenos un Mensaje</a>
+          </div>
+        </div>
+        <img
+          src={`${base}/images/about-patients.webp`}
+          alt="Dra. Mariam Nadi y Dr. Kayvon Javid en la recepción de Dr. Smile Dental Group"
+          width="480"
+          height="360"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <TrustBand locale="es" />
+
+  <section class="section section-surface not-found-links">
+    <div class="container">
+      <p>
+        ¿Busca algo en específico?
+        <a href={`${base}/es/servicios/`}>Nuestros Servicios</a>
+        ·
+        <a href={`${base}/es/preguntas-frecuentes/`}>Preguntas Frecuentes</a>
+        ·
+        <a href={`${base}/es/`}>{t['nav.home']}</a>
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" locale="es" />
+</BaseLayout>
+
+<style>
+  .not-found {
+    padding: 96px 0;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+  }
+  .not-found p {
+    color: var(--color-text-light);
+    margin-top: var(--space-2);
+  }
+  .not-found-actions {
+    margin-top: var(--space-4);
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+  .btn-lg {
+    padding: var(--space-2) var(--space-5);
+    font-size: 1.1rem;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .two-col img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+  @media (max-width: 760px) {
+    .two-col {
+      grid-template-columns: 1fr;
+    }
+    .two-col img {
+      order: -1;
+    }
+  }
+  .not-found-links {
+    text-align: center;
+  }
+  .not-found-links p {
+    margin-top: 0;
+    color: var(--color-text-light);
+  }
+  .not-found-links a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+</style>

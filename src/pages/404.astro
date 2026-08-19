@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/Base.astro';
 import UtilityBar from '../components/UtilityBar.astro';
 import Header from '../components/Header.astro';
+import TrustBand from '../components/TrustBand.astro';
 import Footer from '../components/Footer.astro';
 import { getTranslations } from '../i18n/index';
 
@@ -10,17 +11,61 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 ---
 
 <BaseLayout title="Page Not Found | Dr. Smile Dental Group" description="The page you're looking for doesn't exist." locale="en">
+  <Fragment slot="head">
+    <script is:inline define:vars={{ base }}>
+      // GitHub Pages only serves this one 404.html for any unmatched path
+      // (Astro's flat-file handling for 404 pages only applies to the
+      // top-level src/pages/404.astro, not nested locale variants). If the
+      // broken URL was under the Spanish section, redirect to the real
+      // Spanish 404 page so those visitors see Spanish content and CTAs
+      // instead of bouncing off an English error page.
+      if (window.location.pathname.startsWith(base + '/es/')) {
+        window.location.replace(base + '/es/404/');
+      }
+    </script>
+  </Fragment>
   <UtilityBar slot="header" locale="en" currentPath="/404/" counterpartPath="/es/" />
   <Header slot="header" locale="en" />
 
   <section class="section not-found">
     <div class="container">
-      <h1>Page Not Found</h1>
-      <p>The page you're looking for doesn't exist or has been moved.</p>
-      <div class="not-found-actions">
-        <a href={`${base}/`} class="btn">{t['nav.home']}</a>
-        <a href={`${base}/contact/`} class="btn btn-outline">{t['nav.contact']}</a>
+      <div class="two-col">
+        <div>
+          <p class="eyebrow">Oops — Wrong Turn</p>
+          <h1>This Page Took a Sick Day. We're Still Here.</h1>
+          <p>
+            The page you're looking for moved or never existed — but our team is standing by right
+            now to answer your question directly. Call us or send a quick message and we'll take
+            it from here.
+          </p>
+          <div class="not-found-actions">
+            <a href={`${base}/location/`} class="btn btn-accent btn-lg">Find Your Location</a>
+            <a href={`${base}/contact/`} class="btn btn-outline">Send Us a Message</a>
+          </div>
+        </div>
+        <img
+          src={`${base}/images/about-patients.webp`}
+          alt="Dr. Mariam Nadi and Dr. Kayvon Javid at the Dr. Smile Dental Group front desk"
+          width="480"
+          height="360"
+          loading="lazy"
+        />
       </div>
+    </div>
+  </section>
+
+  <TrustBand locale="en" />
+
+  <section class="section section-surface not-found-links">
+    <div class="container">
+      <p>
+        Looking for something specific?
+        <a href={`${base}/services/`}>Our Services</a>
+        ·
+        <a href={`${base}/faqs/`}>FAQs</a>
+        ·
+        <a href={`${base}/`}>{t['nav.home']}</a>
+      </p>
     </div>
   </section>
 
@@ -29,8 +74,14 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 
 <style>
   .not-found {
-    text-align: center;
-    padding: 120px 0;
+    padding: 96px 0;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+    margin-bottom: 8px;
   }
   .not-found p {
     color: var(--color-text-light);
@@ -40,7 +91,40 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
     margin-top: var(--space-4);
     display: flex;
     gap: var(--space-2);
-    justify-content: center;
     flex-wrap: wrap;
+  }
+  .btn-lg {
+    padding: var(--space-2) var(--space-5);
+    font-size: 1.1rem;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .two-col img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+  }
+  @media (max-width: 760px) {
+    .two-col {
+      grid-template-columns: 1fr;
+    }
+    .two-col img {
+      order: -1;
+    }
+  }
+  .not-found-links {
+    text-align: center;
+  }
+  .not-found-links p {
+    margin-top: 0;
+    color: var(--color-text-light);
+  }
+  .not-found-links a {
+    color: var(--color-primary);
+    font-weight: 600;
   }
 </style>
