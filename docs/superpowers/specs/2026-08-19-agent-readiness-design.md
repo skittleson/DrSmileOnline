@@ -1,0 +1,149 @@
+# Dr. Smile Dental Group — Agent-Readiness Prep (Static-Max)
+
+**Date:** 2026-08-19
+**Status:** Approved
+**Host:** `skittleson.github.io/DrSmileOnline/` (GitHub Pages, base path `/DrSmileOnline/`)
+**Scope:** Full static-max agent-readiness. No backend, no domain migration.
+
+## Goals
+
+- Maximize agent-readiness for a static marketing site using only artifacts that can be served as plain files from GitHub Pages.
+- Pass the applicable `isitagentready.com` checks: `robotsTxt`, `sitemap`, `linkHeaders`, `contentSignals`, `robotsTxtAiRules`, `ard`, `agentSkills`, `mcpServerCard`, and `llms.txt`-style LLM discoverability.
+- Keep the site fast, zero-JS, and fully static.
+
+## Non-goals (explicitly out of scope)
+
+- **OAuth / OIDC / Protected-Resource / Auth.md** — no APIs, no auth.
+- **WebMCP** — needs a browser runtime + a real MCP server; a static site has no tools to expose.
+- **DNS-AID** — needs DNS zone control; out of scope for a GH Pages subpath.
+- **Markdown-for-Agents** — needs an edge/CDN that negotiates `Accept: text/markdown`; GitHub Pages doesn't.
+- **A real MCP server runtime** — would need a backend (Cloudflare Worker / Lambda). The server-card is a *declaration* for when that exists.
+- **Domain migration** — staying at `skittleson.github.io/DrSmileOnline/`.
+
+## Architecture
+
+All new artifacts are static files under `public/`. They are copied verbatim to `dist/` by Astro's build. Digests for the agent-skills index are computed by a Node script that runs as part of `npm run build`.
+
+```
+public/
+├── .well-known/
+│   ├── ai-catalog.json              # ARD manifest
+│   ├── agent-skills/
+│   │   ├── index.json               # Agent Skills Discovery index
+│   │   ├── dr-smile-locations.md    # SKILL.md artifact
+│   │   └── dr-smile-services.md     # SKILL.md artifact
+│   └── mcp/
+│       └── server-card.json         # MCP Server Card (declarative)
+├── llms.txt                         # LLM-readable practice summary
+├── robots.txt                       # (already updated: AI rules + Content-Signals + Agentmap)
+└── _headers                         # (already updated: Link RFC 8288 headers)
+```
+
+## Artifacts
+
+### 1. `public/.well-known/ai-catalog.json` (ARD)
+
+Served at `/.well-known/ai-catalog.json` with `Content-Type: application/json`.
+
+Structure:
+- `specVersion: "1.0"`
+- `host`: `{ displayName: "Dr. Smile Dental Group", identifier: "did:web:skittleson.github.io:DrSmileOnline" }`
+- `entries`: array of 4 entries, each with:
+  - `identifier`: `urn:air:skittleson.github.io:drsmile:<name>`
+  - `displayName`
+  - `type`: IANA media type
+  - `url`: absolute URL (exactly one of `url`/`data`)
+  - `representativeQueries`: 2–5 strings
+
+Entries:
+| name | type | url |
+|---|---|---|
+| `locations` | `application/ld+json` | `/DrSmileOnline/location/` |
+| `services` | `text/html` | `/DrSmileOnline/services/` |
+| `contact` | `text/html` | `/DrSmileOnline/contact/` |
+| `sitemap` | `application/xml` | `/DrSmileOnline/sitemap-index.xml` |
+
+### 2. `public/.well-known/agent-skills/index.json`
+
+Served at `/.well-known/agent-skills/index.json`.
+
+Structure:
+- `$schema`: `https://schemas.agentskills.io/discovery/0.2.0/schema.json`
+- `skills`: array of 2 entries:
+  - `dr-smile-locations`: `type: "skill-md"`, `url: /DrSmileOnline/.well-known/agent-skills/dr-smile-locations.md`, `digest: sha256:<hex>`
+  - `dr-smile-services`: `type: "skill-md"`, `url: /DrSmileOnline/.well-known/agent-skills/dr-smile-services.md`, `digest: sha256:<hex>`
+
+### 3. `public/.well-known/mcp/server-card.json`
+
+Served at `/.well-known/mcp/server-card.json`.
+
+Structure:
+- `serverInfo`: `{ name: "dr-smile-dental-group", version: "1.0.0" }`
+- `endpoint`: `/DrSmileOnline/mcp` (placeholder for a future Streamable-HTTP MCP server)
+- `capabilities`: `{ tools: ["list-locations", "list-services", "get-contact-info"] }`
+
+### 4. `public/llms.txt`
+
+Plain-text summary of the practice for AI assistants:
+- Practice name, tagline, 4 locations (city, address, phone), services offered, contact page URL.
+
+### 5. `Base.astro` `<head>` edit
+
+Add:
+```html
+<link rel="ai-catalog" href={`${base}/.well-known/ai-catalog.json`} />
+```
+
+### 6. `robots.txt` edit
+
+Add after the `Sitemap:` line:
+```
+Agentmap: https://skittleson.github.io/DrSmileOnline/.well-known/ai-catalog.json
+```
+
+### 7. `scripts/compute-digests.mjs`
+
+Node ESM script:
+- Reads `public/.well-known/agent-skills/index.json`.
+- For each skill entry, reads the file at the relative path, computes SHA-256.
+- Writes the `digest` field back to `index.json`.
+- Exits non-zero if any file is missing.
+
+### 8. `package.json` edit
+
+Add to `scripts`:
+```json
+"digests": "node scripts/compute-digests.mjs",
+"build": "node scripts/compute-digests.mjs && astro build"
+```
+
+## Data sources
+
+- Locations: `src/data/locations.ts` (single source of truth for 4 addresses/phones).
+- Services: `src/pages/services.astro` (4 specialty cards).
+- Contact: `src/pages/contact.astro`.
+- Sitemap: auto-generated by `@astrojs/sitemap`.
+
+## Verification
+
+1. `npm run build` → 148 pages + all new JSON/text files present in `dist/`.
+2. `curl -I` each new artifact for `200` + correct `Content-Type`.
+3. `node scripts/compute-digests.mjs` → SHA-256s match the files.
+4. `grep` `dist/` for the `Agentmap:` line in `robots.txt` and the `ai-catalog` link in `index.html`.
+5. Optional: hit `https://isitagentready.com/api/scan` against the live URL post-deploy.
+
+## File change manifest
+
+| File | Action |
+|---|---|
+| `public/.well-known/ai-catalog.json` | create |
+| `public/.well-known/agent-skills/index.json` | create |
+| `public/.well-known/agent-skills/dr-smile-locations.md` | create |
+| `public/.well-known/agent-skills/dr-smile-services.md` | create |
+| `public/.well-known/mcp/server-card.json` | create |
+| `public/llms.txt` | create |
+| `public/robots.txt` | edit (add `Agentmap:` line) |
+| `src/layouts/Base.astro` | edit (add `<link rel="ai-catalog">`) |
+| `scripts/compute-digests.mjs` | create |
+| `package.json` | edit (add `digests` script, prepend to `build`) |
+| `seo.md` | edit (document new artifacts) |
