@@ -75,7 +75,7 @@ const mapsUrl = getDirectionsUrl;
           <p>Complete el formulario a continuación y nuestro equipo se comunicará con usted.</p>
 
           <form class="form" method="post" action={`${base}/es/contacto/`}>
-            <div class="form-honeypot">
+            <div class="form-honeypot" aria-hidden="true">
               <label for="company">Empresa</label>
               <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
             </div>
@@ -128,9 +128,9 @@ const mapsUrl = getDirectionsUrl;
 
           <script>
             (() => {
-              const form = document.querySelector('form');
-              const status = document.querySelector('.form-status');
-              const timestampInput = document.querySelector('#form_timestamp');
+              const form = document.querySelector('.contact-form form');
+              const status = form ? form.querySelector('.form-status') : null;
+              const timestampInput = form ? form.querySelector('#form_timestamp') : null;
               if (!form || !status || !timestampInput) return;
 
               timestampInput.value = Math.floor(Date.now() / 1000).toString();
