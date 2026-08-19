@@ -10,7 +10,6 @@ import { locations, getDirectionsUrl } from '../../data/locations';
 const t = getTranslations('es');
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const canonical = `${import.meta.env.SITE}${base}/es/contacto/`;
-const enUrl = `${import.meta.env.SITE}${base}/contact/`;
 
 const contactLocations = locations.map((loc) => ({
   label: `${loc.city}, CA`,
@@ -26,11 +25,6 @@ const mapsUrl = getDirectionsUrl;
   canonicalUrl={canonical}
   locale="es"
 >
-  <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href={enUrl} />
-    <link rel="alternate" hreflang="es" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={enUrl} />
-  </Fragment>
 
   <UtilityBar slot="header" locale="es" currentPath="/es/contacto/" counterpartPath="/contact/" />
   <Header slot="header" locale="es" />
@@ -99,6 +93,13 @@ const mapsUrl = getDirectionsUrl;
                 <option value="torrance">Torrance</option>
                 <option value="lomita">Lomita</option>
               </select>
+            </div>
+
+            <div class="form-field form-field-checkbox">
+              <label for="existing_patient">
+                <input type="checkbox" id="existing_patient" name="existing_patient" value="yes" />
+                Soy un paciente existente
+              </label>
             </div>
 
             <div class="form-field">
@@ -184,6 +185,18 @@ const mapsUrl = getDirectionsUrl;
     font-weight: 500;
     margin-bottom: 4px;
     color: var(--color-text);
+  }
+  .form-field-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: var(--color-text);
+  }
+  .form-field-checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
   }
   .form-field input,
   .form-field select,

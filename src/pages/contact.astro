@@ -89,6 +89,13 @@ const mapsUrl = getDirectionsUrl;
               </select>
             </div>
 
+            <div class="form-field form-field-checkbox">
+              <label for="existing_patient">
+                <input type="checkbox" id="existing_patient" name="existing_patient" value="yes" />
+                I'm an existing patient
+              </label>
+            </div>
+
             <div class="form-field">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="5" required></textarea>
@@ -172,6 +179,18 @@ const mapsUrl = getDirectionsUrl;
     font-weight: 500;
     margin-bottom: 4px;
     color: var(--color-text);
+  }
+  .form-field-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: var(--color-text);
+  }
+  .form-field-checkbox input[type="checkbox"] {
+    width: auto;
+    margin: 0;
   }
   .form-field input,
   .form-field select,
