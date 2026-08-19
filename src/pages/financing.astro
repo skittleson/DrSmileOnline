@@ -86,7 +86,7 @@ const finFaqs = [
   },
   {
     q: 'Do you take Medicaid or DentaQuest?',
-    a: 'Coverage varies by plan and location. Call us at (310) 388-3669 and we’ll check your specific plan and tell you exactly what’s accepted.',
+    a: 'Coverage varies by plan and location. Call your local office and we’ll check your specific plan and tell you exactly what’s accepted.',
   },
   {
     q: 'Is there a catch with the membership plan?',
@@ -124,7 +124,7 @@ const faqSchema = {
         coverage — so you can get the treatment you need on a budget that works.
       </p>
       <div class="cta-row">
-        <a href="tel:3103883669" class="btn btn-accent">Call (310) 388-3669</a>
+        <a href={`${base}/location/`} class="btn btn-accent">Find Your Location</a>
         <a href={`${base}/contact/`} class="btn btn-outline">Get a free estimate</a>
       </div>
     </div>
@@ -168,7 +168,7 @@ const faqSchema = {
         </div>
       </div>
       <p class="fine-print">
-        Not sure if your plan is accepted? Call us at (310) 388-3669 and we’ll
+        Not sure if your plan is accepted? Call your local office and we’ll
         check your specific plan before you book.
       </p>
     </div>

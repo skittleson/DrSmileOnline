@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
 const otherLocale = locale === 'en' ? 'es' : 'en';
 const otherPrefix = otherLocale === 'es' ? '/es' : '';
 const phone = t['utility.phone'];
+const locationSlug = locale === 'es' ? '/es/ubicacion/' : '/location/';
 
 const withBase = (p: string) => `${base}${p.startsWith('/') ? p : `/${p}`}`;
 // currentPath is always THIS locale's page; counterpartPath is the OTHER locale's page.
@@ -22,7 +23,7 @@ const esHref = withBase(locale === 'es' ? currentPath : (counterpartPath || fall
 
 <div class="utility-bar">
   <div class="container utility-inner">
-    <a href={`tel:${phone.replace(/[^0-9]/g, '')}`} class="utility-phone" aria-label={t['utility.phone']}>
+    <a href={`${base}${locationSlug}`} class="utility-phone" aria-label={t['utility.phone']}>
       <span aria-hidden="true">📞</span> {phone}
     </a>
     <div class="utility-center">

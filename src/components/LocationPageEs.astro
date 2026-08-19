@@ -44,6 +44,7 @@ const locationSchema = {
   address: {
     '@type': 'PostalAddress',
     streetAddress: p.address,
+    addressLocality: p.city,
     addressRegion: 'CA',
   },
   areaServed: p.city,
@@ -116,7 +117,7 @@ const locationSchema = {
         </div>
         <div class="info-actions">
           <a href={directionsUrl} class="btn btn-outline" target="_blank" rel="noopener noreferrer">Obtener direcciones</a>
-          <a href="tel:3103883669" class="btn btn-accent">Llame ahora</a>
+          <a href={telHref} class="btn btn-accent">Llame ahora</a>
         </div>
       </div>
       <div class="visit-map">

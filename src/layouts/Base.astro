@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { locations } from '../data/locations';
 
 interface Props {
   title: string;
@@ -19,17 +20,25 @@ const structuredData = {
   name: 'Dr. Smile Dental Group',
   description:
     'Comprehensive dental care including oral surgery, implants, cosmetics, and orthodontics across Southern California.',
-  telephone: '(310) 388-3669',
+  telephone: locations[0].phone,
   url: 'https://doctorsmileonline.com',
-  address: {
-    '@type': 'PostalAddress',
-    addressRegion: 'CA',
-  },
   areaServed: 'Southern California',
   sameAs: [
     'https://www.facebook.com/drsmiledentalgroup',
     'https://www.instagram.com/dr.smile_dental_group/',
   ],
+  location: locations.map((loc) => ({
+    '@type': 'Dentist',
+    name: `Dr. Smile ${loc.city}`,
+    telephone: loc.phone,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: loc.streetAddress,
+      addressLocality: loc.city,
+      addressRegion: 'CA',
+      postalCode: loc.postalCode,
+    },
+  })),
 };
 ---
 

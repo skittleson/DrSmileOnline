@@ -11,7 +11,7 @@ const contactPath = locale === 'es' ? '/es/contacto/' : '/contact/';
 ---
 
 <div class="sticky-cta" inert>
-  <a href="tel:(310)388-3669" class="btn sticky-cta-call">{t['cta.call']}</a>
+  <a href={`${base}${contactPath}`} class="btn sticky-cta-call">{t['cta.call']}</a>
   <a href={`${base}${contactPath}`} class="btn btn-accent sticky-cta-schedule">{t['cta.schedule']}</a>
 </div>
 

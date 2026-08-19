@@ -27,12 +27,12 @@ const faqCategories = [
       },
       {
         q: 'How do I book an appointment?',
-        a: 'Call us at (310) 388-3669 or use our contact form. We have four locations across Southern California — Newport Beach, San Pedro, Torrance, and Lomita — so there’s likely one close to you.',
+        a: 'Call your local office or use our contact form. We have four locations across Southern California — Newport Beach, San Pedro, Torrance, and Lomita — so there’s likely one close to you.',
         link: { label: 'See our locations', href: 'location/' },
       },
       {
         q: 'Do you offer same-day or emergency appointments?',
-        a: 'Yes. We see walk-in and emergency patients and do our best to accommodate you the same day. If you’re in pain, call us first thing in the morning at (310) 388-3669.',
+        a: 'Yes. We see walk-in and emergency patients and do our best to accommodate you the same day. If you’re in pain, call your local office first thing in the morning.',
       },
       {
         q: 'What are your hours?',
@@ -156,8 +156,8 @@ const faqSchema = {
       <h1>Frequently Asked Questions</h1>
       <p class="lead">
         Straight answers about your first visit, costs, insurance, financing, and
-        the treatments we offer. Can’t find what you’re looking for? Call us at
-        <a href="tel:3103883669">(310) 388-3669</a>.
+        the treatments we offer. Can’t find what you’re looking for? Visit our
+        <a href={`${base}/location/`}>locations page</a> to find your nearest office.
       </p>
     </div>
   </section>

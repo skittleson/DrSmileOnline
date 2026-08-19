@@ -1,5 +1,6 @@
 ---
 import { getTranslations } from '../i18n/index';
+import { locations, getDirectionsUrl, getMapEmbedSrc } from '../data/locations';
 
 interface Props {
   locale: 'en' | 'es';
@@ -7,47 +8,10 @@ interface Props {
 const { locale } = Astro.props;
 const t = getTranslations(locale);
 
-const locations = [
-  {
-    name: 'Newport Beach',
-    address: '1000 Baker Street, Suite 100, Newport Beach, CA 92660',
-    phone: '(310) 388-3669',
-    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapQuery: '1000 Baker St, Newport Beach, CA 92660',
-  },
-  {
-    name: 'San Pedro',
-    address: '2000 Gaffey Street, San Pedro, CA 90731',
-    phone: '(310) 388-3669',
-    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapQuery: '2000 Gaffey St, San Pedro, CA 90731',
-  },
-  {
-    name: 'Torrance',
-    address: '3000 Torrance Blvd, Suite 200, Torrance, CA 90503',
-    phone: '(310) 388-3669',
-    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    mapQuery: '3000 Torrance Blvd, Torrance, CA 90503',
-  },
-  {
-    name: 'Lomita',
-    address: '4000 California St, Lomita, CA 90717',
-    phone: '(310) 388-3669',
-    hours: locale === 'es' ? 'Lun–Vie: 8AM–5PM, Sáb: Por cita' : 'Mon–Fri: 8AM–5PM, Sat: By appointment',
-    // The placeholder street address does not geocode in Google's keyless
-    // embed and falls back to a markerless area view. A lat,lng query for
-    // Lomita, CA always drops a spotlit pin. Address above stays as-is.
-    mapQuery: '33.7922,-118.3151',
-  },
-];
-
-// Keyless Google Maps embed. Using a clean "street, city, CA zip" query
-// (no suite line) plus a fixed zoom so Google always drops a marker rather
-// than falling back to an area view when a partial address won't geocode.
-const embedSrc = (query: string) =>
-  `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=15&output=embed`;
-const directionsUrl = (query: string) =>
-  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+const cards = locations.map((loc) => ({
+  ...loc,
+  hours: locale === 'es' ? loc.hoursEs : loc.hoursEn,
+}));
 ---
 
 <section id="locations" class="section" aria-label={locale === 'es' ? 'Nuestras ubicaciones' : 'Our locations'}>
@@ -59,12 +23,12 @@ const directionsUrl = (query: string) =>
         : 'Four practices across Southern California. See all four locations on the maps below.'}
     </p>
     <div class="location-grid">
-      {locations.map((loc) => (
+      {cards.map((loc) => (
         <div class="location-card">
           <iframe
             class="location-map"
             title={locale === 'es' ? `Mapa de ${loc.name}` : `Map of ${loc.name}`}
-            src={embedSrc(loc.mapQuery)}
+            src={getMapEmbedSrc(loc.mapQuery)}
             width="100%"
             height="200"
             style="border:0;"
@@ -75,7 +39,7 @@ const directionsUrl = (query: string) =>
           <address>
             <a
               class="location-address-link"
-              href={directionsUrl(loc.mapQuery)}
+              href={getDirectionsUrl(loc.mapQuery)}
               target="_blank"
               rel="noopener noreferrer"
               aria-label={locale === 'es' ? `Abrir ${loc.name} en Google Maps` : `Open ${loc.name} in Google Maps`}
@@ -85,7 +49,7 @@ const directionsUrl = (query: string) =>
           </address>
           <p><a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`}>{loc.phone}</a></p>
           <p>{loc.hours}</p>
-          <a href={directionsUrl(loc.mapQuery)} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+          <a href={getDirectionsUrl(loc.mapQuery)} class="btn btn-outline" target="_blank" rel="noopener noreferrer">
             {t['cta.getDirections']}
           </a>
         </div>
