@@ -1,7 +1,9 @@
 ---
 import LocationPageEs from '../../components/LocationPageEs.astro';
+import { getLocation } from '../../data/locations';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const loc = getLocation('lomita');
 const city = 'Lomita';
 const region = 'Lomita, CA';
 const canonical = `${import.meta.env.SITE}${base}/es/lomita/`;
@@ -12,12 +14,12 @@ const canonical = `${import.meta.env.SITE}${base}/es/lomita/`;
   counterpartPath="/lomita/"
   city={city}
   region={region}
-  address="2104 Pacific Coast Hwy #5, Lomita, CA 90717"
-  phone="(310) 539-1111"
-  hours="Lun–Vie: 8AM–5PM, Sáb: Por cita"
-  mapQuery="2104 Pacific Coast Hwy #5, Lomita, CA 90717"
+  address={loc.address}
+  phone={loc.phone}
+  hours={loc.hoursEs}
+  mapQuery={loc.mapQuery}
   title="Odontólogo en Lomita, CA | Dr. Smile Dental Group"
-  description="Odontólogo familiar en Lomita, CA. Tratamiento de enfermedad de encías, carillas, atención de emergencia y restauración de boca completa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame (310) 539-1111."
+  description={`Odontólogo familiar en Lomita, CA. Tratamiento de enfermedad de encías, carillas, atención de emergencia y restauración de boca completa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame ${loc.phone}.`}
   canonical={canonical}
   intro="Atención dental integral cerca de su hogar en Lomita. Desde la odontología familiar suave y el tratamiento de la enfermedad de las encías hasta carillas, atención de emergencia y restauración de boca completa, la oficina de Dr. Smile en Lomita cubre a toda su familia."
   about="Nuestra oficina de Lomita sirve a la comunidad de Westchester y las áreas circundantes con un enfoque en la comodidad y la prevención. La Dra. Mariam Nadi y el Dr. Kayvon Javid traen más de 16 años de experiencia a cada visita, combinando tecnología avanzada con un toque suave y personal. Los pacientes de Lomita confían en nosotros para todo, desde limpiezas rutinarias y trabajo estético hasta tratamiento periodontal y restauraciones de boca completa."

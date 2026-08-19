@@ -1,7 +1,9 @@
 ---
 import LocationPage from '../components/LocationPage.astro';
+import { getLocation } from '../data/locations';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const loc = getLocation('san-pedro');
 const city = 'San Pedro';
 const region = 'San Pedro, CA';
 const canonical = `${import.meta.env.SITE}${base}/san-pedro/`;
@@ -13,12 +15,12 @@ const canonical = `${import.meta.env.SITE}${base}/san-pedro/`;
   counterpartPath="/es/san-pedro/"
   city={city}
   region={region}
-  address="1622 S Gaffey St, San Pedro, CA 90731"
-  phone="(310) 548-8128"
-  hours="Mon–Fri: 8AM–5PM, Sat: By appointment"
-  mapQuery="1622 S Gaffey St, San Pedro, CA 90731"
+  address={loc.address}
+  phone={loc.phone}
+  hours={loc.hoursEn}
+  mapQuery={loc.mapQuery}
   title="Dentist in San Pedro, CA | Dr. Smile Dental Group"
-  description="Family dentist in San Pedro, CA. Affordable care, implants, emergency dentistry, and cosmetic treatments. We accept all PPO insurance and offer financing. Call (310) 548-8128."
+  description={`Family dentist in San Pedro, CA. Affordable care, implants, emergency dentistry, and cosmetic treatments. We accept all PPO insurance and offer financing. Call ${loc.phone}.`}
   canonical={canonical}
   intro="Trusted dental care in the heart of San Pedro. Whether you need a routine check-up, emergency tooth repair, implants, or a smile makeover, Dr. Smile’s San Pedro office makes quality care accessible and affordable for the whole family."
   about="Our San Pedro office is home to a team dedicated to the harbor community. Dr. Mariam Nadi and Dr. Kayvon Javid have spent 16+ years serving Southern California families, and they bring that same warm, personal approach to San Pedro. From general dentistry and emergency care to implants, full-mouth reconstruction, and cosmetic treatments, you’ll get comprehensive care in a comfortable, judgment-free environment — with financing and membership options to keep costs manageable."

@@ -1,7 +1,9 @@
 ---
 import LocationPageEs from '../../components/LocationPageEs.astro';
+import { getLocation } from '../../data/locations';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const loc = getLocation('newport-beach');
 const city = 'Newport Beach';
 const region = 'Newport Beach, CA';
 const canonical = `${import.meta.env.SITE}${base}/es/newport-beach/`;
@@ -12,12 +14,12 @@ const canonical = `${import.meta.env.SITE}${base}/es/newport-beach/`;
   counterpartPath="/newport-beach/"
   city={city}
   region={region}
-  address="2121 East Coast Hwy Ste 140, Newport Beach, CA 92660"
-  phone="(949) 640-0222"
-  hours="Lun–Vie: 8AM–5PM, Sáb: Por cita"
-  mapQuery="2121 East Coast Hwy Ste 140, Newport Beach, CA 92660"
+  address={loc.address}
+  phone={loc.phone}
+  hours={loc.hoursEs}
+  mapQuery={loc.mapQuery}
   title="Odontólogo en Newport Beach, CA | Dr. Smile Dental Group"
-  description="Dentista estético en Newport Beach, CA. Carillas, blanqueamiento, implantes All-on-Four y transformaciones de sonrisa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame (949) 640-0222."
+  description={`Dentista estético en Newport Beach, CA. Carillas, blanqueamiento, implantes All-on-Four y transformaciones de sonrisa. Aceptamos todos los seguros PPO y ofrecemos financiamiento. Llame ${loc.phone}.`}
   canonical={canonical}
   intro="Atención dental de alto nivel en Newport Beach. Desde la odontología estética y las carillas hasta los implantes All-on-Four y las transformaciones completas de la sonrisa, la oficina de Dr. Smile en Newport Beach ofrece resultados que se ven naturales — y duran."
   about="Nuestra oficina de Newport Beach es a donde acuden los pacientes por la excelencia estética y restauradora. La Dra. Mariam Nadi y el Dr. Kayvon Javid traen más de 16 años de experiencia y un enfoque refinado y detallado a cada sonrisa. Ya sea que busque carillas, blanqueamiento profesional, implantes All-on-Four o una transformación completa, recibirá un plan personalizado en una oficina moderna y cómoda."

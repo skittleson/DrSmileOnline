@@ -77,3 +77,16 @@ export const getDirectionsUrl = (query: string) =>
 
 export const getMapEmbedSrc = (query: string) =>
   `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=15&output=embed`;
+
+// Look up a single location by slug. Throws if the slug is unknown so a
+// typo fails the build loudly rather than silently rendering `undefined`
+// address/phone. Used by the per-city landing pages (lomita.astro, etc.)
+// so their NAP data comes from this single source of truth instead of
+// being hardcoded as page props.
+export const getLocation = (slug: string): Location => {
+  const location = locations.find((loc) => loc.slug === slug);
+  if (!location) {
+    throw new Error(`getLocation: unknown location slug "${slug}"`);
+  }
+  return location;
+};

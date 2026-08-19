@@ -1,7 +1,9 @@
 ---
 import LocationPage from '../components/LocationPage.astro';
+import { getLocation } from '../data/locations';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const loc = getLocation('newport-beach');
 const city = 'Newport Beach';
 const region = 'Newport Beach, CA';
 const canonical = `${import.meta.env.SITE}${base}/newport-beach/`;
@@ -13,12 +15,12 @@ const canonical = `${import.meta.env.SITE}${base}/newport-beach/`;
   counterpartPath="/es/nueva-anchorage/"
   city={city}
   region={region}
-  address="2121 East Coast Hwy Ste 140, Newport Beach, CA 92660"
-  phone="(949) 640-0222"
-  hours="Mon–Fri: 8AM–5PM, Sat: By appointment"
-  mapQuery="2121 East Coast Hwy Ste 140, Newport Beach, CA 92660"
+  address={loc.address}
+  phone={loc.phone}
+  hours={loc.hoursEn}
+  mapQuery={loc.mapQuery}
   title="Dentist in Newport Beach, CA | Dr. Smile Dental Group"
-  description="Cosmetic dentist in Newport Beach, CA. Veneers, whitening, All-on-Four implants, and full smile makeovers. We accept all PPO insurance and offer financing. Call (949) 640-0222."
+  description={`Cosmetic dentist in Newport Beach, CA. Veneers, whitening, All-on-Four implants, and full smile makeovers. We accept all PPO insurance and offer financing. Call ${loc.phone}.`}
   canonical={canonical}
   intro="Elevated dental care in Newport Beach. From cosmetic dentistry and veneers to All-on-Four implants and full smile makeovers, Dr. Smile’s Newport Beach office delivers results that look natural — and last."
   about="Our Newport Beach office is where patients come for cosmetic and restorative excellence. Dr. Mariam Nadi and Dr. Kayvon Javid bring 16+ years of experience and a refined, detail-oriented approach to every smile. Whether you’re pursuing veneers, professional whitening, All-on-Four implants, or a complete transformation, you’ll get a personalized plan in a comfortable, modern office — with financing and membership options to make it work for your budget."

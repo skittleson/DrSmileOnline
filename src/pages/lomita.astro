@@ -1,7 +1,9 @@
 ---
 import LocationPage from '../components/LocationPage.astro';
+import { getLocation } from '../data/locations';
 
 const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+const loc = getLocation('lomita');
 const city = 'Lomita';
 const region = 'Lomita, CA';
 const canonical = `${import.meta.env.SITE}${base}/lomita/`;
@@ -13,12 +15,12 @@ const canonical = `${import.meta.env.SITE}${base}/lomita/`;
   counterpartPath="/es/lomita/"
   city={city}
   region={region}
-  address="2104 Pacific Coast Hwy #5, Lomita, CA 90717"
-  phone="(310) 539-1111"
-  hours="Mon–Fri: 8AM–5PM, Sat: By appointment"
-  mapQuery="2104 Pacific Coast Hwy #5, Lomita, CA 90717"
+  address={loc.address}
+  phone={loc.phone}
+  hours={loc.hoursEn}
+  mapQuery={loc.mapQuery}
   title="Dentist in Lomita, CA | Dr. Smile Dental Group"
-  description="Family dentist in Lomita, CA. Gum disease treatment, veneers, emergency care, and full-mouth restoration. We accept all PPO insurance and offer financing. Call (310) 539-1111."
+  description={`Family dentist in Lomita, CA. Gum disease treatment, veneers, emergency care, and full-mouth restoration. We accept all PPO insurance and offer financing. Call ${loc.phone}.`}
   canonical={canonical}
   intro="Comprehensive dental care close to home in Lomita. From gentle family dentistry and gum disease treatment to veneers, emergency care, and full-mouth restoration, Dr. Smile’s Lomita office has your whole family covered."
   about="Our Lomita office serves the Westchester and surrounding community with a focus on comfort and prevention. Dr. Mariam Nadi and Dr. Kayvon Javid bring 16+ years of experience to every visit, combining advanced technology with a gentle, personal touch. Patients in Lomita trust us for everything from routine cleanings and cosmetic work to periodontal treatment and full-mouth restorations — all in a welcoming space designed to put you at ease."
